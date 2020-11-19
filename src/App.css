@@ -188,12 +188,12 @@
   .void{
     height: 280px;
   }.pic{
-    height: 260px;
+    height: 230px;
   }.sform{
     left: 29vw;
     top: 86px;
   }.ssubmit{
-    margin-top: 35px;
+    margin-top: 30px;
   }
 }
 
