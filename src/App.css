@@ -23,20 +23,20 @@
 
 /*hero*/
 .void{
-  height: 370px;
+  height: 410px;
 }
 .pic{
   width: 98vw;
-  height: 329px;
+  height: 390px;
   background: url("./images/כותרת/l.jpg") no-repeat;
   background-position: left;
-  background-size: 65%;
+  background-size: 70%;
 }
 /* Banner */
 .banner h1 {
   padding: 30px;
   padding-bottom: 0px;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: right;  
   letter-spacing: 6px;
   line-height: 1.5;
@@ -46,44 +46,13 @@
   padding-top: 10px;
   color: var(--offwhite);
 }
-@media screen and (max-width: 1160px) {
-  .banner h1, .banner h2{
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 900px) {
-  .void {
-    height: 330px;
-  }
-  .pic {
-    height: 320px;
-  }
-  .banner h1 {
-    padding: 30px;
-    font-size: 2rem;
-    line-height: 1.1;
-  }
-  .banner h2{
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .banner h1 {
-    padding: 30px;
-    font-size: 1.5rem;
-  }
-  .banner h2{
-    padding-right: 30px;
-    font-size: 1.5rem;
-  }
-}
 
 /*contact form*/
 .sform{
   position: absolute;
   left: 21vw;
-  top: 70px;
-  width: 23vw;
+  top: 90px;
+  width: 27vw;
   text-align: center;
 }
 .sform input{
@@ -97,31 +66,128 @@
   margin: 5px;
 }
 .ssubmit{
-  width: 95%;
-  height: 45px;
+  width: 99%;
+  height: 100%;
+  padding: 6px;
   font-weight:900;
-  font-size: large;
+  font-size: larger;
   letter-spacing: var(--mainSpacing);
   color: var(--verylightblue);
   background: var(--mainRed);
   border-radius: 11px;
-  margin-top: 15px;
+  margin-top: 30px;
   cursor: pointer;
 }
 .ssubmit:hover {
   box-shadow: var(--lightShadow);
   transform: translateY(-0.25rem);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1170px) {
   .sform{
-    left: 16vw;
-    top: 60px;
-    width: 28vw;
+    left: 18vw;
+    top: 95px;
+    width: 32vw;
   }
   .ssubmit{
-  margin-top: 25px;
+    width: 85%;
+    margin-top: 5px;
   }
 }
+@media screen and (max-width: 970px) {
+  .void{
+    height: 300px;
+  } .pic {
+    background-size: 80%;
+    height: 270px;
+  }
+  .banner h1 {
+    padding-top: 30px;
+    font-size: 2.5rem;
+  }
+  .sform{
+    left: 23vw;
+    top: 38px;
+    width: 32vw;
+  }
+  .ssubmit{
+    width: 85%;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .void{
+    height: 400px;
+  } .pic {
+    background-size: 100%;
+    height: 450px;
+  }.banner {
+    width: auto;
+    padding-top: 5px;
+  }
+  .banner h1 {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 2.5rem;
+  }
+  .sform{
+    left: 30vw;
+    top: 135px;
+    width: 37vw;
+  }
+  .sform-control {
+    margin: 1px;
+  }
+  .ssubmit{
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .void{
+    height: 310px;
+  } .pic {
+    height: 350px;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .sform{
+    left: 28vw;
+    top: 102px;
+    width: 39vw;
+  }
+  .sform input{
+    height: 17px;
+  }
+  .ssubmit{
+    width: 100%;
+    margin-top: 6px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .void{
+    height: 330px;
+  }.pic{
+    height: 280px;
+  }.banner h1 {
+    font-size: 1.5rem;
+  }
+  .sform input{
+    height: 100%;
+    margin: 3px;
+  }
+  .sform{
+    width: 45vw;
+    left: 25vw;
+    top: 76px;
+  }.ssubmit{
+    margin-top: 48px;
+  }
+}
+
+
+
+
 /*מפריד גלים*/
 .spikes {
   position: relative;

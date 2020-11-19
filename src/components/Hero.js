@@ -7,7 +7,6 @@ export default function Hero() {
                 <div className="pic">
                     <div className="banner">
                         <h1>רוצים אתר מהמם?</h1>
-                        <h2>מהרו להירשם :)</h2>
                     </div>
                     <form className="sform" method="POST"
                             action="https://formspree.io/nach666@gmail.com">
@@ -27,7 +26,7 @@ export default function Hero() {
                                                 className="sform-control"
                                                 placeholder="אימייל"/>
                                 <button type="submit"
-                                    className="ssubmit">שלחו לי</button>
+                                    className="ssubmit">מהרו להירשם</button>
                         </form>
                 </div>   
             </section>
