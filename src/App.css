@@ -184,12 +184,12 @@
     margin-top: 48px;
   }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 420px) {
   .void{
     height: 300px;
   }.sform{
-    left: 32vw;
-    top: 87px;
+    left: 30vw;
+    top: 86px;
   }.ssubmit{
     margin-top: 40px;
   }
