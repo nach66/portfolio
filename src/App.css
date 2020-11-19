@@ -1,38 +1,501 @@
-.App {
+* {
+  font-family:'Lucida Sans Unicode', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --myblue: #063341;
+  --blue: #408da7;
+  --secblue: #7ee9cd;
+  --verylightblue: #d7faf5e7;
+  --lightblue: #06D6A0;
+  --offwhite: #C1E7AE;
+  --primaryColor: #FFD166;
+  --yellow: #F5B429;
+  --mainRed: rgb(243, 106, 109);
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainSpacing: 3px;
+  --mainTransition: all 0.3s linear;
+  --lightShadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*הים הטיפשי*/
+.spikes {
+  position: relative;
+  background: var(--primaryColor);
+  height: 3vh;
+}
+.spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 100%;
+  z-index: 10;
+  display: block;
+  height: 45px;
+  background-size: 50px 100%;
+  background-image: 
+  linear-gradient(10deg, var(--primaryColor) 25%, transparent 30%),
+  linear-gradient(350deg, var(--primaryColor) 25%, transparent 30%);
+  background-position: 0 0;
+}
+
+.blue-spikes {
+  position: relative;
+  background: var(--myblue);
+  height: 2.5vh;
+  z-index: 1;
+}
+.blue-spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 100%;
+  z-index: 10;
+  display: block;
+  height: 45px;
+  background-size: 40px 100%;
+  background-image: 
+  linear-gradient(25deg, var(--myblue) 25%, transparent 33%),
+  linear-gradient(335deg, var(--myblue) 25%, transparent 33%);
+  background-position: 0 0;
+}
+
+.light-spikes {
+  position: relative;
+  background: var(--primaryColor);
+  height: 0.6vh;
+  z-index: 0;
+
+}
+.light-spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 100%;
+  z-index: 10;
+  display: block;
+  height: 75px;
+  background-size: 35px 100%;
+  background-image: 
+  linear-gradient(20deg, var(--blue) 25%, transparent 32%),
+  linear-gradient(340deg, var(--blue) 25%, transparent 32%);
+  background-position: 0 0;
+}
+
+.first-spikes {
+  position: relative;
+  background: var(--primaryColor);
+  height: 1.4vh;
+  z-index: 0;
+}
+.first-spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 100%;
+  z-index: 10;
+  display: block;
+  height: 65px;
+  background-size: 20px 100%;
+  background-image: 
+  linear-gradient(25deg, var(--secblue) 25%, transparent 30%),
+  linear-gradient(335deg, var(--secblue) 25%, transparent 30%);
+  background-position: 0 0;
+}
+
+/*hero*/
+.void{
+  height: 440px;
+}
+.pic{
+  width: 100vw;
+  height: 440px;
+  background: url("./images/כותרת/freedom.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.bout{
+  position: absolute;
+  top:320px;
+  left: 250px;
+  z-index: 1;
+  width: 280px;
+  height: 260px;
+  background-position: center;
+  background-image: url("./images/icons/bo.png");
+  margin: 1rem auto;
+}
+.skewed {
+  top: 1px;
+  left: 35%;
+  width: 100px;
+  height: 430px;
+  position: absolute;
+  transform: skewY(-82deg); /*הטיית אלכסון*/
+  transform-origin: top left;
+  background: var(--secblue);
+  box-shadow:  0px 15px 0px 0 rgba(0, 0, 0, 0.192);
+  z-index: 0;
+}  @media screen and (max-width: 900px) {
+  .skewed {
+    height: 300px;
+  }
+  .bout{
+    top:222px;
+    left: 40px;
+    width: 183px;
+    height: 170px;
+    background-image: url("./images/icons/sbo.png");
+  }
+}
+
+/* Banner */
+.banner h1 {
+  font-family:  'Gill Sans MT', 'Lucida Sans Unicode', sans-serif;
+  padding-top: 60px;
+  font-size: 3.5rem;
   text-align: center;
+  letter-spacing: 6px;
+  line-height: 0.1;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner {
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 430px;
+  padding-top: 10px;
+  position: absolute;
+  color: var(--mainRed);
+  background: var(--secblue);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.dream1 {
+  top: 60px;
+  left: 42%;
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  border-radius: 40%;
+  background: var(--secblue);
+  box-shadow: var(--lightShadow);
+}
+.dream2 {
+  top: 100px;
+  left: 51%;
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  border-radius: 40%;
+  background: var(--secblue);
+  box-shadow: var(--lightShadow);
+}
+/*end of Banner */
+@media screen and (max-width: 900px) {
+  .void {
+    height: 300px;
+  }
+  .pic {
+    height: 320px;
+  }
+  .banner{
+    height: 300px;
+  }
+  .banner h1 {
+    padding-top: 40px;
+    font-size: 2rem;
+    line-height: 0.1;
+  }
+  .dream1 {
+    top: 70px;
+    left: 44%;
+    width: 40px;
+    height: 35px;
+  }
+  .dream2 {
+    top: 90px;
+    left: 55%;
+    width: 25px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .banner h1{
+    font-size: 1.9rem;
+  }
+  .skewed {
+    left: 40%;
+  }
+  .banner{
+    width: 40%;
+  }
+  .dream1 {
+    left: 52%;
+  }
+  .dream2 {
+    left: 66%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .banner h1{
+    font-size: 1.5rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* sections */
+.beach-sec {
+  padding: 2rem;
+  padding-top: 3.5rem;
+  text-align: center;
+  color: var(--myblue);
+  background:var(--primaryColor);
+  box-shadow: var(--darkShadow);
+}
+.white-sec {
+  padding: 50px;
+  padding-top: 20px;
+  color: var(--myblue);
+}
+.pink-sec {
+  margin: 25px;
+  padding: 10px;
+  padding-top: 0px;
+  color: var(--myblue);
+  background: var(--mainWhite);
+  border: solid 10px var(--mainRed);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.4);
+
+}
+.wtsp{
+  background: var(--mainWhite);
+  color: var(--myblue);
+  margin-top: 4px;
+  font-size: 17px;
+  padding: 30px;
+  padding-right: 0px;
+  height: 1px;
+  border: none;
+  cursor: pointer;
+}
+.wtsp:hover, .g:focus {
+  text-decoration: overline;
+  border: 0px white;
 }
 
-.App-link {
-  color: #61dafb;
+/*2 columns - /*about*/
+.about {
+  margin: auto;
+  display: grid;
+  background: linear-gradient(to bottom, var(--primaryColor) 17%,white 22%);
+  box-shadow: none;
+  border-bottom: 3px groove var(--primaryColor);
+}
+@media screen and (min-width: 1150px) {
+    .about {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    grid-template-columns: 3fr 4fr;
+    background: var(--mainWhite);
+  }
+  .white-sec {
+    padding-top: 60px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about a {
+  color: var(--myblue);
+  font-size: 17px;
+}
+.contact-icon{
+  margin: 30px;
+  margin-bottom: -17px;
+  padding: 5px;
+  font-size: 2rem;
+  border-radius: 5px;
+  background: var(--mainWhite);
+  box-shadow: var(--lightShadow);
+  border: 2px groove var(--lightblue);
+}
+.icon-align {
+  margin-right: 11%;
+}
+@media screen and (max-width: 500px) {
+  .icon-align {
+    margin-right: 2%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+
+/* recolist */
+.recolist{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.cats {
+  width:115px;
+  height: 30px;
+  margin: auto;
+  background-image: url("./images/icons/cats.png");
+  background-size: cover;
+}
+.recolist-center {
+  padding: 20px;
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(47%, 1fr)); 
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+
+}
+/* reco */
+.reco {
+  border-radius: 5px;
+  padding: 20px;
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-column-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  color: var(--myblue);
+  background:var(--secblue);
+  box-shadow: var(--lightShadow);
+  position: relative;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .reco {
+    grid-template-columns: 1fr;
   }
+}
+.reco::before {
+  z-index: 0;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 75%;
+  border-style: solid;
+  border-width: 61px 41px 0 51px;
+  border-color: var(--secblue) transparent transparent transparent;
+  transform: translateX(-20%) translateY(50%);
+}
+.reco img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border: 3px solid var(--mainRed);
+}
+.reco div {
+  text-align: end;
+  color: var(--yellow);
+}
+
+/*contact form*/
+.contact-sec {
+  padding: 2rem;
+  text-align: center;
+  color: var(--mainRed);
+  background: var(--primaryColor);
+}
+.cicon {
+  position: relative;
+  right: 20%;
+  bottom: 300px;
+  background-image: url('./images/messages.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 40%;
+}
+.cform{
+  margin: auto;
+  width: 65vw;
+}
+@media screen and (max-width: 750px) {
+  .cform{
+    width: 80vw;
+    margin: auto;
+  }
+}
+.cform input{
+  border: 2px;
+  border-radius: 3px;
+  color: var(--mainBlack);
+  background-color: var(--verylightblue);
+}
+.form-control {
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 5%;
+  border: #ecb80e 1px groove;
+  color: var(--primaryColor);
+  padding: 3px;
+  margin: 2px;
+}
+.long { 
+  border-radius: 1%; 
+  color: var(--mainBlack);
+  background-image: url('./images/messages.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px;
+}
+.submit{
+  width: 90%;
+  height: 40px;
+  letter-spacing: var(--mainSpacing);
+  font-size: medium;
+  font-weight:900;
+  color: var(--primaryColor);
+  background: var(--mainRed);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.submit:hover {
+  box-shadow: var(--lightShadow);
+  transform: translateY(-0.25rem);
+}
+
+/* globals */
+/*כותרות*/
+h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  direction: rtl;
+  line-height: 1.3;
+  margin-bottom: 0.3em;
+  letter-spacing: var(--mainSpacing);
+}
+/*about*/
+h3 {
+  line-height: 2;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 20px;
+}
+/*בין אם אתם טסים*/
+h4 {
+  font-size: 1.2em;
+  direction: rtl;
+  line-height: 1.7;
+  margin-bottom: 0.5em;
+}
+/*about*/
+h5 {
+  line-height: 2;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+}
+div{
+  direction: rtl;
 }
