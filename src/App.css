@@ -184,6 +184,17 @@
     margin-top: 48px;
   }
 }
+@media screen and (max-width: 400px) {
+  .void{
+    height: 300px;
+  }.sform{
+    left: 29vw;
+    top: 82px;
+  }.ssubmit{
+    margin-top: 40px;
+  }
+}
+
 
 
 
