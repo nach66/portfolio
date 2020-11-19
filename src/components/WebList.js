@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Web from "./Web";
-import a from '../images/reco/cold.jpg'
-import b from '../images/reco/cold.jpg'
-import c from '../images/reco/meni.jpg'
+import a from '../images/reco/pet.png'
+import b from '../images/reco/hostel.png'
+import c from '../images/reco/flowers.png'
 
 export default class WebList extends Component {
         state={
