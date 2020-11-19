@@ -189,9 +189,11 @@
     height: 270px;
   }.pic{
     height: 230px;
+  }.banner {
+    padding-top: 5px;
   }.sform{
     left: 29vw;
-    top: 63px;
+    top: 60px;
   }.ssubmit{
     margin-top: 25px;
   }
