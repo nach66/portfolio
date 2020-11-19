@@ -186,12 +186,14 @@
 }
 @media screen and (max-width: 480px) {
   .void{
-    height: 300px;
+    height: 280px;
+  }.pic{
+    height: 260px;
   }.sform{
-    left: 30vw;
+    left: 29vw;
     top: 86px;
   }.ssubmit{
-    margin-top: 40px;
+    margin-top: 35px;
   }
 }
 
