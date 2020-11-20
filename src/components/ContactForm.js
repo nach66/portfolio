@@ -6,7 +6,8 @@ export default function ContactForm() {
 
     return (
         <>
-        <div className="col">
+            <div className="spikes"/>
+            <div className="col">
             <article className="pink-sec">
                 <h3 style={{textAlign: 'center', paddingTop:'30px'}}>דברו איתי!</h3>              
                 <div className="icon-align">

@@ -1,51 +1,33 @@
 import React from 'react'
-import {FaEnvelope,FaPhone, FaWhatsapp} from 'react-icons/fa';
+import {FaEnvelope,FaPhone, FaRegSmile, FaRegSmileWink, FaSmile, FaWhatsapp} from 'react-icons/fa';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faThumbsUp, faThumbsDown} from "@fortawesome/free-solid-svg-icons";
+import {faThumbsUp, faThumbsDown, faSmile} from "@fortawesome/free-solid-svg-icons";
 import ReactWhatsapp from 'react-whatsapp';
 
 export default function About() {
     return (
         <>
+            <div className="bf"/>
+
             <div className="about">
 
-                <article className="pink-sec">
-                    <div className="icon-align">
-                        <ReactWhatsapp className="wtsp" 
-                            number="+972-556617145" 
-                            style={{textDecoration: 'underline'}}
-                            message="היי, אשמח להתעניין">
-                                <FaWhatsapp 
-                                    className="contact-icon" 
-                                    style={{color:'rgb(7, 161, 58)'}}/>
-                                דברו איתי בוואטספ
-                        </ReactWhatsapp>
-
-                        <a href="tel:055-555-5555">
-                            <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
-                                    <FaPhone className="contact-icon"
-                                        style={{color:'var(--blue)'}}/>
-                                    <a>055-555-5555</a>
-                                </article>
-                        </a>                        
-
-                        <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer" target="_blank">
-                            <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
-                                    <FaEnvelope className="contact-icon"
-                                        style={{color:'var(--yellow)'}}/>
-                                    <a>nach666@gmail.com</a>
-                                </article>
-                        </a>
-
-                    </div>
-                    <h3 style={{textAlign: 'center', paddingTop:'30px'}}>כי גם חיות יכולות לעשות כיף חיים!</h3>              
+                <article className="white-sec down">
+                    <h2>למה בחרתי להתעסק בבניית אתרים?</h2>
+                    <h5>אני יצירתית, אוהבת להרכיב פאזלים ולפתור תוכנות, וגם להתעסק במילים וצבעים. אני גם אוהבת שלפרויקטים יש גבולות ברורים, שמשאירים לי זמן לקרוא ספרים בים ולטייל בעולם ולהגשים חלומות משל עצמי.</h5> 
+                    <h5>שמתי לב שלעבוד חיים שלמים בחברה מסודרת בשביל להגשים חלומות של אנשים אחרים, עלול להיות לא כל כך נעים. לעומת זאת בניית אתרים כפרילאנסרית יכולה להיות פרנסה משמחת עבורי, תוך כדי יצירה אישית ומעניינת - שתשמח מישהו אחר. </h5> 
+                    <h5>פתאום לעבוד עם חלומות של אחרים נשמע הרבה יותר כייף <FaRegSmileWink/></h5> 
                 </article>
 
-                <article className="white-sec" style={{  textAlign: 'right'}}>
-                    <h3>נעים מאוד, פטי.</h3>
-                    <h5><FontAwesomeIcon icon={faThumbsUp} /> פטסיטרית אחראית ומנוסה.</h5>
+                <article className="white-sec up">
+                    <h2>למה לבחור בי לבניית האתר שלכם?</h2>
+                    <h5>אני בוגרת תואר ראשון בפסיכולוגיה ומדעי המחשב ובעלת ניסיון בבניית אתרים, אז קודם כל כי יש לי את הידע והכישורים הנדרשים.</h5>
+                    <h5>דווקא בגלל שאני צעירה בתחום - יש לי את ההתרגשות להשקיע באתר לפחות כאילו הוא ירק בגינה שלי, וגם המחירים עוד צעירים ורעננים. אני באמת אהיה אתכם בתהליך, אקשיב לרצונות ונתלהב יחד מליצור אתר בעל אופי שיתאים לכם בדיוק, וכל זה במחירי השקה משתלמים!</h5>
+                    <br/>
+                    <h5>בנוסף אני מתרגלת כתיבה באוניברסיטה של החיים מכיתה א', ומרגישה בשלה לעבור לכתיבה שיווקית עבור הסכום הנכון (מרק כתום וחיבוק בחורף, כרטיס לתאילנד בעונה החמה), כך שאוכל לעזור לכם גם בתחום הזה.</h5>
                 </article>
             </div>
+
+            <div className="af"/>
         </>
     )
 }

@@ -42,8 +42,6 @@ export default class Services extends Component {
     render () {
         return (
             <>
-                <div className="spikes"/>
-                <section className="beach-sec">
                     <div className="services-center">
                         {this.state.services.map(
                             (item, index) => {return (
@@ -54,7 +52,6 @@ export default class Services extends Component {
                             )}
                         )}
                     </div>
-                </section>       
             </>
         )
     }
