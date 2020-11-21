@@ -46,7 +46,7 @@
 .banner {
   width: 30%;
   padding-top: 10px;
-  color: var(--mainRed);
+  color: var(--grey);
 }
 
 /*contact form*/
@@ -195,15 +195,15 @@
   }.pic{
     height: 250px;
   }.banner {
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 10px;
   }.banner h1 {
     font-size: 1.5rem;
   }.sform{
     left: 29vw;
-    top: 60px;
+    top: 65px;
   }.ssubmit{
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 
@@ -230,7 +230,7 @@
   background: var(--lightgreen);
   font-size: 2.2rem;
   color: var(--primaryColor);
-  padding: 1rem 1rem 0 1rem;
+  padding: 0.9rem 0.9rem 0 0.9rem;
   border-radius: 50%;
   border: 2px solid var(--primaryColor);
   /* border-radius: 355px 55px 355px 55px/55px 355px 55px 355px; */
@@ -358,7 +358,7 @@
   display: grid;
   grid-row-gap: 20px;
   grid-column-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
   border-top: 3px groove var(--primaryColor);
 }
 /***** Chico *****/
@@ -368,7 +368,7 @@ figure.effect-chico img {
   transform: scale(1);
   max-width: 100%;
   width: 500px;
-  height: 300px;
+  height: 100%;
   border-radius: 5px;
   border: 1px solid var(--offwhite);
 }
@@ -458,7 +458,7 @@ figure.effect-chico:hover a {
 
 
 .icon-sec {
-  margin: 35px;
+  margin: 25px;
 }
 .gradient-border {
   width: 90%;
@@ -508,7 +508,7 @@ figure.effect-chico:hover a {
   box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.281);
 }
 .icon-align {
-  margin-right: 10%;
+  margin-right: 5%;
 }
 .wtsp{
   background: var(--mainWhite);
@@ -540,7 +540,9 @@ figure.effect-chico:hover a {
   }
   .icon-sec {
     padding-top: 190px;
-    /* border: none; */
+  } 
+  .icon-align {
+    margin-right: 15%;
   }
   .gradient-border {
     --borderWidth: 0px;
