@@ -191,9 +191,9 @@
 }
 @media screen and (max-width: 480px) {
   .void{
-    height: 270px;
+    height: 280px;
   }.pic{
-    height: 230px;
+    height: 250px;
   }.banner {
     padding-top: 20px;
     margin-bottom: 10px;
@@ -209,20 +209,20 @@
 
 /*services*/
 .services-center {
+  color: var(--grey);
   margin: auto;
   padding: 20px;
   padding-top: 70px;
   padding-bottom: 150px;
-  display: grid;
   text-align: center;
-  grid-row-gap: 2rem;
-  grid-column-gap: 5rem;  
+  display: grid;
+  grid-row-gap: 4rem;
+  grid-column-gap: 0rem;  
   grid-template-columns: 1fr 1fr;
-  color: var(--grey);
 }
 @media screen and (min-width: 940px) {
   .services-center {
-    width: 95vw;
+    width: 85vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
@@ -231,10 +231,9 @@
   font-size: 2.2rem;
   color: var(--primaryColor);
   padding: 1rem 1rem 0 1rem;
-  /* border-radius: 50%; */
-  /* border: 3px solid var(--primaryColor); */
-  border: solid 5px var(--primaryColor);
-  border-radius: 355px 55px 355px 55px/55px 355px 55px 355px;
+  border-radius: 50%;
+  border: 2px solid var(--primaryColor);
+  /* border-radius: 355px 55px 355px 55px/55px 355px 55px 355px; */
 }
 .icon-services :hover{
   color: var(--mainWhite);
@@ -359,7 +358,7 @@
   display: grid;
   grid-row-gap: 20px;
   grid-column-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
   border-top: 3px groove var(--primaryColor);
 }
 /***** Chico *****/
@@ -509,7 +508,7 @@ figure.effect-chico:hover a {
   box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.281);
 }
 .icon-align {
-  margin-right: 13%;
+  margin-right: 10%;
 }
 .wtsp{
   background: var(--mainWhite);
@@ -550,10 +549,10 @@ figure.effect-chico:hover a {
 
 /*contact form*/
 .cform input{
+  border: 0px;
+  padding: 8px;
   padding-right: 20px;
-  border: 2px;
-  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
-  color: var(--mainBlack);
+  border-radius: 3px;
   background-color: var(--lightgreen);
 }
 .form-control {
@@ -563,12 +562,12 @@ figure.effect-chico:hover a {
   margin: 9px;
 }
 .long { 
-  border-radius: 9px;
-  background-color: var(--lightgreen);
+  margin-bottom: 0px;
   border: 2px;
   padding: 8px;
   padding-right: 20px;
-  margin-bottom: 0px;
+  border-radius: 3px;
+  background-color: var(--lightgreen);
 }
 .s{
   margin-top: 16px;
