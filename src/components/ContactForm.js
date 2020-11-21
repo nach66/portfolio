@@ -9,9 +9,13 @@ export default function ContactForm() {
         <>
             <div className="spikes"/>
                 <div className="col">
+
                 <article className="icon-sec">
+                <div class="gradient-border">
+
                     <h1 style={{textAlign: 'center', paddingTop:'30px'}}>צרו קשר</h1>              
                     <div className="icon-align">
+
                         <ReactWhatsapp className="wtsp" 
                             number="+972-556617145" 
                             style={{textDecoration: 'underline'}}
@@ -39,6 +43,8 @@ export default function ContactForm() {
                         </a>
 
                     </div>
+                    </div>
+
                 </article>
             
                 <article className="contact-sec">
