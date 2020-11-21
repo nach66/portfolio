@@ -76,7 +76,7 @@
   font-size: larger;
   color: var(--verylightblue);
   background: var(--mainRed);
-  box-shadow: 2px 3px var(--blue);
+  box-shadow: 2px 2px var(--blue);
   letter-spacing: var(--mainSpacing);
   border-radius: 50px;
 }
@@ -201,9 +201,8 @@
     left: 29vw;
     top: 75px;
   }.ssubmit{
-    margin-top: 35px;
-    width: 120%;
-    padding: 10px;
+    margin-top: 25px;
+    width: 200px;
   }
 }
 
@@ -494,7 +493,11 @@ figure.effect-chico:hover a {
 		background-position: 0% 50%;
 	}
 }
-
+@media screen and (max-width: 480px) {
+  .icon-align {
+    margin-left: 15%;
+  }
+}
 /*icons*/
 .col a {
   color: var(--myblue);
