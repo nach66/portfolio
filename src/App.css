@@ -201,7 +201,7 @@
     left: 29vw;
     top: 75px;
   }.ssubmit{
-    margin-top: 30px;
+    margin-top: 40px;
     width: 150px;
   }
 }
@@ -495,7 +495,7 @@ figure.effect-chico:hover a {
 }
 @media screen and (max-width: 480px) {
   .icon-align {
-    margin-left: 5%;
+    margin-left: 3%;
   }
 }
 /*icons*/
