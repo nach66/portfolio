@@ -1,6 +1,6 @@
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react'
-import {FaAccusoft,FaExpeditedssl, FaFortAwesomeAlt, FaGrinHearts, FaHandHoldingHeart, FaHeart, FaKissWinkHeart, FaMobileAlt, FaPencilAlt, FaRegKissWinkHeart, FaSellcast, FaShoppingCart, FaWordpress} from 'react-icons/fa';
+import {FaAccusoft,FaExpeditedssl, FaFortAwesomeAlt, FaGrinHearts, FaHandHolding, FaHandHoldingHeart, FaHandshake, FaHeart, FaKissWinkHeart, FaMobileAlt, FaPencilAlt, FaRegKissWinkHeart, FaSellcast, FaShoppingCart, FaWordpress} from 'react-icons/fa';
 
 export default class Services extends Component {
     state={
@@ -18,7 +18,7 @@ export default class Services extends Component {
                     text: "אבטחת SSL"
                 },
                 {
-                    icon:<FaRegKissWinkHeart/>,
+                    icon:<FaHandshake/>,
                     text: "עיצוב אישי ומותאם לאופי העסק"
                 },
                 {

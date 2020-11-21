@@ -8,12 +8,15 @@ export default function Web({reco}) {
             <section className="websec">
                 <article>
                     <h2>{title}</h2>
-                    <h5>{text}</h5>
+                    <h6>{text}</h6>
                 </article>
-                <article className="web">
-                    <a href={link} rel="noopener noreferrer" target="_blank">
-                        <img src={icon} alt="pic"/>
-                    </a>
+                <article className="grid">
+                    <figure class="effect-chico">
+                        <img src={icon} alt="web img"/>
+                            <figcaption>
+                                <a href={link} rel="noopener noreferrer" target="_blank">לצפייה באתר</a>
+                            </figcaption>
+                    </figure>
                 </article>
             </section>
         </>

@@ -1,5 +1,6 @@
+import { faMicroscope } from '@fortawesome/free-solid-svg-icons';
 import React from 'react'
-import {FaPaw} from 'react-icons/fa';
+import {FaFacebookMessenger, FaFileWord, FaGlasses, FaLink, FaMagento, FaMailBulk, FaMale, FaMicroscope, FaPaw, FaSkype, FaSms, FaSpeakap, FaStaylinked} from 'react-icons/fa';
 import {FaEnvelope,FaPhone, FaWhatsapp} from 'react-icons/fa';
 import ReactWhatsapp from 'react-whatsapp';
 export default function ContactForm() {
@@ -7,55 +8,45 @@ export default function ContactForm() {
     return (
         <>
             <div className="spikes"/>
-            <div className="col">
-            <article className="pink-sec">
-                <h3 style={{textAlign: 'center', paddingTop:'30px'}}>דברו איתי!</h3>              
-                <div className="icon-align">
-                    <ReactWhatsapp className="wtsp" 
-                        number="+972-556617145" 
-                        style={{textDecoration: 'underline'}}
-                        message="היי, אשמח להתעניין">
-                            <FaWhatsapp 
-                                className="contact-icon" 
-                                style={{color:'rgb(7, 161, 58)'}}/>
-                            דברו איתי בוואטספ
-                    </ReactWhatsapp>
+                <div className="col">
+                <article className="icon-sec">
+                    <h1 style={{textAlign: 'center', paddingTop:'30px'}}>צרו קשר</h1>              
+                    <div className="icon-align">
+                        <ReactWhatsapp className="wtsp" 
+                            number="+972-556617145" 
+                            style={{textDecoration: 'underline'}}
+                            message="היי, אשמח להתעניין">
+                                <FaWhatsapp 
+                                    className="contact-icon" 
+                                    style={{color:'rgb(7, 161, 58)'}}/>
+                                דברו איתי בוואטספ
+                        </ReactWhatsapp>
 
-                    <a href="tel:055-555-5555">
-                        <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
-                                <FaPhone className="contact-icon"
-                                    style={{color:'var(--blue)'}}/>
-                                <a>055-555-5555</a>
-                            </article>
-                    </a>                        
+                        <a href="tel:055-555-5555">
+                            <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
+                                    <FaPhone className="contact-icon"
+                                        style={{color:'var(--blue)'}}/>
+                                    <a>055-555-5555</a>
+                                </article>
+                        </a>                        
 
-                    <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer" target="_blank">
-                        <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
-                                <FaEnvelope className="contact-icon"
-                                    style={{color:'var(--yellow)'}}/>
-                                <a>nach666@gmail.com</a>
-                            </article>
-                    </a>
+                        <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer" target="_blank">
+                            <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
+                                    <FaEnvelope className="contact-icon"
+                                        style={{color:'var(--primaryColor)'}}/>
+                                    <a>nach666@gmail.com</a>
+                                </article>
+                        </a>
 
-                </div>
-            </article>
-        
-            <article className="contact-sec">
-                        <h1>מעדיפים שאני אחפש אתכם?</h1>
-                        <FaPaw style={{
+                    </div>
+                </article>
+            
+                <article className="contact-sec">
+                        <h1>אפשר להשאיר הודעה</h1>
+                        <FaMailBulk style={{
                             margin: '2px',
                             fontSize: '20px',
-                            color: 'var(--lightblue)'
-                        }}/>
-                        <FaPaw style={{
-                            margin: '2px',
-                            fontSize: '20px',
-                            color: 'var(--secblue)'
-                        }}/>
-                        <FaPaw style={{
-                            margin: '2px',
-                            fontSize: '20px',
-                            color: 'var(--blue)'
+                            color: 'var(--mainRed)'
                         }}/>
                         
                         <form className="cform" method="POST"
@@ -74,12 +65,12 @@ export default function ContactForm() {
                                     name="message"
                                                 className="form-control long"
                                                 rows="11"
-                                                placeholder="נשמעת אחלה, דברי איתי"/>
+                                                placeholder="היי, אני בעניין :)"/>
                                 <button type="submit"
-                                    className="submit">שלחו לי</button>
+                                    className="s ssubmit">שלחו לי</button>
                         </form>
                 </article>
-        </div>
+            </div>
         </>
     );
 }
