@@ -76,14 +76,13 @@
   font-size: larger;
   color: var(--verylightblue);
   background: var(--mainRed);
-  box-shadow: 2px 2px var(--blue);
+  box-shadow: 2px 3px var(--blue);
   letter-spacing: var(--mainSpacing);
-  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
+  border-radius: 50px;
 }
 .ssubmit:hover {
-  box-shadow: var(--lightShadow);
-  transform: translateY(-0.25rem);
-  box-shadow: 3px 3px var(--blue);
+  transform: translateY(-0.1rem);
+  box-shadow: 3px 4px var(--blue);
 }
 @media screen and (max-width: 1170px) {
   .sform{
@@ -190,19 +189,19 @@
 }
 @media screen and (max-width: 480px) {
   .void{
-    height: 280px;
+    height: 290px;
   }.pic{
-    height: 250px;
+    height: 260px;
   }.banner {
-    padding-top: 10px;
+    padding-top: 15px;
     margin-bottom: 10px;
   }.banner h1 {
     font-size: 1.5rem;
   }.sform{
     left: 29vw;
-    top: 65px;
+    top: 75px;
   }.ssubmit{
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 
@@ -230,9 +229,9 @@
   font-size: 2.2rem;
   color: var(--primaryColor);
   padding: 0.9rem 0.9rem 0 0.9rem;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 2px solid var(--primaryColor);
-  /* border-radius: 355px 55px 355px 55px/55px 355px 55px 355px; */
+  border-radius: 355px 55px 355px 55px/55px 355px 55px 355px;
 }
 .icon-services :hover{
   color: var(--mainWhite);
@@ -570,6 +569,7 @@ figure.effect-chico:hover a {
   background-color: var(--lightgreen);
 }
 .s{
+  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
   background: var(--primaryColor);
   margin-top: 10px;
   color: var(--grey);
