@@ -10,12 +10,12 @@ export default class Services extends Component {
                     text: "מחירי השקה מטורפים"
                 },
                 {
-                    icon:<FaMobileAlt/>,
-                    text: "אתרים רספונסיביים לכל סוגי המסכים"
-                },
-                {
                     icon:<FaExpeditedssl/>,
                     text: "אבטחת SSL"
+                },
+                {
+                    icon:<FaPencilAlt/>,
+                    text: "כתיבת תוכן"
                 },
                 {
                     icon:<FaHandshake/>,
@@ -34,8 +34,8 @@ export default class Services extends Component {
                     text: "אתרי תדמית"
                 },
                 {
-                    icon:<FaPencilAlt/>,
-                    text: "כתיבת תוכן"
+                    icon:<FaMobileAlt/>,
+                    text: "אתרים רספונסיביים לכל סוגי המסכים"
                 }
             ]
         }
