@@ -1,6 +1,6 @@
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react'
-import {FaAccusoft,FaExpeditedssl, FaFortAwesomeAlt, FaGrinHearts, FaHandHolding, FaHandHoldingHeart, FaHandshake, FaHeart, FaKissWinkHeart, FaMobileAlt, FaPencilAlt, FaRegKissWinkHeart, FaSellcast, FaShoppingCart, FaWordpress} from 'react-icons/fa';
+import {FaAccusoft,FaCloudMoonRain,FaCode,FaCompass,FaExpeditedssl, FaFacebook, FaFortAwesomeAlt, FaGlobe, FaGrinHearts, FaHandHolding, FaHandHoldingHeart, FaHandshake, FaHeart, FaKissWinkHeart, FaMobileAlt, FaPencilAlt, FaRegKissWinkHeart, FaSellcast, FaShoppingCart, FaWordpress} from 'react-icons/fa';
 
 export default class Services extends Component {
     state={
@@ -22,16 +22,16 @@ export default class Services extends Component {
                     text: "עיצוב אישי ומותאם לאופי העסק"
                 },
                 {
-                    icon:<FaWordpress/>,
-                    text: "אתרי וורדפרס"
+                    icon:<FaCode/>,
+                    text: "אתרי וורדפרס & קוד פתוח"
                 },
                 {
-                    icon:<FaShoppingCart/>,
-                    text: "חנויות מקוונות"
+                    icon:<FaGlobe/>,
+                    text: "דומיין לשנה"
                 },
                 {
-                    icon:<FaFortAwesomeAlt/>,
-                    text: "אתרי תדמית"
+                    icon:<FaFacebook/>,
+                    text: "קישורים לסושיאל"
                 },
                 {
                     icon:<FaMobileAlt/>,

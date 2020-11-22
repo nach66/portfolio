@@ -10,7 +10,8 @@
   --grey: #4D5352;
   --dblue: #286f9b;
   --blue: #84c5da;
-  --lightgreen: #5add81d8;
+  --lightgreen: #32e23263;
+  --green: #5add81d8;
   --primaryColor: #ffab66;
   --mainWhite: #fff;
   --mainBlack: #222;
@@ -20,7 +21,6 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-
 /*hero*/
 .void{
   height: 410px;
@@ -29,7 +29,7 @@
 .pic{
   width: 98vw;
   height: 390px;
-  background: url("./images/כותרת/p.png") no-repeat;
+  background: url("./images/כותרת/pp.png") no-repeat;
   background-position: left;
   background-size: 70%;
 }
@@ -203,6 +203,7 @@
   }.ssubmit{
     margin-top: 40px;
     width: 100%;
+
   }
 }
 
@@ -369,7 +370,7 @@ figure.effect-chico img {
   width: 500px;
   height: 100%;
   border-radius: 5px;
-  border: 1px solid var(--offwhite);
+  border: 1px solid var(--verylightblue);
 }
 figure.effect-chico:hover img {
 	opacity: 0.2;
@@ -611,6 +612,7 @@ h5 {
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 500;
+  line-height: 1.5;
 }
 h6 {
   font-family: 'Shuneet', serif;
