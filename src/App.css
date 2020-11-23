@@ -440,8 +440,8 @@ figure.effect-chico:hover a {
 .sec{
   background: var(--blue);
   justify-content: center;
-  padding: 30px;
   padding-bottom: 50px;
+  padding: 40px;
   display: grid;
 }
 @media screen and (min-width: 1000px) {
@@ -463,7 +463,7 @@ figure.effect-chico:hover a {
   border-color: transparent transparent  var(--blue) transparent;
 }
 .saf {
-  left: 20.25%;
+  left: 20.65%;
   bottom: 63px;
   position: relative;
   border-style: solid;
