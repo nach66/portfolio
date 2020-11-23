@@ -266,11 +266,11 @@
   }
   .up{
     position: relative;
-    bottom: 60px;
+    bottom: 50px;
   }
   .down{
     position: relative;
-    bottom: 15px;
+    bottom: 20px;
   }
 }
 .bf {
