@@ -440,7 +440,7 @@ figure.effect-chico:hover a {
 .sec{
   background: var(--blue);
   justify-content: center;
-  padding: 45px;
+  padding: 50px;
   padding-bottom: 80px;
   display: grid;
 }
