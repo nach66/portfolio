@@ -10,7 +10,7 @@ export default class Footer extends Component {
                         <p style={{
                             textTransform: 'capitalize',
                             direction:'ltr'}}>
-                            {new Date().getFullYear()} &copy; by nachala vinograd
+                            {new Date().getFullYear()} &copy; by yoni nachala vinograd
                         </p>
                     </div>
                 </FooterWrapper>

@@ -8,43 +8,40 @@ export default function ContactForm() {
     return (
         <>
             <div className="spikes"/>
-                <div className="col">
+            <div className="col">
 
                 <article className="icon-sec">
-                <div class="gradient-border">
+                    <div class="gradient-border">
+                        <h1 style={{textAlign: 'center', paddingTop:'30px'}}>צרו קשר</h1>              
+                        <div className="icon-align">
 
-                    <h1 style={{textAlign: 'center', paddingTop:'30px'}}>צרו קשר</h1>              
-                    <div className="icon-align">
+                            <ReactWhatsapp className="wtsp" 
+                                number="+972-556617145" 
+                                style={{textDecoration: 'underline'}}
+                                message="היי, אשמח להתעניין">
+                                    <FaWhatsapp 
+                                        className="contact-icon" 
+                                        style={{color:'rgb(7, 161, 58)'}}/>
+                                    דברו איתי בוואטספ
+                            </ReactWhatsapp>
 
-                        <ReactWhatsapp className="wtsp" 
-                            number="+972-556617145" 
-                            style={{textDecoration: 'underline'}}
-                            message="היי, אשמח להתעניין">
-                                <FaWhatsapp 
-                                    className="contact-icon" 
-                                    style={{color:'rgb(7, 161, 58)'}}/>
-                                דברו איתי בוואטספ
-                        </ReactWhatsapp>
+                            <a href="tel:055-555-5555">
+                                <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
+                                        <FaPhone className="contact-icon"
+                                            style={{color:'var(--blue)'}}/>
+                                        <a>055-555-5555</a>
+                                    </article>
+                            </a>                        
 
-                        <a href="tel:055-555-5555">
-                            <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
-                                    <FaPhone className="contact-icon"
-                                        style={{color:'var(--blue)'}}/>
-                                    <a>055-555-5555</a>
-                                </article>
-                        </a>                        
-
-                        <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer" target="_blank">
-                            <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
-                                    <FaEnvelope className="contact-icon"
-                                        style={{color:'var(--primaryColor)'}}/>
-                                    <a>nach666@gmail.com</a>
-                                </article>
-                        </a>
-
+                            <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer" target="_blank">
+                                <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
+                                        <FaEnvelope className="contact-icon"
+                                            style={{color:'var(--primaryColor)'}}/>
+                                        <a>nach666@gmail.com</a>
+                                    </article>
+                            </a>
+                        </div>
                     </div>
-                    </div>
-
                 </article>
             
                 <article className="contact-sec">

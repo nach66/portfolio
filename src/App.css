@@ -266,30 +266,36 @@
   }
   .up{
     position: relative;
-    bottom: 45px;
+    bottom: 60px;
   }
   .down{
     position: relative;
-    top: 30px;
+    bottom: 15px;
   }
 }
 .bf {
   bottom: 60px;
   position: relative;
   border-style: solid;
-  border-width: 0px 73vw 60px 30vw;
+  border-width: 0px 73vw 90px 27vw;
   border-color: transparent transparent  var(--blue) transparent;
 }
 .af {
-  left: 20%;
-  bottom: 96px;
+  left: 21.3%;
+  bottom: 123px;
   position: relative;
   border-style: solid;
-  border-width: 40px 20vw 0px 80vw;
+  border-width: 70px 15vw 0px 90vw;
   border-color: var(--blue) transparent transparent transparent;
   transform: translateX(-20%) translateY(90%);
 }
-
+.focused{
+  width: 170px;
+  height: 140px;
+  margin: auto;
+  padding-bottom: 30px;
+  background: url("./images/black.png") no-repeat;
+}
 /*-------מסגרת  זזה על תמונה--------*/
 .grid *,.grid *:after, .grid *:before {
 	-webkit-box-sizing: border-box;
@@ -430,31 +436,38 @@ figure.effect-chico:hover a {
   linear-gradient(350deg, var(--blue) 0%, transparent 30%);
   background-position: 0 0;
 }
+
 .sec{
   background: var(--blue);
-  padding: 70px;
-  padding-bottom: 90px;
-  margin: auto;
+  padding: 60px;
+  display: grid;
 }
-.spikes {
+@media screen and (min-width: 1000px) {
+  .sec {
+    padding-top: 90px;
+    padding-right: 100px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.sec img{
+  height: 200px;
+  width: 330px;
+  padding: 20px;
+}
+.sbf {
+  border-style: solid;
+  border-width: 0px 100vw 90px 0vw;
+  border-color: transparent transparent  var(--blue) transparent;
+}
+.saf {
+  left: 20.25%;
+  bottom: 63px;
   position: relative;
+  border-style: solid;
+  border-width: 70px 0vw 0px 100vw;
+  border-color: var(--blue) transparent transparent transparent;
+  transform: translateX(-20%) translateY(90%);
 }
-.spikes::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 100%;
-  z-index: 10;
-  display: block;
-  height: 45px;
-  background-size: 20px 100%;
-  background-image: 
-  linear-gradient(10deg, var(--mainWhite) 25%, transparent 35%),
-  linear-gradient(350deg, var(--mainWhite) 25%, transparent 35%);
-  background-position: 0 0;
-}
-
 
 
 .icon-sec {
