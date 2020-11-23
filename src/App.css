@@ -439,12 +439,14 @@ figure.effect-chico:hover a {
 
 .sec{
   background: var(--blue);
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 50px;
   display: grid;
 }
 @media screen and (min-width: 1000px) {
   .sec {
     padding: 60px;
-
     padding-top: 90px;
     padding-right: 100px;
     grid-template-columns: 1fr 1fr;
