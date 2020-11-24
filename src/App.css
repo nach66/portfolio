@@ -10,8 +10,8 @@
   --grey: #4D5352;
   --dblue: #286f9b;
   --blue: #84c5da;
-  --lightgreen: #32e23263;
   --green: #5add81d8;
+  --lightgreen: #32e23263;
   --primaryColor: #ffab66;
   --mainWhite: #fff;
   --mainBlack: #222;
@@ -23,6 +23,7 @@
 
 /*hero*/
 .void{
+  margin: auto;
   height: 430px;
   border-bottom: 3px groove var(--blue);
 }
@@ -185,7 +186,9 @@
     left: 26vw;
     top: 98px;
   }.ssubmit{
-    margin-top: 52px;
+    /* margin-top: 52px; */
+    margin: auto;
+    width: 300px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -203,7 +206,7 @@
     top: 73px;
   }.ssubmit{
     margin: auto;
-    width: 230px;
+    width: 200px;
   }
 }
 
