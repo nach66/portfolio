@@ -10,7 +10,6 @@ import Footer from './components/Footer'
 export default function Page () {
     return (
         <>
-            <link href='http://serve.fontsproject.com/css?family=Horev:800' rel ='stylesheet' type='text/css'></link>
                 <Hero/>
                 <Services/>
                 <About/>
