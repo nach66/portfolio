@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'horev';
+  src: local('horev'), url(./fonts/horev/horev/horevclm-heavy-webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Felix007';
+  src: local('Felix007'), url(./fonts/felix007/fonts/felix007-medium-webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Shuneet';
+  src: local('Shuneet'), url(./fonts/Shuneet/shuneet_medium_v2.otf) format('truetype');
+}
 * {
   font-family: 'Felix007', serif, 'Lucida Sans Unicode', sans-serif;
   margin: 0;
@@ -21,19 +33,6 @@
   --mainSpacing: 3px;
   --lightShadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-@font-face {
-  font-family: 'horev';
-  src: local('horev'), url(./fonts/horev/horev/horevclm-heavy-webfont.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Felix007';
-  src: local('Felix007'), url(./fonts/felix007/fonts/felix007-medium-webfont.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Shuneet';
-  src: local('Shuneet'), url(./fonts/Shuneet/shuneet_medium_v2.otf) format('truetype');
 }
 
 /*hero*/
@@ -213,13 +212,13 @@
     padding-top: 15px;
     margin-bottom: 10px;
   }.banner h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }.sform{
     left: 29vw;
     top: 73px;
   }
   .ssubmit{
-    margin-top: 35px;
+    margin-top: 25px;
   }
 }
 
@@ -315,7 +314,7 @@
   background:var(--back);
 }
 .af {
-  left: 21.3%;
+  left: 20.6vw;
   bottom: 63px;
   position: relative;
   border-style: solid;
@@ -477,7 +476,7 @@ figure.effect-chico:hover a {
 }
 .saf {
   background: var(--back);
-  left: 20.7%;
+  left: 20vw;
   bottom: 63px;
   position: relative;
   border-style: solid;
@@ -489,7 +488,8 @@ figure.effect-chico:hover a {
 
 .icon-sec {
   margin: 15px;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 .gradient-border {
   width: 90%;
@@ -551,6 +551,7 @@ figure.effect-chico:hover a {
 
 .contact-sec {
   padding: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
   color: var(--grey);
 }

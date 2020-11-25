@@ -24,7 +24,7 @@ const FooterWrapper = styled.footer`
     background: var(--grey);
     height: 30px;
     padding-top: 10px;
-    text-align:center;
+    text-align: center;
     font-weight:500;
     font-size: 20px
     `;
