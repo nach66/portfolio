@@ -218,7 +218,7 @@
     top: 73px;
   }
   .ssubmit{
-    margin-top: 25px;
+    margin-top: 30px;
   }
 }
 
@@ -300,7 +300,7 @@
 }
 @media screen and (max-width: 520px) {
   .focused{
-    width: 100px;
+    width: 150px;
     height: 60px;
     margin: auto;
     padding-bottom: 50px;
@@ -559,7 +559,7 @@ figure.effect-chico:hover a {
 .col {
   display: grid;
   background: var(--back);
-  border-bottom: 1.5px groove var(--primaryColor);
+  border-bottom: 1px groove var(--primaryColor);
 }
 @media screen and (max-width: 480px) {
   .icon-align {
