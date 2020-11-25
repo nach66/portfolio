@@ -27,6 +27,14 @@
   font-family: 'horev';
   src: local('horev'), url(./fonts/horev/horev/horevclm-heavy-webfont.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Felix007';
+  src: local('Felix007'), url(./fonts/felix007/fonts/felix007-medium-webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Shuneet';
+  src: local('Shuneet'), url(./fonts/Shuneet/shuneet_medium_v2.otf) format('truetype');
+}
 
 /*hero*/
 .void{
@@ -612,7 +620,7 @@ figure.effect-chico:hover a {
 
 /*global*/
 h1 {
-  font-family:'Horev', serif;
+  font-family:'Horev';
 
   text-align: center;
   font-size: 2rem;
@@ -638,17 +646,18 @@ h4 {
   margin-bottom: 0.5em;
 }
 h5 {
-  font-family: 'Shuneet', serif;
-  font-size: 1.25rem;
+  font-family: 'Shuneet';
+  font-size: 1.2rem;
   letter-spacing: 1px;
-  font-weight: 500;
-  line-height: 1.5;
+  font-weight: 600;
+  line-height: 2;
 }
 h6 {
-  font-family: 'Shuneet', serif;
+  font-family: 'Shuneet';
   font-size: 1.3rem;
   letter-spacing: 1px;
-  font-weight: 100;
+  font-weight: normal;
+  line-height: 1.3;
 }
 div{
   direction: rtl;
