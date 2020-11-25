@@ -23,6 +23,11 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+@font-face {
+  font-family: 'horev';
+  src: local('horev'), url(./fonts/horev/horev/horevclm-heavy-webfont.ttf) format('truetype');
+}
+
 /*hero*/
 .void{
   height: 430px;
@@ -607,7 +612,8 @@ figure.effect-chico:hover a {
 
 /*global*/
 h1 {
-  font-family:'Horev';
+  font-family:'Horev', serif;
+
   text-align: center;
   font-size: 2rem;
   direction: rtl;
