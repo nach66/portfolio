@@ -211,11 +211,11 @@
   }.banner h1 {
     font-size: 2.5rem;
   }.sform{
-    left: 29vw;
+    left: 30vw;
     top: 73px;
   }
   .ssubmit{
-    margin-top: 35px;
+    margin-top: 40px;
   }
 }
 
@@ -305,7 +305,7 @@
     padding-bottom: 60px;
   }
   .choose {
-    width: 270px;
+    width: 250px;
     height: 100px;
     background: url("./images/icons/coding_.png") no-repeat;
     background-size: contain;
