@@ -212,7 +212,7 @@
     font-size: 2.5rem;
   }.sform{
     left: 30vw;
-    top: 73px;
+    top: 74px;
   }
   .ssubmit{
     margin-top: 40px;
@@ -305,11 +305,11 @@
     padding-bottom: 60px;
   }
   .choose {
-    width: 250px;
+    width: 220px;
     height: 100px;
     background: url("./images/icons/coding_.png") no-repeat;
     background-size: contain;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 }
 .bf {
