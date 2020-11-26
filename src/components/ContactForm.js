@@ -66,7 +66,7 @@ export default class ContactForm extends React.Component {
                                     action="https://formspree.io/f/xeqpljye">
                                     <input
                                         type="text"
-                                        name="firstName"
+                                        name="Name"
                                         className="form-control"
                                         placeholder="שם"/>
                                     <input

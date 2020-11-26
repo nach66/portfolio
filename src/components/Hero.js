@@ -26,7 +26,7 @@ export default class Hero extends React.Component {
                         >
                             <input
                                     type="text"
-                                                name="firstName"
+                                                name="Name"
                                                 className="sform-control"
                                                 placeholder="שם"/>
                                 <input
