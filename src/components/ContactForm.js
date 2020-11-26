@@ -47,9 +47,9 @@ export default function ContactForm() {
                 <article className="contact-sec">
                         <h1>אפשר להשאיר הודעה</h1>
                         <FaMailBulk style={{
-                            margin: '2px',
+                            marginBottom: '4px',
                             fontSize: '20px',
-                            color: 'var(--mainRed)'
+                            color: 'var(--blue)'
                         }}/>
                         
                         <form className="cform" method="POST"

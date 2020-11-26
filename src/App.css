@@ -11,7 +11,7 @@
   src: local('Shuneet'), url(./fonts/Shuneet/shuneet_medium_v2.otf) format('truetype');
 }
 * {
-  font-family: 'Felix007', serif, 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Shuneet';
   margin: 0;
   padding: 0;
 }
@@ -24,7 +24,7 @@
   --grey: #4D5352;
   --dblue: #286f9b;
   --blue: #84c5da;
-  --green: #5add81d8;
+  --green: rgba(90, 221, 129, 0.847);
   --lightgreen: #32e23263;
   --primaryColor: #ffab66;
   --mainWhite: #fff;
@@ -87,8 +87,8 @@
   cursor: pointer;
   font-size: larger;
   border-radius: 50px;
-  background: var(--mainRed);
-  color: var(--verylightblue);
+  background: var(--primaryColor);
+  color: var(--grey);
   box-shadow: 2px 2px var(--blue);
   letter-spacing: var(--mainSpacing);
   padding: 5px;
@@ -197,10 +197,10 @@
   }
   .sform{
     width: 43vw;
-    left: 26vw;
-    top: 98px;
+    left: 26.5vw;
+    top: 99px;
   }.ssubmit{
-    margin-top: 51px;
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -245,17 +245,16 @@
   }
 }
 .icon-services {
-  background: var(--lightgreen);
+  background: var(--mainWhite);
   font-size: 2.2rem;
-  color: var(--primaryColor);
-  padding: 0.9rem 0.9rem 0 0.9rem;
+  color: var(--green);
+  padding: 1.2rem 0.9rem 0 0.9rem;
   /* border-radius: 50%; */
   border: 2px solid var(--primaryColor);
   border-radius: 355px 55px 355px 55px/55px 355px 55px 355px;
 }
 .icon-services :hover{
-  color: var(--mainWhite);
-  transform: scale(1.03);
+  transform: scale(1.034);
 }
 .h6-services {
   font-weight: 600;  
@@ -274,7 +273,7 @@
   padding-top: 1px;
   grid-row-gap: 2rem;  
 }
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1050px) {
   .about {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 3rem;
@@ -292,19 +291,19 @@
 
 }
 .focused{
-  width: 300px;
-  height: 140px;
-  background: url("./images/black.png") no-repeat;
-  margin-right: 50px;
-  padding-bottom: 20px;
+  width: 440px;
+  height: 200px;
+  background: url("./images/fw.png") no-repeat;
+  background-size: contain;
+  margin-right: 0px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 520px) {
   .focused{
-    width: 150px;
-    height: 60px;
+    width: 200px;
+    height: 120px;
     margin: auto;
-    padding-bottom: 50px;
-    background: url("./images/sblack.png") no-repeat;
+    padding-bottom: 60px;
   }
 }
 .bf {
@@ -527,8 +526,9 @@ figure.effect-chico:hover a {
 
 /*icons*/
 .col a {
-  color: var(--myblue);
   font-size: 19px;
+  color: var(--mainBlack);
+  font-family: 'Felix007';
 }
 .contact-icon{
   margin: 30px;
@@ -540,6 +540,7 @@ figure.effect-chico:hover a {
 }
 .wtsp{
   background: var(--mainWhite);
+  font-family: 'Felix007';
   font-size: 19px;
   height: 1px;
   border: none;
