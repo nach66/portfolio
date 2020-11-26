@@ -61,8 +61,7 @@
   padding-top: 10px;
   color: var(--grey);
 }
-
-/*contact form*/
+/*hero contact form*/
 .sform{
   position: absolute;
   left: 21vw;
@@ -71,7 +70,7 @@
   text-align: center;
 }
 .sform input{
-  border: 3px solid var(--dblue);
+  border: 3px solid var(--grey);
   border-radius: 5px;
 }
 .sform-control {
@@ -170,8 +169,8 @@
     font-size: 3rem;
   }
   .sform{
-    left: 28vw;
-    top: 113px;
+    left: 29vw;
+    top: 114px;
     width: 39vw;
   }
   .sform input{
@@ -188,8 +187,6 @@
     height: 315px;
   }.pic{
     height: 320px;
-  }.banner h1 {
-    font-size: 2.5rem;
   }
   .sform input{
     height: 100%;
@@ -198,9 +195,9 @@
   .sform{
     width: 43vw;
     left: 26.5vw;
-    top: 99px;
+    top: 103px;
   }.ssubmit{
-    margin-top: 60px;
+    margin-top: 56px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -212,7 +209,7 @@
     padding-top: 15px;
     margin-bottom: 10px;
   }.banner h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }.sform{
     left: 29vw;
     top: 73px;
@@ -250,17 +247,17 @@
   color: var(--green);
   padding: 1.2rem 0.9rem 0 0.9rem;
   /* border-radius: 50%; */
-  border: 2px solid var(--primaryColor);
+  border: 2px solid var(--grey);
   border-radius: 355px 55px 355px 55px/55px 355px 55px 355px;
 }
 .icon-services :hover{
   transform: scale(1.034);
 }
-.h6-services {
+.p-services {
   font-weight: 600;  
-  font-size: 13px;
+  font-size: 1rem;
   margin-top: 15px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: var(--lightblue);
 }
 
@@ -278,50 +275,60 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 3rem;
     padding-bottom: 0px;
-    padding-top: 40px;
+    padding-top: 30px;
   }
   .up{
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
   }
   .down{
     position: relative;
-    bottom: 20px;
+    bottom: 0px;
   }
-
 }
-.focused{
-  width: 440px;
-  height: 200px;
+.focused {
+  width: 400px;
+  height: 150px;
   background: url("./images/fw.png") no-repeat;
   background-size: contain;
   margin-right: 0px;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 520px) {
+  .about {
+    padding-bottom: 0px;
+  }
   .focused{
     width: 200px;
     height: 120px;
     margin: auto;
     padding-bottom: 60px;
   }
+  .choose {
+    width: 270px;
+    height: 100px;
+    background: url("./images/icons/coding_.png") no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+  }
 }
 .bf {
   border-style: solid;
-  border-width: 0px 70vw 99px 27vw;
+  border-width: 0px 71vw 99px 29vw;
   border-color: transparent transparent  var(--blue) transparent;
   background:var(--back);
 }
 .af {
   left: 20.6vw;
-  bottom: 63px;
+  bottom: 54px;
   position: relative;
   border-style: solid;
-  border-width: 70px 15vw 0px 88vw;
+  border-width: 60px 15vw 0px 88vw;
   border-color: var(--blue) transparent transparent transparent;
   transform: translateX(-20%) translateY(90%);
   background:var(--back);
 }
+
 /*-------מסגרת  זזה על תמונה--------*/
 .grid *,.grid *:after, .grid *:before {
 	-webkit-box-sizing: border-box;
@@ -446,9 +453,9 @@ figure.effect-chico:hover a {
 	transform: scale(1);
 }
 
+/*start*/
 .sec{
   background: var(--blue);
-  text-align: center;
   display: grid;
   margin: auto;
   padding: 30px;
@@ -484,7 +491,7 @@ figure.effect-chico:hover a {
   transform: translateX(-20%) translateY(90%);
 }
 
-
+/*icon-sec frame*/
 .icon-sec {
   margin: 15px;
   margin-top: 40px;
@@ -549,19 +556,6 @@ figure.effect-chico:hover a {
 .wtsp:hover, .g:focus {
   border: 0px white;
 }
-
-.contact-sec {
-  padding: 3rem;
-  padding-bottom: 2rem;
-  text-align: center;
-  color: var(--grey);
-}
-/*2 columns*/
-.col {
-  display: grid;
-  background: var(--back);
-  border-bottom: 1px groove var(--primaryColor);
-}
 @media screen and (max-width: 480px) {
   .icon-align {
     margin-left: 5%;
@@ -572,15 +566,28 @@ figure.effect-chico:hover a {
     margin-right: 12%;
   }
 }
+
+/*2 columns*/
+.col {
+  display: grid;
+  background: var(--back);
+  border-bottom: 1px groove var(--primaryColor);
+}
+.contact-sec {
+  padding: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: var(--grey);
+}
 @media screen and (min-width: 1170px) {
-  .contact-sec {
-    border-right: 1px groove var(--blue);
-  }
   .col {
     grid-template-columns: 3fr 5fr;
   }
+  .contact-sec {
+    border-right: 1px groove var(--blue);
+  }
   .icon-sec {
-    padding-top: 190px;
+    padding-top: 170px;
   } 
   .icon-align {
     margin-right: 15%;
@@ -632,6 +639,7 @@ h1 {
   letter-spacing: var(--mainSpacing);
 }
 h2 {
+  color: var(--grey);
   letter-spacing: 3px;  
   font-family:'Horev';
   font-size: 2rem;
@@ -648,6 +656,7 @@ h4 {
   margin-bottom: 0.5em;
 }
 h5 {
+  text-align: justify;
   font-family: 'Shuneet';
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -655,6 +664,7 @@ h5 {
   line-height: 2;
 }
 h6 {
+  text-align: justify;
   font-family: 'Shuneet';
   font-size: 1.3rem;
   letter-spacing: 1px;

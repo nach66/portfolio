@@ -6,8 +6,8 @@ export default class Services extends Component {
     state={
         services: [
                 {
-                    icon:<FaSellcast/>,
-                    text: "מחירי השקה מטורפים"
+                    icon:<FaGlobe/>,
+                    text: "דומיין לשנה"
                 },
                 {
                     icon:<FaExpeditedssl/>,
@@ -18,20 +18,20 @@ export default class Services extends Component {
                     text: "כתיבת תוכן"
                 },
                 {
-                    icon:<FaHandshake/>,
-                    text: "עיצוב אישי ומותאם לאופי העסק"
+                    icon:<FaFacebook/>,
+                    text: "קישורים לסושיאל"
                 },
                 {
                     icon:<FaCode/>,
                     text: "אתרי וורדפרס & קוד פתוח"
                 },
                 {
-                    icon:<FaGlobe/>,
-                    text: "דומיין לשנה"
-                },
+                    icon:<FaSellcast/>,
+                    text: "מחירי השקה מטורפים"
+                },                
                 {
-                    icon:<FaFacebook/>,
-                    text: "קישורים לסושיאל"
+                    icon:<FaHandshake/>,
+                    text: "עיצוב אישי ומותאם לאופי העסק"
                 },
                 {
                     icon:<FaMobileAlt/>,
@@ -48,7 +48,7 @@ export default class Services extends Component {
                             (item, index) => {return (
                                 <article key={index}>
                                     <span className="icon-services">{item.icon}</span>
-                                    <h6 className="h6-services">{item.text}</h6>
+                                    <p className="p-services">{item.text}</p>
                                 </article>
                             )}
                         )}
