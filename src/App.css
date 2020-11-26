@@ -389,7 +389,7 @@
 }
 .weblist-center {
   padding-top: 20px;
-  width: 90vw;
+  width: 85vw;
   margin: auto;
   display: grid;
 }
@@ -659,17 +659,17 @@ h4 {
 h5 {
   text-align: justify;
   font-family: 'Shuneet';
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-  line-height: 2;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.7;
 }
 h6 {
   text-align: justify;
   font-family: 'Shuneet';
-  font-size: 1.3rem;
   letter-spacing: 1px;
-  font-weight: normal;
+  font-weight: lighter;
+  font-size: 1.3rem;
   line-height: 1.3;
 }
 div{
