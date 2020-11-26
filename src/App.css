@@ -410,8 +410,8 @@ figure.effect-chico img {
   transition: opacity 0.35s, transform 0.35s;
   transform: scale(1);
   max-width: 100%;
-  width: 500px;
-  height: 240px;
+  width: 470px;
+  height: 260px;
   border-radius: 5px;
   border: 1px solid var(--verylightblue);
 }
@@ -424,15 +424,15 @@ figure.effect-chico a {
   color: var(--mainWhite);
   margin: 0 auto;
   font-size: 2rem;
-  padding: 20% 0 10px 0;
+  padding: 23% 0 20px 0;
   transform: scale(1.5);
 }
 /*המסגרת*/
 figure.effect-chico figcaption::before {
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	right: 10%;
-	bottom: 10%;
+	bottom: 15%;
 	left: 10%;
 	border: 2px solid #fefefe;
 	content: '';
