@@ -22,7 +22,7 @@ export default class WebList extends Component {
                 {
                     icon:c,
                     link:"http://www.happyflowers.webing.co.il/",
-                    title:"חנות - החל מ2000 שקלים",
+                    title:"חנות - החל מ 2000 שקלים",
                     text:"בעולם של היום ובעיקר בשנת הקורונה, עסקים רבים מעוניינים למכור אונליין. מכירה כזו, במקום או בנוסף לחנות פיזית – מגדילה משמעותית את העסקאות וחוסכת בהתעסקות וגם בעלויות. אתר כזה צריך להיות בנוי בצורה מקצועית, מותאמת לנייד, ובעלת ביצועים מהירים כדי שהלקוח יישאר באתר. נדאג גם לעיצוב מותאם, מעניין ומניע לפעולה, שיעשה לגולשים חשק לרכוש ולרכוש!"
                 }
             ]
@@ -30,9 +30,9 @@ export default class WebList extends Component {
         render () {
             return (
                 <section className="weblist">
-                    <h2 style={{
-                        textAlign:'center'
-                    }}>סוגים, מחירים, ואתרים שכבר יצרתי כדי להרשים -</h2>
+                    <h2 style={{ textAlign:'center' }}>
+                        דוגמאות, הסברים ומחירי השקה ידידותיים -</h2>
+                    <h3 style={{ textAlign:'center' }}>* מחירי ההשקה בתוקף עד סוף 2020 *</h3>
                     <div className="weblist-center">
                         {this.state.webs.map(web => {
                             return <Web key={web.id} reco={web}/>;
