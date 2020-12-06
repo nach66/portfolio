@@ -12,21 +12,17 @@
 }
 * {
   font-family: 'Shuneet';
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 :root {
-  --verylightblue: #d7faf5e7;
-  --mainRed: #BB0A21;
-
-  --dback: #dbf3ef;
+  --dback: #dbf3ef; /*צור קשר תיקון*/
+  --lgreen: #6fba82; /*רקע תפריט*/
   --back: #83d1c548;
   --grey: #4D5352;
-  --dblue: #286f9b;
   --blue: #84c5da;
-  --green: rgba(90, 221, 129, 0.847);
-  --lightgreen: #32e23263;
-  --primaryColor: #ffab66;
+  --turkizz: #07b39b;
+  --primaryColor: #ffbc85;
   --mainWhite: #fff;
   --mainBlack: #222;
 
@@ -35,17 +31,32 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("./images/כותרת/pp.png");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*hero*/
 .void{
-  height: 430px;
+  height: 540px;
   border-bottom: 3px groove var(--blue);
 }
 .pic{
-  width: 98vw;
-  height: 430px;
+  width: 96vw;
+  height: 550px;
   background: url("./images/כותרת/pp.png") no-repeat;
   background-position: left;
   background-size: 70%;
+  margin-top: 35px;
 }
 /* Banner */
 .banner h1 {
@@ -58,14 +69,15 @@
 }
 .banner {
   width: 30%;
-  padding-top: 10px;
+  padding-top: 90px;
+  padding-right: 2%;
   color: var(--grey);
 }
 /*hero contact form*/
 .sform{
   position: absolute;
-  left: 21vw;
-  top: 110px;
+  left: 22vw;
+  top: 220px;
   width: 27vw;
   text-align: center;
 }
@@ -79,15 +91,21 @@
   padding: 3px;
   margin: 5px;
 }
+
+.cur{
+  color: var(--grey);
+  font-size: 30px;
+}
+
 .ssubmit{
   width: 90%;
   height: 100%;
   font-weight:800;
   cursor: pointer;
-  font-size: larger;
-  border-radius: 50px;
+  font-size: xx-large;
+  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
   background: var(--primaryColor);
-  color: var(--grey);
+  color: var(--mainWhite);
   box-shadow: 2px 2px var(--blue);
   letter-spacing: var(--mainSpacing);
   padding: 5px;
@@ -99,10 +117,14 @@
   box-shadow: 3px 4px var(--blue);
 }
 @media screen and (max-width: 1170px) {
+  .banner h1 {
+    padding-top: 0px;
+    font-size: 8rem;
+  }
   .sform{
-    left: 18vw;
-    top: 120px;
-    width: 32vw;
+    left: 20.5vw;
+    top: 220px;
+    width: 30vw;
   }
   .ssubmit{
     width: 85%;
@@ -111,23 +133,27 @@
 }
 @media screen and (max-width: 970px) {
   .void{
-    height: 330px;
+    height: 400px;
   } .pic {
-    background-size: 80%;
-    height: 320px;
+    margin-top: 70px;
+    height: 100%;
+    width: 97vw;
   }
   .banner h1 {
-    padding-top: 30px;
     font-size: 6rem;
   }
+  .banner{
+    padding-right: 10px;
+  }
   .sform{
-    left: 23vw;
-    top: 66px;
+    left: 18.5vw;
+    top: 178px;
     width: 32vw;
   }
   .ssubmit{
     width: 85%;
-    margin-top: 5px;
+    font-size: x-large;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 880px) {
@@ -135,69 +161,77 @@
     height: 430px;
   } .pic {
     background-size: 100%;
-    height: 490px;
-    width: 96vw;
-  }.banner {
+    margin-top: 120px;
+    height: 100%;
+    width: 95vw;
+  }
+  .banner {
+    padding-top: 0px;
     width: auto;
-    padding-top: 15px;
   }
   .banner h1 {
     text-align: center;
-    padding-top: 7px;
     font-size: 4rem;
   }
   .sform{
-    left: 30vw;
-    top: 155px;
+    left: 31vw;
+    top: 250px;
     width: 37vw;
   }
   .sform-control {
     margin: 3px;
   }
   .ssubmit{
-    width: 100%;
+    width: 95%;
     margin-top: 11px;
   }
 }
 @media screen and (max-width: 640px) {
   .void{
-    height: 330px;
+    height: 360px;
   } .pic {
+    margin-top: 90px;
     height: 380px;
   }
   .banner h1 {
+    padding-top: 20px;
     font-size: 3rem;
   }
   .sform{
-    left: 29vw;
-    top: 114px;
+    left: 30vw;
+    top: 205px;
     width: 39vw;
   }
   .sform input{
-    height: 17px;
+    height: 15px;
     margin: 2px;
   }
   .ssubmit{
-    width: 100%;
-    margin-top: 3px;
+    font-size: larger;
+    margin-top: 10px;
+    padding-top: 2px;
+    height: 35px;
+  }
+  .cur{
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 520px) {
   .void{
-    height: 315px;
+    height: 345px;
   }.pic{
-    height: 320px;
+    height: 350px;
   }
   .sform input{
-    height: 100%;
+    height: 19px;
     margin: 3px;
   }
   .sform{
     width: 43vw;
-    left: 26.5vw;
-    top: 103px;
+    left: 27vw;
+    top: 205px;
   }.ssubmit{
-    margin-top: 56px;
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -212,7 +246,7 @@
     font-size: 2.5rem;
   }.sform{
     left: 30vw;
-    top: 74px;
+    top: 184px;
   }
   .ssubmit{
     margin-top: 40px;
@@ -244,10 +278,10 @@
 .icon-services {
   background: var(--mainWhite);
   font-size: 2.2rem;
-  color: var(--green);
+  color: var(--lgreen);
   padding: 1.2rem 0.9rem 0 0.9rem;
   /* border-radius: 50%; */
-  border: 2px solid var(--grey);
+  border: 2px solid wheat;
   border-radius: 355px 55px 355px 55px/55px 355px 55px 355px;
 }
 .icon-services :hover{
@@ -270,43 +304,54 @@
   padding-top: 1px;
   grid-row-gap: 2rem;  
 }
+
+.focused{
+  width: 200px;
+  height: 120px;
+  margin: auto;
+  padding-bottom: 60px;
+  background: url("./images/fw.png") no-repeat;
+  background-size: contain;
+}
 @media screen and (min-width: 1050px) {
+  .focused {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+    margin-top: -110px;
+  }
   .about {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 3rem;
+    grid-column-gap: 5rem;
     padding-bottom: 0px;
     padding-top: 30px;
+    padding: 110px;
   }
-  .up{
+  .left{
     position: relative;
-    bottom: 60px;
+    bottom: 30px;
   }
-  .down{
+  .right{
     position: relative;
     bottom: 0px;
   }
-}
-.focused {
-  width: 400px;
-  height: 150px;
-  background: url("./images/fw.png") no-repeat;
-  background-size: contain;
-  margin-right: 0px;
-  margin-bottom: 20px;
+  .choose {
+    width: 300px;
+    height: 300px;
+    background: url("./images/icons/coding_.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 100px;
+    right: 150px;
+  }
 }
 @media screen and (max-width: 520px) {
   .about {
     padding-bottom: 0px;
   }
-  .focused{
-    width: 200px;
-    height: 120px;
-    margin: auto;
-    padding-bottom: 60px;
-  }
   .choose {
-    width: 220px;
-    height: 100px;
+    width: 390px;
+    height: 90px;
     background: url("./images/icons/coding_.png") no-repeat;
     background-size: contain;
     margin-top: 10px;
@@ -314,16 +359,16 @@
 }
 .bf {
   border-style: solid;
-  border-width: 0px 71vw 99px 29vw;
+  border-width: 0px 28vw 99px 72vw;
   border-color: transparent transparent  var(--blue) transparent;
   background:var(--back);
 }
 .af {
-  left: 20.6vw;
-  bottom: 54px;
+  left: 20vw;
+  bottom: 45px;
   position: relative;
   border-style: solid;
-  border-width: 60px 15vw 0px 88vw;
+  border-width: 50px 80vw 0px 20vw;
   border-color: var(--blue) transparent transparent transparent;
   transform: translateX(-20%) translateY(90%);
   background:var(--back);
@@ -384,7 +429,7 @@
 }
 /* weblist */
 .weblist{
-  padding-top: 60px;
+  padding-top: 110px;
   background: var(--back);
 }
 .weblist-center {
@@ -402,7 +447,7 @@
   grid-row-gap: 20px;
   grid-column-gap: 50px;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
-  border-top: 3px groove var(--primaryColor);
+  border-top: 3px double var(--primaryColor);
 }
 /***** Chico *****/
 figure.effect-chico img {
@@ -535,16 +580,20 @@ figure.effect-chico:hover a {
 /*icons*/
 .col a {
   font-size: 19px;
-  color: var(--mainBlack);
+  color: var(--grey);
   font-family: 'Felix007';
 }
 .contact-icon{
   margin: 30px;
   margin-bottom: -17px;
-  padding: 6px;
-  font-size: 1.5rem;
-  border-radius: 15px;
-  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.281);
+  padding: 9px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background: var(--mainWhite);
+  box-shadow: var(--lightShadow)
+}
+.contact-icon:hover{
+  transform: translateY(5%);
 }
 .wtsp{
   background: var(--mainWhite);
@@ -571,44 +620,27 @@ figure.effect-chico:hover a {
 /*2 columns*/
 .col {
   display: grid;
+  padding: 20px;
+  padding-top: 70px;
+  padding-bottom: 1rem;
   background: var(--back);
   border-bottom: 1px groove var(--primaryColor);
 }
 .contact-sec {
   padding: 3rem;
-  padding-bottom: 2rem;
   text-align: center;
   color: var(--grey);
 }
-@media screen and (min-width: 1170px) {
-  .col {
-    grid-template-columns: 3fr 5fr;
-  }
-  .contact-sec {
-    border-right: 1px groove var(--blue);
-  }
-  .icon-sec {
-    padding-top: 170px;
-  } 
-  .icon-align {
-    margin-right: 15%;
-  }
-  .gradient-border {
-    --borderWidth: 0px;
-    background: var(--dback);
-  }
-}
-
 /*contact form*/
 .cform input{
   border: 0px;
   padding: 8px;
   padding-right: 20px;
   border-radius: 3px;
-  background-color: var(--lightgreen);
+  box-shadow: var(--lightShadow);
 }
 .form-control {
-  width: 90%;
+  width: 95%;
   font-size: 1rem;
   padding: 4px;
   margin: 3px;
@@ -618,14 +650,39 @@ figure.effect-chico:hover a {
   padding: 8px;
   padding-right: 20px;
   border-radius: 3px;
-  background-color: var(--lightgreen);
+  box-shadow: var(--lightShadow);
 }
 .s{
-  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
-  background: var(--primaryColor);
-  margin-top: 10px;
+  box-shadow: var(--lightShadow);
   color: var(--grey);
-  width: 85%;
+  font-size: large;
+  padding: 5px 15px;
+  margin: 2px;
+  margin-right: 9px;
+  width: auto;
+}
+@media screen and (min-width: 1170px) {
+  .col {
+    padding-top: 165px;
+    padding-bottom: 3rem;
+    grid-template-columns: 3fr 5fr;
+  }
+  .contact-sec {
+    border-right: 1px groove var(--blue);
+  }
+  .icon-sec {
+    padding-top: 0px;
+  } 
+  .icon-align {
+    margin-right: 15%;
+  }
+  .gradient-border {
+    --borderWidth: 0px;
+    background: var(--dback);
+  }
+  .form-control {
+    width: 85%;
+  }
 }
 
 /*global*/
@@ -639,41 +696,143 @@ h1 {
   letter-spacing: var(--mainSpacing);
 }
 h2 {
-  color: var(--grey);
+  color:var(--lgreen);
   letter-spacing: 3px;  
   font-family:'Horev';
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding: 10px;
 }
 h3 {
+  color:var(--turkizz);
+  letter-spacing: 3px;  
   font-family:'Horev';
-  text-align: center;
-  font-size: 1.5rem;
-  letter-spacing: 3px;
-  line-height: 2;
-  font-weight: 600;
-  color: #07b39b;
-}
-h4 {
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
+  font-size: 2.2rem;
+  padding: 10px;
 }
 h5 {
   text-align: justify;
   font-family: 'Shuneet';
-  letter-spacing: 2px;
-  font-weight: bold;
+  letter-spacing: 1px;
+  font-weight: 500;
   font-size: 1.3rem;
   line-height: 1.7;
 }
 h6 {
   text-align: justify;
   font-family: 'Shuneet';
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: lighter;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.3;
 }
 div{
   direction: rtl;
+}
+
+/* Navbar */
+
+/*לוגו*/
+.nav-logo {
+  margin: 12px;
+  transition: var(--mainTransition);
+  background-size: contain;
+  border-radius: 30%;
+  height: 50px;
+  width: 70px;
+}
+  .nav-logo:hover,
+  .nav-logo:focus {
+    box-shadow: 0 0 0.2em 0 var(--blue) ;
+    transform: translateY(-0.1em);
+}
+/*התפריט הנפתח עצמו*/
+.sidenav {
+  width: 100%;
+  height: 100%;
+  background-color: var(--lgreen);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+  overflow-x: hidden;
+  text-align:center;
+  padding-top: 30vh;
+}
+.hide-sidenav{
+  width: 0%;
+}
+.sidenav a {
+  color: wheat;
+  font-family: 'horev';
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding: 2px 30px;
+  font-size: 2rem;
+  font-weight: 500;
+  display: block;
+  line-height: 2;
+}
+.sidenav a:hover{
+  color: var(--mainWhite);
+  /* text-decoration: underline; */
+}
+.sidenav .closebtn {
+  position: absolute;
+  color: wheat;
+  cursor: pointer;
+  top: 0;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*** מסך קטן ***/
+/* שורת תפריט*/
+.nav-header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, wheat 95%, var(--dback) 100%);
+}
+/* כפתור התפריט*/
+.nav-btn {
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+/*אייקון התפריט*/
+.nav-icon {
+  position: absolute;
+  left: 27px;
+  top: 27px;
+  font-size: 1.8rem;
+  color:var(--blue);
+}
+.secicon {
+  color:var(--primaryColor);
+  background-color: rgba(109, 154, 180, 0.589);
+  border: 2px solid var(--mainWhite);
+  border-radius: 50%;
+  position: fixed;
+  font-size: 2rem;
+  padding: 10px;
+  left: 27px;
+  top: 82%; 
+  z-index: 1;
+}
+.secicon:hover{
+  transform: rotate(20deg);
+}
+/*מסך גדול */
+@media screen and (min-width: 880px) {
+  .sidenav {
+  width: 40%;
+  }
+  .hide-sidenav{
+    width: 0%;
+  }
 }

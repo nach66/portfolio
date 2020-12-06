@@ -1,6 +1,7 @@
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react'
-import {FaAccusoft,FaCloudMoonRain,FaCode,FaCompass,FaExpeditedssl, FaFacebook, FaFortAwesomeAlt, FaGlobe, FaGrinHearts, FaHandHolding, FaHandHoldingHeart, FaHandshake, FaHeart, FaKissWinkHeart, FaMobileAlt, FaPencilAlt, FaRegKissWinkHeart, FaSellcast, FaShoppingCart, FaWordpress} from 'react-icons/fa';
+import {FaCode,FaExpeditedssl, FaFacebook, FaGlobe, FaHandshake, FaMobileAlt, FaPencilAlt, FaSellcast} from 'react-icons/fa';
+import Fade from 'react-reveal/Fade';
 
 export default class Services extends Component {
     state={
@@ -47,8 +48,10 @@ export default class Services extends Component {
                         {this.state.services.map(
                             (item, index) => {return (
                                 <article key={index}>
+                                    <Fade bottom>
                                     <span className="icon-services">{item.icon}</span>
                                     <p className="p-services">{item.text}</p>
+                                    </Fade>
                                 </article>
                             )}
                         )}

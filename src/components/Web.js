@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 export default function Web({reco}) {
     const {icon,link, title, text} = reco;
@@ -6,6 +7,7 @@ export default function Web({reco}) {
     return (
         <>
             <section className="websec">
+            <Fade bottom>            
                 <article>
                     <h2>{title}</h2>
                     <h6>{text}</h6>
@@ -18,6 +20,7 @@ export default function Web({reco}) {
                             </figcaption>
                     </figure>
                 </article>
+                </Fade>
             </section>
         </>
     );

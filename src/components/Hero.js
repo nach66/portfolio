@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactTypingEffect from 'react-typing-effect';
 
 export default class Hero extends React.Component {
 
@@ -39,7 +40,21 @@ export default class Hero extends React.Component {
                                                 name="email"
                                                 className="sform-control"
                                                 placeholder="אימייל"/>
-                                {status === "SUCCESS" ? <h2>תודה!</h2> : <button type="submit" className="ssubmit">מהרו להירשם</button>}
+                                
+                                {status === "SUCCESS" ? 
+                                    <h2>תודה!</h2> : 
+                                    <button type="submit" className="ssubmit">
+                                        <ReactTypingEffect
+                                            typingDelay="100"
+                                            speed="100"
+                                            eraseDelay="4000"
+                                            eraseSpeed="100"
+                                            text={["מהרו להירשם!"]}
+                                            cursorClassName="cur"
+                                        />
+                                    </button>
+                                }
+                                
                                 {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}
                         </form>
                     </div>   
