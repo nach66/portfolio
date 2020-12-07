@@ -235,9 +235,10 @@
 }
 @media screen and (max-width: 480px) {
   .void{
-    height: 275px;
+    height: 290px;
   }.pic{
-    height: 260px;
+    height: 270px;
+    width: 99vw;
   }.banner {
     padding-top: 1px;
     margin-bottom: 10px;
@@ -345,7 +346,7 @@
 }
 @media screen and (max-width: 520px) {
   .about {
-    padding: 60px;
+    padding: 20px;
     padding-bottom: 0px;
   }
   .choose {
