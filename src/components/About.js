@@ -7,14 +7,14 @@ export default function About() {
     return (
         <>
             <div className="bf"/>
-            <div className="about centerr">
+            <div className="about">
                 {/* <div className="centerr"> */}
 
                     <Roll bottom>
                         <div className="focused"/>
                     </Roll>
 
-                    <article className="right">
+                    <article className="right centerr">
                         <Fade bottom>
                             <h3>למה בחרתי להתעסק בבניית אתרים?</h3>
                             <h5>
@@ -27,7 +27,7 @@ export default function About() {
                         </Fade>
                     </article>
 
-                    <article className="left">
+                    <article className="left centerr">
                         <Fade bottom>
                             <h3>למה לבחור בי לבניית האתר שלכם?</h3>
                             <ul>

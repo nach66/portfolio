@@ -42,7 +42,7 @@ export default class Hero extends React.Component {
                                                 placeholder="אימייל"/>
                                 
                                 {status === "SUCCESS" ? 
-                                    <h2>תודה!</h2> : 
+                                    <><br/><br/><br/><br/><h2>תודה!</h2></> : 
                                     <button type="submit" className="ssubmit">
                                         <ReactTypingEffect
                                             typingDelay="100"

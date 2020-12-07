@@ -350,6 +350,8 @@
     padding-bottom: 0px;
   }
   .centerr{
+    width: 90%;
+    margin: auto;
   }
   .choose {
     width: 370px;
