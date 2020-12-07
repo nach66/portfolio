@@ -369,7 +369,7 @@
 }
 .af {
   left: 20vw;
-  bottom: 45px;
+  bottom: 46px;
   position: relative;
   border-style: solid;
   border-width: 50px 80vw 0px 20vw;
@@ -433,6 +433,7 @@
 }
 /* weblist */
 .weblist{
+  margin-top: -1px;
   padding-top: 110px;
   background: var(--back);
 }
