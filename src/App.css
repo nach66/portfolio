@@ -441,15 +441,14 @@
 }
 .weblist-center {
   padding-top: 20px;
-  width: 85vw;
+  width: 90vw;
   margin: auto;
   display: grid;
 }
 .websec{
-  margin: auto;
   padding: 20px;
+  padding-top: 10px;
   padding-bottom: 0px;
-  padding-top: 40px;
   display: grid;
   grid-row-gap: 20px;
   grid-column-gap: 50px;
