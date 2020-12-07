@@ -11,7 +11,7 @@
   src: local('Shuneet'), url(./fonts/Shuneet/shuneet_medium_v2.otf) format('truetype');
 }
 * {
-  font-family: 'Shuneet';
+  font-family: 'felix007';
   padding: 0;
   margin: 0;
 }
@@ -100,13 +100,14 @@
   width: 90%;
   height: 100%;
   font-weight:800;
-  cursor: pointer;
   font-size: xx-large;
+  font-family: 'felix007';
   border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
   background: var(--primaryColor);
-  color: var(--dback);
   box-shadow: 2px 2px var(--blue);
   letter-spacing: var(--mainSpacing);
+  color: var(--dback);
+  cursor: pointer;
   padding: 5px;
   padding-top: 7px;
   margin-top: 17px;
@@ -245,11 +246,11 @@
   }.banner h1 {
     font-size: 2.5rem;
   }.sform{
-    left: 30vw;
+    left: 29vw;
     top: 165px;
   }
   .ssubmit{
-    margin-top: 30px;
+    margin-top: 35px;
   }
 }
 
@@ -316,7 +317,7 @@
   .focused {
     width: 250px;
     height: 250px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-top: -110px;
   }
   .about {
@@ -332,7 +333,7 @@
   }
   .right{
     position: relative;
-    bottom: 0px;
+    top: 40px;
   }
   .choose {
     width: 300px;
@@ -340,17 +341,17 @@
     background: url("./images/icons/coding_.png") no-repeat;
     background-size: contain;
     position: relative;
-    top: 120px;
+    top: 100px;
     right: 150px;
   }
 }
 @media screen and (max-width: 520px) {
   .about {
-    padding: 20px;
+    padding: 1px;
     padding-bottom: 0px;
   }
   .centerr{
-    padding: 40px;
+    padding: 9px;
   }
   .choose {
     width: 390px;
@@ -452,7 +453,6 @@
   grid-row-gap: 20px;
   grid-column-gap: 50px;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
-  border-top: 3px double var(--primaryColor);
 }
 /***** Chico *****/
 figure.effect-chico img {
@@ -719,19 +719,19 @@ h3 {
 }
 h5 {
   text-align: justify;
-  font-family: 'Shuneet';
-  letter-spacing: 1px;
+  font-family: 'felix007';
+  letter-spacing: 1.2px;
   font-weight: 500;
-  font-size: 1.3rem;
-  line-height: 1.7;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 h6 {
   text-align: justify;
-  font-family: 'Shuneet';
+  font-family: 'felix007';
   letter-spacing: 2px;
-  font-weight: lighter;
-  font-size: 1.4rem;
-  line-height: 1.3;
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1.7;
 }
 div{
   direction: rtl;

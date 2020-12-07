@@ -7,8 +7,9 @@ const useStyles = makeStyles(theme => ({
     alignItems: "center"
   },
   border: {
-    borderBottom: "2px solid lightgray",
-    width: "100%"
+    borderBottom: "3px double var(--primaryColor)",
+    width: "20%",
+    margin: "auto",
   },
   content: {
     paddingTop: theme.spacing(0.5),

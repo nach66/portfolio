@@ -1,14 +1,10 @@
 import React from 'react'
 import a from '../images/mobile.png'
 import Fade from 'react-reveal/Fade';
-import DividerWithText from './DividerWithText'
 export default function Start() {
     return (
         <>
         <div className="sbf"/>
-
-        <DividerWithText>Or</DividerWithText>
-
             <div className="sec">
                 <Fade bottom>            
                     <article>
