@@ -18,13 +18,12 @@
 :root {
   --dback: #dbf3ef; /*צור קשר תיקון*/
   --lgreen: #6fba82; /*רקע תפריט*/
+  --primaryColor: #ffbc85;
+  --mainWhite: white;
+  --mainBlack: #222;
   --back: #83d1c548;
   --grey: #4D5352;
   --blue: #84c5da;
-  --turkizz: #07b39b;
-  --primaryColor: #ffbc85;
-  --mainWhite: #fff;
-  --mainBlack: #222;
 
   --mainSpacing: 3px;
   --lightShadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
@@ -105,7 +104,7 @@
   font-size: xx-large;
   border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
   background: var(--primaryColor);
-  color: var(--mainWhite);
+  color: var(--dback);
   box-shadow: 2px 2px var(--blue);
   letter-spacing: var(--mainSpacing);
   padding: 5px;
@@ -240,16 +239,16 @@
   }.pic{
     height: 260px;
   }.banner {
-    padding-top: 10px;
+    padding-top: 1px;
     margin-bottom: 10px;
   }.banner h1 {
     font-size: 2.5rem;
   }.sform{
     left: 30vw;
-    top: 184px;
+    top: 174px;
   }
   .ssubmit{
-    margin-top: 40px;
+    margin-top: 35px;
   }
 }
 
@@ -271,8 +270,8 @@
 }
 @media screen and (min-width: 940px) {
   .services-center {
-    width: 85vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 .icon-services {
@@ -289,9 +288,9 @@
 }
 .p-services {
   font-weight: 600;  
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: var(--lightblue);
 }
 
@@ -301,12 +300,11 @@
   margin: auto;
   display: grid;
   padding: 40px;
-  padding-top: 1px;
   grid-row-gap: 2rem;  
 }
 
 .focused{
-  width: 200px;
+  width: 190px;
   height: 120px;
   margin: auto;
   padding-bottom: 60px;
@@ -341,12 +339,13 @@
     background: url("./images/icons/coding_.png") no-repeat;
     background-size: contain;
     position: relative;
-    top: 100px;
+    top: 120px;
     right: 150px;
   }
 }
 @media screen and (max-width: 520px) {
   .about {
+    padding: 20px;
     padding-bottom: 0px;
   }
   .choose {
@@ -358,6 +357,7 @@
   }
 }
 .bf {
+  padding-top: 30px;
   border-style: solid;
   border-width: 0px 28vw 99px 72vw;
   border-color: transparent transparent  var(--blue) transparent;
@@ -469,7 +469,7 @@ figure.effect-chico a {
   color: var(--mainWhite);
   margin: 0 auto;
   font-size: 2rem;
-  padding: 23% 0 20px 0;
+  padding: 25% 0 20px 0;
   transform: scale(1.5);
 }
 /*המסגרת*/
@@ -589,7 +589,7 @@ figure.effect-chico:hover a {
   padding: 9px;
   font-size: 1.2rem;
   border-radius: 20px;
-  background: var(--mainWhite);
+  background: var(--dback);
   box-shadow: var(--lightShadow)
 }
 .contact-icon:hover{
@@ -640,9 +640,10 @@ figure.effect-chico:hover a {
   box-shadow: var(--lightShadow);
 }
 .form-control {
-  width: 95%;
-  font-size: 1rem;
+  width: 90%;
+  font-size: 1.2rem;
   padding: 4px;
+  margin-left: 30px;
   margin: 3px;
 }
 .long { 
@@ -655,10 +656,9 @@ figure.effect-chico:hover a {
 .s{
   box-shadow: var(--lightShadow);
   color: var(--grey);
-  font-size: large;
+  font-size: 1.2rem;
   padding: 5px 15px;
-  margin: 2px;
-  margin-right: 9px;
+  margin: 4px;
   width: auto;
 }
 @media screen and (min-width: 1170px) {
@@ -683,6 +683,9 @@ figure.effect-chico:hover a {
   .form-control {
     width: 85%;
   }
+  .contact-icon{
+    background: var(--mainWhite);
+  }
 }
 
 /*global*/
@@ -703,7 +706,7 @@ h2 {
   padding: 10px;
 }
 h3 {
-  color:var(--turkizz);
+  color:var(--dback);
   letter-spacing: 3px;  
   font-family:'Horev';
   font-size: 2.2rem;

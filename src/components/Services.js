@@ -19,17 +19,9 @@ export default class Services extends Component {
                     text: "כתיבת תוכן"
                 },
                 {
-                    icon:<FaFacebook/>,
-                    text: "קישורים לסושיאל"
-                },
-                {
                     icon:<FaCode/>,
                     text: "אתרי וורדפרס & קוד פתוח"
-                },
-                {
-                    icon:<FaSellcast/>,
-                    text: "מחירי השקה מטורפים"
-                },                
+                },               
                 {
                     icon:<FaHandshake/>,
                     text: "עיצוב אישי ומותאם לאופי העסק"

@@ -58,7 +58,7 @@ export default class ContactForm extends React.Component {
                                 <FaMailBulk style={{
                                     marginBottom: '4px',
                                     fontSize: '20px',
-                                    color: 'var(--turkizz)'
+                                    color: 'var(--lgreen)'
                                 }}/>
                                 
                                 <form className="cform" method="POST"

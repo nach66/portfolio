@@ -6,7 +6,6 @@ import WebList from '../components/WebList'
 import Start from '../components/Start'
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
-import MobileSticky from '../components/MobileSticky'
 
 export default function Page () {
     return (
