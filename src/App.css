@@ -246,10 +246,10 @@
     top: 165.5px;
   }
   .ssubmit{
-    margin-top: 40px;
+    margin-top: 42px;
   }
   .cur{
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
@@ -346,6 +346,7 @@
 }
 @media screen and (max-width: 520px) {
   .about {
+    padding: 2px;
     padding-bottom: 0px;
   }
   .centerr{

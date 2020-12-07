@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import {FaAlignJustify, FaArrowRight, FaHandPaper} from 'react-icons/fa'
 import logo from '../images/icons/coding_.png'
-import Jello from 'react-reveal/Jello';
 
 export default class NavBar extends Component {
     state={
@@ -14,9 +13,7 @@ export default class NavBar extends Component {
         });
     }
     onClicklogo = () => {
-        this.setState({
-            isOpen: false
-        });
+        window.scrollTo(0, 0);
     }
 
     render() {
