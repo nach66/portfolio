@@ -245,10 +245,10 @@
     font-size: 2.5rem;
   }.sform{
     left: 30vw;
-    top: 174px;
+    top: 165px;
   }
   .ssubmit{
-    margin-top: 35px;
+    margin-top: 30px;
   }
 }
 
@@ -345,7 +345,7 @@
 }
 @media screen and (max-width: 520px) {
   .about {
-    padding: 20px;
+    padding: 60px;
     padding-bottom: 0px;
   }
   .choose {
