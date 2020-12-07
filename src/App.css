@@ -346,13 +346,13 @@
 }
 @media screen and (max-width: 520px) {
   .about {
-    padding: 2px;
+    padding: 9px;
     padding-bottom: 0px;
   }
   .centerr{
   }
   .choose {
-    width: 390px;
+    width: 370px;
     height: 90px;
     background: url("./images/icons/coding_.png") no-repeat;
     background-size: contain;
