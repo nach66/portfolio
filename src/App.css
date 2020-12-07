@@ -6,10 +6,6 @@
   font-family: 'Felix007';
   src: local('Felix007'), url(./fonts/felix007/fonts/felix007-medium-webfont.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'Shuneet';
-  src: local('Shuneet'), url(./fonts/Shuneet/shuneet_medium_v2.otf) format('truetype');
-}
 * {
   font-family: 'felix007';
   padding: 0;
@@ -246,11 +242,14 @@
   }.banner h1 {
     font-size: 2.5rem;
   }.sform{
-    left: 29vw;
-    top: 165px;
+    left: 28.5vw;
+    top: 165.5px;
   }
   .ssubmit{
-    margin-top: 35px;
+    margin-top: 40px;
+  }
+  .cur{
+    font-size: 20px;
   }
 }
 
@@ -347,11 +346,9 @@
 }
 @media screen and (max-width: 520px) {
   .about {
-    padding: 1px;
     padding-bottom: 0px;
   }
   .centerr{
-    padding: 9px;
   }
   .choose {
     width: 390px;
@@ -668,15 +665,15 @@ figure.effect-chico:hover a {
 }
 @media screen and (min-width: 1170px) {
   .col {
-    padding-top: 165px;
-    padding-bottom: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
     grid-template-columns: 3fr 5fr;
   }
   .contact-sec {
     border-right: 1px groove var(--blue);
   }
   .icon-sec {
-    padding-top: 0px;
+    padding-top: 50px;
   } 
   .icon-align {
     margin-right: 15%;
