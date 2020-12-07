@@ -349,6 +349,9 @@
     padding: 20px;
     padding-bottom: 0px;
   }
+  .centerr{
+    padding: 40px;
+  }
   .choose {
     width: 390px;
     height: 90px;
@@ -357,6 +360,7 @@
     margin-top: 10px;
   }
 }
+
 .bf {
   padding-top: 30px;
   border-style: solid;
