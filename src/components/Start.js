@@ -10,7 +10,7 @@ export default function Start() {
                     <article>
                         <img src={a} alt="icon"/>
                     </article>
-                    <article>
+                    <article className="centerr">
                         <h3>אזזז... מאיפה מתחילים?</h3>
                         <h5>קודם כל נתאם פגישת היכרות בה נבין את הצרכים והרצונות שלכם.</h5>
                         <h5>זו לא חייבת להיות פגישה פיזית, בעידן הקורונה אפשר לעשות הכול גם בטלפון או בזום - </h5>
