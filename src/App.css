@@ -350,7 +350,7 @@
     padding-bottom: 0px;
   }
   .centerr{
-    width: 80%;
+    width: 75%;
     margin: auto;
   }
   .choose {
@@ -441,7 +441,7 @@
 }
 .weblist-center {
   padding-top: 20px;
-  width: 90vw;
+  width: 85vw;
   margin: auto;
   display: grid;
 }
@@ -681,6 +681,9 @@ figure.effect-chico:hover a {
   }
 }
 @media screen and (max-width: 520px) {
+  .col {
+    margin: auto;
+  }
   .icon-align {
     margin-right: 5%;
   }
@@ -688,7 +691,8 @@ figure.effect-chico:hover a {
     width: 95%;
   }
   .form-control {
-    width: 90%;
+    width: 95%;
+    margin-right: -7px;
   }
 }
 
