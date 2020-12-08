@@ -614,8 +614,10 @@ figure.effect-chico:hover a {
 .icon-align {
   margin-right: 10%;
 }
-@media screen and (max-width: 520px) {
-
+@media screen and (max-width: 480px) {
+  .icon-align {
+    margin-right: 5%;
+  }
   .gradient-border {
     width: 95%;
   }
