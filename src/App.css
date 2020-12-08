@@ -614,14 +614,6 @@ figure.effect-chico:hover a {
 .icon-align {
   margin-right: 10%;
 }
-@media screen and (max-width: 480px) {
-  .icon-align {
-    margin-right: 5%;
-  }
-  .gradient-border {
-    width: 95%;
-  }
-}
 
 /*2 columns*/
 .col {
@@ -688,6 +680,17 @@ figure.effect-chico:hover a {
   }
   .contact-icon{
     background: var(--mainWhite);
+  }
+}
+@media screen and (max-width: 480px) {
+  .icon-align {
+    margin-right: 5%;
+  }
+  .gradient-border {
+    width: 95%;
+  }
+  .form-control {
+    width: 95%;
   }
 }
 
