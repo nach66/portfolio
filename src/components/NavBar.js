@@ -24,7 +24,7 @@ export default class NavBar extends Component {
                 </Link>
                         <div className="nav-header">
                             <Link to="/" >                        
-                                <img src={logo} className="nav-logo" alt="logo"/>
+                                <img src={logo} onClick={this.onClicklogo} className="nav-logo" alt="logo"/>
                             </Link>
                             <button onClick={this.handleToggle} className="nav-btn">
                                 <FaAlignJustify className="nav-icon"/>

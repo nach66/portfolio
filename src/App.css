@@ -346,11 +346,11 @@
 }
 @media screen and (max-width: 520px) {
   .about {
-    padding: 15px;
+    padding: 2px;
     padding-bottom: 0px;
   }
   .centerr{
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
   .choose {
