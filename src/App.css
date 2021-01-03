@@ -14,7 +14,8 @@
 :root {
   --dback: #dbf3ef; /*צור קשר תיקון*/
   --lgreen: #6fba82; /*רקע תפריט*/
-  --primaryColor: #ffbc85;
+  --primaryColor: #ffbc85; /*כפתור באנר*/
+  --secColor: wheat; 
   --mainWhite: white;
   --mainBlack: #222;
   --back: #83d1c548;
@@ -28,7 +29,7 @@
 
 .parallax {
   /* The image used */
-  background-image: url("./images/כותרת/pp.png");
+  background-image: url("./images/כותרת/p.png");
 
   /* Set a specific height */
   height: 500px;
@@ -48,7 +49,7 @@
 .pic{
   width: 96vw;
   height: 550px;
-  background: url("./images/כותרת/pp.png") no-repeat;
+  background: url("./images/כותרת/p.png") no-repeat;
   background-position: left;
   background-size: 70%;
   margin-top: 35px;
@@ -96,7 +97,6 @@
   width: 90%;
   height: 100%;
   font-weight:800;
-  font-size: xx-large;
   font-family: 'felix007';
   border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
   background: var(--primaryColor);
@@ -105,6 +105,7 @@
   color: var(--dback);
   cursor: pointer;
   padding: 5px;
+  font-size: xx-large;
   padding-top: 7px;
   margin-top: 17px;
 }
@@ -124,7 +125,10 @@
   }
   .ssubmit{
     width: 85%;
+    height: 40px;
     margin-top: 5px;
+    padding-top: 0px;
+    font-size: x-large;
   }
 }
 @media screen and (max-width: 970px) {
@@ -148,7 +152,6 @@
   }
   .ssubmit{
     width: 85%;
-    font-size: x-large;
     margin-top: 10px;
   }
 }
@@ -179,7 +182,8 @@
   }
   .ssubmit{
     width: 95%;
-    margin-top: 11px;
+    font-size: larger;
+    padding-bottom: 40px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -203,10 +207,8 @@
     margin: 2px;
   }
   .ssubmit{
-    font-size: larger;
-    margin-top: 10px;
-    padding-top: 2px;
-    height: 35px;
+    height: 38px;
+    padding-bottom: 0px;
   }
   .cur{
     font-size: 25px;
@@ -281,7 +283,7 @@
   color: var(--lgreen);
   padding: 1.2rem 0.9rem 0 0.9rem;
   /* border-radius: 50%; */
-  border: 2px solid wheat;
+  border: 2px solid var(--secColor);
   border-radius: 355px 55px 355px 55px/55px 355px 55px 355px;
 }
 .icon-services :hover{
@@ -623,7 +625,7 @@ figure.effect-chico:hover a {
   padding-top: 70px;
   padding-bottom: 1rem;
   background: var(--back);
-  border-bottom: 1px groove var(--primaryColor);
+  border-bottom: 1px groove var(--secColor);
 }
 .contact-sec {
   padding: 3rem;
@@ -775,7 +777,7 @@ div{
   width: 0%;
 }
 .sidenav a {
-  color: wheat;
+  color: var(--secColor);
   font-family: 'horev';
   text-decoration: none;
   letter-spacing: 3px;
@@ -791,7 +793,7 @@ div{
 }
 .sidenav .closebtn {
   position: absolute;
-  color: wheat;
+  color: var(--secColor);
   cursor: pointer;
   top: 0;
   font-size: 36px;
@@ -807,7 +809,7 @@ div{
   left: 0;
   top: 0;
   justify-content: space-between;
-  background: linear-gradient(to bottom, wheat 95%, var(--dback) 100%);
+  background: linear-gradient(to bottom, var(--secColor) 95%, var(--dback) 100%);
 }
 /* כפתור התפריט*/
 .nav-btn {
@@ -825,7 +827,7 @@ div{
   color:var(--blue);
 }
 .secicon {
-  color:var(--primaryColor);
+  color:var(--secColor);
   background-color: rgba(109, 154, 180, 0.589);
   border: 2px solid var(--mainWhite);
   border-radius: 50%;
