@@ -18,7 +18,7 @@ export default class Hero extends React.Component {
                 <section className="void">
                     <div className="pic">
                         <div className="banner">
-                            <h1>רוצים אתר מהמם?</h1>
+                            <h1>העסק זקוק לאתר מהמם?</h1>
                         </div>
 
                         <form className="sform" method="POST"
@@ -43,7 +43,7 @@ export default class Hero extends React.Component {
                                 
                                 {status === "SUCCESS" ? 
                                     <><br/><br/><br/><br/><h2>תודה!</h2></> : 
-                                    <button type="submit" className="ssubmit">
+                                    <button className="submit">
                                         <ReactTypingEffect
                                             typingDelay="100"
                                             speed="100"
@@ -59,6 +59,7 @@ export default class Hero extends React.Component {
                         </form>
                     </div>   
                 </section>
+                <div className="curved"></div>
             </>
         );
     }

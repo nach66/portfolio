@@ -16,52 +16,47 @@ export default class ContactForm extends React.Component {
         const { status } = this.state;
         return (
             <>
-                <div className="spikes"/>
                 <div className="col">
-
                     <Fade right>
                         <article className="icon-sec">
-                            <div class="gradient-border">
-                                <h2 style={{textAlign: 'center', paddingTop:'30px'}}>צרו קשר</h2>              
+                                <h1>במרחק לחיצה מכאן</h1>              
                                 <div className="icon-align">
-
-                                    <ReactWhatsapp className="wtsp" 
-                                        number="+972-556617145" 
-                                        style={{color:'var(--grey)', textDecoration: 'underline'}}
-                                        message="היי, אשמח להתעניין">
-                                            <FaWhatsapp 
-                                                className="contact-icon" 
-                                                style={{color:'rgb(7, 161, 58)'}}/>
+                                    <a href="https://api.whatsapp.com/send?phone=+972556617145" rel="noopener noreferrer" target="_blank">
+                                        <article style={{display: 'inline-block'}}>
+                                                <FaWhatsapp className="contact-icon"
+                                                    style={{color:'rgb(7, 161, 58)'}}/>                                            
                                             דברו איתי בוואטספ
-                                    </ReactWhatsapp>
+                                        </article>
+                                    </a> 
 
-                                    <a href="tel:055-6617145">
-                                        <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
+                                    <a href="tel:055-6617145" rel="noopener noreferrer">
+                                        <article style={{display: 'inline-block'}}>
                                                 <FaPhone className="contact-icon"/>
-                                                <a href="tel:055-6617145">055-6617145</a>
-                                            </article>
+                                                055-6617145
+                                        </article>
                                     </a>                        
 
-                                    <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer" target="_blank">
-                                        <article style={{display: 'inline-block',  textDecoration: 'underline'}}>
+                                    <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer">
+                                        <article style={{display: 'inline-block'}}>
                                                 <FaEnvelope className="contact-icon"
-                                                style={{color:'var(--primaryColor)'}}/>
-                                                <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer" target="_blank">nach666@gmail.com</a>
-                                            </article>
+                                                    style={{color:'var(--primaryColor)'}}/>
+                                                nach666@gmail.com
+                                        </article>
                                     </a>
                                 </div>
-                            </div>
                         </article>
-                        </Fade>
-                        <Fade left>
-                    <article className="contact-sec">
-                                <FaMailBulk style={{
+                    </Fade>
+
+                    <Fade left>
+                        <article className="contact-sec">
+                            <h2 style={{textAlign: 'center', paddingTop:'30px'}}>צרו קשר</h2>
+                            <FaMailBulk style={{
                                     marginBottom: '4px',
                                     fontSize: '20px',
                                     color: 'var(--lgreen)'
-                                }}/>
+                            }}/>
                                 
-                                <form className="cform" method="POST"
+                            <form className="cform" method="POST"
                                     onSubmit={this.submitForm}
                                     action="https://formspree.io/f/xeqpljye">
                                     <input
@@ -77,11 +72,11 @@ export default class ContactForm extends React.Component {
                                     <textarea
                                         name="message"
                                                         className="form-control long"
-                                                        rows="8"
+                                                        rows="2"
                                                         placeholder="רציתי לשאול.."/>
-                                    {status === "SUCCESS" ? <h2>תודה!</h2> : <button type="submit" className="s ssubmit">אשמח שתחזרי אליי</button>}
+                                    {status === "SUCCESS" ? <h2>תודה!</h2> : <button type="submit" className="s submit">אשמח אם תחזרי אליי :)</button>}
                                     {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
-                                </form>
+                            </form>
                         </article>
                     </Fade>
                 </div>
