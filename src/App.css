@@ -929,6 +929,7 @@ figure.effect-chico:hover a {
 .empty-blue {
   height: 50px;
   background: var(--back);
+  margin: auto;
 }
 
 .puzzle{
