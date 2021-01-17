@@ -319,14 +319,14 @@ div{
     /* width: 99vw; */
   }.banner {
     padding-top: 1px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     /* margin-top: 20px; */
   }.banner h1 {
       padding-top: 0px;
       font-size: 2.5rem;
   }.sform{
     left: 28.5vw;
-    top: 175.5px;
+    top: 185.5px;
   }
   .submit{
     margin-top: 42px;
