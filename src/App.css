@@ -313,13 +313,14 @@ div{
 }
 @media screen and (max-width: 480px) {
   .void{
-    height: 290px;
+    height: 300px;
   }.pic{
-    height: 270px;
+    height: 300px;
     /* width: 99vw; */
   }.banner {
     padding-top: 1px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
   }.banner h1 {
     font-size: 2.5rem;
   }.sform{
@@ -468,6 +469,15 @@ div{
   grid-row-gap: 20px;
   grid-column-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
+}
+@media screen and (max-width: 620px) {
+  .weblist-center {
+    width: 95vw;
+  }
+  .websec{
+  padding: 10px 9px 0 9px;
+  margin-right: 0px;
+  }
 }
 .ltr{
   direction: ltr;
