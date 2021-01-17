@@ -326,14 +326,14 @@ div{
       font-size: 2.5rem;
   }.sform{
     left: 28.5vw;
-    top: 215px;
+    top: 210px;
   }
   .submit{
     margin-top: 42px;
   }
   .sform-control {
     margin: 0px;
-    padding: 1px;
+    padding: 0px;
   }
 }
 
