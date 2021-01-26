@@ -1,6 +1,6 @@
 .parallax {
   /* The image used */
-  background-image: url("./images/כותרת/newlap.png");
+  background-image: url("./images/newlap.png");
 
   /* Set a specific height */
   height: 500px;
@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 @font-face {
   font-family: 'horev';
   src: local('horev'), url(./fonts/horev/horev/horevclm-heavy-webfont.ttf) format('truetype');
@@ -34,6 +35,34 @@
   --lightShadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
   --darkShadow: 2px 1px 10px 0px rgba(0, 0, 0, 0.5);
   --box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+}
+
+.languegus {
+  position: fixed;
+  top: 15px;
+  left: 46vw;
+  z-index: 1;
+}
+@media screen and (min-width: 880px) {
+  .languegus {
+    left: 2%;
+  }
+}
+.lang{
+  direction: ltr;
+}
+.lang a{
+  font-size: large !important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
+}
+.lang h1 {
+  line-height: 1.2 !important;
+  font-size: 3rem !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.lang h2, .lang h3 {
+  font-size: x-large !important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
 }
 
 h1 {
@@ -120,7 +149,7 @@ div{
 .pic{
   width: 96vw;
   height: 550px;
-  background: url("./images/כותרת/newlap.png") no-repeat;
+  background: url("./images/newlap.png") no-repeat;
   background-position: left;
   background-size: 70%;
   margin-top: 35px;
@@ -172,7 +201,7 @@ div{
   font-weight: 600;
   font-size: x-large;
   letter-spacing: 4px;
-  font-family: 'felix007';
+  /* font-family: 'felix007'; */
   color: var(--grey);
   box-shadow: var(--lightShadow);
   background: var(--primaryColor);
@@ -198,6 +227,9 @@ div{
   }
 }
 @media screen and (max-width: 970px) {
+  .lang h1 {
+    font-size: 2rem !important;
+    }
   .void{
     height: 350px;
   } .pic {
@@ -263,6 +295,10 @@ div{
   }
 }
 @media screen and (max-width: 680px) {
+  .lang h1 {
+    line-height: 1 !important;
+    font-size: 1.2rem !important;
+  }
   .void{
     height: 280px;
   } .pic {
@@ -316,7 +352,7 @@ div{
     height: 300px;
   }.pic{
     height: 300px;
-    /* width: 99vw; */
+    width: 150%;
   }.banner {
     padding-top: 1px;
     margin-bottom: 20px;
@@ -390,7 +426,7 @@ div{
   height: 120px;
   margin: auto;
   padding-bottom: 60px;
-  background: url("./images/fw.png") no-repeat;
+  background: url("./images/focus.png") no-repeat;
   background-size: contain;
 }
 @media screen and (min-width: 1050px) {
@@ -408,13 +444,16 @@ div{
     bottom: 30px;
   }
   .choose {
+    margin: 15% 15%;
     width: 300px;
     height: 300px;
-    background: url("./images/icons/coding_.png") no-repeat;
+    background: url("./images/coding_.png") no-repeat;
     background-size: contain;
     position: relative;
-    right: 150px;
   }
+}
+.centerr{
+  width: 90%;
 }
 @media screen and (max-width: 520px) {
   .about {
@@ -427,8 +466,6 @@ div{
   .choose {
     width: 370px;
     height: 90px;
-    background: url("./images/icons/coding_.png") no-repeat;
-    background-size: contain;
     margin-top: 10px;
   }
 }
@@ -549,7 +586,7 @@ ol.gradient-list > li + li {
 	float: right;
 	overflow: hidden;
 	margin: 10px auto;
-	width: 100%;
+	/* width: 100%; */
 	max-width: 100%;
 	max-height: 390px;
 	background: #3085a3;
@@ -605,7 +642,7 @@ figure.effect-chico a {
   color: var(--mainWhite);
   margin: 0 auto;
   font-size: 2rem;
-  padding: 25% 0 20px 0;
+  padding: 110px 0 20px 0;
   transform: scale(1.5);
 }
 /*המסגרת*/
@@ -695,7 +732,7 @@ figure.effect-chico:hover a {
 .contact-icon{
   margin: 30px;
   margin-bottom: -17px;
-  padding: 1px 25px 12px 0px;
+  padding: 1px 15px 12px 5px;
   font-size: 1.2rem;
   color: #3085a3;
 }
@@ -737,6 +774,7 @@ figure.effect-chico:hover a {
   margin-top: 7px;
   padding: 0 35px;
   width: auto;
+  font-size: larger;
 }
 @media screen and (min-width: 1000px) {
   .col {
@@ -897,10 +935,10 @@ figure.effect-chico:hover a {
   }
   /* כפתורי תפריט */
   .links a {
-    width: 130px;
+    /* width: 220px; */
     font-weight: 500;
     font-size: 1.7rem;
-    padding: 2px 12px;
+    padding: 2px 1.5rem;
     color: var(--grey);
     text-decoration: none;
   }
@@ -953,6 +991,10 @@ figure.effect-chico:hover a {
 .empty-blue {
   height: 50px;
   background: var(--back);
+  margin: auto;
+}
+.empty-white {
+  height: 150px;
   margin: auto;
 }
 

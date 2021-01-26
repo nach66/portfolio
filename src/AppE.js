@@ -1,15 +1,15 @@
 import React from "react";
 import {Route, Switch} from "react-router-dom";
-import NavBar from "./hebrew/components/NavBar";
-import Home from "./hebrew/pages/Page";
-import Aboutus from "./hebrew/pages/About";
-import Portfolio from "./hebrew/pages/Port";
-import Services from "./hebrew/pages/Services";
-import Contact from "./hebrew/pages/Contact";
-import Error from "./hebrew/pages/Error";
+import NavBar from "./english/components/NavBar";
+import Home from "./english/pages/Page";
+import Aboutus from "./english/pages/About";
+import Portfolio from "./english/pages/Port";
+import Services from "./english/pages/Services";
+import Contact from "./english/pages/Contact";
+import Error from "./english/pages/Error";
 import "./App.css";
 
-function App(props) {
+function AppE(props) {
     let { locale } = props
     let urlLocale = props.location.pathname.substring(1, 3)
     if ( locale !== urlLocale ) {
@@ -46,4 +46,4 @@ function App(props) {
     );
 }
 
-export default App;
+export default AppE;
