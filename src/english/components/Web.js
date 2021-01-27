@@ -11,13 +11,13 @@ export default function Web({reco}) {
         <>
             <section className={ltr? "ltr websec " : "websec" }>
                 <Fade bottom>            
-                    <article>
+                    <article className="lang">
                     <DividerWithText><h2>{title}</h2></DividerWithText>                    
-                        <h6>{text}</h6>
+                        <h6 className="lang">{text}</h6>
                     </article>
 
                     <article className="grid">
-                        <ol class="gradient-list">{noteItems}</ol>
+                        <ol class="gradient-list lang">{noteItems}</ol>
                         {/* <ul>{noteItems}</ul> */}
                     </article>
                 </Fade>

@@ -43,7 +43,7 @@ export default class NavBar extends Component {
                     <div className="nav-center" >
 
                         <div className="nav-header">
-                            <Link to="/he/" >                        
+                            <Link to="/en/" >                        
                                 <img src={logo} onClick={this.onClicklogo} className="nav-logo" alt="logo"/>
                             </Link>
                             <button onClick={this.handleToggle} className="nav-btn">

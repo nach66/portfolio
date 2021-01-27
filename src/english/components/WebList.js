@@ -6,7 +6,7 @@ export default class WebList extends Component {
         webs: [
                 {
                     ltr: false,
-                    title:"דף נחיתה",
+                    title:"landing page",
                     list: [
                         'עיצוב אישי ומותאם לאופי העסק',
                         'Google Analytics, Facebook Pixel',
@@ -14,11 +14,11 @@ export default class WebList extends Component {
                         'טופס לידים מתקדם',
                         'התאמה למובייל'
                     ],
-                    text:"מנחית את הלקוח ישר למרכז העניינים: מה אנחנו מציעים, למה כדאי, ואיפה נרשמים. דף הנחיתה הינו אתר בעל עמוד אחד בלבד, מעוצב וממוקד היטב. לעומת אתר רגיל בו אפשר ללכת לאיבוד בין כל התוכן, כאן נעזור ללקוח לגשת אלינו במינימום מאמץ של שיטוט וקריאה. ממש כמו שעולה מהשם שלו, זהו מסלול שנוח לנחות בו מקישורי השיווק שלכם ברחבי האינטרנט. כאן הלקוח ישר ירגיש שמצא את מה שחיפש. התוכן יהיה שיווקי ומניע לפעולה, והמטרה תהיה ליצור לידים (פניות) על ידי טופס מקוון להשארת פרטים."
+                    text:"Land the customer straight at the center of things: what we offer, why it's worthwhile, and where to sign up. Just as its name implies, this is a convenient place to land from your links across the internet. The content will be marketing and actionable, and the goal will be to generate leads (inquiries) by an online form for leaving details. The landing page is a site with only one page, well-designed and focused. Compared to a regular site where you can get lost among all the content, here we will help the customer access us with a minimum of effort of browsing and reading."
                 },
                 {
                     ltr: true,
-                    title:"אתר תדמית",
+                    title:"portfolio site",
                     list: [
                         'עמודי תוכן שונים: אודות, גלריה, צור קשר, ועוד',
                         'הדרכה פרטנית לתפעול המערכת',
@@ -27,22 +27,22 @@ export default class WebList extends Component {
                         'טופס לידים מתקדם',
                         'התאמה למובייל'
                     ],
-                    text:"כרטיס ביקור של העסק, ואפילו מעין ביקור וירטואלי בו: מי אנחנו, מה אנחנו עושים, איך זה נראה וכמה כדאי. באתר התדמית נכתוב את כל המידע הרלוונטי ללקוח כדי ללמוד עלינו, להתרשם וליצור קשר. האתר צריך להיות מקיף אך ענייני, להעביר מעט מהאווירה שאנחנו מעוניינים ליצור באמצעות העיצוב והתוכן יחד, ולגרום לגולשים להישאר בו ולרצות לדעת עלינו יותר."
+                    text:"A business card and even a virtual visit: who we are, what we do and how much its worthy. On those sites we will write all the relevant information about us for the customers. The site should be comprehensive but relevant. It should convey a little of the atmosphere we are interested in creating through design and content together, and make customers want to know more about us."
                 },
                 {
                     ltr: false,
-                    title:"חנות",
+                    title:"shop",
                     list: [
                         'כל מה שיש באתר התדמית, ובנוסף -',
                         'חנות מעוצבת לחווית קניה שמשאירה טעם של עוד',
                         'מערכת לעדכון, הוספה והסרה של מוצרים',
                         'חיבור לסליקת אשראי ולהפקת דוחות',
                     ],
-                    text:"בעולם של היום ובעיקר בשנת הקורונה, עסקים רבים מעוניינים למכור אונליין. מכירה כזו, במקום או בנוסף לחנות פיזית – מגדילה משמעותית את העסקאות וחוסכת בהתעסקות וגם בעלויות. אתר כזה צריך להיות בנוי בצורה מקצועית, מותאמת לנייד, ובעלת ביצועים מהירים. נדאג גם לעיצוב מותאם, מעניין ומניע לפעולה, שיעשה לגולשים חשק לרכוש ולרכוש!"
+                    text:"In today's world and especially in Corona times, many businesses are interested in selling online. Such a sale, instead of or in addition to a physical store - significantly increases the transactions and saves both fuss and costs. Such a site should be professionally built, mobile-friendly, and fast-performing. We will add to this an interesting customized design and motivation for action, which will make customers want to buy more and more!"
                 },
                 {
                     ltr: true,
-                    title:"שיפוצים",
+                    title:"Renovations",
                     list: [
                         'הוספת עמודים',
                         'שינוי עיצוב וסגנון',
@@ -50,7 +50,7 @@ export default class WebList extends Component {
                         'פיתוח תוספים לוורדפרס',
                         'שיפור נוכחות במנועי חיפוש'
                     ],
-                    text:"כבר יש לכם אתר, אבל הוא עדיין לא מושלם? באלכם להוסיף אליו משהו מסוים שראיתם באתר אחר ורציתם גם? אני אעזור לו להפוך להיות האתר שחלמתם עליו."
+                    text:"Have a website, but it's not perfect yet? Want to add something you saw on another site? I'll help it become the site you dreamed of."
                 }
                 
         ]
@@ -60,8 +60,10 @@ export default class WebList extends Component {
         return (
             <>
                 <div className="bf"/>
-                <section className="weblist">
-                    <h1>אז מה בתפריט?</h1>
+                <section className="weblist lang">
+                    <h1>
+                    ?So what's on the menu
+                    </h1>
                     <div className="weblist-center">
                         {this.state.webs.map(web => {
                             return <Web key={web.id} reco={web}/>;
