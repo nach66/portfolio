@@ -16,17 +16,14 @@ export default class Hero extends React.Component {
         return (
             <>
                 <section className="void">
-                    <div className="pic">
+                    <div className="pic en_pic">
                         <div className="banner lang">
-                            <h1 style={{
-                                textAlign: 'left',
-                                direction: 'ltr'  
-                            }}>
+                            <h1 style={{ textAlign: 'left', direction: 'ltr' }}>
                                 Does your business need a stunning website?
                             </h1>
                         </div>
 
-                        <form className="sform lang" method="POST"
+                        <form className="sform en_sform lang" method="POST"
                             onSubmit={this.submitForm}
                             action="https://formspree.io/f/xeqpljye"
                         >

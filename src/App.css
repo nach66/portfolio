@@ -146,7 +146,10 @@ div{
   background: url("./images/newlap.png") no-repeat;
   background-position: left;
   background-size: 70%;
-  margin-top: 35px;
+}
+.en_pic {
+    direction: ltr;
+    background-position: right !important;
 }
 /* Banner */
 .banner h1 {
@@ -167,10 +170,14 @@ div{
 .sform{
   position: absolute;
   left: 23vw;
-  top: 228px;
+  top: 196px;
   width: 27vw;
   text-align: center;
 }
+.en_sform{
+  left: 51vw; 
+}
+
 .sform input{
   border: 3px solid var(--grey);
   border-radius: 5px;
@@ -209,8 +216,11 @@ div{
 @media screen and (max-width: 1170px) {
   .sform{
     left: 21vw;
-    top: 240px;
+    top: 206px;
     width: 30vw;
+  }
+  .en_sform{
+    left: 49.5vw; 
   }
   .submit{
     width: 85%;
@@ -225,22 +235,26 @@ div{
     font-size: 2rem !important;
     }
   .void{
-    height: 350px;
-  } .pic {
-    margin-top: 20px;
-    height: 500px;
+    height: 370px;
+  } 
+  .pic {
+    margin-top: -40px;
+    height: 560px;
     width: 98%;
   }
   .banner h1 {
-    padding-top: 35px;
+    padding-top: 65px;
     font-size: 5rem;
   }
   .banner{
     padding-right: 10px;
   }
+  .en_sform{
+    left: 48vw !important; 
+  }
   .sform{
     left: 19.3vw;
-    top: 203px;
+    top: 173px;
     width: 32vw;
   }
   .sform-control {
@@ -257,30 +271,33 @@ div{
   }
 }
 @media screen and (max-width: 890px) {
+  .en_pic {
+    direction: rtl;
+  }
   .curved {
     height: 5vh;
   }
   .void{
-    height: 370px;
+    height: 410px;
   } .pic {
     background-position: right;
     margin-right: 10px;
     margin-top: 90px;
-    height: 488px;
+    height: 598px;
     width: 135vw;
   }
   .banner h1 {
-    padding-top: 40px;
-    text-align: center;
+    text-align: center !important;
     font-size: 4rem;
   }
   .banner {
+    margin-top: -70px;
     padding-top: 0px;
     width: 70%;
   }
   .sform{
-    left: 30vw;
-    top: 270px;
+    left: 30.5vw !important;
+    top: 255px;
     width: 37vw;
   }
   .submit{
@@ -294,20 +311,19 @@ div{
     font-size: 1.2rem !important;
   }
   .void{
-    height: 280px;
+    height: 300px;
   } .pic {
     margin-right: 3vw;
     margin-top: 90px;
-    height: 380px;
-    width: 130vw;
+    height: 440px;
+    width: 134vw;
   }
   .banner h1 {
-    padding-top: 30px;
     font-size: 3rem;
   }
   .sform{
-    left: 29vw;
-    top: 222px;
+    left: 28vw !important;
+    top: 183px;
     width: 39vw;
   }
   .sform input{
@@ -322,20 +338,23 @@ div{
 }
 @media screen and (max-width: 600px) {
   .void{
-    height: 300px;
-  }.pic{
-    width: 138%;
     height: 350px;
+  }.pic{
+    width: 140%;
+    height: 440px;
     margin-right: 1%;
   }
   .sform input{
     height: 19px;
     margin: 3px;
   }
+  .banner{
+    padding-top: 7px;
+  }
   .sform{
     width: 43vw;
-    left: 27vw;
-    top: 223px;
+    left: 26.5vw !important;
+    top: 197px;
   }.submit{
     margin-top: 50px;
     width: 100%;
@@ -355,7 +374,7 @@ div{
       padding-top: 0px;
       font-size: 2.5rem;
   }.sform{
-    left: 28.5vw;
+    left: 28.5vw !important;
     top: 200px;
   }
   .submit{
