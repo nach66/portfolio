@@ -9,7 +9,7 @@ export default function Web({reco}) {
     );
     return (
         <>
-            <section className={ltr? "ltr websec " : "websec" }>
+            <section className={ltr? "websec " : "ltr websec" }>
                 <Fade bottom>            
                     <article className="lang">
                     <DividerWithText><h2>{title}</h2></DividerWithText>                    
@@ -17,7 +17,7 @@ export default function Web({reco}) {
                     </article>
 
                     <article className="grid">
-                        <ol class="gradient-list lang">{noteItems}</ol>
+                        <ol class="gradient-e">{noteItems}</ol>
                         {/* <ul>{noteItems}</ul> */}
                     </article>
                 </Fade>
