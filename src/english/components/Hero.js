@@ -31,17 +31,17 @@ export default class Hero extends React.Component {
                                     type="text"
                                                 name="Name"
                                                 className="sform-control"
-                                                placeholder="Name"/>
+                                                placeholder="Name:"/>
                                 <input
                                     type="phone"
                                                 name="phone"
                                                 className="sform-control"
-                                                placeholder="Phone"/>
+                                                placeholder="Phone:"/>
                                 <input
                                     type="email"
                                                 name="email"
                                                 className="sform-control"
-                                                placeholder="Email"/>
+                                                placeholder="Email:"/>
                                 
                                 {status === "SUCCESS" ? 
                                     <><br/><br/><br/><br/><h2>תודה!</h2></> : 
