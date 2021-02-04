@@ -362,22 +362,21 @@ div{
 }
 @media screen and (max-width: 500px) {
   .void{
-    height: 340px;
+    height: 345px;
   }.pic{
     width: 190wv;
-    /* height: 440px; */
     background-position: right;
   } .sform input{
-    height: 11px;
+    height: 13px;
     margin: 1px;
   } .banner{
     padding-top: 1px;
   } .sform{
     width: 43vw;
-    left: 26.5vw !important;
-    top: 209px;
+    left: 27vw !important;
+    top: 215px;
   } .submit{
-    margin-top: 50px;
+    margin-top: 60px;
     width: 100%;
   }
 }
