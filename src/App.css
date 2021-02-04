@@ -49,18 +49,18 @@
 .lang{
   direction: ltr;
 }
-.lang a{
+.lang a, .lang button {
   font-size: large !important;
-  font-family:'Yusei_Magic';
+  font-family:'Yusei_Magic' !important;
 }
 .lang h1 {
   line-height: 3.3rem !important;
   font-size: 3rem !important;
-  font-family:'Yusei_Magic';
+  font-family:'Yusei_Magic' !important;
 }
 .lang h2, .lang h3 {
   font-size: x-large !important;
-  font-family:'Yusei_Magic';
+  font-family:'Yusei_Magic' !important;
 }
 
 h1 {
@@ -385,8 +385,8 @@ div{
     padding-top: 1px;
   } .sform{
     width: 43vw;
-    left: 29vw !important;
-    top: 211px;
+    left: 28vw !important;
+    top: 213px;
   } .submit{
     margin-top: 55px;
     width: 100%;
