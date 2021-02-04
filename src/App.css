@@ -374,7 +374,7 @@ div{
 }
 @media screen and (max-width: 500px) {
   .void{
-    height: 405px;
+    height: 415px;
   }.pic{
     height: 630px;
   }.sform input{
@@ -385,8 +385,8 @@ div{
     padding-top: 1px;
   } .sform{
     width: 43vw;
-    left: 31vw !important;
-    top: 202px;
+    left: 32vw !important;
+    top: 205px;
   } .submit{
     margin-top: 55px;
     width: 100%;
