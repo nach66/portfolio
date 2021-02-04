@@ -376,7 +376,7 @@ div{
   .void{
     height: 415px;
   }.pic{
-    height: 600px;
+    height: 630px;
   }.sform input{
     height: 14px;
     margin: 1px;
@@ -385,10 +385,10 @@ div{
     padding-top: 1px;
   } .sform{
     width: 43vw;
-    left: 27vw !important;
+    left: 28vw !important;
     top: 200px;
   } .submit{
-    margin-top: 55px;
+    margin-top: 50px;
     width: 100%;
   }
 }
