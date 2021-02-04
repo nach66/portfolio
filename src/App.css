@@ -360,29 +360,28 @@ div{
     width: 100%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .void{
-    height: 300px;
+    height: 340px;
   }.pic{
-    height: 300px;
-    width: 150%;
-  }.banner {
-    padding-top: 1px;
-    margin-bottom: 20px;
-    /* margin-top: 20px; */
-  }.banner h1 {
-      padding-top: 0px;
-      font-size: 2.5rem;
-  }.sform{
-    left: 28.5vw !important;
-    top: 200px;
+    width: 140%;
+    height: 440px;
+    margin-right: 1%;
   }
-  .submit{
-    margin-top: 42px;
+  .sform input{
+    height: 19px;
+    margin: 3px;
   }
-  .sform-control {
-    margin: 0px;
-    padding: 0px;
+  .banner{
+    padding-top: 15px;
+  }
+  .sform{
+    width: 43vw;
+    left: 26.5vw !important;
+    top: 197px;
+  }.submit{
+    margin-top: 50px;
+    width: 100%;
   }
 }
 
