@@ -364,22 +364,19 @@ div{
   .void{
     height: 340px;
   }.pic{
-    width: 100wv;
+    width: 190wv;
     /* height: 440px; */
     background-position: right;
-  }
-  .sform input{
-    height: 19px;
-    margin: 3px;
-  }
-  .banner{
-    /* padding-top: 10px; */
-  }
-  .sform{
+  } .sform input{
+    height: 11px;
+    margin: 1px;
+  } .banner{
+    padding-top: 1px;
+  } .sform{
     width: 43vw;
     left: 26.5vw !important;
-    top: 197px;
-  }.submit{
+    top: 209px;
+  } .submit{
     margin-top: 50px;
     width: 100%;
   }
