@@ -9,9 +9,9 @@ export default class Portfolio extends Component {
         state={
             port: [
                 {
-                    icon:a,
-                    link:"https://petisitti.netlify.app/",
-                    title:"peti-sitter"
+                    icon:e,
+                    link:"https://noamacrame.com/",
+                    title:"חנות לתכשיטי מקרמה"
                 },
                 {
                     icon:b,
@@ -21,18 +21,18 @@ export default class Portfolio extends Component {
                 {
                     icon:c,
                     link:"https://very-happy-flowers.com/",
-                    title:"פרחים משמחים"
-                },
-                {
-                    icon:g,
-                    link:"https://very-happy-flowers.com/",
-                    title:"wall-expert"
+                    title:"חנות פרחים"
                 },
                 {
                     icon:d,
-                    link:"https://very-happy-flowers.com/",
-                    title:"תכשיטי מקרמה"
+                    link:"https://wordpress-531388-1693511.cloudwaysapps.com/",
+                    title:"חנות טפטים"
                 },
+                {
+                    icon:a,
+                    link:"https://petisitti.netlify.app/",
+                    title:"Pet sitter - דף נחיתה"
+                }
             ]
         }
         render () {

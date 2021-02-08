@@ -34,7 +34,8 @@
   z-index: 1;
 }
 .languegus img {
-  border-radius: 1px;
+  width: 20px;
+  border-radius: 2px;
 }
 .languegus img:hover {
   cursor: pointer;
@@ -834,7 +835,7 @@ figure.effect-chico:hover a {
   background: var(--lgreen);
   color: var(--mainWhite);
   margin-top: 7px;
-  padding: 0 25px !important;
+  padding: 3px 25px !important;
   width: auto;
   font-size: larger;
 }
