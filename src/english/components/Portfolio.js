@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import a from '../../images/reco/pet.png'
+import a from '../../images/reco/noam.png'
 import b from '../../images/reco/hostel.png'
 import c from '../../images/reco/flowers.png'
 import d from '../../images/reco/walll.png'
-import e from '../../images/reco/noam.png'
+import e from '../../images/reco/pet.png'
 
 export default class Portfolio extends Component {
         state={
             port: [
                 {
-                    icon:e,
+                    icon:a,
                     link:"https://noamacrame.com/",
                     title:"Noam Macrame"
                 },
@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
                     title:"Wall express"
                 },
                 {
-                    icon:a,
+                    icon:e,
                     link:"https://petisitti.netlify.app/",
                     title:"Peti sitter"
                 },
