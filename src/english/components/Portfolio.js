@@ -8,6 +8,7 @@ import port from '../../images/reco/port1.png'
 import door from '../../images/reco/door.png'
 import peace from '../../images/reco/peace.png'
 import zar from '../../images/reco/zar.png'
+import DividerWithText from './DividerWithText'
 
 export default class Portfolio extends Component {
         state={
@@ -72,7 +73,8 @@ export default class Portfolio extends Component {
                         </h2>
 
                         <br/>
-                        <h4>Wordpess websites</h4>
+
+                        <DividerWithText><h4>Wordpess websites</h4></DividerWithText>
                         <div className="services-center">
                             {this.state.wordpress.map(
                                 (item, index) => {return (
@@ -93,8 +95,7 @@ export default class Portfolio extends Component {
                         </div>
                         <br/>
 
-
-                        <h4>created with React</h4>
+                        <DividerWithText><h4>created with React</h4></DividerWithText>
                         <div className="services-center">
                             {this.state.react.map(
                                 (item, index) => {return (
