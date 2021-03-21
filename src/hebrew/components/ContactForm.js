@@ -78,6 +78,7 @@ export default class ContactForm extends React.Component {
                             </form>
                         </article>
                     </Fade>
+                
                 </div>
             </>
         );

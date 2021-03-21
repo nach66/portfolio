@@ -785,7 +785,7 @@ figure.effect-chico:hover a {
   padding-top: 3rem;
   padding-bottom: 1rem;
   background: var(--back);
-  border-bottom: 1px groove var(--secColor);
+  /* border-bottom: 1px groove var(--secColor); */
 }
 /*icons*/
 .icon-align {
@@ -818,7 +818,7 @@ figure.effect-chico:hover a {
   padding: 8px;
   padding-right: 20px;
   box-shadow: var(--lightShadow);
-  color: var(--mainWhite);
+  color: var(--grey);
   border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
 }
 .form-control {
@@ -832,8 +832,7 @@ figure.effect-chico:hover a {
   padding-right: 20px;
   border-radius: 35px 355px 35px 355px/355px 35px 355px 35px;
   box-shadow: var(--lightShadow);
-  color: var(--mainWhite);
-  /* background: var(--primaryColor); */
+  color: var(--grey);
 }
 .s{
   background: var(--lgreen);

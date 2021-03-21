@@ -8,8 +8,10 @@ export default function Contact(props) {
     return (
         <>
             <LangButtons {...props} />                
-            <Start/>
+            <br/>
+            <div className="saf"/>
             <ContactForm/>
+            <div className="sbf"/>
             <Footer/>
         </>
     )
