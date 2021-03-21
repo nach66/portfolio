@@ -41,7 +41,7 @@ export default class LangRouter extends Component {
                             />
                         </>
                 } />
-                {/* <Route path="/en/*" render={
+                <Route path="/en/*" render={
                     propsRouter => 
                         <>
                             <ScrollToTop/>
@@ -51,7 +51,7 @@ export default class LangRouter extends Component {
                                 setLocale={this.setLocale} 
                             />
                         </>
-                }/> */}
+                }/>
                 <Route path="*" render={
                     propsRouter =>
                     <NoFound
