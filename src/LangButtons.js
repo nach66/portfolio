@@ -4,7 +4,7 @@ import he from './images/he.png'
 
 export default class LangButtons extends Component {
         setLocale = (newLocale) => {
-            let url = '/' + newLocale + this.props.location.pathname.substring(3)
+            let url = '/' + newLocale + /he //this.props.location.pathname.substring(3)
             this.props.history.push(url)
             this.props.setLocale(newLocale)
         }
