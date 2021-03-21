@@ -388,9 +388,11 @@ div{
     padding-top: 6px;
   } .banner{
     padding-top: 1px;
+  } .en_sform{
+    left: 47vw; 
   } .sform{
     width: 43vw;
-    left: 28.5vw !important;
+    left: 29.5vw !important;
     top: 213px;
   } .submit{
     margin-top: 55px;
@@ -515,6 +517,7 @@ div{
 }
 /* weblist */
 .prolog{
+  text-align: justify;
   background: var(--back);
   margin: auto;
   padding: 80px 0px;
@@ -837,9 +840,9 @@ figure.effect-chico:hover a {
 .s{
   background: var(--lgreen);
   color: var(--mainWhite);
-  margin-top: 7px;
+  margin: 7px 11px 0 0 !important;
   padding: 3px 25px !important;
-  width: auto;
+  /* width: 100%; */
   font-size: larger;
 }
 @media screen and (min-width: 1000px) {
