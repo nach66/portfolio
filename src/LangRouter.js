@@ -12,7 +12,7 @@ export default class LangRouter extends Component {
         let locale = window.localStorage.getItem('locale')
         if (locale === null) {
                 window.localStorage.setItem('locale', 'he')
-                locale = 'en'
+                locale = 'he'
         }
         this.state = {
                 locale: locale
