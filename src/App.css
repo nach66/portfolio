@@ -659,7 +659,7 @@ ol.gradient-e > li + li {
 	background: #3085a3;
 	text-align: center;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 .grid figure img {
 	position: relative;
