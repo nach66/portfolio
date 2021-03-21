@@ -58,9 +58,9 @@ export default class NavBar extends Component {
                             className={this.state.isOpen? "navi links lang" : "lang navi links hide-nav" }>
                             <div className="closebtn" >&times;</div>
                             <a href="/en/">Homepage</a>
-                            <a href="/en/about">Who and why me</a>
-                            <a href="/en/web">Services</a>
+                            <a href="/en/about">About me</a>
                             <a href="/en/port">Projects</a>
+                            <a href="/en/web">Services</a>
                             <a href="/en/contact">Contact me</a>
                         </div>
                     </div>

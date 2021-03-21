@@ -59,8 +59,8 @@ export default class NavBar extends Component {
                             <div className="closebtn" >&times;</div>
                             <a href="/he/">בית</a>
                             <a href="/he/about">מי ולמה אני</a>
-                            <a href="/he/web">שירותים</a>
                             <a href="/he/port">פרוייקטים</a>
+                            <a href="/he/web">שירותים</a>
                             <a href="/he/contact">צרו קשר</a>
                         </div>
                     </div>

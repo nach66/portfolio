@@ -226,6 +226,10 @@ div{
     top: 206px;
     width: 30vw;
   }
+  .banner h1 {
+    padding-top: 45px;
+    font-size: 5.5rem;
+  }
   .lang h1 {
     font-size: 2rem !important;
   }
@@ -264,7 +268,7 @@ div{
     left: 45vw !important; 
   }
   .sform{
-    left: 19.3vw;
+    left: 18.3vw;
     top: 173px;
     width: 32vw;
   }
@@ -386,7 +390,7 @@ div{
     padding-top: 1px;
   } .sform{
     width: 43vw;
-    left: 29.5vw !important;
+    left: 28.5vw !important;
     top: 213px;
   } .submit{
     margin-top: 55px;

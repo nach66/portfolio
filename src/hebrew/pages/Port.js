@@ -12,10 +12,6 @@ export default function Port(props) {
             <div className="empty-blue"/>
             <div className="af"/>
             <Portfolio/>
-            <div className="services" style={{ paddingTop: '0px'}}>
-                <img src={puzzle} className="puzzle"/>
-            </div>
-            <Puzzle/>
             <div className="bf"/>
             <Footer/>
         </>

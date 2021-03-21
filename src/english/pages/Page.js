@@ -7,6 +7,7 @@ import Start from '../components/Start'
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 import LangButtons from '../../LangButtons'
+import puzzle from '../../images/puzzle.png'
 
 export default function Page (props) {
     return (
@@ -15,6 +16,9 @@ export default function Page (props) {
             <Hero/>
             <Pro/>
             <About/>
+            <div className="services" style={{ paddingTop: '0px'}}>
+                <img src={puzzle} className="puzzle"/>
+            </div>
             <Puzzle/>
             <Start/>
             <ContactForm/>

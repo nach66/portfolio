@@ -12,14 +12,14 @@ export default class LangButtons extends Component {
         render() {
             return (
                 <>
-                    <div className="languegus">
+                    {/* <div className="languegus">
                         <div rel="noopener noreferrer" onClick={() => this.setLocale('he')}>
                             <img src={he} alt="flag-israel"/>
                         </div>
                         <div rel="noopener noreferrer" onClick={() => this.setLocale('en')}>
                             <img src={en} alt="flag-england"/>
                         </div>
-                    </div>
+                    </div> */}
                 </>
             )
         }
