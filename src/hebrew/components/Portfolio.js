@@ -9,6 +9,7 @@ import door from '../../images/reco/door.png'
 import peace from '../../images/reco/peace.png'
 import zar from '../../images/reco/zar.png'
 import DividerWithText from './DividerWithText'
+import Zoom from 'react-reveal/Zoom';
 
 export default class Portfolio extends Component {
     state={
@@ -75,6 +76,7 @@ export default class Portfolio extends Component {
                             {this.state.wordpress.map(
                                 (item, index) => {return (
                                     <article key={index}>
+                                        <Zoom>
                                         <article className="grid">
                                             <figure class="effect-chico">
                                                 <img src={item.icon} alt="web img"/>
@@ -84,6 +86,7 @@ export default class Portfolio extends Component {
                                                     </figcaption>
                                             </figure>
                                         </article>
+                                        </Zoom>
                                         <p>{item.title}</p>
                                     </article>
                                 )}
@@ -96,6 +99,7 @@ export default class Portfolio extends Component {
                             {this.state.react.map(
                                 (item, index) => {return (
                                     <article key={index}>
+                                        <Zoom>
                                         <article className="grid">
                                             <figure class="effect-chico">
                                                 <img src={item.icon} alt="web img"/>
@@ -105,6 +109,7 @@ export default class Portfolio extends Component {
                                                     </figcaption>
                                             </figure>
                                         </article>
+                                        </Zoom>
                                         <p>{item.title}</p>
                                     </article>
                                 )}
