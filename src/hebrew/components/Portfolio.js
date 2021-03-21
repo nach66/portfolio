@@ -1,37 +1,64 @@
 import React, { Component } from 'react'
-import a from '../../images/reco/noam.png'
-import b from '../../images/reco/hostel.png'
-import c from '../../images/reco/flowers.png'
-import d from '../../images/reco/walll.png'
-import e from '../../images/reco/pet.png'
+import noam from '../../images/reco/noam.png'
+import hostel from '../../images/reco/hostel.png'
+import flower from '../../images/reco/flowers.png'
+import wall from '../../images/reco/walll.png'
+import pet from '../../images/reco/pet.png'
+import port from '../../images/reco/port1.png'
+import door from '../../images/reco/door.png'
+import peace from '../../images/reco/peace.png'
+import zar from '../../images/reco/zar.png'
 
 export default class Portfolio extends Component {
-        state={
-            port: [
+    state={
+        react: [
+            {
+                icon:hostel,
+                link:"https://hosteltiberias.co.il/",
+                title:"אתר תדמית והזמנות - אכסניית טבריה"
+            },
+            {
+                icon:pet,
+                link:"https://petisitti.netlify.app/",
+                title:"Peti sitter - דף נחיתה"
+            },
+            {
+                icon:port,
+                link:"https://portfolyoni.com/",
+                title:"האתר הזה ממש :)"
+            }
+        ],
+
+        wordpress: [
                 {
-                    icon:a,
+                    icon:noam,
                     link:"https://noamacrame.com/",
-                    title:"חנות לתכשיטי מקרמה"
+                    title:"noaMacreme - חנות תכשיטים"
                 },
                 {
-                    icon:b,
-                    link:"https://hosteltiberias.co.il/",
-                    title:"אכסניית טבריה"
-                },
-                {
-                    icon:c,
+                    icon:flower,
                     link:"https://very-happy-flowers.com/",
-                    title:"חנות פרחים"
+                    title:"happy flowers - חנות פרחים"
                 },
                 {
-                    icon:d,
-                    link:"https://wordpress-531388-1693511.cloudwaysapps.com/",
-                    title:"חנות טפטים"
+                    icon:zar,
+                    link:"https://zarabeyapan.com/",
+                    title:"זרה ביפן - אתר תדמית ומכירה לספר"
                 },
                 {
-                    icon:e,
-                    link:"https://petisitti.netlify.app/",
-                    title:"Pet sitter - דף נחיתה"
+                    icon:wall,
+                    link:"https://wall-express.co.il/",
+                    title:"Wall express - חנות טפטים"
+                },
+                {
+                    icon:door,
+                    link:"http://www.commercialdoorrepairontario.ca/",
+                    title:"Commercial Doors - אתר תדמית"
+                },
+                {
+                    icon:peace,
+                    link:"http://peace-boards.s887.upress.link/",
+                    title:"Peace Boards - חנות סקייטבורדים"
                 }
             ]
         }
@@ -40,8 +67,11 @@ export default class Portfolio extends Component {
                 <>
                     <div className="services">
                         <h2 style={{ textAlign:'center' }}>טעימה מהפרוייקטים</h2>
+
+                        <br/>
+                        <h4>אתרי Wordpess</h4>
                         <div className="services-center">
-                            {this.state.port.map(
+                            {this.state.wordpress.map(
                                 (item, index) => {return (
                                     <article key={index}>
                                         <article className="grid">
@@ -58,6 +88,27 @@ export default class Portfolio extends Component {
                                 )}
                             )}
                         </div>
+                        <br/>
+                        <h4>אתרי קוד פתוח - React</h4>
+                        <div className="services-center">
+                            {this.state.react.map(
+                                (item, index) => {return (
+                                    <article key={index}>
+                                        <article className="grid">
+                                            <figure class="effect-chico">
+                                                <img src={item.icon} alt="web img"/>
+                                                    <figcaption>
+                                                        <a href={item.link} rel="noopener noreferrer" 
+                                                            target="_blank">לצפייה באתר</a>
+                                                    </figcaption>
+                                            </figure>
+                                        </article>
+                                        <p>{item.title}</p>
+                                    </article>
+                                )}
+                            )}
+                        </div>
+
                     </div>
                 </>
             );
