@@ -59,7 +59,7 @@ export default class Portfolio extends Component {
                     },
                     {
                         icon:peace,
-                        link:"http://peace-boards.s887.upress.link/",
+                        link:"https://peace-boards.com/",
                         title:"Peace Boards - store"
                     }
                 ]
