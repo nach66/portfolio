@@ -32,7 +32,22 @@ export default class Portfolio extends Component {
             ],
     
             wordpress: [
-                    {
+                {
+                    icon:wall,
+                    link:"https://wall-express.co.il/",
+                    title:"Wall express - store"
+                },
+                {
+                    icon:door,
+                    link:"http://www.commercialdoorrepairontario.ca/",
+                    title:"Commercial Doors"
+                },
+                {
+                    icon:peace,
+                    link:"https://peace-boards.com/",
+                    title:"Peace Boards - store"
+                },
+                {
                         icon:noam,
                         link:"https://noamacrame.com/",
                         title:"noaMacreme - store"
@@ -46,21 +61,6 @@ export default class Portfolio extends Component {
                         icon:zar,
                         link:"https://zarabeyapan.com/",
                         title:"zara beyapan - book store"
-                    },
-                    {
-                        icon:wall,
-                        link:"https://wall-express.co.il/",
-                        title:"Wall express - store"
-                    },
-                    {
-                        icon:door,
-                        link:"http://www.commercialdoorrepairontario.ca/",
-                        title:"Commercial Doors"
-                    },
-                    {
-                        icon:peace,
-                        link:"https://peace-boards.com/",
-                        title:"Peace Boards - store"
                     }
                 ]
             }
