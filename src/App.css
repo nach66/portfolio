@@ -539,8 +539,8 @@ div{
 }
 .websec{
   margin-bottom: 20px;
-  margin-right: -7px;
-  padding: 10px 19px 0 19px;
+  /* margin-right: -7px; */
+  padding: 0px 19px 0px 19px;
   display: grid;
   grid-row-gap: 20px;
   grid-column-gap: 2rem;
