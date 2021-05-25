@@ -542,19 +542,26 @@ div{
   margin-right: -7px;
   padding: 0px 19px 0px 19px;
   display: grid;
-  grid-row-gap: 20px;
   grid-column-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
-}
-@media screen and (max-width: 620px) {
-  .websec{
-  padding: 0px;
-  margin: 0px;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
 }
 .ltr{
   direction: ltr;
 }
+
+@media screen and (max-width: 620px) {
+  .websec{
+    margin: auto;
+    padding: 9px;
+  }
+  .weblist-center {
+    width: 95vw;
+  }
+  .ltr{
+    direction: rtl;
+  }
+}
+
 /* רשימת תכונות אתר */
 ol.gradient-list > li, ol.gradient-list > li::before {
   box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
@@ -563,7 +570,7 @@ ol.gradient-list {
   counter-reset: gradient-counter;
   list-style: none;
   padding-top: 10px;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 2%;
   box-shadow: var(--box-shadow);
 }
@@ -571,9 +578,9 @@ ol.gradient-list > li {
   background: white;
   border-radius: 0.5rem 0 0.5rem 0.5rem;
   counter-increment: gradient-counter;
-  padding: 13px 3rem 13px 13px;
+  padding: 13px 2.5rem 13px 8px;
   position: relative;
-  min-width: 320px;
+  /* min-width: 310px; */
 }
 ol.gradient-list > li::before, ol.gradient-list > li::after {
   background: linear-gradient(215deg, rgb(173, 219, 240) 0%, var(--back) 100%);
@@ -581,8 +588,8 @@ ol.gradient-list > li::before, ol.gradient-list > li::after {
   position: absolute;
   overflow: hidden;
   height: 3rem;
-  right: -0.5rem;
-  width: 3rem;
+  right: -0.4rem;
+  width: 2.5rem;
   top: -7px;
 }
 ol.gradient-list > li::before {
@@ -592,7 +599,7 @@ ol.gradient-list > li::before {
   display: flex;
   z-index: 1;
   font-size: 1.2rem;
-  padding: 0.3em 0.5em;
+  padding: 0.3em 0.4em;
 }
 ol.gradient-list > li + li {
   margin-top: 1rem;
