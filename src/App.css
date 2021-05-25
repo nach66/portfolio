@@ -548,10 +548,10 @@ div{
 }
 @media screen and (max-width: 620px) {
   .weblist-center {
-    width: 90vw;
+    /* width: 90vw; */
   }
   .websec{
-  padding: 0px 0px 0 0px;
+  padding: 0px;
   margin: 0px;
   }
 }
