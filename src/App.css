@@ -547,9 +547,6 @@ div{
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); 
 }
 @media screen and (max-width: 620px) {
-  .weblist-center {
-    /* width: 90vw; */
-  }
   .websec{
   padding: 0px;
   margin: 0px;
