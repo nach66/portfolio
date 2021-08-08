@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
 import way from '../../images/icons/road/animat-road-trip-color.gif';
 import design from '../../images/icons/design/animat-customize-color.gif';
-import pencil from '../../images/icons/pencil/animat-pencil-color.gif';
+// import pencil from '../../images/icons/pencil/animat-pencil-color.gif';
 import responsive from '../../images/icons/responsive/animat-responsive-color.gif';
 import seo from '../../images/icons/seo/animat-search-color.gif';
 import manage from '../../images/icons/manage.gif';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import en from './images/en.png'
-import he from './images/he.png'
+// import en from './images/en.png'
+// import he from './images/he.png'
 
 export default class LangButtons extends Component {
         setLocale = (newLocale) => {
