@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Pro from '../components/Prolog'
-import About from '../components/About'
+import Testi_slider from '../components/Testi_slider'
 import Puzzle from '../components/Puzzle'
 import Start from '../components/Start'
 import ContactForm from '../components/ContactForm'
@@ -15,8 +15,9 @@ export default function Page (props) {
                 <LangButtons {...props} />                
                 <Hero/>
                 <Pro/>
-
-                <About/>
+                
+                <Testi_slider/>
+                {/* <About/> */}
 
                 <div className="services" style={{ paddingTop: '0px'}}>
                     <img src={puzzle} className="puzzle"/>

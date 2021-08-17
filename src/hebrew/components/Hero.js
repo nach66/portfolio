@@ -18,7 +18,7 @@ export default class Hero extends React.Component {
                 <section className="void">
                     <div className="pic">
                         <div className="banner">
-                            <h1>העסק זקוק לאתר מהמם?</h1>
+                            <h1>העסק זקוק לאתר איכותי?</h1>
                         </div>
 
                         <form className="sform" method="POST"
@@ -49,7 +49,7 @@ export default class Hero extends React.Component {
                                             speed="100"
                                             eraseDelay="4000"
                                             eraseSpeed="100"
-                                            text={["מהרו להירשם!"]}
+                                            text={["דברו איתי!"]}
                                             cursorClassName="cur"
                                         />
                                     </button>

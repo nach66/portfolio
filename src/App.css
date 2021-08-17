@@ -473,18 +473,8 @@ div{
   background-size: contain;
 }
 
-.focused2{
-  width: 90px;
-  height: 20px;
-  margin-right: -100px;
-  padding-bottom: 60px;
-  /* background: url("./images/focus.png") no-repeat; */
-  background-size: contain;
-}
-
-
 @media screen and (min-width: 1050px) {
-  .focused, .focused2 {
+  .focused {
     width: 190px;
     height: 120px;
     margin: auto;
@@ -1132,5 +1122,82 @@ figure.effect-chico:hover a {
   font-weight: 600;
   font-size: 17px;
   direction: ltr;
+}
+
+/**** המלצות *****/
+
+.carousel {
+  margin: auto !important;
+  width: 70% !important;
+}
+
+.carousel h5{
+text-align: center !important;
+}
+
+.site-link {
+  text-decoration: underline;
+  color: var(--primaryColor);
+  padding-top: 0px;
+  font-size: large;
+  letter-spacing: 1.5px;
+}
+
+.carousel .control-dots .dot{
+  background: var(--primaryColor) !important;
+}
+/********** horiz form /**********/
+.hori-form {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  width: 85%;
+  margin-right: 10%;
+}
+.form-inline {  
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 15px;
+}
+
+@media screen and (max-width: 730px) {
+  .carousel {
+    margin: auto !important;
+    width: 90% !important;
+  }
+  .hori-form {  
+    width: 100%;
+    margin: 0 15% !important;
+  }
+  .h2-hori {
+    margin-right: 15% !important;
+    width: 100% !important;
+    text-align: right !important;
+  }
+  .submit-hori {
+    margin-right: -20px !important;
+    width: 80% !important;
+  }  
+}
+
+/**** פרולוג *****/
+
+.prolog{
+  text-align: center;
+  background: var(--back);
+  margin: auto;
+  padding: 80px 0px 0px 0;
+}
+.pro-btn-wrap {
+  text-align: center;
+  display: inline-block;
+  margin: 15px 0 -20px 0;
+}
+.pro-btn {
+  width: 300px !important;
+  margin: 10px 15px;
+  font-size: medium;
+  padding: 5px 0;
 }
 

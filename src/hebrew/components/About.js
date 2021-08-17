@@ -8,8 +8,6 @@ export default function About() {
         <>
             <div className="empty-blue"/>
             <div className="bf"/>       
-
-            {/* <div className="focused2"/> */}
             
             <div className="about">
                     <Roll bottom>
