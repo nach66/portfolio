@@ -396,6 +396,7 @@ div{
     top: 213px;
   } .submit{
     margin-top: 55px;
+    margin-right: -20px;
     width: 135%;
     height: 100%;
   }
@@ -873,7 +874,7 @@ figure.effect-chico:hover a {
   color: var(--mainWhite);
   margin: 7px 10px 0 0 !important;
   padding: 3px 15px !important;
-  width: 100%;
+  width: 90%;
   font-size: larger;
 }
 @media screen and (min-width: 1000px) {
@@ -1146,6 +1147,7 @@ text-align: center !important;
 .carousel .control-dots .dot{
   background: var(--primaryColor) !important;
 }
+
 /********** horiz form /**********/
 .hori-form {
   text-align: center;
@@ -1166,6 +1168,8 @@ text-align: center !important;
     margin: auto !important;
     width: 90% !important;
   }
+}
+@media screen and (max-width: 560px) {
   .hori-form {  
     width: 100%;
     margin: 0 15% !important;
@@ -1176,8 +1180,8 @@ text-align: center !important;
     text-align: right !important;
   }
   .submit-hori {
-    margin-right: -20px !important;
-    width: 80% !important;
+    /* margin-right: -10px !important; */
+    width: 67% !important;
   }  
 }
 
