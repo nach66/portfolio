@@ -20,6 +20,8 @@ export default class Testi_slider extends React.Component {
                 <div className="empty-blue"/>
                 <div className="bf"/>       
 
+                <h3 style={{textAlign:'center'}}>לקוחות אמרו עליי</h3>
+
                 <div className="carousel">
                     <Carousel dynamicHeight={true} width={700} axis={'vertical'} showStatus={false} showArrows={true}>
                     <div>
@@ -52,7 +54,6 @@ export default class Testi_slider extends React.Component {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
                     </div>
                         
                     <div>
@@ -78,7 +79,6 @@ export default class Testi_slider extends React.Component {
                     </div>
                     
                     <div>
-                        <br/>
                         <h5>
                             "ממליצה מאוד על יוני המקסימה. מקצועית, מהירה, מחיר טוב."
                         </h5>
