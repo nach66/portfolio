@@ -23,7 +23,7 @@ export default class Testi_slider extends React.Component {
                 <h3 style={{textAlign:'center'}}>לקוחות אמרו עליי</h3>
 
                 <div className="carousel">
-                    <Carousel dynamicHeight={true} width={700} axis={'vertical'} showStatus={false} showArrows={true}>
+                    <Carousel width={700} axis={'vertical'} showStatus={false}>
                     <div>
                         <h5>
                         "אני רוצה להמליץ בחום על יוני המתכנתת, מומחית לוורדפרס. 
@@ -34,6 +34,7 @@ export default class Testi_slider extends React.Component {
                         </h5>
                         {/* <a href="https://he.zipperbags.online/" target="_blank" className="site-link">לאתר של בני >> </a> */}
                         <p style={{fontWeight:'bold'}}>בני, zipper bags </p>
+                        <br/>
                         <br/>
                         <br/>
                     </div>
@@ -49,6 +50,10 @@ export default class Testi_slider extends React.Component {
                         </h5>
                         {/* <a href="https://zarabeyapan.com/" target="_blank" className="site-link">לאתר של סוזי >> </a> */}
                         <p style={{fontWeight:'bold'}}>סוזי, zara beyapan </p>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
                         <br/>
                         <br/>
                         <br/>
@@ -70,6 +75,8 @@ export default class Testi_slider extends React.Component {
                         </h5>
                         {/* <a href="https://wayin.co.il/" target="_blank" className="site-link">לאתר של ליאת >> </a> */}
                         <p style={{fontWeight:'bold'}}>ליאת, אלמנטרי ביטוח</p>
+                        <br/>
+                        <br/>
                         <br/>
                         <br/>
                         <br/>
