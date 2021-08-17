@@ -383,9 +383,9 @@ div{
   }.pic{
     height: 630px;
   }.sform input{
-    height: 5px;
+    height: 10px;
     margin: 1px;
-    padding-top: 17px;
+    padding-top: 10px;
   } .banner{
     padding-top: 1px;
   } .en_sform{
@@ -1175,13 +1175,12 @@ text-align: center !important;
     margin: 0 15% !important;
   }
   .h2-hori {
-    margin-right: 15% !important;
+    margin-right: 19% !important;
     width: 100% !important;
     text-align: right !important;
   }
   .submit-hori {
-    /* margin-right: -10px !important; */
-    width: 67% !important;
+    width: 70% !important;
   }  
 }
 
