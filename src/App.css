@@ -383,10 +383,9 @@ div{
   }.pic{
     height: 630px;
   }.sform input{
-  font-size: 19px;
-    height: 8px !important;
+    font-size: 16px;
+    height: 12px !important;
     margin: 1px;
-    padding-top: 12px;
   } .banner{
     padding-top: 1px;
   } .en_sform{
@@ -395,8 +394,9 @@ div{
     width: 43vw;
     left: 30vw !important;
     top: 213px;
+    margin-top: 6px;
   } .submit{
-    margin-top: 55px;
+    margin-top: 45px;
     margin-right: -20px;
     width: 135%;
     height: 100%;
