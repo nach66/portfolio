@@ -96,7 +96,6 @@ export default class Testi_slider extends React.Component {
                 </div>
 
                 <div className="hori-form">
-                    <Fade left>
                         <form method="POST"
                             className="cform form-inline"
                             onSubmit={this.submitForm}
@@ -130,7 +129,6 @@ export default class Testi_slider extends React.Component {
                                     {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
                                 </article>                          
                             </form>
-                    </Fade>
                 </div>
 
                 <div className="af"/>       

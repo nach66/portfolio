@@ -1131,6 +1131,7 @@ figure.effect-chico:hover a {
 .carousel {
   margin: auto !important;
   width: 70% !important;
+  z-index: -999 !important;
 }
 
 .carousel h5{
@@ -1181,7 +1182,8 @@ text-align: center !important;
     text-align: right !important;
   }
   .submit-hori {
-    width: 70% !important;
+    width: 250px !important;
+    margin: 10px -5px;
   }  
 }
 
@@ -1203,5 +1205,5 @@ text-align: center !important;
   margin: 10px 15px;
   font-size: medium;
   padding: 5px 0;
+  z-index: 0;
 }
-

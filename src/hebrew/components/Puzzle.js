@@ -64,6 +64,7 @@ export default class Puzzle extends Component {
         return (
             <>
                 <div className="services">
+                <br/>
                     <h1>הרכיבים</h1>
                     <div className="services-center">
                         {this.state.services.map(
