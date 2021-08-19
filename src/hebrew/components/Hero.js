@@ -25,7 +25,7 @@ export default class Hero extends React.Component {
                             onSubmit={this.submitForm}
                             action="https://formspree.io/f/xeqpljye"
                         >
-                            <input
+                                <input
                                     type="text"
                                                 name="Name"
                                                 className="sform-control"
@@ -54,9 +54,13 @@ export default class Hero extends React.Component {
                                         />
                                     </button>
                                 }
-                                
-                                {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}
+
+                        <div className="form-bug">
+                            {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}
+                        </div>
+
                         </form>
+
                     </div>   
                 </section>
                 <div className="curved"></div>

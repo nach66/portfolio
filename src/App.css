@@ -373,7 +373,7 @@ div{
     left: 27vw !important;
     top: 209px;
   }.submit{
-    margin-top: 60px;
+    margin-top: 58px;
     width: 100%;
   }
 }
@@ -1165,6 +1165,11 @@ text-align: center !important;
   column-gap: 15px;
 }
 
+
+.form-bug { 
+  display: none;
+}
+
 @media screen and (max-width: 730px) {
   .carousel {
     margin: auto !important;
@@ -1174,7 +1179,8 @@ text-align: center !important;
 @media screen and (max-width: 560px) {
   .hori-form {  
     width: 100%;
-    margin: 0 15% !important;
+    margin: 0 13% !important;
+    text-align: center;
   }
   .h2-hori {
     margin-right: 19% !important;
@@ -1182,9 +1188,14 @@ text-align: center !important;
     text-align: right !important;
   }
   .submit-hori {
-    width: 250px !important;
-    margin: 10px -5px;
+    width: 67% !important;
+    margin: 5% -1%;
   }  
+  .form-bug {
+    display: block;
+    width: 90vw;
+    margin: -10px -80px 0 0 !important;
+  }
 }
 
 /**** פרולוג *****/
