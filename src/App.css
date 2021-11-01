@@ -373,10 +373,6 @@ div{
     left: 27vw !important;
     top: 209px;
   }
-  .sform-control {
-    margin: 2px;
-    border-width: 1px !important;
-  }
   .submit{
     margin-top: 58px;
     width: 100%;
@@ -396,11 +392,13 @@ div{
   } .en_sform{
     left: 47vw; 
   } .sform{
-    width: 43vw;
-    left: 27vw !important;
-    top: 213px;
+    top: 206px;
     margin-top: 6px;
-  } .submit{
+  }
+  .sform-control {
+    margin: 3px !important;
+  }
+  .submit{
     margin-top: 45px;
     margin-right: -20px;
     width: 135%;
@@ -409,7 +407,11 @@ div{
 }
 @media screen and (max-width: 490px) {
   .sform{
+    top:215px;
     left: 30vw !important;
+  }
+  .sform-control {
+    border-width: 1px !important;
   }
 }
 
