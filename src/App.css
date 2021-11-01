@@ -372,7 +372,12 @@ div{
     width: 43vw;
     left: 27vw !important;
     top: 209px;
-  }.submit{
+  }
+  .sform-control {
+    margin: 2px;
+    border-width: 1px !important;
+  }
+  .submit{
     margin-top: 58px;
     width: 100%;
   }
@@ -392,7 +397,7 @@ div{
     left: 47vw; 
   } .sform{
     width: 43vw;
-    left: 30vw !important;
+    left: 27vw !important;
     top: 213px;
     margin-top: 6px;
   } .submit{
@@ -400,6 +405,11 @@ div{
     margin-right: -20px;
     width: 135%;
     height: 100%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .sform{
+    left: 30vw !important;
   }
 }
 
