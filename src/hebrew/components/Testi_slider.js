@@ -25,6 +25,7 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>
                     </div>
 
                     <div>
@@ -64,19 +65,6 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
-                    </div>
-
-                    <div>
-                        <h5>
-                            "ממליצה מאוד על יוני המקסימה. מקצועית, מהירה, מחיר טוב."
-                        </h5>
-                        <p style={{fontWeight:'bold'}}>שרון, sharon perfumes </p>
-                        <a href="https://sharonperfumes.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שרון >> </a>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
                         <br/>
                         <br/>
                     </div>
@@ -90,6 +78,8 @@ export default function Testi_slider() {
                         </h5>
                         <p style={{fontWeight:'bold'}}>מורין פרידמן, מרכז השל לקיימות</p>
                         <a href="https://heschel.org.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של מורין >> </a>
+                        <br/>
+                        <br/>
                         <br/>
                         <br/>
                         <br/>
@@ -113,6 +103,14 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                    </div>
+                    
+                    <div>
+                        <h5>
+                            "ממליצה מאוד על יוני המקסימה. מקצועית, מהירה, מחיר טוב."
+                        </h5>
+                        <p style={{fontWeight:'bold'}}>שרון, sharon perfumes </p>
+                        <a href="https://sharonperfumes.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שרון >> </a>
                     </div>
                 </Carousel>
             </div>  
