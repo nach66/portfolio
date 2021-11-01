@@ -68,7 +68,6 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
                     </div>
 
                     <div>
@@ -88,9 +87,7 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
-                        <br/>
-                        <br/>                    
+                        <br/>                   
                     </div>
 
                     <div>
@@ -109,6 +106,8 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>  
+                        <br/>  
                         <br/>  
                     </div>
                     
