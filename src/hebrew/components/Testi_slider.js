@@ -26,7 +26,6 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
                     </div>
 
                     <div>
@@ -45,6 +44,8 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>
+                        <br/>           
                     </div>
 
                     <div>
@@ -60,6 +61,7 @@ export default function Testi_slider() {
                         </h5>
                         <p style={{fontWeight:'bold'}}>ליאת בינדר, אלמנטרי ביטוח</p>
                         <a href="https://wayin.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ליאת >> </a>
+                        <br/>
                         <br/>
                         <br/>
                         <br/>
@@ -85,6 +87,8 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>
+                        <br/>                    
                     </div>
 
                     <div>
@@ -103,7 +107,7 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
+                        <br/>  
                     </div>
                     
                     <div>
