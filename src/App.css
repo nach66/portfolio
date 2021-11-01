@@ -407,7 +407,7 @@ div{
 }
 @media screen and (max-width: 490px) {
   .sform{
-    top:215px;
+    top:214px;
     left: 30vw !important;
   }
   .sform-control {
