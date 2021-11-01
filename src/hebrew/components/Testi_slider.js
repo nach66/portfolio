@@ -68,6 +68,7 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>
                     </div>
 
                     <div>
@@ -79,6 +80,7 @@ export default function Testi_slider() {
                         </h5>
                         <p style={{fontWeight:'bold'}}>מורין פרידמן, מרכז השל לקיימות</p>
                         <a href="https://heschel.org.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של מורין >> </a>
+                        <br/>
                         <br/>
                         <br/>
                         <br/>
