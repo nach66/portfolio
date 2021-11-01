@@ -26,6 +26,7 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>
                     </div>
 
                     <div>
@@ -65,8 +66,6 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
-                        <br/>
                     </div>
 
                     <div>
@@ -98,6 +97,8 @@ export default function Testi_slider() {
                         </h5>
                         <p style={{fontWeight:'bold'}}>יריב לבלנג, ייעוץ ארגוני ופיתוח מנהלים</p>
                         <a href="https://yarivconsultant.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של יריב >> </a>
+                        <br/>
+                        <br/>
                         <br/>
                         <br/>
                         <br/>
