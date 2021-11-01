@@ -93,7 +93,7 @@ h3 {
 h4{
   color: var(--lgreen);
   font-weight: 600;  
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   letter-spacing: 3px;
 }
 /* abuot */
@@ -1131,7 +1131,7 @@ figure.effect-chico:hover a {
 .carousel {
   margin: auto !important;
   width: 70% !important;
-  z-index: -999 !important;
+  /* z-index: -999 !important; */
 }
 
 .carousel h5{

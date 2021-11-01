@@ -9,6 +9,7 @@ import manage from '../../images/icons/manage.gif';
 import ssl from '../../images/icons/ssl/CYBERSECURITY.gif';
 import speed from '../../images/icons/speed/animat-rocket-color.gif';
 import btn from '../../images/icons/btn/animat-checkmark-color.gif';
+import puzzle from '../../images/puzzle.png'
 
 export default class Puzzle extends Component {
     state={
@@ -63,6 +64,10 @@ export default class Puzzle extends Component {
     render () {
         return (
             <>
+                <div className="services" style={{ paddingTop: '0px'}}>
+                    <img alt="icon" src={puzzle} className="puzzle"/>
+                </div>
+
                 <div className="services">
                 <br/>
                     <h1>הרכיבים</h1>

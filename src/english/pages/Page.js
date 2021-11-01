@@ -17,7 +17,7 @@ export default function Page (props) {
             <Pro/>
             <About/>
             <div className="services" style={{ paddingTop: '0px'}}>
-                <img src={puzzle} className="puzzle"/>
+                <img alt="icon" src={puzzle} className="puzzle"/>
             </div>
             <Puzzle/>
             <Start/>
