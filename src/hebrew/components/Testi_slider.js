@@ -67,7 +67,41 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                    </div>
+
+                    <div>
+                        <h5>
+                            "יוני בנתה לי אתר נהדר של יעוץ ארגוני.
+                            <br/>
+                            ממליץ עליה בחום. מקצועית, חדה, עובדת נקי ועדכני.
+                            <br/>
+                            התקשורת איתה ברורה והיא מבינה את הצרכים והציפיות .מבטיחה ומקיימת. 👌"
+                        </h5>
+                        <p style={{fontWeight:'bold'}}>יריב לבלנג, ייעוץ ארגוני ופיתוח מנהלים</p>
+                        <a href="https://yarivconsultant.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של יריב >> </a>
                         <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>  
+                    </div>
+
+                    <div>
+                        <h5>
+                            "יוני הבינה מהר את הבקשות ואת הצרכים של החברה, הציעה רעיונות מעשיים וטובים משל עצמה אבל הקפידה להישאר קרוב לקו שהטווינו, עבדה בזריזות וביעילות ותימחרה באופן הוגן. נשארת בקשר ומגיבה מייד לבקשות שלנו."
+                        </h5>
+                        <p style={{fontWeight:'bold'}}>ניצן, 'אדם בעמלו' </p>
+                        <a href="https://adambeamalo.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ניצן >> </a>
+                        <br/>  
+                        <br/>  
+                        <br/>  
+                        <br/>  
+                        <br/>  
+                        <br/>  
+                        <br/>  
                     </div>
 
                     <div>
@@ -87,30 +121,11 @@ export default function Testi_slider() {
                         <br/>
                         <br/>
                         <br/>
+                        <br/>
+                        <br/>                   
                         <br/>                   
                     </div>
 
-                    <div>
-                        <h5>
-                            "יוני בנתה לי אתר נהדר של יעוץ ארגוני.
-                            <br/>
-                            ממליץ עליה בחום. מקצועית, חדה, עובדת נקי ועדכני.
-                            <br/>
-                            התקשורת איתה ברורה והיא מבינה את הצרכים והציפיות .מבטיחה ומקיימת. 👌"
-                        </h5>
-                        <p style={{fontWeight:'bold'}}>יריב לבלנג, ייעוץ ארגוני ופיתוח מנהלים</p>
-                        <a href="https://yarivconsultant.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של יריב >> </a>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>  
-                        <br/>  
-                        <br/>  
-                    </div>
-                    
                     <div>
                         <h5>
                             "ממליצה מאוד על יוני המקסימה. מקצועית, מהירה, מחיר טוב."
