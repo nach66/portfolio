@@ -124,7 +124,7 @@ ol.gradient-e > li + li {
   background:var(--back);
 }
 .empty-blue {
-  height: 50px;
+  height: 40px;
   background: var(--back);
   margin: auto;
 }

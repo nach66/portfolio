@@ -14,7 +14,7 @@ export default function Program({reco}) {
                     <article className="grid">
                         <h1>{title}</h1>                   
                         {/* <h6 style={{fontWeight:'bold'}}>{price}</h6> */}
-                        <h4 style={{fontSize:'1.1em'}}>{price}</h4>
+                        <h2 style={{fontSize:'1.1em'}}>{price}</h2>
                         <ol class="gradient-list">{noteItems}</ol>
                     </article>
                 </Fade>
