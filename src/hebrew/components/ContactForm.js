@@ -18,7 +18,7 @@ export default class ContactForm extends React.Component {
                 <div className="col">
                     <Fade right>
                         <article className="icon-sec">
-                                <h1>במרחק לחיצה מכאן</h1>              
+                                <h4>במרחק לחיצה מכאן</h4>              
                                 <div className="icon-align">
                                     <a href="https://api.whatsapp.com/send?phone=+972556617145" rel="noopener noreferrer" target="_blank">
                                         <article style={{display: 'inline-block'}}>
@@ -48,7 +48,7 @@ export default class ContactForm extends React.Component {
 
                     <Fade left>
                         <article className="contact-sec">
-                            <h2 style={{textAlign: 'center', paddingTop:'30px'}}>צרו קשר</h2>
+                            <h1>צרו קשר</h1>
                             <FaMailBulk style={{
                                     marginBottom: '4px',
                                     fontSize: '20px',

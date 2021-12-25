@@ -176,12 +176,12 @@ export default class Portfolio extends Component {
         return (
                 <>
                     <div className="services">
-                        <h2 style={{ textAlign:'center' }}>טעימה מהפרוייקטים</h2>
+                        <h1>טעימה מהפרוייקטים</h1>
 
                         <br/>
                         <br/>
                         <br/>
-                        <DividerWithText><h4>אתרי מכירה ומערכות</h4></DividerWithText>                    
+                        <DividerWithText><h2>אתרי מכירה ומערכות</h2></DividerWithText>                    
                         <div className="services-center">
                             {this.state.store.map(
                                 (item, index) => {return (
@@ -206,7 +206,7 @@ export default class Portfolio extends Component {
                         <br/>
                         <br/>
                         <br/>
-                        <DividerWithText><h4>אתרי תדמית</h4></DividerWithText>                    
+                        <DividerWithText><h2>אתרי תדמית</h2></DividerWithText>                    
                         <div className="services-center">
                             {this.state.tadmit.map(
                                 (item, index) => {return (
@@ -231,7 +231,7 @@ export default class Portfolio extends Component {
                         <br/>
                         <br/>
                         <br/>
-                        <DividerWithText><h4>אתרים ששיפצתי – שינויי עיצוב, הוספת עמודים ותכנים</h4></DividerWithText>                    
+                        <DividerWithText><h2>אתרים ששיפצתי – שינויי עיצוב, הוספת עמודים ותכנים</h2></DividerWithText>                    
                         <div className="services-center">
                             {this.state.fix.map(
                                 (item, index) => {return (

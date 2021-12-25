@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 // import he from './images/he.png'
 
 export default class LangButtons extends Component {
-        setLocale = (newLocale) => {
-            let url = '/' + newLocale + /he //this.props.location.pathname.substring(3)
-            this.props.history.push(url)
-            this.props.setLocale(newLocale)
-        }
+        // setLocale = (newLocale) => {
+        //     let url = '/' + newLocale + /he //this.props.location.pathname.substring(3)
+        //     this.props.history.push(url)
+        //     this.props.setLocale(newLocale)
+        // }
     
         render() {
             return (

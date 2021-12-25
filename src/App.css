@@ -27,7 +27,7 @@
   --box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
 }
 
-.languegus {
+/* .languegus {
   position: fixed;
   top: 15px;
   left: 46vw;
@@ -62,75 +62,138 @@
 .lang h2, .lang h3 {
   font-size: x-large !important;
   font-family:'Yusei_Magic' !important;
+} */
+/* english
+ol.gradient-e > li, ol.gradient-list > li::before {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
+ol.gradient-e {
+  counter-reset: gradient-counter;
+  list-style: none;
+  padding-top: 10px;
+  padding: 2rem;
+  border-radius: 2%;
+  box-shadow: var(--box-shadow);
+}
+ol.gradient-e > li {
+  background: white;
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+  counter-increment: gradient-counter;
+  padding: 13px 1rem 13px 2rem;
+  position: relative;
+  min-width: 300px;
+}
+ol.gradient-e > li::before, ol.gradient-list > li::after {
+  background: linear-gradient(215deg, rgb(173, 219, 240) 0%, var(--back) 100%);
+  border-radius: 1rem 1rem 1rem 0;
+  position: absolute;
+  overflow: hidden;
+  height: 3rem;
+  left: -1.5rem;
+  width: 3rem;
+  top: -5px;
+}
+ol.gradient-e > li::before {
+  content: counter(gradient-counter);
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  z-index: 1;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+}
+ol.gradient-e > li + li {
+  margin-top: 1rem;
+} */
 
-h1 {
-  font-family:'Horev';
-  text-align: center;
-  font-size: 2rem;
-  direction: rtl;
-  line-height: 1.3;
-  margin-bottom: 0.3em;
-  letter-spacing: 3px;
+.bf {
+  padding-top: 30px;
+  border-style: solid;
+  border-width: 0px 28vw 99px 72vw;
+  border-color: transparent transparent  var(--mainWhite) transparent;
+  background:var(--back);
 }
-/* web */
-h2 {
-  color:var(--grey);
-  letter-spacing: 3px;  
-  font-family:'Horev';
-  font-size: 2.2rem;
-  padding: 10px;
+.af {
+  left: 20vw;
+  bottom: 45px;
+  position: relative;
+  border-style: solid;
+  border-width: 50px 80vw 0px 20vw;
+  border-color: var(--mainWhite) transparent transparent transparent;
+  transform: translateX(-20%) translateY(90%);
+  background:var(--back);
 }
-/* abuot */
-h3 {
-  color:var(--lgreen);
-  letter-spacing: 3px;  
-  font-family:'Horev';
-  font-size: 2.2rem;
-  padding: 10px;
-}
-/* service */
-h4{
-  color: var(--lgreen);
-  font-weight: 600;  
-  font-size: 1.5rem;
-  letter-spacing: 3px;
-}
-/* abuot */
-h5 {
-  color: var(--grey);
-  text-align: justify;
-  font-family: 'felix007';
-  font-size: 1.2rem;
-  letter-spacing: 1.2px;
-  font-weight: 500;
-  line-height: 1.5;
-}
-/* web */
-h6 {
-  color: var(--grey);
-  text-align: justify;
-  font-family: 'felix007';
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-  font-weight: 100;
-  line-height: 1.7;
-  direction: rtl;
-}
-/* service */
-p{
-  font-weight: 300;  
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-  padding: 15px;
-  padding-bottom: 0px;
-  width: 85%;
+.empty-blue {
+  height: 50px;
+  background: var(--back);
   margin: auto;
 }
+.empty-white {
+  height: 150px;
+  margin: auto;
+}
+
 div{
   direction: rtl;
   color: var(--grey);
 }
+
+h1 {
+  font-size: 2rem;
+  color:var(--grey);
+  font-family:'Horev';
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 1.3;
+}
+/* ירוק כתב אחר */
+h2{
+  font-size: 1.5rem;
+  color:var(--lgreen);  
+  letter-spacing: 3px;
+  line-height: 1.3;
+}
+/*ירוק ראשי לא ממורכז*/
+h3 {
+  padding-right: 16px;
+  font-size: 2rem;
+  color:var(--lgreen);  
+  font-family:'Horev';
+  letter-spacing: 3px;
+  line-height: 1.3;
+}
+/* ירוק ממורכז*/
+h4 {
+  font-size: 2rem;
+  color:var(--lgreen);  
+  font-family:'Horev';
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 1.3;
+}
+/* פסקה ממורכזת */
+h6 {
+  font-size: 1.2rem;
+  letter-spacing: 1.7px;
+  line-height: 1.4;
+  margin: auto;
+  width: 85%;
+  padding: 5px;
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.2rem;
+  letter-spacing: 1.7px;
+  line-height: 1.6;
+  /* width: 85%; */
+  /* margin: auto; */
+}
+
+
+/************** home-page **************/
 
 /*hero*/
 .void{
@@ -415,7 +478,108 @@ div{
   }
 }
 
-/*services*/
+/** prolog **/
+
+.prolog{
+  text-align: center;
+  background: var(--back);
+  margin: auto;
+  padding: 80px 0px 0px 0;
+}
+.pro-btn-wrap {
+  text-align: center;
+  display: inline-block;
+  margin: 15px 0 -20px 0;
+}
+.pro-btn {
+  width: 300px !important;
+  margin: 10px 15px;
+  font-size: medium;
+  padding: 5px 0;
+  z-index: 0;
+}
+
+/** המלצות **/
+
+.carousel {
+  margin: auto !important;
+  width: 70% !important;
+  /* z-index: -999 !important; */
+}
+.carousel h6{
+text-align: center !important;
+}
+.site-link {
+  text-decoration: underline;
+  color: var(--primaryColor);
+  padding-top: 0px;
+  font-size: large;
+  letter-spacing: 1.5px;
+}
+.carousel .control-dots .dot{
+  background: var(--primaryColor) !important;
+}
+
+/** horiz form **/
+
+.hori-form {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  width: 85%;
+  margin-right: 7%;
+}
+.hori-form h2 {
+  padding-top: 10px;
+}
+.form-inline {  
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 15px;
+}
+.form-bug { 
+  display: none;
+}
+.submit-hori {
+  margin-top: -20px;
+}
+@media screen and (max-width: 730px) {
+  .carousel {
+    margin: auto !important;
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .hori-form {  
+    width: 100%;
+    margin: 0 13% !important;
+    text-align: center;
+  }
+  .h2-hori {
+    margin-right: 19% !important;
+    width: 100% !important;
+    text-align: right !important;
+  }
+  .submit-hori {
+    width: 67% !important;
+    margin: 5% -1%;
+  }  
+  .form-bug {
+    display: block;
+    width: 90vw;
+    margin: -10px -80px 0 0 !important;
+  }
+}
+
+/** puzzle **/
+
+.puzzle{
+  height: 160px;
+  background-size: contain;
+  position: relative;
+  top: 50px;
+}
 .services{
   text-align: center;
   padding: 50px;
@@ -432,17 +596,15 @@ div{
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
 }
-
 .services-center2 {
   text-align: center;
   margin: auto;
-  padding: 20px;  
+  padding: 0 20px;  
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  /* grid-column-gap: 1rem; */
+  /* grid-row-gap: 1rem; */
 }
-
 @media screen and (max-width: 480px) {
   .services{
     padding: 0px;
@@ -451,7 +613,6 @@ div{
     padding: 5px;  
   }
 }
-
 .block-services {
   padding: 1.5rem 0rem;
   background: var(--mainWhite);
@@ -463,12 +624,60 @@ div{
   box-shadow: var(--darkShadow);
 }
 .gif{
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
+}
+
+/** start **/
+
+.sec{
+  background: var(--blue);
+  display: grid;
+  margin: auto;
+  padding: 30px;
+  padding-top: 0px;
+}
+.sec img{
+  margin: auto;
+  width: 290px;
+  padding: 20px;
+}
+@media screen and (min-width: 1000px) {
+  .sec {
+    padding: 20px;
+    padding-top: 55px;
+    grid-template-columns: 1fr 1.7fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sec img{
+    padding: 25px;
+    width: 200px;
+  }
+  .sec {
+    padding: 0px;
+  }
+}
+.sbf {
+  background: var(--back);
+  border-style: solid;
+  border-width: 0px 100vw 90px 0vw;
+  border-color: transparent transparent  var(--mainWhite) transparent;
+}
+.saf {
+  background: var(--back);
+  left: 20vw;
+  bottom: 63px;
+  position: relative;
+  border-style: solid;
+  border-width: 70px 0vw 0px 100vw;
+  border-color: var(--mainWhite) transparent transparent transparent;
+  transform: translateX(-20%) translateY(90%);
 }
 
 
-/*ABOUT*/
+/************** ABOUT-page **************/
+
 .about {
   background: var(--mainWhite);
   margin: auto;
@@ -531,30 +740,8 @@ div{
 }
 
 
-.bf {
-  padding-top: 30px;
-  border-style: solid;
-  border-width: 0px 28vw 99px 72vw;
-  border-color: transparent transparent  var(--mainWhite) transparent;
-  background:var(--back);
-}
-.af {
-  left: 20vw;
-  bottom: 45px;
-  position: relative;
-  border-style: solid;
-  border-width: 50px 80vw 0px 20vw;
-  border-color: var(--mainWhite) transparent transparent transparent;
-  transform: translateX(-20%) translateY(90%);
-  background:var(--back);
-}
-/* weblist */
-.prolog{
-  text-align: justify;
-  background: var(--back);
-  margin: auto;
-  padding: 80px 0px;
-}
+/************** service-page **************/
+
 .weblist{
   background: var(--mainWhite);
 }
@@ -575,7 +762,6 @@ div{
 .ltr{
   direction: ltr;
 }
-
 @media screen and (max-width: 620px) {
   .websec{
     margin: auto;
@@ -607,7 +793,7 @@ ol.gradient-list > li {
   counter-increment: gradient-counter;
   padding: 13px 2.5rem 13px 8px;
   position: relative;
-  /* min-width: 310px; */
+  min-width: 310px;
 }
 ol.gradient-list > li::before, ol.gradient-list > li::after {
   background: linear-gradient(215deg, rgb(173, 219, 240) 0%, var(--back) 100%);
@@ -632,50 +818,9 @@ ol.gradient-list > li + li {
   margin-top: 1rem;
 }
 
-/* english */
-ol.gradient-e > li, ol.gradient-list > li::before {
-  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
-}
-ol.gradient-e {
-  counter-reset: gradient-counter;
-  list-style: none;
-  padding-top: 10px;
-  padding: 2rem;
-  border-radius: 2%;
-  box-shadow: var(--box-shadow);
-}
-ol.gradient-e > li {
-  background: white;
-  border-radius: 0.5rem 0 0.5rem 0.5rem;
-  counter-increment: gradient-counter;
-  padding: 13px 1rem 13px 2rem;
-  position: relative;
-  min-width: 300px;
-}
-ol.gradient-e > li::before, ol.gradient-list > li::after {
-  background: linear-gradient(215deg, rgb(173, 219, 240) 0%, var(--back) 100%);
-  border-radius: 1rem 1rem 1rem 0;
-  position: absolute;
-  overflow: hidden;
-  height: 3rem;
-  left: -1.5rem;
-  width: 3rem;
-  top: -5px;
-}
-ol.gradient-e > li::before {
-  content: counter(gradient-counter);
-  justify-content: flex-end;
-  align-items: flex-end;
-  display: flex;
-  z-index: 1;
-  font-size: 1.2rem;
-  padding: 0.5em 1em;
-}
-ol.gradient-e > li + li {
-  margin-top: 1rem;
-}
 
-/* תיק עבודות */
+/************** portfolio-page **************/
+
 /*-------מסגרת  זזה על תמונה--------*/
 .grid *,.grid *:after, .grid *:before {
 	-webkit-box-sizing: border-box;
@@ -781,52 +926,17 @@ figure.effect-chico:hover a {
 }
 
 
-/*start*/
-.sec{
-  background: var(--blue);
-  display: grid;
-  margin: auto;
-  padding: 30px;
-  padding-top: 0px;
-}
-.sec img{
-  margin: auto;
-  width: 290px;
-  padding: 20px;
-}
-@media screen and (min-width: 1000px) {
-  .sec {
-    padding: 20px;
-    padding-top: 55px;
-    grid-template-columns: 1fr 1.7fr;
-  }
-}
-@media screen and (max-width: 500px) {
-  .sec img{
-    padding: 25px;
-    width: 200px;
-  }
-  .sec {
-    padding: 0px;
-  }
-}
-.sbf {
-  background: var(--back);
-  border-style: solid;
-  border-width: 0px 100vw 90px 0vw;
-  border-color: transparent transparent  var(--mainWhite) transparent;
-}
-.saf {
-  background: var(--back);
-  left: 20vw;
-  bottom: 63px;
-  position: relative;
-  border-style: solid;
-  border-width: 70px 0vw 0px 100vw;
-  border-color: var(--mainWhite) transparent transparent transparent;
-  transform: translateX(-20%) translateY(90%);
+/************** price-page **************/
+
+.block-include {
+  padding: 0.3rem 0rem;
+  background: var(--mainWhite);
+  box-shadow: var(--lightShadow);
+  border: 1px solid var(--secColor);
+  border-radius: 355px 10px 355px 10px/10px 355px 10px 355px;
 }
 
+/************** cotact-page **************/
 
 .col {
   display: grid;
@@ -937,7 +1047,9 @@ figure.effect-chico:hover a {
     margin-right: 1%;
   }
 }
-/* Navbar */
+
+
+/*********************** Navbar ***********************/
 
 /* שורת תפריט*/
 .navbar {
@@ -955,10 +1067,11 @@ figure.effect-chico:hover a {
 }
 /*לוגו*/
 .nav-logo {
-  margin-top: 10px;
-  margin-bottom: 3px;
-  height: 50px;
-  width: 90px;
+  margin: 5px 15px 0;
+  /* margin-top: 10px; */
+  /* margin-bottom: 3px; */
+  height: 60px;
+  width: 60px;
 }
 .nav-logo:hover,
 .nav-logo:focus {
@@ -1083,8 +1196,10 @@ figure.effect-chico:hover a {
     }
 }
 
-/* כף יד מנופפת */
-.secicon {
+
+/*********** כף יד מנופפת ***********/
+
+.float-contact {
   color:var(--secColor);
   background-color: rgba(109, 154, 180, 0.589);
   border: 2px solid var(--mainWhite);
@@ -1096,38 +1211,24 @@ figure.effect-chico:hover a {
   top: 82%; 
   z-index: 1;
 }
-.secicon:hover{
+.float-contact:hover{
   transform: rotate(20deg);
 }
-.secicon2 {
+.call {
   top: 72%;
   color: var(--lgreen);
 }
-.secicon3 {
+.chat {
   top: 62%; 
   color: var(--mainWhite);
 }
 
-.empty-blue {
-  height: 50px;
-  background: var(--back);
-  margin: auto;
-}
-.empty-white {
-  height: 150px;
-  margin: auto;
-}
 
-.puzzle{
-  height: 160px;
-  background-size: contain;
-  position: relative;
-  top: 50px;
-}
-/* footer */
+/*********** footer *********/
+
 .footerWrapper{
   height: auto;
-  padding: 1px 0 10px;
+  padding: 10px 0 10px;
   background: var(--grey);
 }
 .footerWrapper p{
@@ -1137,97 +1238,4 @@ figure.effect-chico:hover a {
   font-weight: 600;
   font-size: 17px;
   direction: ltr;
-}
-
-/**** המלצות *****/
-
-.carousel {
-  margin: auto !important;
-  width: 70% !important;
-  /* z-index: -999 !important; */
-}
-
-.carousel h5{
-text-align: center !important;
-}
-
-.site-link {
-  text-decoration: underline;
-  color: var(--primaryColor);
-  padding-top: 0px;
-  font-size: large;
-  letter-spacing: 1.5px;
-}
-
-.carousel .control-dots .dot{
-  background: var(--primaryColor) !important;
-}
-
-/********** horiz form /**********/
-.hori-form {
-  text-align: center;
-  display: inline-block;
-  margin: auto;
-  width: 85%;
-  margin-right: 7%;
-}
-.form-inline {  
-  display: inline-flex;
-  flex-flow: row wrap;
-  align-items: center;
-  column-gap: 15px;
-}
-
-
-.form-bug { 
-  display: none;
-}
-
-@media screen and (max-width: 730px) {
-  .carousel {
-    margin: auto !important;
-    width: 90% !important;
-  }
-}
-@media screen and (max-width: 560px) {
-  .hori-form {  
-    width: 100%;
-    margin: 0 13% !important;
-    text-align: center;
-  }
-  .h2-hori {
-    margin-right: 19% !important;
-    width: 100% !important;
-    text-align: right !important;
-  }
-  .submit-hori {
-    width: 67% !important;
-    margin: 5% -1%;
-  }  
-  .form-bug {
-    display: block;
-    width: 90vw;
-    margin: -10px -80px 0 0 !important;
-  }
-}
-
-/**** פרולוג *****/
-
-.prolog{
-  text-align: center;
-  background: var(--back);
-  margin: auto;
-  padding: 80px 0px 0px 0;
-}
-.pro-btn-wrap {
-  text-align: center;
-  display: inline-block;
-  margin: 15px 0 -20px 0;
-}
-.pro-btn {
-  width: 300px !important;
-  margin: 10px 15px;
-  font-size: medium;
-  padding: 5px 0;
-  z-index: 0;
 }

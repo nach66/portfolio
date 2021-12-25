@@ -1,16 +1,16 @@
 import React from 'react'
-import Abouts from '../components/About'
+import Prices from '../components/Prices'
 import HoriForm from '../components/HoriForm'
 import Footer from '../components/Footer'
 
-export default function About(props) {
+export default function Price(props) {
     return (
         <>
             <div className="empty-blue"/>
+            <div className="af"/>      
+            <Prices/>
             <div className="bf"/>       
-            <Abouts/>
             <HoriForm/>
-            <div className="af"/>                
             <Footer/>
         </>
     )

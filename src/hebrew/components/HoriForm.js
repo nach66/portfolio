@@ -14,13 +14,14 @@ export default class HoriForm extends React.Component {
         const { status } = this.state;
         return (
             <>   
+                <br/>
                 <div className="hori-form">
                         <form method="POST"
                             className="cform form-inline"
                             onSubmit={this.submitForm}
                             action="https://formspree.io/f/xeqpljye">
                                 <article className="h2-hori">
-                                    <h2>צרו קשר</h2>
+                                    <h2>לקבלת הצעת מחיר</h2>
                                 </article>
                                 <article>
                                     <input
@@ -49,8 +50,9 @@ export default class HoriForm extends React.Component {
                                 </article>                          
                             </form>
                 </div>
-
-                <div className="af"/>       
+                <br/>
+                <br/>
+                <br/>
             </>
         );
     }

@@ -17,7 +17,7 @@ export default class Puzzle extends Component {
                 {
                     icon: way,
                     title:"אתכם לאורך כל הדרך",
-                    text: "החל משיחת האפיון הראשונה, אהיה שם בשבילכם, כדי לדייק את החלום וליצור אותו לשביעות רצונכם. בסיום תקבלו הדרכה אישית ומפורטת לגבי השימוש באתר ובמערכת הניהול."
+                    text: "החל משיחת האפיון הראשונה, נדייק יחד את החלום וניצור אותו לשביעות רצונכם. בסיום תקבלו הדרכה אישית לשימוש באתר ובמערכת הניהול."
                 },
                 {
                     icon:responsive,
@@ -77,8 +77,8 @@ export default class Puzzle extends Component {
                                 <article className="block-services" key={index}>
                                     <Fade bottom>
                                         <img src={item.icon} className="gif" alt="web img"/>
-                                        <h4>{item.title}</h4>
-                                        <p>{item.text}</p>
+                                        <h2>{item.title}</h2>
+                                        <h6>{item.text}</h6>
                                     </Fade>
                                 </article>
                             )}

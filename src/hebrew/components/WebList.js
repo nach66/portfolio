@@ -57,16 +57,15 @@ export default class WebList extends Component {
     render () {
         return (
             <>
-                <div className="bf"/>
                 <section className="weblist">
                     <h1>אז מה בתפריט?</h1>
+
                     <div className="weblist-center">
                         {this.state.webs.map(web => {
                             return <Web key={web.id} reco={web}/>;
                         })}
                     </div>
                 </section>
-                <div className="af"/>
             </>
         );
     }

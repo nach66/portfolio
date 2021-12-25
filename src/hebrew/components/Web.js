@@ -7,18 +7,18 @@ export default function Web({reco}) {
     const noteItems = list.map((note) =>
         <li>{note}</li>
     );
+    
     return (
         <>
             <section className={ltr? "ltr websec " : "websec" }>
                 <Fade bottom>            
                     <article>
                     <DividerWithText><h2>{title}</h2></DividerWithText>                    
-                        <h6>{text}</h6>
+                        <p style={{direction:'rtl'}}>{text}</p>
                     </article>
 
                     <article className="grid">
-                        <ol class="gradient-list">{noteItems}</ol>
-                        {/* <ul>{noteItems}</ul> */}
+                        {/* <ol class="gradient-list">{noteItems}</ol> */}
                     </article>
                 </Fade>
             </section>
