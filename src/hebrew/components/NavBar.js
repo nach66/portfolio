@@ -25,6 +25,7 @@ export default class NavBar extends Component {
     render() {
         return (
             <>
+
                 <button onClick={this.handleclick} >                        
                     <FaHandPaper className="float-contact" alt="contact"/>
                 </button>

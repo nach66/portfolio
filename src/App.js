@@ -8,6 +8,7 @@ import Price from "./hebrew/pages/Price";
 import Services from "./hebrew/pages/Services";
 import Contact from "./hebrew/pages/Contact";
 import Error from "./hebrew/pages/Error";
+import Sitemap from "./sitemap.xml";
 import "./App.css";
 
 function App(props) {
@@ -21,6 +22,7 @@ function App(props) {
                 <Route exact path="/portfolio" component={Portfolio}/>
                 <Route exact path="/price" component={Price}/>
                 <Route exact path="/contact" component={Contact}/>
+                <Route exact path="/sitemap" component={Sitemap}/>
                 <Route component={Error}/>
             </Switch>
         </>
