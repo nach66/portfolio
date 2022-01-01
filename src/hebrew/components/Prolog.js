@@ -12,10 +12,10 @@ export default function Prolog() {
                 <h6>ויודעים מה? זה לא נגמר שם, עבור מי שלא פנויי או מעוניין להתעסק בקשקושים הטכנולוגיים האלה בעצמו, אני מציעה גם ניהול של האתר הקיים. שינויים, עדכונים וכל מה שתצטרכו :) </h6>
 
                 <div className="pro-btn-wrap">
-                    <a href="/he/port">
+                    <a href="/portfolio">
                         <button className="submit pro-btn">להתרשמות מדוגמאות >></button>
                     </a>
-                    <a href="/he/about">
+                    <a href="/about">
                         <button className="submit pro-btn">למה לצאת לדרך דווקא איתי?</button>
                     </a>
                 </div>

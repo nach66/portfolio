@@ -7,7 +7,6 @@ import ssl from '../../images/icons/ssl/CYBERSECURITY.gif';
 import speed from '../../images/icons/speed/animat-rocket-color.gif';
 import btn from '../../images/icons/btn/animat-checkmark-color.gif';
 import Program from "./Program";
-import HoriForm from './HoriForm'
 import DividerWithText from './DividerWithText';
 
 export default class Include extends Component {

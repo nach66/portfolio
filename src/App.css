@@ -27,85 +27,6 @@
   --box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
 }
 
-/* .languegus {
-  position: fixed;
-  top: 15px;
-  left: 46vw;
-  z-index: 1;
-}
-.languegus img {
-  width: 20px;
-  border-radius: 2px;
-}
-.languegus img:hover {
-  cursor: pointer;
-  box-shadow: var(--lightShadow);
-  transform: translateY(0.05rem);
-}
-@media screen and (min-width: 880px) {
-  .languegus {
-    left: 2%;
-  }
-}
-.lang{
-  direction: ltr;
-}
-.lang a, .lang button {
-  font-size: large !important;
-  font-family:'Yusei_Magic' !important;
-}
-.lang h1 {
-  line-height: 3.3rem !important;
-  font-size: 3rem !important;
-  font-family:'Yusei_Magic' !important;
-}
-.lang h2, .lang h3 {
-  font-size: x-large !important;
-  font-family:'Yusei_Magic' !important;
-} */
-/* english
-ol.gradient-e > li, ol.gradient-list > li::before {
-  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
-}
-ol.gradient-e {
-  counter-reset: gradient-counter;
-  list-style: none;
-  padding-top: 10px;
-  padding: 2rem;
-  border-radius: 2%;
-  box-shadow: var(--box-shadow);
-}
-ol.gradient-e > li {
-  background: white;
-  border-radius: 0.5rem 0 0.5rem 0.5rem;
-  counter-increment: gradient-counter;
-  padding: 13px 1rem 13px 2rem;
-  position: relative;
-  min-width: 300px;
-}
-ol.gradient-e > li::before, ol.gradient-list > li::after {
-  background: linear-gradient(215deg, rgb(173, 219, 240) 0%, var(--back) 100%);
-  border-radius: 1rem 1rem 1rem 0;
-  position: absolute;
-  overflow: hidden;
-  height: 3rem;
-  left: -1.5rem;
-  width: 3rem;
-  top: -5px;
-}
-ol.gradient-e > li::before {
-  content: counter(gradient-counter);
-  justify-content: flex-end;
-  align-items: flex-end;
-  display: flex;
-  z-index: 1;
-  font-size: 1.2rem;
-  padding: 0.5em 1em;
-}
-ol.gradient-e > li + li {
-  margin-top: 1rem;
-} */
-
 .bf {
   padding-top: 30px;
   border-style: solid;
@@ -1067,11 +988,8 @@ figure.effect-chico:hover a {
 }
 /*לוגו*/
 .nav-logo {
-  margin: 5px 15px 0;
-  /* margin-top: 10px; */
-  /* margin-bottom: 3px; */
-  height: 50px;
-  width: 50px;
+  margin: 20px 10px 9px;
+  height: 40px;
 }
 .nav-logo:hover,
 .nav-logo:focus {
@@ -1089,8 +1007,8 @@ figure.effect-chico:hover a {
 .nav-icon {
   position: absolute;
   left: 20px;
-  top: 20px;
-  font-size: 1.9rem;
+  top: 25px;
+  font-size: 1.8rem;
   color:var(--grey);
 }
 

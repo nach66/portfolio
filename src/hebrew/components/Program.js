@@ -1,6 +1,5 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-import DividerWithText from './DividerWithText'
 
 export default function Program({reco}) {
     const {list, title, price} = reco;

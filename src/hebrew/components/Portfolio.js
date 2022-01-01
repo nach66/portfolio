@@ -4,7 +4,6 @@ import Zoom from 'react-reveal/Zoom';
 
 import hostel from '../../images/reco/hostel.png'
 import flower from '../../images/reco/flowers.png'
-import noam from '../../images/reco/noam.png'
 
 import wall from '../../images/reco/walll.png'
 import door from '../../images/reco/door.png'
@@ -28,8 +27,7 @@ import yariv from '../../images/reco/יריב.png'
 import sima from '../../images/reco/סימה.png'
 import arie from '../../images/reco/שטומפכר.png'
 
-import vladi from '../../images/reco/vladi.png'
-import vladi1 from '../../images/reco/vladi1.png'
+import vladi from '../../images/reco/vladi1.png'
 import idit from '../../images/reco/idit.png'
 import raw from '../../images/reco/raw.png'
 
@@ -65,7 +63,7 @@ export default class Portfolio extends Component {
                 title:"happy flowers - חנות פרחים"
             },
             {
-                icon:vladi1,
+                icon:vladi,
                 link:"https://congressbulaim.co.il/",
                 title:"קונגרס הבולאים - חנות בולים"
             },
