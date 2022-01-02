@@ -21,7 +21,9 @@ export default function Ycube() {
                         </p>
                         <p>
                             למדתי את הנוסחה, ואני יכולה להסביר גם לך.
-                            <a style={{margin:'10px', color:'var(--lgreen)'}} href="/contact">
+                            <a href="https://api.whatsapp.com/send?phone=+972556617145" 
+                                style={{margin:'10px', color:'var(--lgreen)'}}
+                                rel="noopener noreferrer" target="_blank">
                                 שנדבר?
                             </a>
                         </p>

@@ -6,6 +6,7 @@ import seo from '../../images/icons/seo/animat-search-color.gif';
 import ssl from '../../images/icons/ssl/CYBERSECURITY.gif';
 import speed from '../../images/icons/speed/animat-rocket-color.gif';
 import btn from '../../images/icons/btn/animat-checkmark-color.gif';
+import design from '../../images/icons/design/animat-customize-color.gif';
 import Program from "./Program";
 import DividerWithText from './DividerWithText';
 
@@ -17,16 +18,16 @@ export default class Include extends Component {
                     text: "ליווי מלא: משלב התכנון ועד לעליית האתר, הדרכה לתפעול האתר בסיום הבניה."
                 },
                 {
-                    icon:ssl,
+                    icon:design,
                     text: "ניהול תשתיות: חיבור הdomain, העלאת האתר לשרת והתקנת SSL - רשיון HTTPS לאבטחה."
                 },
                 {
                     icon:responsive,
-                    text:"עיצוב רספונסיבי: התאמה למובייל ולגדלי מסכים שונים"
+                    text:"עיצוב רספונסיבי: התאמה למובייל ולגדלי מסכים שונים, מאחר ומרבית התנועה באינטרנט כיום היא דרך."
                 },
                 {
                     icon:speed,
-                    text: "מהירות: כיווץ קבצים והתקנת תוסף Cache (זיכרון מטמון) לשיפור מהירות טעינה.",
+                    text: "טכנולוגיות טעינה מתקדמות, כיווץ קבצים ושימוש בזיכרון מטמון (chash) לשיפור מהירות האתר.",
                 },
                 {
                     icon:seo,

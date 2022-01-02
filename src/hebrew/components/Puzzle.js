@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
 import way from '../../images/icons/road/animat-road-trip-color.gif';
-import design from '../../images/icons/design/animat-customize-color.gif';
 import pencil from '../../images/icons/pencil/animat-pencil-color.gif';
-import responsive from '../../images/icons/responsive/animat-responsive-color.gif';
 import seo from '../../images/icons/seo/animat-search-color.gif';
 import manage from '../../images/icons/manage.gif';
 import ssl from '../../images/icons/ssl/CYBERSECURITY.gif';
-import speed from '../../images/icons/speed/animat-rocket-color.gif';
 import btn from '../../images/icons/btn/animat-checkmark-color.gif';
 import puzzle from '../../images/puzzle.png'
 
@@ -16,48 +13,34 @@ export default class Puzzle extends Component {
         services: [
                 {
                     icon: way,
-                    title:"אתכם לאורך כל הדרך",
-                    text: "החל משיחת האפיון הראשונה, נדייק יחד את החלום וניצור אותו לשביעות רצונכם. בסיום תקבלו הדרכה אישית לשימוש באתר ובמערכת הניהול."
-                },
-                {
-                    icon:responsive,
-                    title: "רספונסיביות - התאמה למובייל",
-                    text:"כיום, מרבית התנועה באינטרנט נעשית דרך הטלפון הנייד. גם האתר שלכם יהיה שם, נגיש לכל גודל מסך, לחוויית שימוש מושלמת עבור קהל הלקוחות המגוון."
-                },
-                {
-                    icon:ssl,
-                    title:"אבטחת SSL",
-                    text: "בטיחות מעל הכול! סליקה מאובטחת והטמעת SSL, תוך עמידה בתקני האבטחה הגבוהים ביותר."
-                },               
-                {
-                    icon:design,
-                    title:"עיצוב UI/UX",
-                    text: "חוויית משתמש מודרנית ונגישה. עיצוב אישי שמותאם לעסק ומעביר האווירה המדויקת עבור הלקוח, מגדיל את אחוזי ההמרה והמכירות."
-                },
-                {
-                    icon:btn,
-                    title:"קישורים מהירים",
-                    text: "קישורים לסושיאל, כפתור חיוג ישיר, הפניה לשיחת ווטאספ, טפסי לידים מתקדמים. הכול על מנת להקל על הלקוח שלכם למצוא אתכם במהירות ויעילות.",
-                },
-                {
-                    icon:manage,
-                    title:"מערכת ניהול תכנים",
-                    text: "מוצרים, תמונות, פוסטים, הכול תוכלו לעדכן בעצמכם ובקלות. כמובן לאחר שתקבלו הדרכה מפורטת ותרגישו מוכנים לצאת עם האתר לדרך.",
+                    title:"אתך לאורך כל הדרך",
+                    text: "ליווי מלא משלב התכנון ועד לעליית האתר. בסיום אדריך אותך באופן אישי לשימוש באתר ובמערכת הניהול."
                 },
                 {
                     icon:seo,
-                    title:"הכנת הקרקע לקידום ושיווק",
-                    text: "בניית האתר כוללת הטמעה של הפיקסל של פייסבוק וגוגל Analytics לשם ניתוח והכרת התנהגות הגולשים באתר, תגיות מטא ומפת XML.",
-                },
-                {
-                    icon:speed,
-                    title:"מהירות",
-                    text: "טכנולוגיות טעינה מתקדמות ושימוש בשרתים מהירים.",
+                    title:"הכנה לקידום ושיווק",
+                    text: "הטמעה של Google Analytics  ו -Facebook Pixel , שיפור מהירויות ושימוש בפרוטוקולי אבטחה המועדפים על גוגל."
                 },
                 {
                     icon:pencil,
                     title:"כתיבת תוכן",
-                    text: "אעזור לכם למצוא את המילים הכי יפות, שייצגו את העסק שלכם בצורה הטובה ביותר, ויתרגמו מבקרים ללקוחות קבועים ומרוצים."
+                    text: "אעזור לך למצוא את המילים הכי יפות, שייצגו את העסק בצורה הטובה ביותר, ויתרגמו מבקרים ללקוחות מרוצים."
+                },
+
+                {
+                    icon:manage,
+                    title:"מערכת ניהול תכנים",
+                    text: "מוצרים, תמונות, פוסטים - בעזרת מערכת הוורדפרס שעליה נבנה האתר, אפשר לעדכן את התכנים בעצמך, ובקלות. כמובן לאחר הדרכה מפורטת ממני :)"
+                },
+                {
+                    icon:ssl,
+                    title:"בטיחות מעל הכול!",
+                    text: "עמידה בתקני האבטחה הגבוהים ביותר, כולל סליקה מאובטחת, והתקנת תעודת SSL ."
+                },  
+                {
+                    icon:btn,
+                    title:"קישורים מהירים",
+                    text: "קישורים לסושיאל, כפתור חיוג ישיר, הפניה לשיחת ווטאספ, טפסי לידים מתקדמים. הכול על מנת להקל על הלקוח שלך למצוא אותך במהירות ויעילות.",
                 },
             ]
         }
