@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Pro from '../components/Prolog'
-import Testi_slider from '../components/TestiSlider'
+import TestiSlider from '../components/TestiSlider'
 import HoriForm from '../components/HoriForm'
 import Puzzle from '../components/Puzzle'
-import Start from '../components/Start'
+import Ycube from '../components/Ycube'
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 
@@ -13,11 +13,11 @@ export default function Page (props) {
         <>
                 <Hero/>
                 <Pro/>
-                <Testi_slider/>
+                <TestiSlider/>
                 <HoriForm/>
                 <div className="af"/>       
                 <Puzzle/>
-                <Start/>
+                <Ycube/>
                 <ContactForm/>
                 <Footer/>
             </>

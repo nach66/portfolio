@@ -424,8 +424,7 @@ p {
 
 .carousel {
   margin: auto !important;
-  width: 70% !important;
-  /* z-index: -999 !important; */
+  width: 60% !important;
 }
 .carousel h6{
 text-align: center !important;
@@ -439,6 +438,11 @@ text-align: center !important;
 }
 .carousel .control-dots .dot{
   background: var(--primaryColor) !important;
+}
+@media screen and (max-width: 1000px) {
+  .carousel {
+    width: 70% !important;
+  }
 }
 
 /** horiz form **/
@@ -549,36 +553,36 @@ text-align: center !important;
   width: 60px;
 }
 
-/** start **/
+/** ycube **/
 
 .sec{
   background: var(--blue);
   display: grid;
-  margin: auto;
-  padding: 30px;
-  padding-top: 0px;
+  padding-right: 30px;
 }
-.sec img{
+.ycube { 
   margin: auto;
-  width: 290px;
-  padding: 20px;
+  text-align: center;
 }
-@media screen and (min-width: 1000px) {
+.ycube img{ 
+  width: 250px;
+}
+@media screen and (min-width: 900px) {
   .sec {
-    padding: 20px;
-    padding-top: 55px;
-    grid-template-columns: 1fr 1.7fr;
+    padding-top: 25px;
+    grid-template-columns: 1fr 2fr;
   }
 }
 @media screen and (max-width: 500px) {
-  .sec img{
-    padding: 25px;
-    width: 200px;
+  .ycube img{ 
+    padding-bottom: 25px;
+    width: 150px;
   }
   .sec {
-    padding: 0px;
+    padding: 30px;
   }
 }
+
 .sbf {
   background: var(--back);
   border-style: solid;
@@ -619,20 +623,17 @@ text-align: center !important;
 
 @media screen and (min-width: 1050px) {
   .focused {
-    width: 190px;
-    height: 120px;
+    width: 250px;
+    height: 180px;
     margin: auto;
     padding-bottom: 60px;
     background: url("./images/focus.png") no-repeat;
     background-size: contain;
-  } {
-    width: 250px;
-    height: 250px;
   }
   .about {
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5rem;
-    padding: 0px 90px;
+    grid-template-columns: 4fr 3fr;
+    grid-column-gap: 1rem;
+    padding: 0px 50px;
   }
   .left{
     position: relative;

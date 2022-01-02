@@ -17,13 +17,10 @@ export default function TestiSlider() {
                             "אני רוצה להמליץ בחום על יוני המתכנתת, מומחית לוורדפרס. 
                             <br/>
                             ביקשתי לעשות שיפוץ לשני אתרים שלי. היא הבינה בדיוק מה שרציתי - קיבלתי ייעוץ ללא עלות, סופר מקצועית, מהירה, מומחית לקוד פתוח, פתרה לי כמה באגים וגם סידרה לי כמה עיצובים שהפריעו לי על הדרך והכל במחיר הוגן.
-                            <br/>
                             היה לי ממש כיף לעבוד מולה, מומלץ מאוד 👍"
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>בני, zipper bags </h6>
                         <a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a>
-                        <br/>
-                        <br/>
                         <br/>
                         <br/>
                         <br/>
@@ -40,13 +37,10 @@ export default function TestiSlider() {
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>סוזי אוקובו, בעלת עסק לטיולים בטוקיו ומחברת הספר זרה ביפן</h6>
                         <a href="https://zarabeyapan.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של סוזי >> </a>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
+                        <br/>           
+                        <br/>           
+                        <br/>           
+                        <br/>           
                         <br/>           
                         <br/>           
                     </div>
@@ -64,8 +58,6 @@ export default function TestiSlider() {
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>ליאת בינדר, אלמנטרי ביטוח</h6>
                         <a href="https://wayin.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ליאת >> </a>
-                        <br/>
-                        <br/>
                         <br/>
                         <br/>
                         <br/>
@@ -93,7 +85,6 @@ export default function TestiSlider() {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>
                     </div>
 
                     <div>
@@ -102,11 +93,6 @@ export default function TestiSlider() {
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>ניצן, 'אדם בעמלו' </h6>
                         <a href="https://adambeamalo.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ניצן >> </a>
-                        <br/>  
-                        <br/>  
-                        <br/>  
-                        <br/>  
-                        <br/>  
                         <br/>  
                         <br/>  
                         <br/>  
@@ -128,13 +114,13 @@ export default function TestiSlider() {
                         <br/>
                         <br/>
                         <br/>
-                        <br/>  
-                        <br/>  
-                        <br/>  
                         <br/>
                         <br/>
                         <br/>
-                        <br/>                 
+                        <br/>
+                        <br/>     
+                        <br/>
+                        <br/>        
                     </div>
 
                     <div>
@@ -149,72 +135,3 @@ export default function TestiSlider() {
         </>        
     )
 }
-
-{/* <div>
-<h5>
-    "אני רוצה להמליץ בחום על יוני המתכנתת, מומחית לוורדפרס. 
-    <br/>
-    ביקשתי לעשות שיפוץ לשני אתרים שלי. היא הבינה בדיוק מה שרציתי - קיבלתי ייעוץ ללא עלות, סופר מקצועית, מהירה, מומחית לקוד פתוח, פתרה לי כמה באגים וגם סידרה לי כמה עיצובים שהפריעו לי על הדרך והכל במחיר הוגן.
-    <br/>
-    היה לי ממש כיף לעבוד מולה, מומלץ מאוד 👍"
-</h5>
-<p style={{fontWeight:'bold'}}>בני, zipper bags </p>
-<a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a>
-<br/>
-<br/>
-<br/>
-</div>
-
-<div>
-<h5>
-    "יוני היקרה
-    תודה רבה על בנית האתר לספר שלי ״זרה ביפן״.
-    <br/>
-    אהבתי את העבודה שלך את המקצועיות והיכולת להתאים את עצמך אלי. 
-    <br/>
-    היה לי כייף לעבוד איתך ואני ממליצה בחום להשתמש בשרותיך."
-</h5>
-<a href="https://zarabeyapan.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של סוזי >> </a>
-<p style={{fontWeight:'bold'}}>סוזי, zara beyapan </p>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
-
-<div>
-<h5>
-"היי יוני,
-תודה על אתר מהמם!
-<br/>
-תודה על הסבלנות, האכפתיות הזמינות והמקצועיות שלך לאורך התהליך.
-<br/>
-אין לי ספק שאמליץ עלייך ואמשיך להיות לקוחה שלך גם באתרים הבאים שלי :)
-<br/>
-בהערכה רבה, בינדר ליאת"
-
-</h5>
-<a href="https://wayin.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ליאת >> </a>
-<p style={{fontWeight:'bold'}}>ליאת, אלמנטרי ביטוח</p>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
-
-<div>
-<h5>
-    "ממליצה מאוד על יוני המקסימה. מקצועית, מהירה, מחיר טוב."
-</h5>
-<a href="https://sharonperfumes.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שרון >> </a>
-<p style={{fontWeight:'bold'}}>שרון, sharon perfumes </p>
-</div> */}

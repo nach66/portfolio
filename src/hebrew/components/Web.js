@@ -3,10 +3,10 @@ import Fade from 'react-reveal/Fade';
 import DividerWithText from './DividerWithText'
 
 export default function Web({reco}) {
-    const {ltr, list, title, text} = reco;
-    const noteItems = list.map((note) =>
-        <li>{note}</li>
-    );
+    const {ltr, title, text} = reco;
+    // const noteItems = list.map((note) =>
+    //     <li>{note}</li>
+    // );
     
     return (
         <>
