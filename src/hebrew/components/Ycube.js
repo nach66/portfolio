@@ -1,5 +1,5 @@
 import React from 'react'
-import a from '../../images/icons/Cube2.svg'
+import cube from '../../images/icons/ycube.png'
 import Fade from 'react-reveal/Fade';
 export default function Ycube() {
     return (
@@ -8,7 +8,7 @@ export default function Ycube() {
             <div className="sec">
                 <Fade bottom>            
                     <article className="centerr ycube">
-                        <img src={a} alt="icon"/>
+                        <img src={cube} alt="icon"/>
                     </article>
                     <article className="centerr">
                         <h3>למה קוביה?</h3>

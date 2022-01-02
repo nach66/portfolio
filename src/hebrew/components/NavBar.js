@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import {FaAlignJustify, FaHandPaper, FaPhone, FaWhatsapp, FaWindowClose} from 'react-icons/fa'
-import logo from '../../images/icons/Cube1.svg'
+import logo from '../../images/icons/Cube.svg'
 
 export default class NavBar extends Component {
     state={

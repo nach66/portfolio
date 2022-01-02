@@ -132,7 +132,7 @@ p {
 .pic{
   width: 96vw;
   height: 550px;
-  background: url("./images/newlap.png") no-repeat;
+  background: url("./images/icons/newlap.png") no-repeat;
   background-position: left;
   background-size: 70%;
 }
@@ -539,7 +539,7 @@ text-align: center !important;
   }
 }
 .block-services {
-  padding: 1.5rem 0rem;
+  padding: 0.8rem 0rem;
   background: var(--mainWhite);
   box-shadow: var(--lightShadow);
   border: 1px solid var(--secColor);
@@ -567,7 +567,7 @@ text-align: center !important;
 .ycube img{ 
   width: 250px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
   .sec {
     padding-top: 25px;
     grid-template-columns: 1fr 2fr;
@@ -576,7 +576,7 @@ text-align: center !important;
 @media screen and (max-width: 500px) {
   .ycube img{ 
     padding-bottom: 25px;
-    width: 150px;
+    width: 250px;
   }
   .sec {
     padding: 30px;
@@ -617,7 +617,7 @@ text-align: center !important;
   height: 120px;
   margin: auto;
   padding-bottom: 60px;
-  background: url("./images/focus.png") no-repeat;
+  background: url("./images/icons/focus.png") no-repeat;
   background-size: contain;
 }
 
@@ -627,7 +627,7 @@ text-align: center !important;
     height: 180px;
     margin: auto;
     padding-bottom: 60px;
-    background: url("./images/focus.png") no-repeat;
+    background: url("./images/icons/focus.png") no-repeat;
     background-size: contain;
   }
   .about {
@@ -643,7 +643,7 @@ text-align: center !important;
     margin: 15% 15%;
     width: 300px;
     height: 300px;
-    background: url("./images/coding_.png") no-repeat;
+    background: url("./images/icons/coding_.png") no-repeat;
     background-size: contain;
     position: relative;
   }
@@ -845,17 +845,6 @@ figure.effect-chico:hover a {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-}
-
-
-/************** price-page **************/
-
-.block-include {
-  padding: 0.3rem 0rem;
-  background: var(--mainWhite);
-  box-shadow: var(--lightShadow);
-  border: 1px solid var(--secColor);
-  border-radius: 355px 10px 355px 10px/10px 355px 10px 355px;
 }
 
 /************** cotact-page **************/
@@ -1111,7 +1100,7 @@ figure.effect-chico:hover a {
       height:auto; 
     }
     .nav-logo {
-      width: 0;
+      /* width: 0; */
     }
 }
 

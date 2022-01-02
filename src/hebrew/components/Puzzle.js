@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
-import way from '../../images/icons/road/animat-road-trip-color.gif';
-import pencil from '../../images/icons/pencil/animat-pencil-color.gif';
-import seo from '../../images/icons/seo/animat-search-color.gif';
-import manage from '../../images/icons/manage.gif';
-import ssl from '../../images/icons/ssl/CYBERSECURITY.gif';
-import btn from '../../images/icons/btn/animat-checkmark-color.gif';
-import puzzle from '../../images/puzzle.png'
+import way from '../../images/gif/road/animat-road-trip-color.gif';
+import pencil from '../../images/gif/pencil/animat-pencil-color.gif';
+import seo from '../../images/gif/seo/animat-search-color.gif';
+import manage from '../../images/gif/manage.gif';
+import ssl from '../../images/gif/ssl/CYBERSECURITY.gif';
+import btn from '../../images/gif/btn/animat-checkmark-color.gif';
+import puzzle from '../../images/icons/puzzle.png'
 
 export default class Puzzle extends Component {
     state={

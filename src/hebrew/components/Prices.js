@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
-import way from '../../images/icons/road/animat-road-trip-color.gif';
-import responsive from '../../images/icons/responsive/animat-responsive-color.gif';
-import seo from '../../images/icons/seo/animat-search-color.gif';
-import ssl from '../../images/icons/ssl/CYBERSECURITY.gif';
-import speed from '../../images/icons/speed/animat-rocket-color.gif';
-import btn from '../../images/icons/btn/animat-checkmark-color.gif';
-import design from '../../images/icons/design/animat-customize-color.gif';
+import responsive from '../../images/gif/responsive/animat-responsive-color.gif';
+import design from '../../images/gif/design/animat-customize-color.gif';
+import way from '../../images/gif/road/animat-road-trip-color.gif';
+import speed from '../../images/gif/speed/animat-rocket-color.gif';
+import btn from '../../images/gif/btn/animat-checkmark-color.gif';
+import seo from '../../images/gif/seo/animat-search-color.gif';
 import Program from "./Program";
 import DividerWithText from './DividerWithText';
 
@@ -117,7 +116,7 @@ export default class Include extends Component {
                     <div className="services-center">
                             {this.state.services.map(
                                 (item, index) => {return (
-                                    <article className="block-include" key={index}>
+                                    <article className="block-services" key={index}>
                                         <Fade bottom>
                                             <img src={item.icon} className="gif" alt="web img"/>
                                             <h6>{item.text}</h6>
