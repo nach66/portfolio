@@ -922,7 +922,8 @@ figure.effect-chico:hover a {
     border-right: 1px groove var(--blue);
   }
   .icon-sec {
-    padding-top: 140px;
+    vertical-align: bottom !important;
+    padding-top: 60px;
   }
   .form-control {
     width: 85%;
@@ -981,6 +982,7 @@ figure.effect-chico:hover a {
   margin: 20px 10px 9px;
   height: 40px;
 }
+
 .nav-logo:hover,
 .nav-logo:focus {
     box-shadow: 0 0 0.2em 0 var(--blue) ;
@@ -1066,6 +1068,7 @@ figure.effect-chico:hover a {
 
 /*** מסך גדול ***/
 @media screen and (min-width: 880px) {
+
     /*עיצוב גובה התפריט*/
   .links {
     background-color: transparent;
@@ -1091,7 +1094,7 @@ figure.effect-chico:hover a {
       display: none !important;
     }
     .hide-nav {
-      width: 100%;
+      width: 95%;
       height: auto;
     }
     .navi a:before {

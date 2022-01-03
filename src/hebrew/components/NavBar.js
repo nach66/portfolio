@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import {FaAlignJustify, FaHandPaper, FaPhone, FaWhatsapp, FaWindowClose} from 'react-icons/fa'
-import logo from '../../images/icons/Cube.svg'
+import logo from '../../images/icons/nolines.svg'
+// import logomob from '../../images/icons/Cube.svg'
 
 export default class NavBar extends Component {
     state={
@@ -44,8 +45,8 @@ export default class NavBar extends Component {
                     <div className="nav-center" >
 
                         <div className="nav-header">
-                            <Link to="/" >                        
-                                <img src={logo} onClick={this.onClicklogo} className="nav-logo" alt="logo"/>
+                            <Link to="/" >                  
+                            <img src={logo} onClick={this.onClicklogo} className="nav-logo" alt="logo"/>
                             </Link>
                             <button onClick={this.handleToggle} className="nav-btn">
                                 {this.state.isOpen? 

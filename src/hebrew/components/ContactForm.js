@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaEnvelope,FaPhone, FaWhatsapp, FaMailBulk} from 'react-icons/fa';
+import {FaEnvelope,FaPhone, FaWhatsapp, FaMailBulk, FaFacebook, FaInstagram} from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 
 export default class ContactForm extends React.Component {
@@ -30,7 +30,8 @@ export default class ContactForm extends React.Component {
 
                                     <a href="tel:055-6617145" rel="noopener noreferrer">
                                         <article style={{display: 'inline-block'}}>
-                                                <FaPhone className="contact-icon"/>
+                                                <FaPhone className="contact-icon"
+                                                    style={{color:'var(--grey)'}}/>
                                                 055-6617145
                                         </article>
                                     </a>                        
@@ -38,8 +39,23 @@ export default class ContactForm extends React.Component {
                                     <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer">
                                         <article style={{display: 'inline-block'}}>
                                                 <FaEnvelope className="contact-icon"
-                                                    style={{color:'var(--primaryColor)'}}/>
+                                                    style={{color:'wheat'}}/>
                                                 nach666@gmail.com
+                                        </article>
+                                    </a>
+
+                                    <a href={"https://www.instagram.com/studyoni_web_solutions/"} rel="noopener noreferrer"  target="_blank">
+                                        <article style={{display: 'inline-block'}}>
+                                                <FaInstagram className="contact-icon"
+                                                    style={{color:'purple'}}/>
+                                                אפשר גם לעקוב אחרי
+                                        </article>
+                                    </a>
+
+                                    <a href={"https://www.facebook.com/studYoni"} rel="noopener noreferrer"  target="_blank">
+                                        <article style={{display: 'inline-block'}}>
+                                                <FaFacebook className="contact-icon"/>
+                                                ולאהוב את העמוד שלי
                                         </article>
                                     </a>
                                 </div>
