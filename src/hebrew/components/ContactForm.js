@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaEnvelope,FaPhone, FaWhatsapp, FaMailBulk, FaFacebook, FaInstagram} from 'react-icons/fa';
+import {FaWhatsapp, FaMailBulk, FaFacebook, FaInstagram, FaRegEnvelope, FaPhoneSquare} from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 
 export default class ContactForm extends React.Component {
@@ -15,39 +15,38 @@ export default class ContactForm extends React.Component {
         const { status } = this.state;
         return (
             <>
+                <h1 style={{background:'var(--back)', paddingTop:'10px'}}>יצירת קשר</h1>
+
                 <div className="col">
+
                     <Fade right>
                         <article className="icon-sec">
                                 <h4>במרחק לחיצה מכאן</h4>              
                                 <div className="icon-align">
                                     <a href="https://api.whatsapp.com/send?phone=+972556617145" rel="noopener noreferrer" target="_blank">
                                         <article style={{display: 'inline-block'}}>
-                                                <FaWhatsapp className="contact-icon"
-                                                    style={{color:'rgb(7, 161, 58)'}}/>                                            
+                                                <FaWhatsapp className="contact-icon"/>                                            
                                             דברו איתי בוואטספ
                                         </article>
                                     </a> 
 
                                     <a href="tel:055-6617145" rel="noopener noreferrer">
                                         <article style={{display: 'inline-block'}}>
-                                                <FaPhone className="contact-icon"
-                                                    style={{color:'var(--grey)'}}/>
+                                                <FaPhoneSquare className="contact-icon"/>
                                                 055-6617145
                                         </article>
                                     </a>                        
 
                                     <a href={"mailto:nach666@gmail.com"} rel="noopener noreferrer">
                                         <article style={{display: 'inline-block'}}>
-                                                <FaEnvelope className="contact-icon"
-                                                    style={{color:'wheat'}}/>
+                                                <FaRegEnvelope className="contact-icon"/>
                                                 nach666@gmail.com
                                         </article>
                                     </a>
 
                                     <a href={"https://www.instagram.com/studyoni_web_solutions/"} rel="noopener noreferrer"  target="_blank">
                                         <article style={{display: 'inline-block'}}>
-                                                <FaInstagram className="contact-icon"
-                                                    style={{color:'purple'}}/>
+                                                <FaInstagram className="contact-icon"/>
                                                 אפשר גם לעקוב אחרי
                                         </article>
                                     </a>
@@ -64,7 +63,7 @@ export default class ContactForm extends React.Component {
 
                     <Fade left>
                         <article className="contact-sec">
-                            <h1>צרו קשר</h1>
+                            <h4>לחזור אליך?</h4>
                             <FaMailBulk style={{
                                     marginBottom: '4px',
                                     fontSize: '20px',
@@ -87,14 +86,21 @@ export default class ContactForm extends React.Component {
                                     <textarea
                                         name="message"
                                                         className="form-control long"
-                                                        rows="2"
+                                                        rows="4"
                                                         placeholder="רציתי לשאול.."/>
-                                    {status === "SUCCESS" ? <h2>תודה!</h2> : <button type="submit" className="s submit">אשמח אם תחזרי אליי :)</button>}
+                                    {status === "SUCCESS" ? <h2>תודה!</h2> : <button type="submit" className="s submit">כן, תחזרי אליי :)</button>}
                                     {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
                             </form>
                         </article>
                     </Fade>
                 
+                    <Fade bottom>
+                        <article className="icon-sec" style={{textAlign:'center'}}>
+                                <div className="contact-me"/>            
+                                <a href="/about"> למה לצאת לדרך דווקא איתי?</a>
+                        </article>
+                    </Fade>
+
                 </div>
             </>
         );

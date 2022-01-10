@@ -59,7 +59,7 @@ export default class Include extends Component {
                             'תפריט ניווט מתקדם ומעוצב',
                             'שלוש שעות הדרכה פרטנית על מערכת האתר',
                         ],
-                        price:"₪החל מ- 4,500"
+                        price:"החל מ - ₪4,500"
                     },
                     {
                         title:"בניית חנות וירטואלית ווקומרס",
@@ -70,7 +70,7 @@ export default class Include extends Component {
                             'כולל העלאת 100 מוצרים',
                             'מאמרים ללא הגבלה'                          
                         ],
-                        price:"החל מ - ₪10,000"
+                        price:"החל מ - ₪9,000"
                     },
                     {
                         title:"שדרוג אתר קיים",

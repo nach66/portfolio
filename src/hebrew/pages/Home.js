@@ -19,6 +19,7 @@ export default function Page (props) {
                 <Puzzle/>
                 <Ycube/>
                 <ContactForm/>
+                <div className="empty-blue"/>
                 <Footer/>
             </>
     );

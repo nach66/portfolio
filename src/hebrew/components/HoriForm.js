@@ -27,20 +27,20 @@ export default class HoriForm extends React.Component {
                                     <input
                                         type="text"
                                         name="Name"
-                                        className="form-control"
+                                        className="form-control form-bug"
                                         placeholder="שם:"/>
                                 </article>
                                 <article>
                                     <input
                                         type="phone"
                                         name="phone"
-                                        className="form-control"
+                                        className="form-control form-bug"
                                         placeholder="מספר טלפון:"/>
                                 </article>
                                 <article>
                                     <textarea
                                         name="message"
-                                        className="form-control long"
+                                        className="form-control form-bug long"
                                         rows="1"
                                         placeholder="רציתי לשאול.."/>
                                 </article>
