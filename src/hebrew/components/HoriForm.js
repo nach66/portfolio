@@ -21,7 +21,7 @@ export default class HoriForm extends React.Component {
                             onSubmit={this.submitForm}
                             action="https://formspree.io/f/xeqpljye">
                                 <article className="h2-hori">
-                                    <h2>לקבלת הצעת מחיר</h2>
+                                    <h3>לקבלת הצעת מחיר</h3>
                                 </article>
                                 <article>
                                     <input

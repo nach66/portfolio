@@ -65,6 +65,8 @@ export default class NavBar extends Component {
                             <a href="/services">שירותים</a>
                             <a href="/price">מחירון</a>
                             <a href="/contact">צרו קשר</a>
+                            <a href="/uploud_product_to_Woocommerce">איך להוסיף מוצר לחנות?
+</a>
                         </div>
                     </div>
                 </nav>

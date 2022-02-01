@@ -8,7 +8,7 @@ import Price from "./hebrew/pages/Price";
 import Services from "./hebrew/pages/Services";
 import Contact from "./hebrew/pages/Contact";
 import Error from "./hebrew/pages/Error";
-import Sitemap from "./sitemap.xml";
+import ProductPost from "./hebrew/pages/ProductPost";
 import "./App.css";
 
 function App(props) {
@@ -22,7 +22,7 @@ function App(props) {
                 <Route exact path="/portfolio" component={Portfolio}/>
                 <Route exact path="/price" component={Price}/>
                 <Route exact path="/contact" component={Contact}/>
-                <Route exact path="/sitemap" component={Sitemap}/>
+                <Route exact path="/uploud_product_to_Woocommerce" component={ProductPost}/>
                 <Route component={Error}/>
             </Switch>
         </>

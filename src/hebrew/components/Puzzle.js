@@ -51,9 +51,9 @@ export default class Puzzle extends Component {
                     <img alt="icon" src={puzzle} className="puzzle"/>
                 </div>
 
-                <div className="services">
+                <div className="services" style={{ paddingTop: '30px'}}>
                 <br/>
-                    <h1>הרכיבים</h1>
+                    <h1>הרכיבים בפאזל – מה בניית אתר כוללת</h1>
                     <div className="services-center">
                         {this.state.services.map(
                             (item, index) => {return (

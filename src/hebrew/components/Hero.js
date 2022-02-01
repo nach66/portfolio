@@ -49,7 +49,7 @@ export default class Hero extends React.Component {
                                             speed="100"
                                             eraseDelay="4000"
                                             eraseSpeed="100"
-                                            text={["דברי איתי!"]}
+                                            text={["כן, דברי איתי!"]}
                                             cursorClassName="cur"
                                         />
                                     </button>

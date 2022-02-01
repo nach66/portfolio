@@ -31,11 +31,48 @@ import vladi from '../../images/reco/vladi1.png'
 import idit from '../../images/reco/idit.png'
 import raw from '../../images/reco/raw.png'
 
+import offismart from '../../images/reco/offismart.png'
+import shani from '../../images/reco/shani.png'
+import shap from '../../images/reco/shap.png'
+import gonen from '../../images/reco/gonen.png'
+
 
 
 export default class Portfolio extends Component {
     state={
         store: [
+            {
+                icon:shani,
+                link:"http://shanisurfart.com/",
+                title:"shani surf art - חנות תכשיטים"
+            },
+            {
+                icon:heshel,
+                link:"https://heschel.org.il/",
+                title:"מרכז השל ללימודי קיימות - אתר תדמית, בלוג, ומכירת קורסים"
+            },
+            {
+                icon:peace,
+                link:"https://peace-boards.com/",
+                title:"Peace Boards - חנות סקייטבורדים"
+            },
+
+            {
+                icon:wayin,
+                link:"https://wayin.co.il/",
+                title:"wayin - לוח חיפוש עובדים/עבודה"
+            },
+            {
+                icon:shap,
+                link:"https://www.shaptop.com/",
+                title:"תרגום תבנית - חנות שופיפיי"
+            },
+            {
+                icon:wall,
+                link:"https://wall-express.co.il/",
+                title:"Wall express - חנות טפטים"
+            },
+
             {
                 icon:japan,
                 link:"https://hebrewtourguidejapan.com/",
@@ -53,11 +90,6 @@ export default class Portfolio extends Component {
             },
 
             {
-                icon:wall,
-                link:"https://wall-express.co.il/",
-                title:"Wall express - חנות טפטים"
-            },
-            {
                 icon:flower,
                 link:"https://very-happy-flowers.com/",
                 title:"happy flowers - חנות פרחים"
@@ -67,47 +99,35 @@ export default class Portfolio extends Component {
                 link:"https://congressbulaim.co.il/",
                 title:"קונגרס הבולאים - חנות בולים"
             },
-
-            {
-                icon:peace,
-                link:"https://peace-boards.com/",
-                title:"Peace Boards - חנות סקייטבורדים"
-            },
-            {
-                icon:wayin,
-                link:"https://wayin.co.il/",
-                title:"wayin - לוח חיפוש עובדים/עבודה"
-            },
             {
                 icon:hostel,
                 link:"https://hosteltiberias.co.il/",
                 title:"אכסניית טבריה - אתר תדמית + הזמנות"
             }
-
-            // {
-            //     icon:noam,
-            //     link:"https://noamacrame.com/",
-            //     title:"noaMacreme - חנות תכשיטים"
-            // },
         ],
 
-        tadmit: [          
+        tadmit: [  
             {
-                icon:idit,
-                link:"https://idit-or.com/",
-                title:"עדית אור - תדמית ובלוג"
-            },
+                icon:gonen,
+                link:"https://www.eyalgonen.com/",
+                title:"אייל גונן - בלוג מנהיגות"
+            },         
             {
                 icon:yogev,
                 link:"https://ysolutions.info/",
                 title:"ysolutions מערכות מידע ותוכנה"
             },
             {
+                icon:idit,
+                link:"https://idit-or.com/",
+                title:"עדית אור - תדמית ובלוג"
+            },
+
+            {
                 icon:adam,
                 link:"https://adambeamalo.co.il/",
                 title:"אדם בעמלו - פיתוח ארגוני"
             },
-
             {
                 icon:moshe,
                 link:"https://sp.systems/",
@@ -118,12 +138,12 @@ export default class Portfolio extends Component {
                 link:"https://yarivconsultant.com/",
                 title:"ייעוץ ארגוני ופיתוח מנהלים"
             },
+
             {
                 icon:roi,
                 link:"https://www.legaltalking.com/",
                 title:"legaltalking - בלוג משפטי"
             },
-
             {
                 icon:door,
                 link:"http://www.commercialdoorrepairontario.ca/",
@@ -141,6 +161,11 @@ export default class Portfolio extends Component {
                 icon:raw,
                 link:"https://raw-planet.dog/",
                 title:"Raw planet - חנות חיות"
+            },
+            {
+                icon:offismart,
+                link:"https://offismart.co.il/",
+                title:"offismart - תיווך נדלן"
             },  
             {
                 icon:arie,
@@ -152,11 +177,7 @@ export default class Portfolio extends Component {
                 link:"https://homeland-agency.com/",
                 title:"Homeland - אתר תדמית"
             },
-            {
-                icon:heshel,
-                link:"https://heschel.org.il/",
-                title:"מרכז השל ללימודי קיימות - אתר תדמית, בלוג, ומכירת קורסים"
-            },
+
             {
                 icon:sharon,
                 link:"https://sharonperfumes.com/",
