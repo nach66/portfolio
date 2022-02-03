@@ -27,67 +27,6 @@
   --box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
 }
 
-
-
-.post-cotain {
-  text-align: right !important;
-  margin: auto;
-  padding: 20px;
-  width: 80%;
-}
-
-.post-cotain p + p, li + li { 
-  margin: 10px 0 10px;
-}
-
-.post-cotain li {
-  text-align: justify;
-  font-size: 1.2rem;
-  letter-spacing: 1.7px;
-  line-height: 1.6;
-}
-.post-cotain ol ul,
-  .post-cotain ol {
-    margin: 10px 0 10px;
-    padding-right: 25px;
-}
-
-.post-screenshot {
-  margin: 1px 0;
-  width: 75%;
-}
-.post-screenshot-small {
-  width: 35%;
-}
-
-.post-img {
-  width: 35%;
-  padding: 20px;
-}
-@media screen and (max-width: 990px) {
-  .post-img {
-    width: 65%;
-  }
-  .post-cotain {
-    padding: 10px;
-    width: 90%;
-  }
-  .post-screenshot {
-    margin: 1px;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 590px) {
-  .post-img {
-    width: 85%;
-  }
-  .post-screenshot-small {
-    width: 65%;
-  }
-}
-
-
-
 .bf {
   padding-top: 30px;
   border-style: solid;
@@ -165,7 +104,7 @@ h5 {
 }
 /* פסקה ממורכזת */
 h6 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   letter-spacing: 1.7px;
   line-height: 1.4;
   margin: auto;
@@ -177,7 +116,7 @@ h6 {
 
 p {
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   letter-spacing: 1.7px;
   line-height: 1.6;
   /* width: 85%; */
@@ -250,7 +189,7 @@ p {
 }
 .sform-control {
   width: 80%;
-  font-size: 1rem;
+  font-size: 1.4rem;
   padding: 3px;
   margin: 3px;
 }
@@ -803,7 +742,7 @@ ol.gradient-list > li::before {
   align-items: flex-end;
   display: flex;
   z-index: 1;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 0.3em 0.4em;
 }
 ol.gradient-list > li + li {
@@ -944,14 +883,14 @@ figure.effect-chico:hover a {
   margin-right: 0%;
 }
 .col a {
-  font-size: 19px;
+  font-size: 1.4rem;
   color: var(--grey);
 }
 .contact-icon{
   margin: 30px;
   margin-bottom: -17px;
   padding: 1px 15px 12px 5px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #3085a3;
 }
 .contact-icon:hover {
@@ -975,7 +914,7 @@ figure.effect-chico:hover a {
 }
 .form-control {
   width: 90%;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 3px;
 }
 .long { 
@@ -1225,4 +1164,63 @@ figure.effect-chico:hover a {
   font-weight: 600;
   font-size: 17px;
   direction: ltr;
+}
+
+
+/********** פוסט *************/
+.post-cotain {
+  text-align: right !important;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.post-cotain p + p, li + li { 
+  margin: 10px 0 10px;
+}
+
+.post-cotain li {
+  text-align: justify;
+  font-size: 1.4rem;
+  letter-spacing: 1.7px;
+  line-height: 1.6;
+}
+.post-cotain ol ul,
+  .post-cotain ol {
+    margin: 10px 0 10px;
+    padding-right: 25px;
+}
+
+.post-screenshot {
+  margin: 1px 0;
+  width: 75%;
+}
+.post-screenshot-small {
+  width: 35%;
+}
+
+.post-img {
+  width: 35%;
+  padding: 20px;
+}
+@media screen and (max-width: 990px) {
+  .post-img {
+    width: 65%;
+  }
+  .post-cotain {
+    padding: 10px;
+    width: 90%;
+  }
+  .post-screenshot {
+    margin: 1px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .post-img {
+    width: 85%;
+  }
+  .post-screenshot-small {
+    width: 65%;
+  }
 }
