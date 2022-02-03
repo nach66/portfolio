@@ -5,8 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 export default function TestiSlider() {
     return (
         <>
-            <div className="empty-blue"/>
-            <div className="bf"/>       
+
             <h3 style={{textAlign:'center'}}>לקוחות אמרו עליי</h3>
 
 

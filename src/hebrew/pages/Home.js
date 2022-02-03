@@ -13,9 +13,13 @@ export default function Page (props) {
         <>
                 <Hero/>
                 <Pro/>
-                <TestiSlider/>
+
+                <div className="empty-blue"/>
+                <div className="bf"/>    
+                {/* <TestiSlider/> */}
                 <HoriForm/>
-                <div className="af"/>       
+                <div className="af"/>  
+
                 <Puzzle/>
                 <Ycube/>
                 <ContactForm/>

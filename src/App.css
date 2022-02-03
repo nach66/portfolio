@@ -493,19 +493,16 @@ text-align: center !important;
 }
 @media screen and (max-width: 560px) {
   .hori-form {  
-    /* width: 100%; */
     margin: 0 13% !important;
-    /* text-align: center; */
   }
   .hori-h2 {
-    width: 90%;
+    width: 85%;
   }
   .submit-hori {
     width: 60% !important;
     margin: 0% 15%;
   }  
  .form-bug {
-    /* display: block; */
     width: 50vw !important;
     margin-right: 15% !important;
   }
