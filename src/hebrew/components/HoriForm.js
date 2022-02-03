@@ -20,8 +20,8 @@ export default class HoriForm extends React.Component {
                             className="cform form-inline"
                             onSubmit={this.submitForm}
                             action="https://formspree.io/f/xeqpljye">
-                                <article className="h2-hori">
-                                    <h3>לקבלת הצעת מחיר</h3>
+                                <article className='hori-h2'>
+                                    <h2>לקבלת הצעת מחיר</h2>
                                 </article>
                                 <article>
                                     <input

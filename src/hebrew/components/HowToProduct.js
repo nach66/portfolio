@@ -226,7 +226,7 @@ export default function HowToProduct () {
 
                         <br/>
                         <br/>
-                        <h5>אין לך כוח למחשבים האלה? הסתבכת קצת? אני כאן 😊 </h5>
+                        <h5>הסתבכת קצת? אני כאן 😊 </h5>
                     </div>
                 </Fade>
         </>

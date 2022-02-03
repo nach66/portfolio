@@ -95,7 +95,7 @@ h4{
 }
 /* אפור ממורכז קטן יותר */
 h5 {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   color:var(--grey);
   font-family:'Horev';
   text-align: center;
@@ -470,6 +470,7 @@ text-align: center !important;
 }
 .hori-form h2 {
   padding-top: 5px;
+  text-align: center !important;
 }
 .form-inline {  
   display: inline-flex;
@@ -478,6 +479,7 @@ text-align: center !important;
   column-gap: 15px;
 }
 .submit-hori {
+  font-size: 1.4rem;
   margin-top: -10px;
 }
 @media screen and (max-width: 758px) {
@@ -493,12 +495,10 @@ text-align: center !important;
   .hori-form {  
     /* width: 100%; */
     margin: 0 13% !important;
-    text-align: center;
+    /* text-align: center; */
   }
-  .h2-hori {
-    margin-right: 19% !important;
-    width: 100% !important;
-    text-align: right !important;
+  .hori-h2 {
+    width: 90%;
   }
   .submit-hori {
     width: 60% !important;
