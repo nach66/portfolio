@@ -48,11 +48,36 @@ export default function About() {
                     <Roll bottom>
                         <div className="choose"/>
                     </Roll>
+
+                    <Roll bottom>
+                        <img src={cube} alt="icon"/>
+                    </Roll>
+
+                    <article className="right centerr">
+                        <Fade bottom>
+                            <h3>למה קוביה?</h3>
+                            <p>
+                                תמיד אהבתי לפתור פאזלים, וגם להתעסק במילים וצבעים. אני מתה על לעשות סדר בבלגן, לשבץ כל חלק לתיקיה הנכונה ואז לשלוף אותו בזמן ובמקום שלו. כיף לראות איך מכל הפרטים הקטנים, נוצרת תמונה מושלמת. הקובייה ההונגרית שמדגמנת בלוגו – נראית אולי כמו סיוט עבור מי שלא יודע איך לגשת, אבל מי שמכיר את הנוסחה? יכול לפתור אותה תיקתק.
+                            </p>
+                            <br/>
+                            <p>
+                                בניית אתר עלולה להיראות כך בתחילת התהליך. קשה להחליט במי לבחור למשימה הזו כשלא יודעים מה בכלל צריך, או להבין מההצעות שקיבלת - מה הציעו לך באמת. והיא גם פאזל מורכב וצבעוני: החל משלב האפיון על פי משאלות הלקוח, דרך הרכבה של הטכנולוגיות החדשניות ביותר, ועד לעיצוב המושלם.
+                            </p>
+                            <p>
+                                למדתי את הנוסחה, ואני יכולה להסביר גם לך.
+                                <a href="https://api.whatsapp.com/send?phone=+972556617145" 
+                                    style={{margin:'10px', color:'var(--lgreen)'}}
+                                    rel="noopener noreferrer" target="_blank">
+                                    שנדבר?
+                                </a>
+                            </p>
+                        </Fade>
+                    </article>
             </div>
 
             <div className="sec">
                 <Fade bottom>            
-                    <article className="centerr ycube">
+                    <article className="ycube">
                     <Roll bottom>
                         <img src={cube} alt="icon"/>
                     </Roll>

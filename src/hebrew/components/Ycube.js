@@ -9,10 +9,11 @@ export default function Ycube() {
         <div className="sbf"/>
             <div className="sec">
                 <Fade bottom>            
-                    <article className="">
-                    <Roll bottom>
-                        <div className="contact-me"/>
-                    </Roll>                    </article>
+                    <article className="centerr">
+                        <Roll bottom>
+                            <div className="contact-me"/>
+                        </Roll>                    
+                    </article>
                     <article className="centerr">
                         <h3>היי, אני יוני.</h3>
                         <p>
