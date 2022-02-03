@@ -651,6 +651,10 @@ text-align: center !important;
     padding-right: 2rem;
     width: 93%;
   }
+  .me{
+    width: 270px;
+    height: 300px;
+  }
   .ycube img{ 
     margin: 40px -20px 0 0;
   }
