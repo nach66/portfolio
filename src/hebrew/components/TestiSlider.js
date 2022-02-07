@@ -12,7 +12,7 @@ export default function TestiSlider() {
         <>
             <h3 style={{textAlign:'center'}}>לקוחות אמרו עליי</h3>
 
-            {/* <AwesomeSlider
+            <AwesomeSlider
                 className="carousel"
                 animation="cubeAnimation"
                 bullets={true}
@@ -97,9 +97,10 @@ export default function TestiSlider() {
                         <h6 style={{fontWeight:'bold'}}>שרון, sharon perfumes </h6>
                         <a href="https://sharonperfumes.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שרון >> </a>
                     </div>
-            </AwesomeSlider> */}
-
-            <div className='empty-white'/>
+            </AwesomeSlider>
+            <br/>
+            <br/>
+            {/* <div className='empty-white'/> */}
 
             {/* <div className="carousel">
                 <Carousel  

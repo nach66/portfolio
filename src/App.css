@@ -1279,7 +1279,8 @@ color: white;
   padding: 0px;
 }
 .slide {
-  /* height: 100px; */
+  /* height: 400px; */
+  /* background-color: var(--mainWhite); */
   /* background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg) !important; */
 }
 .site-link {

@@ -16,7 +16,7 @@ export default function Page (props) {
 
                 <div className="empty-blue"/>
                 <div className="bf"/>    
-                {/* <TestiSlider/> */}
+                <TestiSlider/>
                 <HoriForm/>
                 <div className="af"/>  
 
