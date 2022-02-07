@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
+import Fade from 'react-reveal/Fade';
 import Web from "./Web";
+import fix from '../../images/product/fix.png'
+import shop from '../../images/web/shop.png'
+import code from '../../images/web/code.png'
+import land from '../../images/web/land.png'
 
 export default class WebList extends Component {
     state={
         webs: [
                 {
+                    icon: land,
                     ltr: false,
                     title:"דף נחיתה",
                     list: [
@@ -17,6 +23,7 @@ export default class WebList extends Component {
                     text:"מנחית את הלקוח ישר למרכז העניינים: מה אנחנו מציעים, למה כדאי, ואיפה נרשמים. דף הנחיתה הינו אתר בעל עמוד אחד בלבד, מעוצב וממוקד היטב. לעומת אתר רגיל בו אפשר ללכת לאיבוד בין כל התוכן, כאן נעזור ללקוח לגשת אלינו במינימום מאמץ של שיטוט וקריאה. ממש כמו שעולה מהשם שלו, זהו מסלול שנוח לנחות בו מקישורי השיווק שלכם ברחבי האינטרנט. כאן הלקוח ישר ירגיש שמצא את מה שחיפש. התוכן יהיה שיווקי ומניע לפעולה, והמטרה תהיה ליצור לידים (פניות) על ידי טופס מקוון להשארת פרטים."
                 },
                 {
+                    icon: code,
                     ltr: true,
                     title:"אתר תדמית",
                     list: [
@@ -30,6 +37,7 @@ export default class WebList extends Component {
                     text:"כרטיס ביקור של העסק, ואפילו מעין ביקור וירטואלי בו: מי אנחנו, מה אנחנו עושים, איך זה נראה וכמה כדאי. באתר התדמית נכתוב את כל המידע הרלוונטי ללקוח כדי ללמוד עלינו, להתרשם וליצור קשר. האתר צריך להיות מקיף אך ענייני, להעביר מעט מהאווירה שאנחנו מעוניינים ליצור באמצעות העיצוב והתוכן יחד, ולגרום לגולשים להישאר בו ולרצות לדעת עלינו יותר."
                 },
                 {
+                    icon: shop,
                     ltr: false,
                     title:"חנות",
                     list: [
@@ -41,6 +49,7 @@ export default class WebList extends Component {
                     text:"בעולם של היום ובעיקר בשנת הקורונה, עסקים רבים מעוניינים למכור אונליין. מכירה כזו, במקום או בנוסף לחנות פיזית – מגדילה משמעותית את העסקאות וחוסכת בהתעסקות וגם בעלויות. אתר כזה צריך להיות בנוי בצורה מקצועית, מותאמת לנייד, ובעלת ביצועים מהירים. נדאג גם לעיצוב מותאם, מעניין ומניע לפעולה, שיעשה לגולשים חשק לרכוש ולרכוש!"
                 },
                 {
+                    icon: fix,
                     ltr: true,
                     title:"שיפוצים",
                     list: [
@@ -57,15 +66,22 @@ export default class WebList extends Component {
     render () {
         return (
             <>
-                <section className="weblist">
-                    <h1>אז מה בתפריט?</h1>
+                <Fade bottom>
+                        <h1>3 סוגי האתרים הנפוצים ביותר</h1>
+                        <h6>
+                            לפני שמתחילים לבנות אתר חשוב להבין מהן המטרות שלו, וכך נוכל להחליט באיזה סוג אתר לבחור. <strong>אז מה בתפריט?</strong> 
+                        </h6>
+                
+                    <section className="weblist">
+                        {/* <h1>אז מה בתפריט?</h1> */}
 
-                    <div className="weblist-center">
-                        {this.state.webs.map(web => {
-                            return <Web key={web.id} reco={web}/>;
-                        })}
-                    </div>
-                </section>
+                        <div className="weblist-center">
+                            {this.state.webs.map(web => {
+                                return <Web key={web.id} reco={web}/>;
+                            })}
+                        </div>
+                    </section>
+                </Fade>
             </>
         );
     }

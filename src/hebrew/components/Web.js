@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import DividerWithText from './DividerWithText'
 
 export default function Web({reco}) {
-    const {ltr, title, text} = reco;
+    const {icon, ltr, title, text} = reco;
     // const noteItems = list.map((note) =>
     //     <li>{note}</li>
     // );
@@ -18,6 +18,9 @@ export default function Web({reco}) {
                     </article>
 
                     <article className="grid">
+                        <div style={{textAlign:'center'}} >
+                            <img className='post-screenshot' src={icon} alt="fix the site icon"/>
+                        </div>
                         {/* <ol class="gradient-list">{noteItems}</ol> */}
                     </article>
                 </Fade>

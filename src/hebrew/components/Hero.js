@@ -56,7 +56,7 @@ export default class Hero extends React.Component {
                                 }
 
                         <div className="form-bug">
-                            {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}
+                            {status === "ERROR" && <p className="submit-error">אוי! קרתה תקלה, אנא נסו שוב.</p>}
                         </div>
 
                         </form>

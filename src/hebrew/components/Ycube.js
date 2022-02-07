@@ -1,5 +1,4 @@
 import React from 'react'
-import cube from '../../images/icons/ycube.png'
 import Fade from 'react-reveal/Fade';
 import Roll from 'react-reveal/Roll';
 

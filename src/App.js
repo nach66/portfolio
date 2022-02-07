@@ -9,7 +9,6 @@ import Services from "./hebrew/pages/Services";
 import Contact from "./hebrew/pages/Contact";
 import Error from "./hebrew/pages/Error";
 import ProductPost from "./hebrew/pages/ProductPost";
-import Sitemap from "./hebrew/pages/sitemap.xml";
 import "./App.css";
 
 function App(props) {
@@ -24,7 +23,6 @@ function App(props) {
                 <Route exact path="/price" component={Price}/>
                 <Route exact path="/contact" component={Contact}/>
                 <Route exact path="/uploud_product_to_Woocommerce" component={ProductPost}/>
-                <Route exact path="/sitemap" component={Sitemap}/>
                 <Route component={Error}/>
             </Switch>
         </>

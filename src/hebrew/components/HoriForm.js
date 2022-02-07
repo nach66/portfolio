@@ -27,26 +27,27 @@ export default class HoriForm extends React.Component {
                                     <input
                                         type="text"
                                         name="Name"
-                                        className="form-control form-bug"
+                                        className="form-control hori-form-mobile"
                                         placeholder="שם:"/>
                                 </article>
                                 <article>
                                     <input
                                         type="phone"
                                         name="phone"
-                                        className="form-control form-bug"
+                                        className="form-control hori-form-mobile"
                                         placeholder="מספר טלפון:"/>
                                 </article>
                                 <article>
                                     <textarea
                                         name="message"
-                                        className="form-control form-bug long"
+                                        className="form-control hori-form-mobile long"
                                         rows="1"
                                         placeholder="רציתי לשאול.."/>
                                 </article>
                                 <article className="submit-hori">
-                                    {status === "SUCCESS" ? <h2>תודה!</h2> : <button type="submit" className="s submit">שליחה</button>}
-                                    {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
+                                    {status === "SUCCESS" ? 
+                                        <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2> : <button type="submit" className="form-submit submit">שליחה</button>}
+                                    {status === "ERROR" && <p className="submit-error-form">אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
                                 </article>                          
                             </form>
                 </div>

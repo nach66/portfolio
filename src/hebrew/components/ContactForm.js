@@ -95,8 +95,8 @@ export default class ContactForm extends React.Component {
                                                         className="form-control long"
                                                         rows="4"
                                                         placeholder="רציתי לשאול.."/>
-                                    {status === "SUCCESS" ? <h2>תודה!</h2> : <button type="submit" className="s submit">כן, תחזרי אליי :)</button>}
-                                    {status === "ERROR" && <p>אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
+                                    {status === "SUCCESS" ? <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2> : <button type="submit" className="form-submit submit">כן, תחזרי אליי :)</button>}
+                                    {status === "ERROR" && <p className="submit-error-form" >אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
                             </form>
                         </article>
                     </Fade>
