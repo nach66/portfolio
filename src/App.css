@@ -1292,9 +1292,8 @@ color: white;
   transform: scale(1.2);
 }
 .awssld__bullets button {
-  margin: 0px 25px !important;
-    transform: scale(1.2);
-
+  margin: 0px 15px !important;
+    /* transform: scale(1.2); */
 }
 .awssld__content {
   background-blend-mode: color-dodge;
@@ -1304,11 +1303,10 @@ color: white;
   z-index: 0 !important;
 }
 .awssld {
-  --organic-arrow-thickness: 6px !important;
-  --organic-arrow-height: 20px !important;
+  --organic-arrow-height: 30px !important;
   --slider-height-percentage: 40% !important;
-  --control-button-width: 6% !important;
-  --control-button-height: 1% !important;
+  /* --control-button-width: 6% !important; */
+  /* --control-button-height: 1% !important; */
   --control-bullet-color: grey !important;
   --control-bullet-active-color: var(--primaryColor) !important;
 }
@@ -1324,7 +1322,7 @@ color: white;
 }
 @media screen and (max-width: 662px) {
   .awssld {
-    --slider-height-percentage: 70% !important;
+    --slider-height-percentage: 90% !important;
   }
 }
 
