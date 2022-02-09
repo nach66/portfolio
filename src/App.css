@@ -1022,7 +1022,7 @@ figure.effect-chico:hover a {
     transition: 0.5s;
     overflow-x: hidden;
     text-align:center;
-    padding-top: 15vh;
+    padding-top: 10vh;
   }
     /*הכפתורים בתפריט*/
   .links a {
@@ -1234,6 +1234,14 @@ margin: 10px;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+@media screen and (max-width: 1050px) {
+  ul.submenu
+  {
+   opacity: 1 !important;
+   visibility: visible !important;
+}
+}
+
 @media screen and (min-width: 1050px) {
   #mainnav ul li{
     float: right !important;
@@ -1262,9 +1270,15 @@ margin: 10px;
 color: white;
 }
 /* נראות סאבמניו */
-#mainnav ul li:hover > ul.submenu {
+/* .open-submenu > ul.submenu */
+  #mainnav ul li:hover > ul.submenu
+   {
     opacity: 1;
     visibility: visible;
+}
+.close-submenu > ul.submenu {
+opacity: 0;
+visibility: hidden;
 }
 .icon {
   padding-right: 9px;
