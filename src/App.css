@@ -1292,7 +1292,7 @@ color: white;
   transform: scale(0.6);
 }
 .awssld__bullets button {
-  margin: 0px 9px !important;
+  margin: 0px 15px !important;
     /* transform: scale(1.2); */
 }
 .awssld__content {
@@ -1305,7 +1305,7 @@ color: white;
 .awssld {
   --organic-arrow-height: 30px !important;
   --slider-height-percentage: 40% !important;
-  /* --control-button-width: 6% !important; */
+  /* --control-button-width: 20% !important; */
   /* --control-button-height: 1% !important; */
   --control-bullet-color: grey !important;
   --control-bullet-active-color: var(--primaryColor) !important;
@@ -1322,7 +1322,8 @@ color: white;
 }
 @media screen and (max-width: 662px) {
   .awssld {
-    --slider-height-percentage: 100% !important;
+    --slider-height-percentage: 110% !important;
+    --control-button-width: 20% !important;
   }
 }
 
