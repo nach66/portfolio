@@ -10,7 +10,7 @@ export default function TestiSlider() {
 
     return (
         <>
-            <h3 style={{textAlign:'center'}}>לקוחות אמרו עליי</h3>
+            <h2>לקוחות אמרו עליי</h2>
 
             <AwesomeSlider
                 className="carousel"
@@ -23,7 +23,6 @@ export default function TestiSlider() {
                     <div className="slide">
                         <h6>
                             "אני רוצה להמליץ בחום על יוני המתכנתת, מומחית לוורדפרס. 
-                            <br/>
                             ביקשתי לעשות שיפוץ לשני אתרים שלי. היא הבינה בדיוק מה שרציתי - קיבלתי ייעוץ ללא עלות, סופר מקצועית, מהירה, מומחית לקוד פתוח, פתרה לי כמה באגים וגם סידרה לי כמה עיצובים שהפריעו לי על הדרך והכל במחיר הוגן.
                             היה לי ממש כיף לעבוד מולה, מומלץ מאוד 👍"
                         </h6>
@@ -37,7 +36,6 @@ export default function TestiSlider() {
                             תודה רבה על בנית האתר לספר שלי ״זרה ביפן״.
                             <br/>
                             אהבתי את העבודה שלך את המקצועיות והיכולת להתאים את עצמך אלי. 
-                            <br/>
                             היה לי כייף לעבוד איתך ואני ממליצה בחום להשתמש בשרותיך."
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>סוזי אוקובו, בעלת עסק לטיולים בטוקיו ומחברת הספר זרה ביפן</h6>

@@ -1278,11 +1278,6 @@ color: white;
   text-align: center !important;
   padding: 0px;
 }
-.slide {
-  /* height: 400px; */
-  /* background-color: var(--mainWhite); */
-  /* background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg) !important; */
-}
 .site-link {
   text-decoration: underline;
   color: var(--primaryColor);
@@ -1293,15 +1288,14 @@ color: white;
 .carousel .control-dots .dot{
   background: var(--primaryColor) !important;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
   .carousel {
     width: 70% !important;
   }
 }
-@media screen and (max-width: 958px) {
+@media screen and (max-width: 800px) {
   .carousel {
-    margin: auto !important;
-    width: 90% !important;
+    width: 100% !important;
   }
 }
 
