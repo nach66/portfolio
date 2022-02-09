@@ -1289,10 +1289,10 @@ color: white;
   letter-spacing: 1.5px;
 }
 .awssld__bullets {
-  transform: scale(1.2);
+  transform: scale(0.6);
 }
 .awssld__bullets button {
-  margin: 0px 15px !important;
+  margin: 0px 9px !important;
     /* transform: scale(1.2); */
 }
 .awssld__content {
@@ -1322,7 +1322,7 @@ color: white;
 }
 @media screen and (max-width: 662px) {
   .awssld {
-    --slider-height-percentage: 90% !important;
+    --slider-height-percentage: 100% !important;
   }
 }
 
