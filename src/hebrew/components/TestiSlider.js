@@ -26,7 +26,7 @@ export default function TestiSlider() {
                             ביקשתי לעשות שיפוץ לשני אתרים שלי. היא הבינה בדיוק מה שרציתי - קיבלתי ייעוץ ללא עלות, סופר מקצועית, מהירה, מומחית לקוד פתוח, פתרה לי כמה באגים וגם סידרה לי כמה עיצובים שהפריעו לי על הדרך והכל במחיר הוגן.
                             היה לי ממש כיף לעבוד מולה, מומלץ מאוד 👍"
                         </h6>
-                        <h6 style={{fontWeight:'bold'}}>בני, zipper bags </h6>
+                        <h6 style={{fontWeight:'bolder'}}>בני, zipper bags </h6>
                         <a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a>
                     </div>
 

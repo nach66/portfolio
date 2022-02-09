@@ -1275,42 +1275,59 @@ color: white;
 .carousel {
   margin: auto !important;
   width: 50% !important;
-  text-align: center !important;
-  padding: 0px;
+  /* text-align: center !important; */
+  /* padding: 0px; */
+}
+.carousel h6 {
+  color: var(--back);
 }
 .site-link {
   text-decoration: underline;
   color: var(--primaryColor);
   padding-top: 0px;
-  font-size: large;
+  font-size: x-large !important;
   letter-spacing: 1.5px;
 }
-.carousel .control-dots .dot{
-  background: var(--primaryColor) !important;
+.awssld__bullets {
+  transform: scale(1.2);
 }
-@media screen and (max-width: 1150px) {
+.awssld__bullets button {
+  margin: 0px 25px !important;
+    transform: scale(1.2);
+
+}
+.awssld__content {
+  background-blend-mode: color-dodge;
+  background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+}
+.awssld__controls button {
+  z-index: 0 !important;
+}
+.awssld {
+  --organic-arrow-thickness: 6px !important;
+  --organic-arrow-height: 20px !important;
+  --slider-height-percentage: 40% !important;
+  --control-button-width: 6% !important;
+  --control-button-height: 1% !important;
+  --control-bullet-color: grey !important;
+  --control-bullet-active-color: var(--primaryColor) !important;
+}
+@media screen and (max-width: 1350px) {
   .carousel {
     width: 70% !important;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 935px) {
   .carousel {
     width: 100% !important;
   }
 }
+@media screen and (max-width: 662px) {
+  .awssld {
+    --slider-height-percentage: 70% !important;
+  }
+}
 
-.white-heading:after {
-  background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.testimonial {
-  min-height: 375px;
-  position: relative;
-  background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-position: center;
-      background-size: cover;
-}
-/* ======================================================= */
+/* .carousel .control-dots .dot{
+  background: var(--primaryColor) !important;
+} */
