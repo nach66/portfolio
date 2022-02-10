@@ -1306,7 +1306,7 @@ visibility: hidden;
   transform: scale(0.6);
 }
 .awssld__bullets button {
-  margin: 0px 15px !important;
+  margin: 0px 13px !important;
 }
 .awssld__content {
   border-radius: 5px;
@@ -1338,7 +1338,7 @@ visibility: hidden;
     width: 70%;
   }
   .awssld {
-    --slider-height-percentage: 60% !important;
+    --slider-height-percentage: 65% !important;
     --control-button-width: 15% !important;
   }
   .awssld__controls button {
