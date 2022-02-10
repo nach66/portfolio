@@ -20,7 +20,7 @@ export default function TestiSlider() {
                 mobileTouch={true}
                 play={false}
             >
-                    <div className="slide">
+                    <div>
                         <h6>
                             "אני רוצה להמליץ בחום על יוני המתכנתת, מומחית לוורדפרס. 
                             ביקשתי לעשות שיפוץ לשני אתרים שלי. היא הבינה בדיוק מה שרציתי - קיבלתי ייעוץ ללא עלות, סופר מקצועית, מהירה, מומחית לקוד פתוח, פתרה לי כמה באגים וגם סידרה לי כמה עיצובים שהפריעו לי על הדרך והכל במחיר הוגן.
@@ -30,7 +30,7 @@ export default function TestiSlider() {
                         <a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a>
                     </div>
 
-                    <div className="slide">
+                    <div>
                         <h6>
                             "יוני היקרה
                             תודה רבה על בנית האתר לספר שלי ״זרה ביפן״.
@@ -42,7 +42,7 @@ export default function TestiSlider() {
                         <a href="https://zarabeyapan.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של סוזי >> </a>          
                     </div>
 
-                    <div className="slide">
+                    <div>
                         <h6>
                         "היי יוני,
                         תודה על אתר מהמם!
@@ -57,7 +57,7 @@ export default function TestiSlider() {
                         <a href="https://wayin.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ליאת >> </a>
                     </div>
 
-                    <div className="slide">
+                    <div>
                         <h6>
                             "יוני בנתה לי אתר נהדר של יעוץ ארגוני.
                             <br/>
@@ -69,7 +69,7 @@ export default function TestiSlider() {
                         <a href="https://yarivconsultant.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של יריב >> </a>
                     </div>
 
-                    <div className="slide">
+                    <div>
                         <h6>
                             "יוני הבינה מהר את הבקשות ואת הצרכים של החברה, הציעה רעיונות מעשיים וטובים משל עצמה אבל הקפידה להישאר קרוב לקו שהטווינו, עבדה בזריזות וביעילות ותימחרה באופן הוגן. נשארת בקשר ומגיבה מייד לבקשות שלנו."
                         </h6>
@@ -77,7 +77,7 @@ export default function TestiSlider() {
                         <a href="https://adambeamalo.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ניצן >> </a>
                     </div>
 
-                    <div className="slide">
+                    <div>
                         <h6>
                             "אני עובדת עם יוני כבר כמה חודשים.
                             <br/>
@@ -88,7 +88,17 @@ export default function TestiSlider() {
                         <a href="https://heschel.org.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של מורין >> </a>       
                     </div>
 
-                    <div className="slide">
+                    <div>
+                        <h6>
+                            יוני סייעה לי בהקמת האתר: קשובה, מנוסה ומקצוענית. 
+                            <br/>
+                            היה כיף לעבוד איתה וליהנות מהמקצוענות המהירות והעצות הטובות שלה, עד שהתקבל התוצר שהייתי שלם איתו.
+                        </h6>
+                        <h6 style={{fontWeight:'bold'}}>אייל גונן, מנהיגות מזווית אחרת</h6>
+                        <a href="https://www.eyalgonen.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של אייל >> </a>       
+                    </div>
+
+                    <div>
                         <h6>
                             "ממליצה מאוד על יוני המקסימה. מקצועית, מהירה, מחיר טוב."
                         </h6>

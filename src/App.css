@@ -1289,8 +1289,7 @@ visibility: hidden;
 .carousel {
   margin: auto !important;
   width: 50% !important;
-  /* text-align: center !important; */
-  /* padding: 0px; */
+  text-align: center !important;
 }
 .carousel h6 {
   color: var(--back);
@@ -1300,7 +1299,7 @@ visibility: hidden;
   text-decoration: underline;
   color: var(--primaryColor);
   padding-top: 0px;
-  font-size: x-large !important;
+  font-size: 1.3rem !important;
   letter-spacing: 1.5px;
 }
 .awssld__bullets {
@@ -1308,9 +1307,9 @@ visibility: hidden;
 }
 .awssld__bullets button {
   margin: 0px 15px !important;
-    /* transform: scale(1.2); */
 }
 .awssld__content {
+  border-radius: 5px;
   background-blend-mode: color-dodge;
   background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
 }
@@ -1327,18 +1326,15 @@ visibility: hidden;
   .carousel {
     width: 70% !important;
   }
-  .carousel h6 {
-    /* width: 80%; */
-  }
 }
 @media screen and (max-width: 935px) {
   .carousel {
-    width: 100% !important;
+    width: 95% !important;
   }
 }
 @media screen and (max-width: 660px) {
   .carousel h6 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 70%;
   }
   .awssld {
