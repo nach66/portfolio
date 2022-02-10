@@ -108,6 +108,7 @@ export default function TestiSlider() {
             </AwesomeSlider>
             <br/>
             <br/>
+            <br/>
             {/* <div className='empty-white'/> */}
 
             {/* <div className="carousel">
