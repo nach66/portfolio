@@ -18,9 +18,7 @@ export default function Web({reco}) {
                     </article>
 
                     <article className="grid">
-                        <div style={{textAlign:'center'}} >
-                            <img className='post-screenshot' src={icon} alt="fix the site icon"/>
-                        </div>
+                        <img className='post-screenshot' src={icon} alt="fix the site icon"/>
                         {/* <ol class="gradient-list">{noteItems}</ol> */}
                     </article>
                 </Fade>

@@ -67,14 +67,12 @@ export default class WebList extends Component {
         return (
             <>
                 <Fade bottom>
-                        <h1>3 סוגי האתרים הנפוצים ביותר</h1>
+                        <h1>אז מה בתפריט? סוגי אתרים</h1>
                         <h6>
-                            לפני שמתחילים לבנות אתר חשוב להבין מהן המטרות שלו, וכך נוכל להחליט באיזה סוג אתר לבחור. <strong>אז מה בתפריט?</strong> 
+                            לפני שמתחילים לבנות אתר חשוב להבין מהן המטרות שלו, וכך נוכל להחליט באיזה סוג אתר לבחור. 
                         </h6>
                 
                     <section className="weblist">
-                        {/* <h1>אז מה בתפריט?</h1> */}
-
                         <div className="weblist-center">
                             {this.state.webs.map(web => {
                                 return <Web key={web.id} reco={web}/>;
