@@ -561,7 +561,16 @@ p {
   height: 60px;
   width: 60px;
 }
-
+.blog-img {
+  height: 260px;
+  width: 260px;
+}
+.post {
+  text-decoration: none;
+}
+.post h6 {
+  color: var(--grey);
+}
 
 .sbf {
   background: var(--back);
@@ -646,12 +655,12 @@ p {
 }
 @media screen and (max-width: 620px) {
   .about {
-    padding-right: 2rem;
+    padding-right: 1.3rem;
     width: 93%;
   }
   .me{
-    width: 270px;
-    height: 300px;
+    width: 230px;
+    height: 260px;
   }
   .ycube img{ 
     margin: 40px -20px 0 0;
@@ -771,7 +780,7 @@ ol.gradient-list > li + li {
 	padding: 2em;
 	color: #fefefe;
 	text-transform: uppercase;
-	font-size: 1.25em;
+	font-size: 1.2em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -794,7 +803,7 @@ figure.effect-chico img {
   transform: scale(1);
   max-width: 100%;
   width: 470px;
-  /* height: 240px; */
+  height: 240px;
   border-radius: 5px;
   border: 1px solid var(--verylightblue);
 }
@@ -1120,19 +1129,19 @@ figure.effect-chico:hover a {
   position: fixed;
   font-size: 2rem;
   padding: 10px;
-  left: 50px;
-  bottom: 50px; 
+  left: 30px;
+  bottom: 30px; 
   z-index: 1;
 }
 .float-contact:hover{
   transform: rotate(20deg);
 }
 .call {
-  top: 72%;
+  bottom: 100px;
   color: var(--lgreen);
 }
 .chat {
-  top: 62%; 
+  bottom: 170px; 
   color: var(--mainWhite);
 }
 
@@ -1287,6 +1296,7 @@ visibility: hidden;
 /** המלצות **/
 
 .carousel {
+  direction: ltr !important;
   margin: auto !important;
   width: 50% !important;
   text-align: center !important;
@@ -1304,6 +1314,7 @@ visibility: hidden;
 }
 .awssld__bullets {
   transform: scale(0.6);
+  direction: ltr !important;
 }
 .awssld__bullets button {
   margin: 0px 13px !important;
@@ -1318,18 +1329,21 @@ visibility: hidden;
 }
 .awssld {
   --organic-arrow-height: 30px !important;
-  --slider-height-percentage: 45% !important;
+  --slider-height-percentage: 55% !important;
   --control-bullet-color: grey !important;
   --control-bullet-active-color: var(--primaryColor) !important;
 }
 @media screen and (max-width: 1350px) {
   .carousel {
-    width: 70% !important;
+    width: 71% !important;
   }
 }
 @media screen and (max-width: 935px) {
   .carousel {
     width: 95% !important;
+  }
+  .awssld {
+    --slider-height-percentage: 60% !important;
   }
 }
 @media screen and (max-width: 660px) {
@@ -1345,7 +1359,6 @@ visibility: hidden;
     visibility: visible !important;
   }
 }
-
 
 /* .carousel .control-dots .dot{
   background: var(--primaryColor) !important;

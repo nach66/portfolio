@@ -13,31 +13,11 @@ export default function TestiSlider() {
                 className="carousel"
                 animation="cubeAnimation"
                 bullets={true}
+                buttons={true}
                 organicArrows={true}
                 mobileTouch={true}
                 play={false}
             >
-                    <div>
-                        <h6>
-                            "אני רוצה להמליץ בחום על יוני המתכנתת, מומחית לוורדפרס. 
-                            ביקשתי לעשות שיפוץ לשני אתרים שלי. היא הבינה בדיוק מה שרציתי - קיבלתי ייעוץ ללא עלות, סופר מקצועית, מהירה, מומחית לקוד פתוח, פתרה לי כמה באגים וגם סידרה לי כמה עיצובים שהפריעו לי על הדרך והכל במחיר הוגן.
-                            היה לי ממש כיף לעבוד מולה, מומלץ מאוד 👍"
-                        </h6>
-                        <h6 style={{fontWeight:'bolder'}}>בני, zipper bags </h6>
-                        <a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a>
-                    </div>
-
-                    <div>
-                        <h6>
-                            "יוני היקרה
-                            תודה רבה על בנית האתר לספר שלי ״זרה ביפן״.
-                            <br/>
-                            אהבתי את העבודה שלך את המקצועיות והיכולת להתאים את עצמך אלי. 
-                            היה לי כייף לעבוד איתך ואני ממליצה בחום להשתמש בשרותיך."
-                        </h6>
-                        <h6 style={{fontWeight:'bold'}}>סוזי אוקובו, בעלת עסק לטיולים בטוקיו ומחברת הספר זרה ביפן</h6>
-                        <a href="https://zarabeyapan.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של סוזי >> </a>          
-                    </div>
 
                     <div>
                         <h6>
@@ -52,6 +32,16 @@ export default function TestiSlider() {
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>ליאת בינדר, אלמנטרי ביטוח</h6>
                         <a href="https://wayin.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ליאת >> </a>
+                    </div>
+
+                    <div>
+                        <h6>
+                            יוני המקסימה והמוכשרת, תודה רבה על הכול. מהרגע הראשון ידעתי שזו את, הדרך שעשינו יחד היתה מרגשת. ידעת והבנת בדיוק מה שרציתי, עזרת לי בהכוונה ובדיוק האתר, אני כול כך שמחה שבחרתי בך. את מוכשרת ומקצועית עם ים של סבלנות והכלה.
+                            <br/>
+                            אני ממליצה בחום 🙌ובהערכה ענקית לכל מי שמחפש את בונת האתרים שלו. יוני היא הדבר האמיתי!!! תודה אהובה מכול הלב❤️
+                        </h6>
+                        <h6 style={{fontWeight:'bold'}}>שני אלצטר, ShaniSurfArt</h6>
+                        <a href="http://shanisurfart.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שני >> </a>       
                     </div>
 
                     <div>
@@ -93,6 +83,28 @@ export default function TestiSlider() {
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>אייל גונן, מנהיגות מזווית אחרת</h6>
                         <a href="https://www.eyalgonen.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של אייל >> </a>       
+                    </div>
+                    
+                    <div>
+                        <h6>
+                            "אני רוצה להמליץ בחום על יוני המתכנתת, מומחית לוורדפרס. 
+                            ביקשתי לעשות שיפוץ לשני אתרים שלי. היא הבינה בדיוק מה שרציתי - קיבלתי ייעוץ ללא עלות, סופר מקצועית, מהירה, מומחית לקוד פתוח, פתרה לי כמה באגים וגם סידרה לי כמה עיצובים שהפריעו לי על הדרך והכל במחיר הוגן.
+                            היה לי ממש כיף לעבוד מולה, מומלץ מאוד 👍"
+                        </h6>
+                        <h6 style={{fontWeight:'bolder'}}>בני, zipper bags </h6>
+                        <a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a>
+                    </div>
+
+                    <div>
+                        <h6>
+                            "יוני היקרה
+                            תודה רבה על בנית האתר לספר שלי ״זרה ביפן״.
+                            <br/>
+                            אהבתי את העבודה שלך את המקצועיות והיכולת להתאים את עצמך אלי. 
+                            היה לי כייף לעבוד איתך ואני ממליצה בחום להשתמש בשרותיך."
+                        </h6>
+                        <h6 style={{fontWeight:'bold'}}>סוזי אוקובו, בעלת עסק לטיולים בטוקיו ומחברת הספר זרה ביפן</h6>
+                        <a href="https://zarabeyapan.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של סוזי >> </a>          
                     </div>
 
                     <div>
