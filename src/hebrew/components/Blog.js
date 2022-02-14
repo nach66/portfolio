@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
-import shop from '../../images/web/shop.png'
-import beach from '../../images/product/beach.png';
-import fix from '../../images/product/fix.png';
+import shop from '../../images/blog/web/shop.png'
+import map from '../../images/blog/ship/map.png'
+import beach from '../../images/blog/product/beach.png';
+import fix from '../../images/blog/product/fix.png';
 import puzzle from '../../images/icons/puzzle.png'
 
 export default class Blog extends Component {
@@ -22,7 +23,7 @@ export default class Blog extends Component {
                 },
                 {
                     link: "/shipping",
-                    icon:beach,
+                    icon:map,
                     title:"איך להגדיר משלוחים בווקומרס",
                     text: "כדי שתמיד תוכלו לריב עם חברת השליחים ולהחליף אותם בלי עזרה של מתכנת :) נלמד להגדיר אזורי משלוח ולהתאים את סוגי המשלוח והמחירים."
                 },

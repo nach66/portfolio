@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
 import Web from "./Web";
-import fix from '../../images/product/fix.png'
-import shop from '../../images/web/shop.png'
-import code from '../../images/web/code.png'
-import land from '../../images/web/land.png'
+import fix from '../../images/blog/product/fix.png'
+import shop from '../../images/blog/web/shop.png'
+import code from '../../images/blog/web/code.png'
+import land from '../../images/blog/web/land.png'
 
 export default class WebList extends Component {
     state={

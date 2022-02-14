@@ -1031,7 +1031,7 @@ figure.effect-chico:hover a {
     transition: 0.5s;
     overflow-x: hidden;
     text-align:center;
-    padding-top: 10vh;
+    padding-top: 12vh;  /* גובה הקישורים בתפריט הקטן */
   }
     /*הכפתורים בתפריט*/
   .links a {
@@ -1039,7 +1039,7 @@ figure.effect-chico:hover a {
     font-family: 'horev';
     text-decoration: none;
     letter-spacing: 3px;
-    padding: 2px 30px;
+    padding: 1px 30px;
     font-size: 2rem;
     font-weight: 500;
     display: block;
@@ -1109,7 +1109,7 @@ figure.effect-chico:hover a {
     }
     .hide-nav {
       width: 95%;
-      height: 30%;
+      height: 28%;
     }
     .navi a:before {
       left:0;
@@ -1259,7 +1259,7 @@ margin: 10px;
     width: 15% !important;
   }  
   #mainnav ul.submenu {
-    width: 220% !important;
+    width: 240% !important;
   }
 }
 #mainnav ul.submenu li:first-child {
@@ -1269,7 +1269,7 @@ margin: 10px;
 #mainnav ul.submenu > li {
     /* border-top: 1px solid white; */
     float: none !important;
-    padding: 5px !important;
+    margin: 0px !important;
 }
 /* עיצוב שורה בסאב מניו */
 #mainnav ul.submenu > li > a {
