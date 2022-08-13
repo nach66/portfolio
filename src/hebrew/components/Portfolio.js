@@ -36,27 +36,62 @@ import shani from '../../images/reco/shani.png'
 import shap from '../../images/reco/shap.png'
 import gonen from '../../images/reco/gonen.png'
 
+import bari from '../../images/reco/bari.jpeg'
+import shabat from '../../images/reco/shabat.jpeg'
+import baguru from '../../images/reco/baguru.jpeg'
+import tlv from '../../images/reco/tlv.jpeg'
+import yaar from '../../images/reco/yaar.png'
+import wip from '../../images/reco/wip.jpeg'
 
 
 export default class Portfolio extends Component {
     state={
+
+        spam: [
+            {
+                icon:flower,
+                link:"https://very-happy-flowers.com/",
+                title:"happy flowers - חנות פרחים"
+            },
+            {
+                icon:vladi,
+                link:"https://congressbulaim.co.il/",
+                title:"קונגרס הבולאים - חנות בולים"
+            },
+            {
+                icon:moshe,
+                link:"https://sp.systems/",
+                title:"Shieldpro systems"
+            },
+        ],
+
         store: [
+            {
+                icon:heshel,
+                link:"https://heschel.org.il/",
+                title:"מרכז השל ללימודי קיימות - אתר תדמית, בלוג, ומכירת קורסים"
+            },
+            
+            {
+                icon:wip,
+                link:"https://racheliebner.com/",
+                title:"WIP - סדנאות ניהול זמן"
+            },
             {
                 icon:shani,
                 link:"http://shanisurfart.com/",
                 title:"shani surf art - חנות תכשיטים"
             },
             {
-                icon:heshel,
-                link:"https://heschel.org.il/",
-                title:"מרכז השל ללימודי קיימות - אתר תדמית, בלוג, ומכירת קורסים"
+                icon:tlv,
+                link:"https://tlvgym.co.il/",
+                title:"tlvgym - אתר תדמית ומערכת חוגים"
             },
             {
                 icon:peace,
                 link:"https://peace-boards.com/",
                 title:"Peace Boards - חנות סקייטבורדים"
             },
-
             {
                 icon:wayin,
                 link:"https://wayin.co.il/",
@@ -72,7 +107,6 @@ export default class Portfolio extends Component {
                 link:"https://wall-express.co.il/",
                 title:"Wall express - חנות טפטים"
             },
-
             {
                 icon:japan,
                 link:"https://hebrewtourguidejapan.com/",
@@ -88,17 +122,6 @@ export default class Portfolio extends Component {
                 link:"https://www.hebrewtourguidetokyo.com/",
                 title:"טיולי בוטיק בטוקיו - רכישת סיורים"
             },
-
-            {
-                icon:flower,
-                link:"https://very-happy-flowers.com/",
-                title:"happy flowers - חנות פרחים"
-            },
-            {
-                icon:vladi,
-                link:"https://congressbulaim.co.il/",
-                title:"קונגרס הבולאים - חנות בולים"
-            },
             {
                 icon:hostel,
                 link:"https://hosteltiberias.co.il/",
@@ -107,6 +130,11 @@ export default class Portfolio extends Component {
         ],
 
         tadmit: [  
+            {
+                icon:bari,
+                link:"https://bariplumbing.com/",
+                title:"ברי אינסטלציה - דף נחיתה"
+            },
             {
                 icon:gonen,
                 link:"https://www.eyalgonen.com/",
@@ -122,27 +150,15 @@ export default class Portfolio extends Component {
                 link:"https://idit-or.com/",
                 title:"עדית אור - תדמית ובלוג"
             },
-
             {
                 icon:adam,
                 link:"https://adambeamalo.co.il/",
                 title:"אדם בעמלו - פיתוח ארגוני"
             },
             {
-                icon:moshe,
-                link:"https://sp.systems/",
-                title:"Shieldpro systems"
-            },
-            {
                 icon:yariv,
                 link:"https://yarivconsultant.com/",
                 title:"ייעוץ ארגוני ופיתוח מנהלים"
-            },
-
-            {
-                icon:roi,
-                link:"https://www.legaltalking.com/",
-                title:"legaltalking - בלוג משפטי"
             },
             {
                 icon:door,
@@ -154,9 +170,29 @@ export default class Portfolio extends Component {
                 link:"https://simanissani.com/",
                 title:"סימה ניסני, מורת דרך - אתר תדמית"
             },
+            {
+                icon:roi,
+                link:"https://www.legaltalking.com/",
+                title:"legaltalking - בלוג משפטי"
+            }
         ],
 
         fix: [
+            {
+                icon:shabat,
+                link:"https://shabbatunplugged.org/",
+                title:"שבת אנפלאגד - אתר תדמית"
+            },
+            {
+                icon:baguru,
+                link:"https://mybaguru.com/",
+                title:"הגורו שלך לבגרות - אתר קורסים"
+            },
+            {
+                icon:yaar,
+                link:"https://yaaracacao.co.il/he/",
+                title:"יער הקקאו - חנות וסדנאות שוקולד :)"
+            },
             {
                 icon:raw,
                 link:"https://raw-planet.dog/",
@@ -177,7 +213,6 @@ export default class Portfolio extends Component {
                 link:"https://homeland-agency.com/",
                 title:"Homeland - אתר תדמית"
             },
-
             {
                 icon:sharon,
                 link:"https://sharonperfumes.com/",
@@ -196,6 +231,31 @@ export default class Portfolio extends Component {
                 <>
                     <div className="services">
                         <h1>טעימה מהפרוייקטים</h1>
+                        
+                        <br/>
+                        <br/>
+                        <br/>
+                        <DividerWithText><h2>אתרים ששיפצתי – שדרוג העיצוב, הוספת עמודים ותכנים</h2></DividerWithText>                    
+                        <div className="services-center">
+                            {this.state.fix.map(
+                                (item, index) => {return (
+                                    <article key={index}>
+                                        <Zoom>
+                                        <article className="grid">
+                                            <figure class="effect-chico">
+                                                <img src={item.icon} alt="web img"/>
+                                                    <figcaption>
+                                                        <a href={item.link} rel="noopener noreferrer" 
+                                                            target="_blank">לצפייה באתר</a>
+                                                    </figcaption>
+                                            </figure>
+                                        </article>
+                                        </Zoom>
+                                        <p>{item.title}</p>
+                                    </article>
+                                )}
+                            )}
+                        </div>
 
                         <br/>
                         <br/>
@@ -228,31 +288,6 @@ export default class Portfolio extends Component {
                         <DividerWithText><h2>אתרי תדמית</h2></DividerWithText>                    
                         <div className="services-center">
                             {this.state.tadmit.map(
-                                (item, index) => {return (
-                                    <article key={index}>
-                                        <Zoom>
-                                        <article className="grid">
-                                            <figure class="effect-chico">
-                                                <img src={item.icon} alt="web img"/>
-                                                    <figcaption>
-                                                        <a href={item.link} rel="noopener noreferrer" 
-                                                            target="_blank">לצפייה באתר</a>
-                                                    </figcaption>
-                                            </figure>
-                                        </article>
-                                        </Zoom>
-                                        <p>{item.title}</p>
-                                    </article>
-                                )}
-                            )}
-                        </div>
-                        
-                        <br/>
-                        <br/>
-                        <br/>
-                        <DividerWithText><h2>אתרים ששיפצתי – שינויי עיצוב, הוספת עמודים ותכנים</h2></DividerWithText>                    
-                        <div className="services-center">
-                            {this.state.fix.map(
                                 (item, index) => {return (
                                     <article key={index}>
                                         <Zoom>
