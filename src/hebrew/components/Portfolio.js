@@ -235,31 +235,6 @@ export default class Portfolio extends Component {
                         <br/>
                         <br/>
                         <br/>
-                        <DividerWithText><h2>אתרים ששיפצתי – שדרוג העיצוב, הוספת עמודים ותכנים</h2></DividerWithText>                    
-                        <div className="services-center">
-                            {this.state.fix.map(
-                                (item, index) => {return (
-                                    <article key={index}>
-                                        <Zoom>
-                                        <article className="grid">
-                                            <figure class="effect-chico">
-                                                <img src={item.icon} alt="web img"/>
-                                                    <figcaption>
-                                                        <a href={item.link} rel="noopener noreferrer" 
-                                                            target="_blank">לצפייה באתר</a>
-                                                    </figcaption>
-                                            </figure>
-                                        </article>
-                                        </Zoom>
-                                        <p>{item.title}</p>
-                                    </article>
-                                )}
-                            )}
-                        </div>
-
-                        <br/>
-                        <br/>
-                        <br/>
                         <DividerWithText><h2>אתרי מכירה ומערכות</h2></DividerWithText>                    
                         <div className="services-center">
                             {this.state.store.map(
@@ -282,6 +257,31 @@ export default class Portfolio extends Component {
                             )}
                         </div>
                         
+                        <br/>
+                        <br/>
+                        <br/>
+                        <DividerWithText><h2>אתרים ששיפצתי – שדרוג העיצוב, הוספת עמודים ותכנים</h2></DividerWithText>                    
+                        <div className="services-center">
+                            {this.state.fix.map(
+                                (item, index) => {return (
+                                    <article key={index}>
+                                        <Zoom>
+                                        <article className="grid">
+                                            <figure class="effect-chico">
+                                                <img src={item.icon} alt="web img"/>
+                                                    <figcaption>
+                                                        <a href={item.link} rel="noopener noreferrer" 
+                                                            target="_blank">לצפייה באתר</a>
+                                                    </figcaption>
+                                            </figure>
+                                        </article>
+                                        </Zoom>
+                                        <p>{item.title}</p>
+                                    </article>
+                                )}
+                            )}
+                        </div>
+
                         <br/>
                         <br/>
                         <br/>
