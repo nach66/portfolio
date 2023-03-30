@@ -1370,8 +1370,8 @@ visibility: hidden;
 
 .modal {
   background-color: wheat !important;
-  /* padding-top: 60px !important; */
-  /* padding-bottom: 30px !important; */
+  padding-top: 60px !important;
+  padding-bottom: 30px !important;
   padding: 10px 0 80px !important;
 }
 
