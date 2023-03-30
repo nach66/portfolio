@@ -26,7 +26,7 @@ export default class Include extends Component {
                 },
                 {
                     icon:speed,
-                    text: "טכנולוגיות טעינה מתקדמות, כיווץ קבצים ושימוש בזיכרון מטמון (chash) לשיפור מהירות האתר.",
+                    text: "טכנולוגיות טעינה מתקדמות, כיווץ קבצים ושימוש בזיכרון מטמון (cache) לשיפור מהירות האתר.",
                 },
                 {
                     icon:seo,
@@ -47,8 +47,7 @@ export default class Include extends Component {
                             'התאמה לכל גדלי המסכים',
                             'מערכת לניהול תוכן',
                             'שעת הדרכה על מערכת האתר',
-                        ],
-                        price:"החל מ- ₪1,800"
+                        ]
                     },
                     {
                         title:"בניית אתר תדמית מקצועי",
@@ -58,8 +57,7 @@ export default class Include extends Component {
                             "5 עמודי תוכן (אודות, שירותים, צור קשר וכו')",
                             'תפריט ניווט מתקדם ומעוצב',
                             'שלוש שעות הדרכה פרטנית על מערכת האתר',
-                        ],
-                        price:"החל מ - ₪4,500"
+                        ]
                     },
                     {
                         title:"בניית חנות וירטואלית ווקומרס",
@@ -69,8 +67,7 @@ export default class Include extends Component {
                             'חיבור לסליקת אשראי ולהפקת דוחות',
                             'כולל העלאת 100 מוצרים',
                             'מאמרים ללא הגבלה'                          
-                        ],
-                        price:"החל מ - ₪9,000"
+                        ]
                     },
                     {
                         title:"שדרוג אתר קיים",
@@ -89,7 +86,7 @@ export default class Include extends Component {
                             'טיפול בתקלות',
                             'העלאת תכנים ותמונות'
                         ],
-                        price:"החל מ-400 ₪ לחודש"
+                        price:"החל מ-150 ₪ לחודש"
                     },
                     {
                         title:"כתיבת תוכן",
@@ -126,11 +123,12 @@ export default class Include extends Component {
                             )}
                     </div>
 
-                    <div className="empty-blue"/>       
+                    <br/>
+                    <br/>
                     <DividerWithText>
                         <h2>אז מה בתפריט?</h2>
                     </DividerWithText>
-                    <div className="empty-blue"/>       
+                    <br/>
 
                     <div className="services-center">
                         {this.state.programs.map(web => {

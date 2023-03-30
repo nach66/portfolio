@@ -19,7 +19,7 @@
   --lgreen: #6fba82; /*רקע תפריט*/
   --primaryColor: #f1bf95; /*כפתור באנר*/
   --grey: #585f5ed2; /*טקסט*/
-  --secColor: wheat; 
+  --secColor: #f5deb3; 
   --mainWhite: white;
   --back: #e3f8fdab; /*רקע*/
   --lightShadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
@@ -1360,6 +1360,27 @@ visibility: hidden;
   }
 }
 
-/* .carousel .control-dots .dot{
-  background: var(--primaryColor) !important;
-} */
+.logos {
+  width: 58vw;
+  height: 75vh;
+  background: url("./images/gif/Cube_Wth_BG_And_Shadow.gif") no-repeat;
+  background-position: center !important;
+  background-size: 40%;
+}
+
+.modal {
+  background-color: wheat !important;
+  /* padding-top: 60px !important; */
+  /* padding-bottom: 30px !important; */
+  padding: 10px 0 80px !important;
+}
+
+@media screen and (max-width: 660px) {
+  .logos {
+    width: 80vw;
+  }
+  .modal {
+    padding-top: 25% !important;
+    padding-bottom: 20% !important;
+  }
+}

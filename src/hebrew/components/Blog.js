@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
 import shop from '../../images/blog/web/shop.png'
 import map from '../../images/blog/ship/map.png'
-import beach from '../../images/blog/product/beach.png';
 import fix from '../../images/blog/product/fix.png';
 import puzzle from '../../images/icons/puzzle.png'
 
