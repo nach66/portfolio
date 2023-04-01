@@ -1379,8 +1379,9 @@ visibility: hidden;
   .logos {
     width: 88vw;
     background-size: 70%;
+    margin-top: -100px;
   }
   .customModal {
-    padding: 0% 0px 20% !important;
+    padding: 27% 0px !important;
   }
 }
