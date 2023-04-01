@@ -1372,14 +1372,15 @@ visibility: hidden;
 
 .customModal {
   background-color: wheat !important;
-  padding: 0 19% 6% !important;
+  padding: 3% 18% !important;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 650px) {
   .logos {
-    width: 85vw;
+    width: 88vw;
+    background-size: 70%;
   }
   .customModal {
-    padding: 15% 10px 19% 10px !important;
+    padding: 5% 0px 27% !important;
   }
 }
