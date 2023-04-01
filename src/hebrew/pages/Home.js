@@ -5,7 +5,6 @@ import TestiSlider from '../components/TestiSlider'
 import HoriForm from '../components/HoriForm'
 import Puzzle from '../components/Puzzle'
 import Ycube from '../components/Ycube'
-import modalogo from '../../images/gif/logo.gif';
 import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 import "react-responsive-modal/styles.css";
