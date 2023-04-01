@@ -13,7 +13,7 @@ import { Modal } from "react-responsive-modal";
 export default class Page extends React.Component {
     constructor(props){
         super(props)
-        this.state = {open : true}
+        // this.state = {open : true}
         // this.makeTimer()
     }
 
@@ -32,7 +32,7 @@ export default class Page extends React.Component {
 
         return (        
         <>
-            <Modal 
+            {/* <Modal 
                 open={open} 
                 // center={true}
                 // focusTrapped={true}
@@ -45,7 +45,7 @@ export default class Page extends React.Component {
                 animationDuration={400}
             >
                 <div alt="logo" className="logos"/>
-            </Modal>
+            </Modal> */}
 
                 <Hero/>
                 <Pro/>
