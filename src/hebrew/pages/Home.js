@@ -14,7 +14,7 @@ export default class Page extends React.Component {
     constructor(props){
         super(props)
         this.state = {open : true}
-        // this.makeTimer()
+        this.makeTimer()
     }
 
     makeTimer(){
@@ -35,7 +35,6 @@ export default class Page extends React.Component {
             <Modal 
                 open={open} 
                 center={true}
-                // focusTrapped={true}
                 // showCloseIcon={false}
                 onClose={this.onCloseModal}
                 classNames={{
