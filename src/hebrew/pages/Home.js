@@ -13,8 +13,8 @@ import { Modal } from "react-responsive-modal";
 export default class Page extends React.Component {
     constructor(props){
         super(props)
-        // this.state = {open : true}
-        // this.makeTimer()
+        this.state = {open : true}
+        this.makeTimer()
     }
 
     makeTimer(){
