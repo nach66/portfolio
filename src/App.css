@@ -1360,27 +1360,26 @@ visibility: hidden;
   }
 }
 
+/* modal animate logo */
+
 .logos {
   width: 58vw;
-  height: 75vh;
-  background: url("./images/gif/Cube_Wth_BG_And_Shadow.gif") no-repeat;
+  height: 80vh;
+  background: url("./images/gif/logo.gif") no-repeat;
   background-position: center !important;
   background-size: 40%;
 }
 
-.modal {
+.customModal {
   background-color: wheat !important;
-  padding-top: 60px !important;
-  padding-bottom: 30px !important;
-  padding: 10px 0 80px !important;
+  padding: 0 19% 6% !important;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 950px) {
   .logos {
-    width: 80vw;
+    width: 91vw;
   }
-  .modal {
-    padding-top: 25% !important;
-    padding-bottom: 20% !important;
+  .customModal {
+    padding: 15% 0px 19% 0px !important;
   }
 }

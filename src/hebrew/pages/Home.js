@@ -12,9 +12,17 @@ import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 
 export default class Page extends React.Component {
-    state = {
-        open: true
-    };
+    constructor(props){
+        super(props)
+        this.state = {open : true}
+        // this.makeTimer()
+    }
+
+    makeTimer(){
+        setInterval(() => {
+            this.setState({open: false})
+        }, 5000)
+    }
 
     onCloseModal = () => {
         this.setState({ open: false });
@@ -25,12 +33,20 @@ export default class Page extends React.Component {
 
         return (        
         <>
-            {/* <Modal open={open} center
+            <Modal 
+                open={open} 
+                // center={true}
+                // focusTrapped={true}
+                // showCloseIcon={false}
                 onClose={this.onCloseModal}
-                classNames={{ modal: 'modal'}}
+                classNames={{
+                    overlay: 'customOverlay',
+                    modal: 'customModal'
+                }}
+                animationDuration={400}
             >
-                <div alt="icon" src={modalogo} className="logos"/>
-            </Modal> */}
+                <div alt="logo" className="logos"/>
+            </Modal>
 
                 <Hero/>
                 <Pro/>

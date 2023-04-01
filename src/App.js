@@ -1,6 +1,7 @@
 import React from "react";
 import {Route, Switch} from "react-router-dom";
 import NavBar from "./hebrew/components/NavBar";
+import Loader from "./hebrew/components/Loader";
 import Home from "./hebrew/pages/Home";
 import Aboutus from "./hebrew/pages/About";
 import Portfolio from "./hebrew/pages/Portfolio";
@@ -17,6 +18,7 @@ function App(props) {
     return (
         <>
             <NavBar/>
+            {/* <Loader /> */}
             <Switch>
             <Route exact path="/" component={Home}/>
                 <Route exact path="/about" component={Aboutus}/>
