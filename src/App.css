@@ -1377,9 +1377,9 @@ visibility: hidden;
 
 @media screen and (max-width: 950px) {
   .logos {
-    width: 91vw;
+    width: 85vw;
   }
   .customModal {
-    padding: 15% 0px 19% 0px !important;
+    padding: 15% 10px 19% 10px !important;
   }
 }
