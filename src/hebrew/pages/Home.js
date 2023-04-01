@@ -32,7 +32,7 @@ export default class Page extends React.Component {
 
         return (        
         <>
-            {/* <Modal 
+            <Modal 
                 open={open} 
                 // center={true}
                 // focusTrapped={true}
@@ -45,7 +45,7 @@ export default class Page extends React.Component {
                 animationDuration={400}
             >
                 <div alt="logo" className="logos"/>
-            </Modal> */}
+            </Modal>
 
                 <Hero/>
                 <Pro/>
