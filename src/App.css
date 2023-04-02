@@ -1372,23 +1372,16 @@ visibility: hidden;
 .customModal {
   margin: auto;
   background-color: wheat !important;
-  padding: 3% 33% 7% !important;
+  padding: 1% 32% 7% !important;
 }
 
 @media screen and (max-width: 1500px) {
   .logos {
     width: 30vw !important;
     height: 74vh;
-    background: url("./images/gif/logo.gif") no-repeat;
-    background-position: center !important;
-    background-size: 95% !important;
-  }
-
-  .customModal {
-    background-color: wheat !important;
-    padding: 2% 32% 6% !important;
   }
 }
+
 @media screen and (max-width: 650px) {
   .logos {
     width: 88vw !important;
