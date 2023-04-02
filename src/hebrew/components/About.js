@@ -48,12 +48,13 @@ export default function About() {
                         <div className="choose"/>
                     </Roll>
             </div>
+            <div className='empty-white'></div>
 
             <div className="sec">
-            
                 <article className="ycube">
                     <Roll bottom>
-                        <img src={cube} alt="icon"/>
+                        <div alt="logo" className="logoa"/>
+                        {/* <img src={cube} alt="icon"/> */}
                     </Roll>
                 </article>
 
@@ -79,7 +80,7 @@ export default function About() {
                 </Fade>
             </div> 
 
-            <div className='empty-white'></div>
+            {/* <div className='empty-white'></div> */}
         </>
     )
 }

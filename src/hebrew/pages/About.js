@@ -9,6 +9,9 @@ export default function About(props) {
             <div className="empty-blue"/>
             <div className="bf"/>       
             <Abouts/>
+            <br/>
+            <br/>
+            <br/>
             <HoriForm/>
             <div className="af"/>                
             <Footer/>
