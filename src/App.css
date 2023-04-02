@@ -665,6 +665,9 @@ p {
     background-size: contain;
     position: relative;
   }
+  .logoa {
+    background-size: 60%;
+  }
 }
 @media screen and (max-width: 620px) {
   .about {
