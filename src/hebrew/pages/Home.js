@@ -20,7 +20,7 @@ export default class Page extends React.Component {
     makeTimer(){
         setInterval(() => {
             this.setState({open: false})
-        }, 5000)
+        }, 4300)
     }
 
     onCloseModal = () => {
@@ -41,7 +41,7 @@ export default class Page extends React.Component {
                     overlay: 'customOverlay',
                     modal: 'customModal'
                 }}
-                animationDuration={400}
+                animationDuration={300}
             >
                 <div alt="logo" className="logos"/>
             </Modal>

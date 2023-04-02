@@ -1361,23 +1361,37 @@ visibility: hidden;
 }
 
 /* modal animate logo */
-
 .logos {
-  width: 58vw;
-  height: 80vh;
+  width: 22vw;
+  height: 70vh;
   background: url("./images/gif/logo.gif") no-repeat;
   background-position: center !important;
-  background-size: 40%;
+  background-size: 95%;
 }
 
 .customModal {
+  margin: auto;
   background-color: wheat !important;
-  padding: 3% 18% !important;
+  padding: 3% 33% 7% !important;
 }
 
+@media screen and (max-width: 1500px) {
+  .logos {
+    width: 30vw !important;
+    height: 74vh;
+    background: url("./images/gif/logo.gif") no-repeat;
+    background-position: center !important;
+    background-size: 95% !important;
+  }
+
+  .customModal {
+    background-color: wheat !important;
+    padding: 2% 32% 6% !important;
+  }
+}
 @media screen and (max-width: 650px) {
   .logos {
-    width: 88vw;
+    width: 88vw !important;
     background-size: 70%;
     margin-top: -100px;
   }

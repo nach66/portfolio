@@ -13,7 +13,7 @@ export default class Loader extends React.Component {
     makeTimer(){
         setInterval(() => {
             this.setState({open: false})
-        }, 1000)
+        }, 600)
     }
 
     onCloseModal = () => {
