@@ -19,7 +19,6 @@ export default class ContactForm extends React.Component {
 
                 <div className="col">
 
-                    {/* <Fade right> */}
                         <article className="icon-sec">
                                 <h2>במרחק לחיצה מכאן</h2>              
                                 <div className="icon-align">
@@ -59,7 +58,6 @@ export default class ContactForm extends React.Component {
                                     </a>
                                 </div>
                         </article>
-                    {/* </Fade> */}
 
 {/*                 
                     <Fade bottom>
