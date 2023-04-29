@@ -1425,3 +1425,8 @@ visibility: hidden;
   background: url("./images/gif/logo.gif") no-repeat;
   background-position: center !important;
 }
+@media screen and (max-width: 650px) {
+  .logof {
+    background-size: 122% !important;
+  }
+}
