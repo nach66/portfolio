@@ -5,15 +5,24 @@ import Footer from '../components/Footer'
 export default function Error(props) {
     return (
         <>
-            <div className="empty-white"/>
             <section style={{textAlign:'center'}}>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
                 <h1>404</h1>
-                <h2>אוי! אין עמוד כזה</h2>
                 <br/>
-                <Link to="/he/">חזרה לעמוד הבית</Link>
+                <h2>אוי! אין עמוד כזה</h2>
+                <br/>                
+                <Link to="/">חזרה לעמוד הבית</Link>
+                <br/>                
+                <br/>
             </section>
-            <div className="empty-white"/>
-            <div className="empty-white"/>
+
+                        
+            <div className="contact-logof">
+                <div alt="logo" className="logof"/>
+            </div>
             <Footer/>
         </>
     )

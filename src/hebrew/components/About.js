@@ -48,9 +48,8 @@ export default function About() {
                         <div className="choose"/>
                     </Roll>
             </div>
-            <div className='empty-white'></div>
 
-            <div className="sec">
+            <div className="sec" style={{backgroundColor:'wheat'}}>
                 <article className="ycube">
                     <Roll bottom>
                         <div alt="logo" className="logoa"/>

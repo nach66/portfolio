@@ -19,7 +19,7 @@ export default class ContactForm extends React.Component {
 
                 <div className="col">
 
-                    <Fade right>
+                    {/* <Fade right> */}
                         <article className="icon-sec">
                                 <h2>במרחק לחיצה מכאן</h2>              
                                 <div className="icon-align">
@@ -59,7 +59,7 @@ export default class ContactForm extends React.Component {
                                     </a>
                                 </div>
                         </article>
-                    </Fade>
+                    {/* </Fade> */}
 
 {/*                 
                     <Fade bottom>
@@ -68,7 +68,7 @@ export default class ContactForm extends React.Component {
                         </article>
                     </Fade> */}
 
-                    <Fade left>
+                    {/* <Fade left> */}
                         <article className="contact-sec">
                             <h2>לחזור אליך?</h2>
                             <FaMailBulk style={{
@@ -99,9 +99,7 @@ export default class ContactForm extends React.Component {
                                     {status === "ERROR" && <p className="submit-error-form" >אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
                             </form>
                         </article>
-                    </Fade>
-
-
+                    {/* </Fade> */}
                 </div>
             </>
         );

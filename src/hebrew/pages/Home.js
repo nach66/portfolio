@@ -32,7 +32,7 @@ export default class Page extends React.Component {
 
         return (        
         <>
-            <Modal 
+            {/* <Modal 
                 open={open} 
                 center={true}
                 // showCloseIcon={false}
@@ -44,7 +44,7 @@ export default class Page extends React.Component {
                 animationDuration={300}
             >
                 <div alt="logo" className="logos"/>
-            </Modal>
+            </Modal> */}
 
                 <Hero/>
                 <Pro/>
@@ -52,6 +52,7 @@ export default class Page extends React.Component {
                 <div className="empty-blue"/>
                 <div className="bf"/>    
                 <TestiSlider/>
+                <br/>
                 <HoriForm/>
                 <div className="af"/>  
 
@@ -59,6 +60,10 @@ export default class Page extends React.Component {
                 <Ycube/>
                 <ContactForm/>
                 <div className="empty-blue"/>
+
+                <div className="contact-logof">
+                    <div alt="logo" className="logof"/>
+                </div>
                 <Footer/>
             </>
         );

@@ -13,6 +13,7 @@ export default function Ycube() {
                             <div className="contact-me"/>
                         </Roll>                    
                     </article>
+                    
                     <article className="centerr">
                         <h3>היי, אני יוני.</h3>
                         <p>

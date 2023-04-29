@@ -107,8 +107,8 @@ export default class Include extends Component {
             <>
                 <div className="services">
                     <br/>
-                    <h1>מחירון בניית אתרים</h1>
-                    <h6 className="p-icon">כל האתרים נבנים במערכת וורדפרס עם אלמנטור, על גבי תבנית בסיסית המותאמת באופן אישי למותג העסק. הקמת אתר כוללת:</h6>
+                    <h1>חבילות בניית אתרים</h1>
+                    <h6 className="p-icon">כל האתרים נבנים במערכת וורדפרס עם אלמנטור, על גבי תבנית בסיסית המותאמת באופן אישי למותג העסק. <br/> הקמת אתר כוללת:</h6>
                     
                     <div className="services-center">
                             {this.state.services.map(

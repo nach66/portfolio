@@ -11,6 +11,11 @@ export default function Port(props) {
             <Portfolio/>
             <div className="bf"/>       
             <HoriForm/>
+
+                                    
+            <div className="contact-logof">
+                    <div alt="logo" className="logof"/>
+                </div>
             <Footer/>
         </>
     )

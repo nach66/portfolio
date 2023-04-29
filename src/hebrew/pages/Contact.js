@@ -9,6 +9,11 @@ export default function Contact(props) {
             <div className="saf"/>
             <ContactForm/>
             <div className="sbf"/>
+
+                                    
+            <div className="contact-logof">
+                <div alt="logo" className="logof"/>
+            </div>
             <Footer/>
         </>
     )

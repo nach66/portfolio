@@ -11,7 +11,12 @@ export default function Error(props) {
             <Blog/>
             <div className="empty-blue"/>
             <div className="bf"/> 
-            <HoriForm/>      
+            <HoriForm/>    
+
+                                    
+                <div className="contact-logof">
+                    <div alt="logo" className="logof"/>
+                </div>
             <Footer/>
         </>
     )
