@@ -56,7 +56,7 @@ export default function TestiSlider() {
                         <h6 style={{fontWeight:'bold'}}>שני אלצטר, ShaniSurfArt</h6>
                         {/* <a href="http://shanisurfart.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שני >> </a>        */}
                     </div>
-
+                    
                     <div>
                         <h6>
                             "יוני בנתה לי אתר נהדר של יעוץ ארגוני.
