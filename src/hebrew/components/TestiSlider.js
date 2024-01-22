@@ -21,6 +21,19 @@ export default function TestiSlider() {
 
                     <div>
                         <h6>
+                            "לא יכלתי למצוא מישהי יותר טובה מיוני שתבנה לי את האתר.
+                            <br/>
+                            היא משקיעה ברמות הכי גבוהות, שמה לב לכל פרט ובאמת אכפת לה שהכל ייצא הכי מקצועי, איכותי, נקי ואסתטי.
+                            <br/>
+                            יש לה מלא סבלנות, סטנדרטים גבוהים והיא תבנה לך את האתר הכי איכותי מא' ועד ת'.
+                            <br/>
+                            כיף לעבוד איתה והיא יצירתית ברמות."
+                        </h6>
+                        <h6 style={{fontWeight:'bold'}}>גלי נס, מיינדפולנס ויוגה לארגונים</h6>
+                    </div>
+
+                    <div>
+                        <h6>
                         "היי יוני,
                         תודה על אתר מהמם!
                         <br/>
@@ -31,7 +44,7 @@ export default function TestiSlider() {
                         בהערכה רבה, בינדר ליאת"
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>ליאת בינדר, אלמנטרי ביטוח</h6>
-                        <a href="https://wayin.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ליאת >> </a>
+                        {/* <a href="https://wayin.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ליאת >> </a> */}
                     </div>
 
                     <div>
@@ -41,7 +54,7 @@ export default function TestiSlider() {
                             אני ממליצה בחום 🙌ובהערכה ענקית לכל מי שמחפש את בונת האתרים שלו. יוני היא הדבר האמיתי!!! תודה אהובה מכול הלב❤️
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>שני אלצטר, ShaniSurfArt</h6>
-                        <a href="http://shanisurfart.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שני >> </a>       
+                        {/* <a href="http://shanisurfart.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שני >> </a>        */}
                     </div>
 
                     <div>
@@ -50,10 +63,10 @@ export default function TestiSlider() {
                             <br/>
                             ממליץ עליה בחום. מקצועית, חדה, עובדת נקי ועדכני.
                             <br/>
-                            התקשורת איתה ברורה והיא מבינה את הצרכים והציפיות .מבטיחה ומקיימת. 👌"
+                            התקשורת איתה ברורה והיא מבינה את הצרכים והציפיות. מבטיחה ומקיימת 👌"
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>יריב לבלנג, ייעוץ ארגוני ופיתוח מנהלים</h6>
-                        <a href="https://yarivconsultant.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של יריב >> </a>
+                        {/* <a href="https://yarivconsultant.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של יריב >> </a> */}
                     </div>
 
                     <div>
@@ -61,7 +74,7 @@ export default function TestiSlider() {
                             "יוני הבינה מהר את הבקשות ואת הצרכים של החברה, הציעה רעיונות מעשיים וטובים משל עצמה אבל הקפידה להישאר קרוב לקו שהטווינו, עבדה בזריזות וביעילות ותימחרה באופן הוגן. נשארת בקשר ומגיבה מייד לבקשות שלנו."
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>ניצן, 'אדם בעמלו' </h6>
-                        <a href="https://adambeamalo.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ניצן >> </a>
+                        {/* <a href="https://adambeamalo.co.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של ניצן >> </a> */}
                     </div>
 
                     <div>
@@ -72,7 +85,7 @@ export default function TestiSlider() {
                             והעבודה מולה פשוט תענוג :)"
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>מורין פרידמן, מרכז השל לקיימות</h6>
-                        <a href="https://heschel.org.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של מורין >> </a>       
+                        {/* <a href="https://heschel.org.il/" rel="noreferrer" target="_blank" className="site-link">לאתר של מורין >> </a>        */}
                     </div>
 
                     <div>
@@ -82,7 +95,7 @@ export default function TestiSlider() {
                             היה כיף לעבוד איתה וליהנות מהמקצוענות המהירות והעצות הטובות שלה, עד שהתקבל התוצר שהייתי שלם איתו.
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>אייל גונן, מנהיגות מזווית אחרת</h6>
-                        <a href="https://www.eyalgonen.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של אייל >> </a>       
+                        {/* <a href="https://www.eyalgonen.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של אייל >> </a>        */}
                     </div>
                     
                     <div>
@@ -92,7 +105,7 @@ export default function TestiSlider() {
                             היה לי ממש כיף לעבוד מולה, מומלץ מאוד 👍"
                         </h6>
                         <h6 style={{fontWeight:'bolder'}}>בני, zipper bags </h6>
-                        <a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a>
+                        {/* <a href="https://he.zipperbags.online/" rel="noreferrer" target="_blank" className="site-link">לאתר של בני >> </a> */}
                     </div>
 
                     <div>
@@ -104,7 +117,7 @@ export default function TestiSlider() {
                             היה לי כייף לעבוד איתך ואני ממליצה בחום להשתמש בשרותיך."
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>סוזי אוקובו, בעלת עסק לטיולים בטוקיו ומחברת הספר זרה ביפן</h6>
-                        <a href="https://zarabeyapan.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של סוזי >> </a>          
+                        {/* <a href="https://zarabeyapan.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של סוזי >> </a>           */}
                     </div>
 
                     <div>
@@ -112,8 +125,27 @@ export default function TestiSlider() {
                             "ממליצה מאוד על יוני המקסימה. מקצועית, מהירה, מחיר טוב."
                         </h6>
                         <h6 style={{fontWeight:'bold'}}>שרון, sharon perfumes </h6>
-                        <a href="https://sharonperfumes.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שרון >> </a>
+                        {/* <a href="https://sharonperfumes.com/" rel="noreferrer" target="_blank" className="site-link">לאתר של שרון >> </a> */}
                     </div>
+
+                    <div>
+                        <h6>
+                            "מצוינת ממש. קשובה, זריזה, ובעלת כישורים טכניים גבוהים. מומלצת בחום."
+                        </h6>
+                        <h6 style={{fontWeight:'bold'}}>רועי ריינזילבר, LegalTalking</h6>
+                    </div>
+                    <div>
+                        <h6>
+                            "מקצועית, אמינה, מהירה, יודעת בדיוק מה לעשות.
+                            <br/>
+                            לא קל לרשת אתר לא מתפקד בכלל ולהביא אותו למצב עובד,
+                            <br/>
+                            מ 0 ל 100 פשוט כך."
+                        </h6>
+                        <h6 style={{fontWeight:'bold'}}>מרק הרר, מינאמי</h6>
+                    </div>
+
+                    
             </AwesomeSlider>
             <br/>
             <br/>

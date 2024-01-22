@@ -17,7 +17,7 @@ import sima from '../../images/reco/סימה.png'
 import arie from '../../images/reco/שטומפכר.png'
 import raw from '../../images/reco/raw.png'
 import bari from '../../images/reco/bari.jpeg'
-import yoav from '../../images/reco/yoav.jpeg'
+import gali from '../../images/reco/gali.jpeg'
 import alex from '../../images/reco/alex.jpeg'
 import miri2 from '../../images/reco/miri2.jpeg'
 
@@ -109,16 +109,21 @@ export default class Portfolio extends Component {
                 link:"https://mima-meyaldot.com/",
                 title:"מימה מיילדות פרטית - אתר תדמית"
             },
-            
+
             {
                 icon:alex,
                 link:"https://alexkatch.com/",
                 title:"אנימציה - אתר תדמית ותיק עבודות"
             },            
+            // {
+            //     icon:yoav,
+            //     link:"https://yoav-bulshtein.com/",
+            //     title:"קידום אתרים - אתר תדמית"
+            // },
             {
-                icon:yoav,
-                link:"https://yoav-bulshtein.com/",
-                title:"קידום אתרים - אתר תדמית"
+                icon:gali,
+                link:"https://galiness.com/he/",
+                title:"גלי נס - מיינדפולנס ויוגה לארגונים"
             },
             {
                 icon:bari,
