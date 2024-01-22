@@ -1370,7 +1370,6 @@ visibility: hidden;
     font-size: 0.95rem;
     width: 70%;
   }
-
   .awssld {
     --slider-height-percentage: 100% !important;
     --control-button-width: 14% !important;
