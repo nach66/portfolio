@@ -4,15 +4,13 @@ import Zoom from 'react-reveal/Zoom';
 
 import hostel from '../../images/reco/hostel.png'
 import wall from '../../images/reco/walll.png'
-import door from '../../images/reco/door.png'
+// import door from '../../images/reco/door.png'
 import peace from '../../images/reco/peace.png'
 
 import zar from '../../images/reco/zar.png'
 import japan from '../../images/reco/japan.png'
 import tokio from '../../images/reco/tokio.png'
 import roi from '../../images/reco/roi.png'
-// import yogev from '../../images/reco/yogev.png'
-import wayin from '../../images/reco/wayin.png'
 import adam from '../../images/reco/adam.png'
 import yariv from '../../images/reco/יריב.png'
 import sima from '../../images/reco/סימה.png'
@@ -21,6 +19,7 @@ import raw from '../../images/reco/raw.png'
 import bari from '../../images/reco/bari.jpeg'
 import yoav from '../../images/reco/yoav.jpeg'
 import alex from '../../images/reco/alex.jpeg'
+import miri2 from '../../images/reco/miri2.jpeg'
 
 import sharon from '../../images/reco/sharon.png'
 import beni from '../../images/reco/beni.png'
@@ -34,13 +33,13 @@ import tlv from '../../images/reco/tlv.jpeg'
 import yaar from '../../images/reco/yaar.png'
 import wip from '../../images/reco/wip.jpeg'
 import nahat from '../../images/reco/nahat.jpeg'
-import liran from '../../images/reco/liran.jpeg'
-// import kineret from '../../images/reco/kineret.jpeg'
+import kineret from '../../images/reco/kineret.jpeg'
+import minami from '../../images/reco/minami2.jpeg'
 
 export default class Portfolio extends Component {
     state={
 
-        store: [
+        pro: [
             {
                 icon:heshel,
                 link:"https://heschel.org.il/",
@@ -58,6 +57,11 @@ export default class Portfolio extends Component {
                 title:"shani surf art - חנות תכשיטים"
             },
             {
+                icon:minami,
+                link:"https://mynami.co.il/",
+                title:"מינאמי - חנות צעצועים למבוגרים"
+            },  
+            {
                 icon:tlv,
                 link:"https://tlvgym.co.il/",
                 title:"tlvgym - אתר תדמית ומערכת חוגים"
@@ -68,14 +72,14 @@ export default class Portfolio extends Component {
                 title:"Peace Boards - חנות סקייטבורדים"
             },
             {
-                icon:wayin,
-                link:"https://wayin.co.il/",
-                title:"wayin - לוח חיפוש עובדים/עבודה"
-            },
-            {
                 icon:shap,
                 link:"https://www.shaptop.com/",
                 title:"תרגום תבנית - חנות שופיפיי"
+            },
+            {
+                icon:hostel,
+                link:"https://hosteltiberias.co.il/",
+                title:"אכסניית טבריה - אתר תדמית + הזמנות"
             },
             {
                 icon:wall,
@@ -96,15 +100,16 @@ export default class Portfolio extends Component {
                 icon:tokio,
                 link:"https://www.hebrewtourguidetokyo.com/",
                 title:"טיולי בוטיק בטוקיו - רכישת סיורים"
-            },
-            {
-                icon:hostel,
-                link:"https://hosteltiberias.co.il/",
-                title:"אכסניית טבריה - אתר תדמית + הזמנות"
             }
         ],
 
         tadmit: [
+            {
+                icon:miri2,
+                link:"https://mima-meyaldot.com/",
+                title:"מימה מיילדות פרטית - אתר תדמית"
+            },
+            
             {
                 icon:alex,
                 link:"https://alexkatch.com/",
@@ -125,11 +130,6 @@ export default class Portfolio extends Component {
                 link:"https://www.eyalgonen.com/",
                 title:"אייל גונן - בלוג מנהיגות"
             },         
-            // {
-            //     icon:yogev,
-            //     link:"https://ysolutions.info/",
-            //     title:"ysolutions מערכות מידע ותוכנה"
-            // },
             {
                 icon:adam,
                 link:"https://adambeamalo.co.il/",
@@ -140,11 +140,11 @@ export default class Portfolio extends Component {
                 link:"https://yarivconsultant.com/",
                 title:"ייעוץ ארגוני ופיתוח מנהלים"
             },
-            {
-                icon:door,
-                link:"http://www.commercialdoorrepairontario.ca/",
-                title:"Commercial Doors"
-            },
+            // {
+            //     icon:door,
+            //     link:"http://www.commercialdoorrepairontario.ca/",
+            //     title:"Commercial Doors"
+            // },
             {
                 icon:sima,
                 link:"https://simanissani.com/",
@@ -158,16 +158,11 @@ export default class Portfolio extends Component {
         ],
 
         fix: [
-            // {
-            //     icon:kineret,
-            //     link:"https://kinneretdl.co.il/",
-            //     title:"פסיכותרפיסטית ישאלית ביפן - אתר תדמית"
-            // },
             {
-                icon:liran,
-                link:"https://anak-nuts.co.il/",
-                title:"ענק הטבע והפיצוחים - אתר חנות"
-            }, 
+                icon:kineret,
+                link:"https://kinneretdl.co.il/",
+                title:"פסיכותרפיסטית ישאלית ביפן - אתר תדמית"
+            },
             {
                 icon:nahat,
                 link:"https://www.nahatcoffee.com/he/",
@@ -221,11 +216,6 @@ export default class Portfolio extends Component {
         //         link:"https://congressbulaim.co.il/",
         //         title:"קונגרס הבולאים - חנות בולים"
         //     },
-        //     {
-        //         icon:moshe,
-        //         link:"https://sp.systems/",
-        //         title:"Shieldpro systems"
-        //     },
                 // {
                 //     icon:idit,
                 //     link:"https://idit-or.com/",
@@ -255,7 +245,7 @@ export default class Portfolio extends Component {
                         <br/>
                         <DividerWithText><h2>אתרי מכירה ומערכות</h2></DividerWithText>                    
                         <div className="services-center">
-                            {this.state.store.map(
+                            {this.state.pro.map(
                                 (item, index) => {return (
                                     <article key={index}>
                                         <Zoom>
