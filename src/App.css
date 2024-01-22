@@ -1367,12 +1367,12 @@ visibility: hidden;
 }
 @media screen and (max-width: 660px) {
   .carousel h6 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     width: 70%;
   }
 
   .awssld {
-    --slider-height-percentage: 95% !important;
+    --slider-height-percentage: 100% !important;
     --control-button-width: 14% !important;
     --control-bullet-color: white !important;
     --control-bullet-active-color: white !important;
