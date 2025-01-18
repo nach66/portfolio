@@ -31,7 +31,7 @@ export default class NavBar extends Component {
                 </button>
             {this.state.isClick &&                 
                 <>
-                <a href="https://api.whatsapp.com/send?phone=+972556617145/?text=היי, אני רוצה לבנות אתר" rel="noopener noreferrer">                        
+                <a href="https://api.whatsapp.com/send?phone=972556617145/?text=היי, אני רוצה לבנות אתר" rel="noopener noreferrer">                        
                     <FaWhatsapp className="float-contact chat" alt="contact"/>
                 </a> 
                 <a href="tel:055-6617145" rel="noopener noreferrer">                        
