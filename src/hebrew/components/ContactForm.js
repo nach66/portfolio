@@ -22,7 +22,7 @@ export default class ContactForm extends React.Component {
                         <article className="icon-sec">
                                 <h2>במרחק לחיצה מכאן</h2>              
                                 <div className="icon-align">
-                                    <a href="https://api.whatsapp.com/send?phone=+972556617145" rel="noopener noreferrer" target="_blank">
+                                    <a href="https://api.whatsapp.com/send?phone=972556617145" rel="noopener noreferrer" target="_blank">
                                         <article style={{display: 'inline-block'}}>
                                                 <FaWhatsapp className="contact-icon"/>                                            
                                             דברו איתי בוואטספ
