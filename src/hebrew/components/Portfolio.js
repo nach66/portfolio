@@ -71,11 +71,11 @@ export default class Portfolio extends Component {
                 link:"https://peace-boards.com/",
                 title:"Peace Boards - חנות סקייטבורדים"
             },
-            {
-                icon:shap,
-                link:"https://www.shaptop.com/",
-                title:"תרגום תבנית - חנות שופיפיי"
-            },
+            // {
+            //     icon:shap,
+            //     link:"https://www.shaptop.com/",
+            //     title:"תרגום תבנית - חנות שופיפיי"
+            // },
             {
                 icon:hostel,
                 link:"https://hosteltiberias.co.il/",
