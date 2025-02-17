@@ -64,7 +64,6 @@ export default class NavBar extends Component {
                             <li><a href="/about">מי ולמה אני</a></li>
                             <li><a href="/portfolio">פרוייקטים</a></li>
                             <li><a href="/price">חבילות</a></li>
-                            // <li><a href="/contact">צרו קשר</a> </li>
                             
                             <li class="home">
                                 <a a href="/blog">
