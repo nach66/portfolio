@@ -69,7 +69,7 @@ export default function About() {
                         </p>
                         <p>
                             למדתי את הנוסחה, ואני יכולה להסביר גם לך.
-                            <a href="https://api.whatsapp.com/send?phone=+972556617145" 
+                            <a href="https://api.whatsapp.com/send?phone=972556617145" 
                                 style={{margin:'10px', color:'var(--lgreen)'}}
                                 rel="noopener noreferrer" target="_blank">
                                 שנדבר?
