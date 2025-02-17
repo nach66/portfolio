@@ -883,7 +883,7 @@ figure.effect-chico:hover a {
   box-shadow: var(--lightShadow);
   border: 10px double var(--secColor);
 /*   background: url("./images/contact-me.jpg") no-repeat; */
-  background: url("./images/ycube.jpg") no-repeat;
+  background: url("./images/me.jpg") no-repeat;
   border-radius: 35px 335px 35px 335px/335px 35px 335px 35px;
 }
 
