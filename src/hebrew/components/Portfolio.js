@@ -71,11 +71,6 @@ export default class Portfolio extends Component {
                 link:"https://peace-boards.com/",
                 title:"Peace Boards - חנות סקייטבורדים"
             },
-            // {
-            //     icon:shap,
-            //     link:"https://www.shaptop.com/",
-            //     title:"תרגום תבנית - חנות שופיפיי"
-            // },
             {
                 icon:hostel,
                 link:"https://hosteltiberias.co.il/",
@@ -115,20 +110,10 @@ export default class Portfolio extends Component {
                 link:"https://alexkatch.com/",
                 title:"אנימציה - אתר תדמית ותיק עבודות"
             },            
-            // {
-            //     icon:yoav,
-            //     link:"https://yoav-bulshtein.com/",
-            //     title:"קידום אתרים - אתר תדמית"
-            // },
             {
                 icon:gali,
                 link:"https://galiness.com/he/",
                 title:"גלי נס - מיינדפולנס ויוגה לארגונים"
-            },
-            {
-                icon:bari,
-                link:"https://bariplumbing.com/",
-                title:"ברי אינסטלציה - דף נחיתה"
             },
             {
                 icon:gonen,
@@ -144,21 +129,6 @@ export default class Portfolio extends Component {
                 icon:yariv,
                 link:"https://yarivconsultant.com/",
                 title:"ייעוץ ארגוני ופיתוח מנהלים"
-            },
-            // {
-            //     icon:door,
-            //     link:"http://www.commercialdoorrepairontario.ca/",
-            //     title:"Commercial Doors"
-            // },
-            {
-                icon:sima,
-                link:"https://simanissani.com/",
-                title:"סימה ניסני, מורת דרך - אתר תדמית"
-            },
-            {
-                icon:roi,
-                link:"https://www.legaltalking.com/",
-                title:"legaltalking - בלוג משפטי"
             }
         ],
 
@@ -190,7 +160,7 @@ export default class Portfolio extends Component {
             },
             {
                 icon:offismart,
-                link:"https://offismart.co.il/",
+                link:"https://www.offismart.co.il/",
                 title:"offismart - תיווך נדלן"
             },  
             {
@@ -199,18 +169,48 @@ export default class Portfolio extends Component {
                 title:"שטופמכר בדק בית - אתר תדמית"
             },
             {
-                icon:sharon,
-                link:"https://sharonperfumes.com/",
-                title:"SharonPerfume - בלוג וחנות בשמים"
-            },
-            {
                 icon:beni,
                 link:"https://he.zipperbags.online/",
                 title:"Zipper bags - חנות תיקים"
             },
         ]
 
-                // spam: [
+        // spam: [
+            // {
+            //     icon:yoav,
+            //     link:"https://yoav-bulshtein.com/",
+            //     title:"קידום אתרים - אתר תדמית"
+            // },
+            // {
+            //     icon:bari,
+            //     link:"https://bariplumbing.com/",
+            //     title:"ברי אינסטלציה - דף נחיתה"
+            // },
+            // {
+            //     icon:door,
+            //     link:"http://www.commercialdoorrepairontario.ca/",
+            //     title:"Commercial Doors"
+            // },
+            // {
+            //     icon:sima,
+            //     link:"https://simanissani.com/",
+            //     title:"סימה ניסני, מורת דרך - אתר תדמית"
+            // },
+            // {
+            //     icon:roi,
+            //     link:"https://www.legaltalking.com/",
+            //     title:"legaltalking - בלוג משפטי"
+            // }
+            // {
+            //     icon:sharon,
+            //     link:"https://sharonperfumes.com/",
+            //     title:"SharonPerfume - בלוג וחנות בשמים"
+            // },
+            // {
+            //     icon:shap,
+            //     link:"https://www.shaptop.com/",
+            //     title:"תרגום תבנית - חנות שופיפיי"
+            // },
         //     {
         //         icon:flower,
         //         link:"https://very-happy-flowers.com/",
