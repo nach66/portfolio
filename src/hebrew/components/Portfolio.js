@@ -2,31 +2,19 @@ import React, { Component } from 'react'
 import DividerWithText from './DividerWithText'
 import Zoom from 'react-reveal/Zoom';
 
-import hostel from '../../images/reco/hostel.png'
 import wall from '../../images/reco/walll.png'
-// import door from '../../images/reco/door.png'
+import hostel from '../../images/reco/hostel.png'
 import peace from '../../images/reco/peace.png'
-
 import zar from '../../images/reco/zar.png'
 import japan from '../../images/reco/japan.png'
 import tokio from '../../images/reco/tokio.png'
-import roi from '../../images/reco/roi.png'
 import adam from '../../images/reco/adam.png'
-import yariv from '../../images/reco/יריב.png'
-import sima from '../../images/reco/סימה.png'
 import arie from '../../images/reco/שטומפכר.png'
-import raw from '../../images/reco/raw.png'
-import bari from '../../images/reco/bari.jpeg'
-import gali from '../../images/reco/gali.jpeg'
 import alex from '../../images/reco/alex.jpeg'
 import miri2 from '../../images/reco/miri2.jpeg'
-
-import sharon from '../../images/reco/sharon.png'
 import beni from '../../images/reco/beni.png'
-import heshel from '../../images/reco/heshel.png'
+import heshel from '../../images/reco/heshel1.jpeg'
 import offismart from '../../images/reco/offismart.png'
-import shani from '../../images/reco/shani.png'
-import shap from '../../images/reco/shap.png'
 import gonen from '../../images/reco/gonen.png'
 import baguru from '../../images/reco/baguru.jpeg'
 import tlv from '../../images/reco/tlv.jpeg'
@@ -35,26 +23,124 @@ import wip from '../../images/reco/wip.jpeg'
 import nahat from '../../images/reco/nahat.jpeg'
 import kineret from '../../images/reco/kineret.jpeg'
 import minami from '../../images/reco/minami2.jpeg'
+import gali from '../../images/reco/gali.jpeg'
+import gali2 from '../../images/reco/gali2.jpeg'
+import gali3 from '../../images/reco/gali3.jpeg'
+
+import pilpel from '../../images/reco/pilpel.jpeg'
+import goa from '../../images/reco/goa.png'
+import carmel from '../../images/reco/carmel.jpeg'
+import bambino from '../../images/reco/bambino.png'
+import ritco from '../../images/reco/ritco.jpeg'
+import anan from '../../images/reco/anan2.jpeg'
+import wordplay from '../../images/reco/word.png'
+import wiwo from '../../images/reco/wiwo.png'
+import leah from '../../images/reco/leah.jpeg'
+import orr from '../../images/reco/orr2.jpeg'
+import reutdafna from '../../images/reco/reutdafna.jpeg'
 
 export default class Portfolio extends Component {
     state={
 
-        pro: [
+        fix: [
+            {
+                icon:nahat,
+                link:"https://www.nahatcoffee.com/he/",
+                title:"קפה נחת - חנות פולי קפה איכותיים, אביזרים וסדנאות"
+            },
+            {
+                icon:offismart,
+                link:"https://www.offismart.co.il/",
+                title:"offismart - משרדים להשכרה עם מערכת איתור ופילטור מותאם"
+            },
             {
                 icon:heshel,
                 link:"https://heschel.org.il/",
                 title:"מרכז השל ללימודי קיימות - אתר תדמית, בלוג, ומכירת קורסים"
             },
-            
+
+            {
+                icon:yaar,
+                link:"https://yaaracacao.co.il/he/",
+                title:"יער הקקאו - חנות שוקולד וסדנאות"
+            },
+            {
+                icon:carmel,
+                link:"https://www.carmelph.co.il/",
+                title:"הוצאת כרמל ירושלים - חנות ספרים"
+            },
+
+            {
+                icon:bambino,
+                link:"https://www.bambinoshoes.co.il/",
+                title:"במבינו - חנות נעליים"
+            },
+            {
+                icon:ritco,
+                link:"https://ritco.co.il/",
+                title:"ריטקו - חנות צעצועים"
+            },
+            {
+                icon:beni,
+                link:"https://he.zipperbags.online/",
+                title:"Zipper bags - חנות תיקים"
+            },  
+            {
+                icon:goa,
+                link:"https://goa-log.com/",
+                title:"גואה לוגיסטיק - אתר תדמית בוויקס"
+            },
+
+            {
+                icon:pilpel,
+                link:"https://pilpelseeds.com/",
+                title:"pilpel seeds - פיתוח זני פלפל"
+            },            
+            {
+                icon:kineret,
+                link:"https://kinneretdl.co.il/",
+                title:"פסיכותרפיסטית ישאלית ביפן"
+            },
+            {
+                icon:adam,
+                link:"https://adambeamalo.co.il/",
+                title:"אדם בעמלו - פיתוח ארגוני"
+            }
+        ],
+
+        courses: [
+            {
+                icon:wiwo,
+                link:"https://wiwo.co.il/",
+                title:"wiwo - קורס להשקעה בשוק ההון"
+            },
             {
                 icon:wip,
                 link:"https://racheliebner.com/",
                 title:"WIP - סדנאות ניהול זמן"
             },
             {
-                icon:shani,
-                link:"http://shanisurfart.com/",
-                title:"shani surf art - חנות תכשיטים"
+                icon:baguru,
+                link:"https://mybaguru.com/",
+                title:"הגורו שלך לבגרות - אתר קורסים"
+            },
+                        {
+                icon:anan,
+                link:"https://camp-be.com/",
+                title:"קמפוס בענן - פאנל לפילוח נתונים ומעקב עבור ההנהלה והצוות החינוכי"
+            },
+            {
+                icon:wordplay,
+                link:"https://wordplay.org.il/",
+                title:"wordplay - לימוד אנגלית - פיתוח מורכב של בדיקות, מתן ציון וייצוא"
+            },
+        ],
+        
+        pro: [            
+            {
+                icon:reutdafna,
+                link:"https://reutdafna.com/",
+                title:"רעות דפנא - גלריית יצירות וחנות"
             },
             {
                 icon:minami,
@@ -62,14 +148,14 @@ export default class Portfolio extends Component {
                 title:"מינאמי - חנות צעצועים למבוגרים"
             },  
             {
-                icon:tlv,
-                link:"https://tlvgym.co.il/",
-                title:"tlvgym - אתר תדמית ומערכת חוגים"
-            },
-            {
                 icon:peace,
                 link:"https://peace-boards.com/",
                 title:"Peace Boards - חנות סקייטבורדים"
+            },
+            {
+                icon:tlv,
+                link:"https://tlvgym.co.il/",
+                title:"tlvgym - אתר תדמית ומערכת חוגים"
             },
             {
                 icon:hostel,
@@ -84,7 +170,7 @@ export default class Portfolio extends Component {
             {
                 icon:japan,
                 link:"https://hebrewtourguidejapan.com/",
-                title:"סיורי יום ביפן - אתר תדמית + מערכת הזמנות"
+                title:"סיורי יום ביפן - תדמית + הזמנות"
             },
             {
                 icon:zar,
@@ -100,143 +186,60 @@ export default class Portfolio extends Component {
 
         tadmit: [
             {
-                icon:miri2,
-                link:"https://mima-meyaldot.com/",
-                title:"מימה מיילדות פרטית - אתר תדמית"
-            },
-
-            {
-                icon:alex,
-                link:"https://alexkatch.com/",
-                title:"אנימציה - אתר תדמית ותיק עבודות"
-            },            
-            {
                 icon:gali,
                 link:"https://galiness.com/he/",
                 title:"גלי נס - מיינדפולנס ויוגה לארגונים"
+            },            
+            {
+                icon:gali3,
+                link:"https://galiness.com/he/beneficial-habits-conference/",
+                title:"דף נחיתה - כנס לשינויי הרגלים"
+            },            
+            {
+                icon:gali2,
+                link:"https://galiness.com/he/ritrit/",
+                title:"דף נחיתה - ריטריט יוגה ובריאות"
+            },
+
+            {
+                icon:leah,
+                link:"https://leahalmogarazi.com/",
+                title:"Leah Almog Arazi - אתר תדמית לאדריכלית"
+            },            
+            {
+                icon:orr,
+                link:"https://oordesignbuild.com/",
+                title:"Oor design build - אתר תדמית לחברת בנייה"
+            },
+                        {
+                icon:arie,
+                link:"https://stofmacher.co.il/",
+                title:"שטופמכר בדק בית"
+            },    
+            
+            {
+                icon:miri2,
+                link:"https://mima-meyaldot.com/",
+                title:"מימה מיילדות פרטית - אתר תדמית"
             },
             {
                 icon:gonen,
                 link:"https://www.eyalgonen.com/",
                 title:"אייל גונן - בלוג מנהיגות"
-            },         
+            }, 
             {
-                icon:adam,
-                link:"https://adambeamalo.co.il/",
-                title:"אדם בעמלו - פיתוח ארגוני"
-            },
-            {
-                icon:yariv,
-                link:"https://yarivconsultant.com/",
-                title:"ייעוץ ארגוני ופיתוח מנהלים"
-            }
+                icon:alex,
+                link:"https://alexkatch.com/",
+                title:"אנימציה - אתר תדמית ותיק עבודות"
+            },            
+    
+            // {
+            //     icon:yariv,
+            //     link:"https://yarivconsultant.com/",
+            //     title:"ייעוץ ארגוני פיתוח מנהלים"
+            // }
         ],
 
-        fix: [
-            {
-                icon:kineret,
-                link:"https://kinneretdl.co.il/",
-                title:"פסיכותרפיסטית ישאלית ביפן - אתר תדמית"
-            },
-            {
-                icon:nahat,
-                link:"https://www.nahatcoffee.com/he/",
-                title:"קפה נחת - אתר חנות"
-            },
-            {
-                icon:baguru,
-                link:"https://mybaguru.com/",
-                title:"הגורו שלך לבגרות - אתר קורסים"
-            },
-            {
-                icon:yaar,
-                link:"https://yaaracacao.co.il/he/",
-                title:"יער הקקאו - חנות וסדנאות שוקולד :)"
-            },
-            {
-                icon:raw,
-                link:"https://raw-planet.dog/",
-                title:"Raw planet - חנות חיות"
-            },
-            {
-                icon:offismart,
-                link:"https://www.offismart.co.il/",
-                title:"offismart - תיווך נדלן"
-            },  
-            {
-                icon:arie,
-                link:"https://stofmacher.co.il/",
-                title:"שטופמכר בדק בית - אתר תדמית"
-            },
-            {
-                icon:beni,
-                link:"https://he.zipperbags.online/",
-                title:"Zipper bags - חנות תיקים"
-            },
-        ]
-
-        // spam: [
-            // {
-            //     icon:yoav,
-            //     link:"https://yoav-bulshtein.com/",
-            //     title:"קידום אתרים - אתר תדמית"
-            // },
-            // {
-            //     icon:bari,
-            //     link:"https://bariplumbing.com/",
-            //     title:"ברי אינסטלציה - דף נחיתה"
-            // },
-            // {
-            //     icon:door,
-            //     link:"http://www.commercialdoorrepairontario.ca/",
-            //     title:"Commercial Doors"
-            // },
-            // {
-            //     icon:sima,
-            //     link:"https://simanissani.com/",
-            //     title:"סימה ניסני, מורת דרך - אתר תדמית"
-            // },
-            // {
-            //     icon:roi,
-            //     link:"https://www.legaltalking.com/",
-            //     title:"legaltalking - בלוג משפטי"
-            // }
-            // {
-            //     icon:sharon,
-            //     link:"https://sharonperfumes.com/",
-            //     title:"SharonPerfume - בלוג וחנות בשמים"
-            // },
-            // {
-            //     icon:shap,
-            //     link:"https://www.shaptop.com/",
-            //     title:"תרגום תבנית - חנות שופיפיי"
-            // },
-        //     {
-        //         icon:flower,
-        //         link:"https://very-happy-flowers.com/",
-        //         title:"happy flowers - חנות פרחים"
-        //     },
-        //     {
-        //         icon:vladi,
-        //         link:"https://congressbulaim.co.il/",
-        //         title:"קונגרס הבולאים - חנות בולים"
-        //     },
-                // {
-                //     icon:idit,
-                //     link:"https://idit-or.com/",
-                //     title:"עדית אור - תדמית ובלוג"
-                // },
-                // {
-                //     icon:avi,
-                //     link:"https://homeland-agency.com/",
-                //     title:"Homeland - אתר תדמית"
-                // },
-                // {
-                //     icon:shabat,
-                //     link:"https://shabbatunplugged.org/",
-                //     title:"שבת אנפלאגד - אתר תדמית"
-                // },
-        // ],
     }
     
     render () {
@@ -244,36 +247,11 @@ export default class Portfolio extends Component {
                 <>
                     <div className="services">
                         <h1>טעימה מהפרוייקטים</h1>
-                        
+
                         <br/>
                         <br/>
                         <br/>
-                        <DividerWithText><h2>אתרי מכירה ומערכות</h2></DividerWithText>                    
-                        <div className="services-center">
-                            {this.state.pro.map(
-                                (item, index) => {return (
-                                    <article key={index}>
-                                        <Zoom>
-                                        <article className="grid">
-                                            <figure class="effect-chico">
-                                                <img src={item.icon} alt="web img"/>
-                                                    <figcaption>
-                                                        <a href={item.link} rel="noopener noreferrer" 
-                                                            target="_blank">לצפייה באתר</a>
-                                                    </figcaption>
-                                            </figure>
-                                        </article>
-                                        </Zoom>
-                                        <p>{item.title}</p>
-                                    </article>
-                                )}
-                            )}
-                        </div>
-                        
-                        <br/>
-                        <br/>
-                        <br/>
-                        <DividerWithText><h2>אתרים ששיפצתי – שדרוג העיצוב, הוספת עמודים ותכנים</h2></DividerWithText>                    
+                        <DividerWithText><h2>אתרים ששיפצתי – שדרוג העיצוב, תיקון תקלות, ניהול ותחזוקה</h2></DividerWithText>                    
                         <div className="services-center">
                             {this.state.fix.map(
                                 (item, index) => {return (
@@ -281,7 +259,7 @@ export default class Portfolio extends Component {
                                         <Zoom>
                                         <article className="grid">
                                             <figure class="effect-chico">
-                                                <img src={item.icon} alt="web img"/>
+                                                <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
                                                     <figcaption>
                                                         <a href={item.link} rel="noopener noreferrer" 
                                                             target="_blank">לצפייה באתר</a>
@@ -298,7 +276,57 @@ export default class Portfolio extends Component {
                         <br/>
                         <br/>
                         <br/>
-                        <DividerWithText><h2>אתרי תדמית</h2></DividerWithText>                    
+                        <DividerWithText><h2>אתרי קורסים ומערכות למידה</h2></DividerWithText>                    
+                        <div className="services-center">
+                            {this.state.courses.map(
+                                (item, index) => {return (
+                                    <article key={index}>
+                                        <Zoom>
+                                        <article className="grid">
+                                            <figure class="effect-chico">
+                                                <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
+                                                    <figcaption>
+                                                        <a href={item.link} rel="noopener noreferrer" 
+                                                            target="_blank">לצפייה באתר</a>
+                                                    </figcaption>
+                                            </figure>
+                                        </article>
+                                        </Zoom>
+                                        <p>{item.title}</p>
+                                    </article>
+                                )}
+                            )}
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+                        <DividerWithText><h2>אתרי ווקומרס ומערכות הזמנות</h2></DividerWithText>                    
+                        <div className="services-center">
+                            {this.state.pro.map(
+                                (item, index) => {return (
+                                    <article key={index}>
+                                        <Zoom>
+                                        <article className="grid">
+                                            <figure class="effect-chico">
+                                                <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
+                                                    <figcaption>
+                                                        <a href={item.link} rel="noopener noreferrer" 
+                                                            target="_blank">לצפייה באתר</a>
+                                                    </figcaption>
+                                            </figure>
+                                        </article>
+                                        </Zoom>
+                                        <p>{item.title}</p>
+                                    </article>
+                                )}
+                            )}
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+                        <DividerWithText><h2>אתרי תדמית ודפי נחיתה</h2></DividerWithText>                    
                         <div className="services-center">
                             {this.state.tadmit.map(
                                 (item, index) => {return (
@@ -306,7 +334,7 @@ export default class Portfolio extends Component {
                                         <Zoom>
                                         <article className="grid">
                                             <figure class="effect-chico">
-                                                <img src={item.icon} alt="web img"/>
+                                                <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
                                                     <figcaption>
                                                         <a href={item.link} rel="noopener noreferrer" 
                                                             target="_blank">לצפייה באתר</a>
