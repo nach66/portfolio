@@ -126,7 +126,7 @@ export default class Portfolio extends Component {
             },
                         {
                 icon:anan,
-                link:"https://camp-be.com/",
+                // link:"https://camp-be.com/",
                 title:"קמפוס בענן - פאנל לפילוח נתונים ומעקב עבור ההנהלה והצוות החינוכי"
             },
             {
@@ -162,11 +162,7 @@ export default class Portfolio extends Component {
                 link:"https://hosteltiberias.co.il/",
                 title:"אכסניית טבריה - אתר תדמית + הזמנות"
             },
-            {
-                icon:wall,
-                link:"https://wall-express.co.il/",
-                title:"Wall express - חנות טפטים"
-            },
+
             {
                 icon:japan,
                 link:"https://hebrewtourguidejapan.com/",
