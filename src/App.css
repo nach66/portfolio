@@ -1517,10 +1517,8 @@ visibility: hidden;
   max-width: 920px;
   height: auto;
   object-fit: contain;
-  border: 8px double var(--secColor);
-  border-radius: 22px;
-  background: white;
-  padding: 8px;
+  border: 4px solid var(--secColor);
+  border-radius: 4px;
   box-shadow: var(--lightShadow);
 }
 
