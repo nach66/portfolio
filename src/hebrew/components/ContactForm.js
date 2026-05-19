@@ -81,21 +81,33 @@ export default class ContactForm extends React.Component {
     onSubmit={this.submitForm}
     action="https://formspree.io/f/xeqpljye"
 >
+    <label htmlFor="contact-name" className="sr-only">
+        שם
+    </label>
     <input
+        id="contact-name"
         type="text"
         name="Name"
         className="form-control"
         placeholder="שם:"
     />
 
+    <label htmlFor="contact-phone" className="sr-only">
+        מספר טלפון
+    </label>
     <input
-        type="phone"
+        id="contact-phone"
+        type="tel"
         name="phone"
         className="form-control"
         placeholder="מספר טלפון:"
     />
 
+    <label htmlFor="contact-message" className="sr-only">
+        תוכן הפנייה
+    </label>
     <textarea
+        id="contact-message"
         name="message"
         className="form-control long"
         rows="4"
