@@ -5,6 +5,7 @@ import Loader from "./hebrew/components/Loader";
 import Home from "./hebrew/pages/Home";
 import Aboutus from "./hebrew/pages/About";
 import Portfolio from "./hebrew/pages/Portfolio";
+import PortfolioPro from "./hebrew/pages/PortfolioPro";
 import Price from "./hebrew/pages/Price";
 import Contact from "./hebrew/pages/Contact";
 import Blog from "./hebrew/pages/Blog";
@@ -23,6 +24,7 @@ function App(props) {
             <Route exact path="/" component={Home}/>
                 <Route exact path="/about" component={Aboutus}/>
                 <Route exact path="/portfolio" component={Portfolio}/>
+                <Route exact path="/portfolio2" component={PortfolioPro}/>
                 <Route exact path="/price" component={Price}/>
                 <Route exact path="/contact" component={Contact}/>
                 <Route exact path="/blog" component={Blog}/>

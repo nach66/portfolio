@@ -1,5 +1,5 @@
 import React from 'react'
-import Portfolio from '../components/Portfolio'
+import PortfolioPro from '../components/PortfolioPro'
 import HoriForm from '../components/HoriForm'
 import Footer from '../components/Footer'
 import TestiSlider from '../components/TestiSlider'
@@ -9,10 +9,11 @@ export default function Port(props) {
         <>
             <div className="empty-blue"/>
             <div className="af"/>
-            <Portfolio/>
-            <div className="bf"/>       
+            <PortfolioPro/>
+            <div className="bf"/>   
             <TestiSlider/>    
             <HoriForm/>
+
                                     
             <div className="contact-logof">
                     <div alt="logo" className="logof"/>
