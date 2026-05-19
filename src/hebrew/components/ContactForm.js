@@ -75,27 +75,56 @@ export default class ContactForm extends React.Component {
                                     color: 'var(--lgreen)'
                             }}/>
                                 
-                            <form className="cform" method="POST"
-                                    onSubmit={this.submitForm}
-                                    action="https://formspree.io/f/xeqpljye">
-                                    <input
-                                        type="text"
-                                        name="Name"
-                                        className="form-control"
-                                        placeholder="שם:"/>
-                                    <input
-                                        type="phone"
-                                                        name="phone"
-                                                        className="form-control"
-                                                        placeholder="מספר טלפון:"/>
-                                    <textarea
-                                        name="message"
-                                                        className="form-control long"
-                                                        rows="4"
-                                                        placeholder="רציתי לשאול.."/>
-                                    {status === "SUCCESS" ? <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2> : <button type="submit" className="form-submit submit">כן, תחזרי אליי :)</button>}
-                                    {status === "ERROR" && <p className="submit-error-form" >אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
-                            </form>
+<form
+    className="cform"
+    method="POST"
+    onSubmit={this.submitForm}
+    action="https://formspree.io/f/xeqpljye"
+>
+    <input
+        type="text"
+        name="Name"
+        className="form-control"
+        placeholder="שם:"
+    />
+
+    <input
+        type="phone"
+        name="phone"
+        className="form-control"
+        placeholder="מספר טלפון:"
+    />
+
+    <textarea
+        name="message"
+        className="form-control long"
+        rows="4"
+        placeholder="רציתי לשאול.."
+    />
+
+    <label className="privacy-check">
+        <input
+            type="checkbox"
+            name="privacy_approval"
+            required
+        />
+        <span>
+            מסרתי את פרטיי מרצוני לצורך יצירת קשר. ידוע לי שהפרטים לא יועברו לצד שלישי.
+        </span>
+    </label>
+
+    {status === "SUCCESS" ? (
+        <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2>
+    ) : (
+        <button type="submit" className="form-submit submit">
+            כן, תחזרי אליי :)
+        </button>
+    )}
+
+    {status === "ERROR" && (
+        <p className="submit-error-form">אוי! קרתה תקלה, אנא נסו שוב.</p>
+    )}
+</form>
                         </article>
                     {/* </Fade> */}
                 </div>

@@ -4,6 +4,7 @@ import NavBar from "./hebrew/components/NavBar";
 import Loader from "./hebrew/components/Loader";
 import Home from "./hebrew/pages/Home";
 import Aboutus from "./hebrew/pages/About";
+import privacy from "./hebrew/pages/privacy";
 import Portfolio from "./hebrew/pages/Portfolio";
 import PortfolioPro from "./hebrew/pages/PortfolioPro";
 import Price from "./hebrew/pages/Price";
@@ -23,6 +24,7 @@ function App(props) {
             <Switch>
             <Route exact path="/" component={Home}/>
                 <Route exact path="/about" component={Aboutus}/>
+                <Route exact path="/privacy" component={privacy}/>
                 <Route exact path="/portfolio" component={Portfolio}/>
                 <Route exact path="/portfolio2" component={PortfolioPro}/>
                 <Route exact path="/price" component={Price}/>

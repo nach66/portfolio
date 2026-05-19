@@ -15,42 +15,74 @@ export default class HoriForm extends React.Component {
         return (
             <>   
                 <br/>
-                <div className="hori-form">
-                        <form method="POST"
-                            className="cform form-inline"
-                            onSubmit={this.submitForm}
-                            action="https://formspree.io/f/xeqpljye">
-                                <article className='hori-h2'>
-                                    <h2>לקבלת הצעת מחיר</h2>
-                                </article>
-                                <article>
-                                    <input
-                                        type="text"
-                                        name="Name"
-                                        className="form-control hori-form-mobile"
-                                        placeholder="שם:"/>
-                                </article>
-                                <article>
-                                    <input
-                                        type="phone"
-                                        name="phone"
-                                        className="form-control hori-form-mobile"
-                                        placeholder="מספר טלפון:"/>
-                                </article>
-                                <article>
-                                    <textarea
-                                        name="message"
-                                        className="form-control hori-form-mobile long"
-                                        rows="1"
-                                        placeholder="רציתי לשאול.."/>
-                                </article>
-                                <article className="submit-hori">
-                                    {status === "SUCCESS" ? 
-                                        <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2> : <button type="submit" className="form-submit submit">שליחה</button>}
-                                    {status === "ERROR" && <p className="submit-error-form">אוי! קרתה תקלה, אנא נסו שוב.</p>}                                    
-                                </article>                          
-                            </form>
-                </div>
+<div className="hori-form">
+    <form
+        method="POST"
+        className="cform form-inline"
+        onSubmit={this.submitForm}
+        action="https://formspree.io/f/xeqpljye"
+    >
+
+        <article className='hori-h2'>
+            <h2>לקבלת הצעת מחיר</h2>
+        </article>
+
+        <article>
+            <input
+                type="text"
+                name="Name"
+                className="form-control hori-form-mobile"
+                placeholder="שם:"
+            />
+        </article>
+
+        <article>
+            <input
+                type="phone"
+                name="phone"
+                className="form-control hori-form-mobile"
+                placeholder="מספר טלפון:"
+            />
+        </article>
+
+        <article>
+            <textarea
+                name="message"
+                className="form-control hori-form-mobile long"
+                rows="1"
+                placeholder="רציתי לשאול.."
+            />
+        </article>
+
+        <article className="privacy-check-wrap">
+            <label className="privacy-check">
+                <input
+                    type="checkbox"
+                    name="privacy_approval"
+                    required
+                />
+
+                <span>
+            מסרתי את פרטיי מרצוני לצורך יצירת קשר. ידוע לי שהפרטים לא יועברו לצד שלישי.
+                </span>
+            </label>
+        </article>
+
+        <article className="submit-hori">
+            {status === "SUCCESS"
+                ? <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2>
+                : <button type="submit" className="form-submit submit">שליחה</button>
+            }
+
+            {status === "ERROR" &&
+                <p className="submit-error-form">
+                    אוי! קרתה תקלה, אנא נסו שוב.
+                </p>
+            }
+        </article>
+
+    </form>
+</div>
                 <br/>
                 <br/>
                 <br/>
