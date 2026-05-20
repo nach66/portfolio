@@ -237,7 +237,7 @@ render () {
                 <br/>
 
                 <DividerWithText>
-                    <h2>מערכות מורכבות - פיתוח מותאם אישית בקוד</h2>
+                    <h2>פיתוח פאנליפ מותאמים אישית בקוד</h2>
                 </DividerWithText>
 
                 <div className="services-center  featured-row">
@@ -280,7 +280,7 @@ render () {
                 <br/>
                 <br/>
 
-                <DividerWithText><h2>מערכות: למידה, חנויות ווקומרס והזמנות מורכבות לפי תאריך</h2></DividerWithText>
+                <DividerWithText><h2>אתרי למידה, חנויות ווקומרס והזמנות לפי תאריך</h2></DividerWithText>
 
                 <div className="services-center">
                     {this.state.systems.map((item, index) => {
