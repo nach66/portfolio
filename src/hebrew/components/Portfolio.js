@@ -237,7 +237,7 @@ render () {
                 <br/>
 
                 <DividerWithText>
-                    <h2>פיתוח פאנליפ מותאמים אישית בקוד</h2>
+                    <h2>פיתוח פאנלים מותאמים אישית בקוד</h2>
                 </DividerWithText>
 
                 <div className="services-center  featured-row">
