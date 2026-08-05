@@ -120,12 +120,12 @@ figure.effect-chico a, .float-contact {
 }
 
 .privacy-check {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
 .privacy-link {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .services-center p {
@@ -1407,6 +1407,51 @@ figure.effect-chico:hover a {
 }
 
 /* ==========================================================================
+   15. PRIVACY COMPONENTS
+   ========================================================================== */
+.privacy-check-wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.privacy-check {
+  width: 92%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin: 8px auto 0;
+  color: var(--color-text);
+  text-align: right;
+}
+
+.privacy-check span {
+  flex: 1;
+}
+
+.privacy-check input[type="checkbox"] {
+  width: auto !important;
+  height: auto !important;
+  margin: 4px 0 0 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  flex-shrink: 0;
+}
+
+.privacy-link {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-accent-orange);
+  text-decoration: underline;
+}
+
+.privacy-link:hover {
+  color: var(--color-white);
+}
+
+/* ==========================================================================
    13. ANIMATED LOGO MODAL AND FOOTER LOGO
    ========================================================================== */
 .logos {
@@ -1429,11 +1474,19 @@ figure.effect-chico:hover a {
 
 @media screen and (max-width: 650px) {
   .footerWrapper p { font-size: 15px; width: 100%; text-align: center; }
-  .logos { width: 88vw !important; background-size: 70%; margin-top: -100px; }
-  .customModal { padding: 17% 0px !important; }
-  .logof { background-size: 122% !important; }
-  .footerWrapper { padding: 14px 10px 22px; }
-  .privacy-link { position: static; display: block; transform: none; text-align: center; margin-top: 8px; }
+  .logos { width: 98vw !important; background-size: 70%; margin-top: -100px; }
+  /* .customModal { padding: 17% 0px !important; } */
+  /* .logof { background-size: 122% !important; } */
+  .footerWrapper { 
+    padding: 4px 10px 12px; 
+  }
+  .privacy-link { 
+    font-size: 14px;
+    text-align: center; 
+    position: static; 
+    display: block; 
+    margin-top: 18px; 
+  }
 }
 
 .contact-logof {
@@ -1443,9 +1496,9 @@ figure.effect-chico:hover a {
 
 .logof {
   margin: auto !important;
-  width: 40vw;
+  width: 90vw;
   height: 50vh;
-  background-size: 40% !important;
+  background-size: 70% !important;
   background: url("./images/gif/logo.gif") no-repeat;
   background-position: center !important;
 }
@@ -1604,51 +1657,6 @@ figure.effect-chico:hover a {
   .portfolio-article-system { padding: 22px 12px 18px; }
   .portfolio-feature-row { padding: 24px 0; }
   .portfolio-system-screenshot { border-radius: 4px; }
-}
-
-/* ==========================================================================
-   15. PRIVACY COMPONENTS
-   ========================================================================== */
-.privacy-check-wrap {
-  width: 100%;
-  text-align: center;
-}
-
-.privacy-check {
-  width: 92%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  margin: 8px auto 0;
-  color: var(--color-text);
-  text-align: right;
-}
-
-.privacy-check span {
-  flex: 1;
-}
-
-.privacy-check input[type="checkbox"] {
-  width: auto !important;
-  height: auto !important;
-  margin: 4px 0 0 0 !important;
-  padding: 0 !important;
-  box-shadow: none !important;
-  flex-shrink: 0;
-}
-
-.privacy-link {
-  position: absolute;
-  right: 25px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--color-accent-orange);
-  text-decoration: underline;
-}
-
-.privacy-link:hover {
-  color: var(--color-white);
 }
 
 /* ==========================================================================
