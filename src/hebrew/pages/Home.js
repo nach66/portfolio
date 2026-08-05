@@ -32,19 +32,6 @@ export default class Page extends React.Component {
 
         return (        
         <>
-            {/* <Modal 
-                open={open} 
-                center={true}
-                // showCloseIcon={false}
-                onClose={this.onCloseModal}
-                classNames={{
-                    overlay: 'customOverlay',
-                    modal: 'customModal'
-                }}
-                animationDuration={300}
-            >
-                <div alt="logo" className="logos"/>
-            </Modal> */}
 
                 <Hero/>
                 <Pro/>
@@ -53,7 +40,6 @@ export default class Page extends React.Component {
                 <div className="bf"/>    
                 <TestiSlider/>
                 <br/>
-                {/* <HoriForm/> */}
                 <div className="af"/>  
 
                 <Puzzle/>

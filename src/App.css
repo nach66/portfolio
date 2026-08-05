@@ -27,7 +27,9 @@
 
   --shadow-light: 2px 2px 3px 0 var(--color-shadow-black-40);
   --shadow-dark: 2px 1px 10px 0 var(--color-shadow-black-50);
-  --shadow-soft: 4px 4px 10px var(--color-shadow-black-05), 0 8px 18px var(--color-shadow-warm-soft);
+  --shadow-soft:
+    4px 4px 10px var(--color-shadow-black-05),
+    0 8px 18px var(--color-shadow-warm-soft);
 }
 
 * {
@@ -36,7 +38,9 @@
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-size: 18px;
   font-family: var(--font-heading);
   letter-spacing: 3px;
@@ -64,13 +68,21 @@ h6 {
   font-weight: normal;
 }
 
-p, .post-cotain li {
+p,
+.post-cotain li {
   font-size: 18px;
   letter-spacing: 1.5px;
   line-height: 1.5;
 }
 
-.sform-control, .nav-icon, .cur, .submit-hori, ol.gradient-list > li::before, .col a, .contact-icon, .form-submit {
+.sform-control,
+.nav-icon,
+.cur,
+.submit-hori,
+ol.gradient-list > li::before,
+.col a,
+.contact-icon,
+.form-submit {
   font-size: 18px;
 }
 
@@ -93,7 +105,8 @@ p, .post-cotain li {
   font-size: 1.2em;
 }
 
-figure.effect-chico a, .float-contact {
+figure.effect-chico a,
+.float-contact {
   font-size: 25px;
 }
 
@@ -132,7 +145,8 @@ figure.effect-chico a, .float-contact {
   font-size: 14px;
 }
 
-.banner h1, .banner h1 * {
+.banner h1,
+.banner h1 * {
   font-family: var(--font-heading) !important;
 }
 
@@ -143,17 +157,24 @@ figure.effect-chico a, .float-contact {
 }
 
 @keyframes hideHeroCursor {
-  to { opacity: 0; }
+  to {
+    opacity: 0;
+  }
 }
 
 /* ==========================================================================
    01. BASE STYLES AND SHARED UTILITIES
    ========================================================================== */
+
 .bf {
   padding-top: 30px;
   border-style: solid;
-  border-width: 0px 28vw 99px 72vw;
-  border-color: var(--color-transparent) var(--color-transparent) var(--color-white) var(--color-transparent);
+  border-width: 0 28vw 99px 72vw;
+  border-color:
+    var(--color-transparent)
+    var(--color-transparent)
+    var(--color-white)
+    var(--color-transparent);
   background: var(--color-section-bg);
 }
 
@@ -162,8 +183,12 @@ figure.effect-chico a, .float-contact {
   bottom: 45px;
   position: relative;
   border-style: solid;
-  border-width: 50px 80vw 0px 20vw;
-  border-color: var(--color-white) var(--color-transparent) var(--color-transparent) var(--color-transparent);
+  border-width: 50px 80vw 0 20vw;
+  border-color:
+    var(--color-white)
+    var(--color-transparent)
+    var(--color-transparent)
+    var(--color-transparent);
   transform: translateX(-20%) translateY(90%);
   background: var(--color-section-bg);
 }
@@ -227,6 +252,7 @@ p {
 /* ==========================================================================
    02. HOME PAGE
    ========================================================================== */
+
 .void {
   height: 440px;
 }
@@ -251,7 +277,7 @@ p {
 
 .banner h1 {
   padding: 30px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-size: 4rem;
   text-align: right;
   letter-spacing: 6px;
@@ -298,7 +324,7 @@ p {
   height: 100%;
   box-shadow: var(--shadow-light);
   background: var(--color-accent-orange);
-  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
+  border-radius: 55px 355px 55px 355px / 355px 55px 355px 55px;
 }
 
 .submit:hover {
@@ -318,87 +344,274 @@ p {
 }
 
 @media screen and (max-width: 1170px) {
-  .submit-error { margin-top: 25px; }
-  .void { height: 400px; }
-  .sform { left: 20.5vw; top: 204px; width: 30vw; }
-  .banner h1 { line-height: 1.2; padding-top: 45px; font-size: 50px; }
-  .submit { width: 85%; height: 40px; margin-top: 6px; }
+  .submit-error {
+    margin-top: 25px;
+  }
+
+  .void {
+    height: 400px;
+  }
+
+  .sform {
+    left: 20.5vw;
+    top: 204px;
+    width: 30vw;
+  }
+
+  .banner h1 {
+    line-height: 1.2;
+    padding-top: 45px;
+    font-size: 50px;
+  }
+
+  .submit {
+    width: 85%;
+    height: 40px;
+    margin-top: 6px;
+  }
 }
 
 @media screen and (max-width: 970px) {
-  .lang h1 { font-size: 1.2rem !important; padding-left: 50px; }
-  .submit { font-size: larger; }
-  .cur { font-size: 20px; }
-  .submit-error { margin-top: 10px; }
-  .void { height: 390px; }
-  .pic { margin-top: -40px; height: 570px; width: 100%; }
-  .banner h1 { padding-top: 65px; font-size: 40px; }
-  .banner { padding-right: 10px; }
-  .sform { left: 18.3vw; top: 182px; width: 32vw; }
-  .sform-control { margin: 2px; height: 21px; }
-  .submit { width: 85%; margin-top: 4px; padding-bottom: 0px; }
+  .lang h1 {
+    font-size: 1.2rem !important;
+    padding-left: 50px;
+  }
+
+  .submit {
+    font-size: larger;
+  }
+
+  .cur {
+    font-size: 20px;
+  }
+
+  .submit-error {
+    margin-top: 10px;
+  }
+
+  .void {
+    height: 390px;
+  }
+
+  .pic {
+    margin-top: -40px;
+    height: 570px;
+    width: 100%;
+  }
+
+  .banner h1 {
+    padding-top: 65px;
+    font-size: 40px;
+  }
+
+  .banner {
+    padding-right: 10px;
+  }
+
+  .sform {
+    left: 18.3vw;
+    top: 182px;
+    width: 32vw;
+  }
+
+  .sform-control {
+    margin: 2px;
+    height: 21px;
+  }
+
+  .submit {
+    width: 85%;
+    margin-top: 4px;
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 890px) {
-  .submit-error { width: 100vw; margin-right: -86%; margin-top: 40px; }
-  .void { height: 420px; }
-  .pic { background-position: right; margin-right: 40px; height: 560px; width: 125vw; }
-  .banner h1 { margin: 90px; font-size: 35px; max-width: 400px; }
-  .banner { margin-top: -70px; padding-top: 0px; width: 70%; }
-  .sform { left: 31vw !important; top: 239px; width: 39vw; }
-  .sform-control { margin: 2px; height: 20px; }
+  .submit-error {
+    width: 100vw;
+    margin-right: -86%;
+    margin-top: 40px;
+  }
+
+  .void {
+    height: 420px;
+  }
+
+  .pic {
+    background-position: right;
+    margin-right: 40px;
+    height: 560px;
+    width: 125vw;
+  }
+
+  .banner h1 {
+    margin: 90px;
+    font-size: 35px;
+    max-width: 400px;
+  }
+
+  .banner {
+    margin-top: -70px;
+    padding-top: 0;
+    width: 70%;
+  }
+
+  .sform {
+    left: 31vw !important;
+    top: 239px;
+    width: 39vw;
+  }
+
+  .sform-control {
+    margin: 2px;
+    height: 20px;
+  }
 }
 
 @media screen and (max-width: 680px) {
-  .submit-error { margin-right: -75%; }
-  .void { height: 350px; }
-  .pic { margin-top: 99px; height: 500px; }
-  .banner h1 { font-size: 30px; }
-  .sform { left: 28.5vw !important; top: 227px; width: 42vw; }
-  .sform input { height: 16px; margin: 1px; }
-  .submit { height: 38px; padding: 5px 0px; }
+  .submit-error {
+    margin-right: -75%;
+  }
+
+  .void {
+    height: 350px;
+  }
+
+  .pic {
+    margin-top: 99px;
+    height: 500px;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .sform {
+    left: 28.5vw !important;
+    top: 227px;
+    width: 42vw;
+  }
+
+  .sform input {
+    height: 16px;
+    margin: 1px;
+  }
+
+  .submit {
+    height: 38px;
+    padding: 5px 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .submit-error { margin-right: -66%; margin-top: 0px; }
-  .void { height: 360px; }
-  .pic { height: 480px; }
-  .banner h1 { margin-right: 40px; font-size: 30px; width: 300px !important; }
-  .sform input { margin: 3px; }
-  .sform { width: 40vw; left: 28vw !important; top: 235px; }
-  .submit { margin-top: 50px; }
+  .submit-error {
+    margin-right: -66%;
+    margin-top: 0;
+  }
+
+  .void {
+    height: 360px;
+  }
+
+  .pic {
+    height: 480px;
+  }
+
+  .banner h1 {
+    margin-right: 40px;
+    font-size: 30px;
+    width: 300px !important;
+  }
+
+  .sform input {
+    margin: 3px;
+  }
+
+  .sform {
+    width: 40vw;
+    left: 28vw !important;
+    top: 235px;
+  }
+
+  .submit {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .void { height: 420px; }
-  .pic { margin: 0px 20px; height: 620px; }
-  .banner { padding-top: 1px; }
-  .sform { top: 205px; left: 31vw !important; }
-  .sform-control { margin: 3px !important; }
-  .submit { min-width: 190px; }
+  .void {
+    height: 420px;
+  }
+
+  .pic {
+    margin: 0 20px;
+    height: 620px;
+  }
+
+  .banner {
+    padding-top: 1px;
+  }
+
+  .sform {
+    top: 205px;
+    left: 31vw !important;
+  }
+
+  .sform-control {
+    margin: 3px !important;
+  }
+
+  .submit {
+    min-width: 190px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-  .void { height: 430px; }
-  .pic { margin: 0px 0px; height: 600px; width: 150%; }
-  .banner h1 { margin-right: 0px; font-size: 25px; }
-  .sform { width: 46%; top: 202px; left: 24vw !important; }
-  .sform-control { margin: 1px !important; }
-  .sform input { height: 16px; }
-  .submit { margin-right: -30px; }
+  .void {
+    height: 430px;
+  }
+
+  .pic {
+    margin: 0;
+    height: 600px;
+    width: 150%;
+  }
+
+  .banner h1 {
+    margin-right: 0;
+    font-size: 25px;
+  }
+
+  .sform {
+    width: 46%;
+    top: 202px;
+    left: 24vw !important;
+  }
+
+  .sform-control {
+    margin: 1px !important;
+  }
+
+  .sform input {
+    height: 16px;
+  }
+
+  .submit {
+    margin-right: -30px;
+  }
 }
 
 .prolog {
   text-align: center;
   background: var(--color-section-bg);
   margin: auto;
-  padding: 80px 0px 0px 0;
+  padding: 80px 0 0;
 }
 
 .pro-btn-wrap {
   text-align: center;
   display: inline-block;
-  margin: 15px 0 -20px 0;
+  margin: 15px 0 -20px;
 }
 
 .pro-btn {
@@ -436,14 +649,29 @@ p {
 }
 
 @media screen and (max-width: 1410px) {
-  .submit-hori { margin-top: 0px; }
+  .submit-hori {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 560px) {
-  .hori-form { margin: 0 13% !important; }
-  .hori-h2 { width: 72%; }
-  .submit-hori { width: 65% !important; margin-right: -10px !important; }
-  .hori-form-mobile { width: 50vw !important; margin-right: 12% !important; }
+  .hori-form {
+    margin: 0 13% !important;
+  }
+
+  .hori-h2 {
+    width: 72%;
+  }
+
+  .submit-hori {
+    width: 65% !important;
+    margin-right: -10px !important;
+  }
+
+  .hori-form-mobile {
+    width: 50vw !important;
+    margin-right: 12% !important;
+  }
 }
 
 .puzzle {
@@ -456,7 +684,7 @@ p {
 .services {
   text-align: center;
   padding: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   color: var(--color-text);
   background: var(--color-section-bg);
 }
@@ -494,8 +722,13 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .services-center { grid-template-columns: 1fr; }
-  .services-center.featured-row { grid-template-columns: 1fr; }
+  .services-center {
+    grid-template-columns: 1fr;
+  }
+
+  .services-center.featured-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 .services-center2 {
@@ -507,16 +740,21 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-  .services { padding: 0px; }
-  .services-center { padding: 11px; }
+  .services {
+    padding: 0;
+  }
+
+  .services-center {
+    padding: 11px;
+  }
 }
 
 .block-services {
-  padding: 13px 0px;
+  padding: 13px 0;
   background: var(--color-white);
   box-shadow: var(--shadow-light);
   border: 1px solid var(--color-header-bg);
-  border-radius: 355px 10px 355px 10px/10px 355px 10px 355px;
+  border-radius: 355px 10px 355px 10px / 10px 355px 10px 355px;
 }
 
 .block-services:hover {
@@ -544,8 +782,12 @@ p {
 .sbf {
   background: var(--color-section-bg);
   border-style: solid;
-  border-width: 0px 100vw 90px 0vw;
-  border-color: var(--color-transparent) var(--color-transparent) var(--color-white) var(--color-transparent);
+  border-width: 0 100vw 90px 0;
+  border-color:
+    var(--color-transparent)
+    var(--color-transparent)
+    var(--color-white)
+    var(--color-transparent);
 }
 
 .saf {
@@ -554,14 +796,19 @@ p {
   bottom: 63px;
   position: relative;
   border-style: solid;
-  border-width: 70px 0vw 0px 100vw;
-  border-color: var(--color-white) var(--color-transparent) var(--color-transparent) var(--color-transparent);
+  border-width: 70px 0 0 100vw;
+  border-color:
+    var(--color-white)
+    var(--color-transparent)
+    var(--color-transparent)
+    var(--color-transparent);
   transform: translateX(-20%) translateY(90%);
 }
 
 /* ==========================================================================
    03. ABOUT PAGE
    ========================================================================== */
+
 .about {
   background: var(--color-white);
   display: grid;
@@ -584,46 +831,35 @@ p {
   border: 10px double var(--color-header-bg);
   margin: auto !important;
   background: url("./images/me.jpg") no-repeat;
-  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
+  border-radius: 55px 355px 55px 355px / 355px 55px 355px 55px;
 }
 
 .sec {
   margin: auto;
   display: grid;
   grid-row-gap: 16px;
-  padding: 0px 10px 10px 10px !important;
+  padding: 0 10px 10px !important;
 }
 
 .ycube {
   margin: auto;
 }
 
-.logoa {
-  width: 40vw;
-  height: 75vh;
-  background: url("./images/gif/logo.gif") no-repeat;
-  background-position: center !important;
-}
-
 @media screen and (min-width: 1050px) {
   .sec {
-    padding: 20px 0px 20px 70px !important;
+    padding: 20px 0 20px 70px !important;
     grid-template-columns: 1fr 2fr;
   }
 
   .ycube {
-    margin-top: 0px !important;
-    padding-top: 0px !important;
-  }
-
-  .logoa {
-    background-size: 60%;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
 
   .about {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 16px;
-    padding: 0px 50px;
+    padding: 0 50px;
   }
 
   .left {
@@ -642,15 +878,26 @@ p {
 }
 
 @media screen and (max-width: 720px) {
-  .about { padding-right: 10px; width: 93%; }
-  .me { margin-top: 20px; width: 260px; height: 260px; }
-  .logoa { width: 95vw; }
-  .centerr { padding: 10px 20px !important; }
+  .about {
+    padding-right: 10px;
+    width: 93%;
+  }
+
+  .me {
+    margin-top: 20px;
+    width: 260px;
+    height: 260px;
+  }
+
+  .centerr {
+    padding: 10px 20px !important;
+  }
 }
 
 /* ==========================================================================
    04. SERVICES PAGE
    ========================================================================== */
+
 .weblist {
   background: var(--color-white);
 }
@@ -665,7 +912,7 @@ p {
 .websec {
   margin-bottom: 20px;
   margin-right: -7px;
-  padding: 0px 20px;
+  padding: 0 20px;
   display: grid;
   grid-column-gap: 32px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -676,20 +923,32 @@ p {
 }
 
 @media screen and (max-width: 420px) {
-  .websec { margin: auto; padding: 15px; }
-  .weblist-center { width: 97vw; }
-  .ltr { direction: rtl; }
+  .websec {
+    margin: auto;
+    padding: 15px;
+  }
+
+  .weblist-center {
+    width: 97vw;
+  }
+
+  .ltr {
+    direction: rtl;
+  }
 }
 
-ol.gradient-list > li, ol.gradient-list > li::before {
-  box-shadow: 4px 4px 10px var(--color-shadow-black-05), 0 8px 18px var(--color-shadow-warm-soft);
+ol.gradient-list > li,
+ol.gradient-list > li::before {
+  box-shadow:
+    4px 4px 10px var(--color-shadow-black-05),
+    0 8px 18px var(--color-shadow-warm-soft);
 }
 
 ol.gradient-list {
   counter-reset: gradient-counter;
   list-style: none;
-  padding-top: 10px;
   padding: 16px;
+  padding-top: 10px;
   border-radius: 2%;
   box-shadow: var(--shadow-soft);
 }
@@ -703,8 +962,13 @@ ol.gradient-list > li {
   min-width: 310px;
 }
 
-ol.gradient-list > li::before, ol.gradient-list > li::after {
-  background: linear-gradient(215deg, var(--color-blue-light) 0%, var(--color-section-bg) 100%);
+ol.gradient-list > li::before,
+ol.gradient-list > li::after {
+  background: linear-gradient(
+    215deg,
+    var(--color-blue-light) 0%,
+    var(--color-section-bg) 100%
+  );
   border-radius: 16px 16px 16px 0;
   position: absolute;
   overflow: hidden;
@@ -730,7 +994,10 @@ ol.gradient-list > li + li {
 /* ==========================================================================
    05. PORTFOLIO PAGE
    ========================================================================== */
-.grid *, .grid *:after, .grid *:before {
+
+.grid *,
+.grid *::after,
+.grid *::before {
   box-sizing: border-box;
 }
 
@@ -781,9 +1048,8 @@ ol.gradient-list > li + li {
 }
 
 .services-center figure.effect-chico {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid var(--color-white);
   overflow: hidden;
   background: var(--color-white);
   box-shadow: 0 2px 22px rgba(0, 0, 0, 0.36);
@@ -800,7 +1066,9 @@ figure.effect-chico img {
 }
 
 @media screen and (min-width: 600px) {
-  figure.effect-chico img { height: 240px; }
+  figure.effect-chico img {
+    height: 240px;
+  }
 }
 
 figure.effect-chico:hover img {
@@ -812,7 +1080,7 @@ figure.effect-chico a {
   text-decoration: none;
   color: var(--color-accent-orange);
   margin: 0 auto;
-  padding: 110px 0 20px 0;
+  padding: 110px 0 20px;
   transform: scale(1.5);
 }
 
@@ -868,15 +1136,21 @@ figure.effect-chico:hover a {
 }
 
 @media screen and (max-width: 768px) {
-  .services-center.featured-projects-row { grid-template-columns: 1fr; }
+  .services-center.featured-projects-row {
+    grid-template-columns: 1fr;
+  }
+
   .services-center.featured-projects-row > article,
   .services-center.featured-projects-row .grid,
-  .services-center.featured-projects-row figure.effect-chico { width: 100%; }
+  .services-center.featured-projects-row figure.effect-chico {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
    06. CONTACT PAGE
    ========================================================================== */
+
 .contact-me {
   margin: auto;
   width: 270px;
@@ -886,7 +1160,7 @@ figure.effect-chico:hover a {
   box-shadow: var(--shadow-light);
   border: 10px double var(--color-header-bg);
   background: url("./images/contact-me2.jpeg") no-repeat;
-  border-radius: 35px 335px 35px 335px/335px 35px 335px 35px;
+  border-radius: 35px 335px 35px 335px / 335px 35px 335px 35px;
 }
 
 .col {
@@ -898,7 +1172,7 @@ figure.effect-chico:hover a {
 
 .icon-align {
   text-align: center;
-  margin-right: 0%;
+  margin-right: 0;
 }
 
 .col a {
@@ -916,7 +1190,8 @@ figure.effect-chico:hover a {
   transform: scale(1.3);
 }
 
-.icon-sec, .contact-sec {
+.icon-sec,
+.contact-sec {
   width: 70%;
   margin: auto;
   text-align: center;
@@ -924,12 +1199,12 @@ figure.effect-chico:hover a {
 }
 
 .cform input {
-  border: 0px;
+  border: 0;
   padding: 8px;
   padding-right: 20px;
   box-shadow: var(--shadow-light);
   color: var(--color-text);
-  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
+  border-radius: 55px 355px 55px 355px / 355px 55px 355px 55px;
 }
 
 .form-control {
@@ -941,7 +1216,7 @@ figure.effect-chico:hover a {
   border: 2px;
   padding: 8px;
   padding-right: 20px;
-  border-radius: 35px 355px 35px 355px/355px 35px 355px 35px;
+  border-radius: 35px 355px 35px 355px / 355px 35px 355px 35px;
   box-shadow: var(--shadow-light);
   color: var(--color-text);
 }
@@ -956,33 +1231,71 @@ figure.effect-chico:hover a {
 }
 
 @media screen and (min-width: 1140px) {
-  .col { grid-template-columns: 2fr 3fr !important; padding: 15px 0 0 !important; margin-bottom: -75px !important; }
-  .icon-sec { width: 80%; padding: 10px 0px; }
-  .form-control { width: 85%; }
-  .icon-align { text-align: right; margin-right: 19%; }
+  .col {
+    grid-template-columns: 2fr 3fr !important;
+    padding: 15px 0 0 !important;
+    margin-bottom: -75px !important;
+  }
+
+  .icon-sec {
+    width: 80%;
+    padding: 10px 0;
+  }
+
+  .form-control {
+    width: 85%;
+  }
+
+  .icon-align {
+    text-align: right;
+    margin-right: 19%;
+  }
 }
 
 @media screen and (max-width: 580px) {
-  .s { font-size: large; margin-right: -6px !important; }
-  .contact-sec, .icon-sec { text-align: center; width: 90%; margin-bottom: 40px !important; }
-  .icon-align { text-align: right !important; margin-right: 19%; }
-  .form-control { margin-right: -11px; }
+  .s {
+    font-size: large;
+    margin-right: -6px !important;
+  }
+
+  .contact-sec,
+  .icon-sec {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 40px !important;
+  }
+
+  .icon-align {
+    text-align: right !important;
+    margin-right: 19%;
+  }
+
+  .form-control {
+    margin-right: -11px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .icon-align { margin-right: 1% !important; }
+  .icon-align {
+    margin-right: 1% !important;
+  }
 }
 
 /* ==========================================================================
    07. SITE-WIDE NAVIGATION
    ========================================================================== */
+
 .navbar {
   position: fixed;
   width: 100%;
   z-index: 1;
   left: 0;
   top: 0;
-  background: linear-gradient(to bottom, var(--color-header-bg) 95%, var(--color-section-bg) 100%);
+  background: linear-gradient(
+    to bottom,
+    var(--color-header-bg) 95%,
+    var(--color-section-bg) 100%
+  );
 }
 
 .nav-header {
@@ -1032,7 +1345,7 @@ figure.effect-chico:hover a {
 .links a {
   color: var(--color-header-bg);
   text-decoration: none;
-  padding: 0px 15px !important;
+  padding: 0 15px !important;
   display: block;
 }
 
@@ -1044,16 +1357,17 @@ figure.effect-chico:hover a {
   position: relative;
 }
 
-.navi a:hover, .navi a:after {
+.navi a:hover,
+.navi a::after {
   color: var(--color-white);
 }
 
-.navi a:hover:before {
+.navi a:hover::before {
   opacity: 1;
   bottom: 0;
 }
 
-.navi a:before {
+.navi a::before {
   content: "";
   position: absolute;
   left: 35%;
@@ -1066,7 +1380,7 @@ figure.effect-chico:hover a {
 }
 
 .hide-nav {
-  width: 0px;
+  width: 0;
 }
 
 .closebtn {
@@ -1082,13 +1396,12 @@ figure.effect-chico:hover a {
   color: var(--color-white);
 }
 
-/* Desktop navigation: logo on the right, menu centered on the same row */
 @media screen and (min-width: 1050px) {
   .navbar {
     display: block;
     min-height: 40px;
     margin: 0;
-    padding: 0px;
+    padding: 0;
   }
 
   .nav-center {
@@ -1121,7 +1434,6 @@ figure.effect-chico:hover a {
     display: none !important;
   }
 
-  /* The menu wrapper: switch out of fixed/full-screen mobile mode */
   .navi.links,
   .navi.links.hide-nav {
     position: static;
@@ -1136,7 +1448,6 @@ figure.effect-chico:hover a {
     overflow: visible;
   }
 
-  /* The <ul> is the direct child of .navi.links, NOT of #mainnav */
   .navi.links > ul {
     display: flex;
     flex-direction: row;
@@ -1191,6 +1502,7 @@ figure.effect-chico:hover a {
 /* ==========================================================================
    08. FLOATING CONTACT ACTIONS
    ========================================================================== */
+
 .float-contact {
   color: var(--color-header-bg);
   background-color: var(--color-floating-blue);
@@ -1220,10 +1532,11 @@ figure.effect-chico:hover a {
 /* ==========================================================================
    09. FOOTER
    ========================================================================== */
+
 .footerWrapper {
   position: relative;
   height: auto;
-  padding: 10px 0 10px;
+  padding: 10px 0;
   background: var(--color-text);
 }
 
@@ -1234,9 +1547,16 @@ figure.effect-chico:hover a {
   direction: ltr;
 }
 
+@media screen and (max-width: 650px) {
+  .footerWrapper {
+    padding: 4px 10px 12px;
+  }
+}
+
 /* ==========================================================================
    10. POSTS / ARTICLES
    ========================================================================== */
+
 .post-cotain {
   text-align: right !important;
   margin: auto;
@@ -1244,8 +1564,9 @@ figure.effect-chico:hover a {
   width: 80%;
 }
 
-.post-cotain p + p, li + li {
-  margin: 10px 0 10px;
+.post-cotain p + p,
+li + li {
+  margin: 10px 0;
 }
 
 .post-cotain li {
@@ -1254,7 +1575,7 @@ figure.effect-chico:hover a {
 
 .post-cotain ol ul,
 .post-cotain ol {
-  margin: 10px 0 10px;
+  margin: 10px 0;
   padding-right: 25px;
 }
 
@@ -1273,19 +1594,35 @@ figure.effect-chico:hover a {
 }
 
 @media screen and (max-width: 990px) {
-  .post-img { width: 65%; }
-  .post-cotain { padding: 10px; width: 90%; }
-  .post-screenshot { margin: 1px; width: 100%; }
+  .post-img {
+    width: 65%;
+  }
+
+  .post-cotain {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .post-screenshot {
+    margin: 1px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 590px) {
-  .post-img { width: 85%; }
-  .post-screenshot-small { width: 65%; }
+  .post-img {
+    width: 85%;
+  }
+
+  .post-screenshot-small {
+    width: 65%;
+  }
 }
 
 /* ==========================================================================
    11. NAVIGATION SUBMENU
    ========================================================================== */
+
 #mainnav ul {
   list-style: none;
 }
@@ -1312,7 +1649,7 @@ figure.effect-chico:hover a {
 
 #mainnav ul.submenu > li {
   float: none !important;
-  margin: 0px !important;
+  margin: 0 !important;
 }
 
 #mainnav ul.submenu > li > a {
@@ -1337,11 +1674,10 @@ figure.effect-chico:hover a {
   padding-right: 9px;
 }
 
-
-
 /* ==========================================================================
    12. TESTIMONIALS CAROUSEL
    ========================================================================== */
+
 .carousel {
   direction: ltr !important;
   margin: auto !important;
@@ -1357,7 +1693,7 @@ figure.effect-chico:hover a {
 .site-link {
   text-decoration: underline;
   color: var(--color-accent-orange);
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .awssld__bullets {
@@ -1366,13 +1702,13 @@ figure.effect-chico:hover a {
 }
 
 .awssld__bullets button {
-  margin: 0px 13px !important;
+  margin: 0 13px !important;
 }
 
 .awssld__content {
   border-radius: 5px;
   background-blend-mode: color-dodge;
-  background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+  background: url("https://i.ibb.co/PTJDkgb/testimonials.jpg");
 }
 
 .awssld__controls button {
@@ -1387,106 +1723,52 @@ figure.effect-chico:hover a {
 }
 
 @media screen and (max-width: 1350px) {
-  .carousel { width: 71% !important; }
+  .carousel {
+    width: 71% !important;
+  }
 }
 
 @media screen and (max-width: 935px) {
-  .carousel { width: 95% !important; }
-  .awssld { --slider-height-percentage: 60% !important; }
+  .carousel {
+    width: 95% !important;
+  }
+
+  .awssld {
+    --slider-height-percentage: 60% !important;
+  }
 }
 
 @media screen and (max-width: 660px) {
-  .carousel h6 { font-size: 0.9rem; width: 70%; }
+  .carousel h6 {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+
   .awssld {
     --slider-height-percentage: 105% !important;
     --control-button-width: 14% !important;
     --control-bullet-color: var(--color-white) !important;
     --control-bullet-active-color: var(--color-white) !important;
   }
-  .awssld__controls button { visibility: visible !important; }
+
+  .awssld__controls button {
+    visibility: visible !important;
+  }
 }
 
 /* ==========================================================================
-   15. PRIVACY COMPONENTS
+   13. ANIMATED LOGOS
    ========================================================================== */
-.privacy-check-wrap {
-  width: 100%;
-  text-align: center;
-}
 
-.privacy-check {
-  width: 92%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  margin: 8px auto 0;
-  color: var(--color-text);
-  text-align: right;
-}
-
-.privacy-check span {
-  flex: 1;
-}
-
-.privacy-check input[type="checkbox"] {
-  width: auto !important;
-  height: auto !important;
-  margin: 4px 0 0 0 !important;
-  padding: 0 !important;
-  box-shadow: none !important;
-  flex-shrink: 0;
-}
-
-.privacy-link {
-  position: absolute;
-  right: 25px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--color-accent-orange);
-  text-decoration: underline;
-}
-
-.privacy-link:hover {
-  color: var(--color-white);
-}
-
-/* ==========================================================================
-   13. ANIMATED LOGO MODAL AND FOOTER LOGO
-   ========================================================================== */
-.logos {
-  width: 22vw;
-  height: 70vh;
-  background: url("./images/gif/logo.gif") no-repeat;
-  background-position: center !important;
-  background-size: 95%;
-}
-
-.customModal {
+.logoa,
+.logof {
+  width: 50vw;
+  height: 50vh;
+  background-size: 35%;
   margin: auto;
-  background-color: var(--color-header-bg) !important;
-  padding: 1% 32% 7% !important;
-}
-
-@media screen and (max-width: 1500px) {
-  .logos { width: 30vw !important; height: 74vh; }
-}
-
-@media screen and (max-width: 650px) {
-  .footerWrapper p { font-size: 15px; width: 100%; text-align: center; }
-  .logos { width: 98vw !important; background-size: 70%; margin-top: -100px; }
-  /* .customModal { padding: 17% 0px !important; } */
-  /* .logof { background-size: 122% !important; } */
-  .footerWrapper { 
-    padding: 4px 10px 12px; 
-  }
-  .privacy-link { 
-    font-size: 14px;
-    text-align: center; 
-    position: static; 
-    display: block; 
-    margin-top: 18px; 
-  }
+  background-image: url("./images/gif/logo.gif");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .contact-logof {
@@ -1494,18 +1776,17 @@ figure.effect-chico:hover a {
   background-color: var(--color-header-bg) !important;
 }
 
+@media screen and (max-width: 650px) {
+.logoa,
 .logof {
-  margin: auto !important;
-  width: 90vw;
-  height: 50vh;
-  background-size: 70% !important;
-  background: url("./images/gif/logo.gif") no-repeat;
-  background-position: center !important;
+    background-size: 99%;
+  }
 }
 
 /* ==========================================================================
    14. PROFESSIONAL PORTFOLIO ARTICLE
    ========================================================================== */
+
 .portfolio-pro-section {
   padding-bottom: 45px;
 }
@@ -1530,7 +1811,7 @@ figure.effect-chico:hover a {
 .portfolio-article-system {
   background: var(--color-white);
   border: 1px solid var(--color-header-bg);
-  border-radius: 55px 355px 55px 355px/355px 55px 355px 55px;
+  border-radius: 55px 355px 55px 355px / 355px 55px 355px 55px;
   box-shadow: 0 8px 26px rgba(0, 0, 0, 0.12);
   padding: 36px;
   margin: 50px auto;
@@ -1645,23 +1926,109 @@ figure.effect-chico:hover a {
 }
 
 @media screen and (max-width: 990px) {
-  .portfolio-pro-article { width: 92%; padding: 32px 10px 28px; }
-  .portfolio-article-system { padding: 28px 18px 22px;   border-radius: 55px 255px 55px 255px/255px 55px 255px 55px;
- margin: 38px auto; }
-  .portfolio-feature-row { grid-template-columns: 1fr; gap: 18px; padding: 28px 0; }
-  .portfolio-system-screenshot { width: 100%; max-width: 100%; }
+  .portfolio-pro-article {
+    width: 92%;
+    padding: 32px 10px 28px;
+  }
+
+  .portfolio-article-system {
+    padding: 28px 18px 22px;
+    border-radius: 55px 255px 55px 255px / 255px 55px 255px 55px;
+    margin: 38px auto;
+  }
+
+  .portfolio-feature-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 28px 0;
+  }
+
+  .portfolio-system-screenshot {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 590px) {
-  .portfolio-pro-article { width: 96%; padding: 24px 4px 24px; }
-  .portfolio-article-system { padding: 22px 12px 18px; }
-  .portfolio-feature-row { padding: 24px 0; }
-  .portfolio-system-screenshot { border-radius: 4px; }
+  .portfolio-pro-article {
+    width: 96%;
+    padding: 24px 4px;
+  }
+
+  .portfolio-article-system {
+    padding: 22px 12px 18px;
+  }
+
+  .portfolio-feature-row {
+    padding: 24px 0;
+  }
+
+  .portfolio-system-screenshot {
+    border-radius: 4px;
+  }
+}
+
+/* ==========================================================================
+   15. PRIVACY COMPONENTS
+   ========================================================================== */
+
+.privacy-check-wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.privacy-check {
+  width: 92%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin: 8px auto 0;
+  color: var(--color-text);
+  text-align: right;
+}
+
+.privacy-check span {
+  flex: 1;
+}
+
+.privacy-check input[type="checkbox"] {
+  width: auto !important;
+  height: auto !important;
+  margin: 4px 0 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  flex-shrink: 0;
+}
+
+.privacy-link {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-accent-orange);
+  text-decoration: underline;
+}
+
+.privacy-link:hover {
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 650px) {
+  .privacy-link {
+    font-size: 14px;
+    text-align: center;
+    position: static;
+    display: block;
+    margin-top: 18px;
+    transform: none;
+  }
 }
 
 /* ==========================================================================
    16. ACCESSIBILITY
    ========================================================================== */
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
