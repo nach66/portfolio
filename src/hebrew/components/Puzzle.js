@@ -1,49 +1,44 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
 import way from '../../images/gif/road/animat-road-trip-color.gif';
-import pencil from '../../images/gif/pencil/animat-pencil-color.gif';
+import design from '../../images/gif/pencil/animat-pencil-color.gif';
 import seo from '../../images/gif/seo/animat-search-color.gif';
 import manage from '../../images/gif/manage.gif';
-import ssl from '../../images/gif/ssl/CYBERSECURITY.gif';
+import speed from '../../images/gif/ssl/CYBERSECURITY.gif';
 import btn from '../../images/gif/btn/animat-checkmark-color.gif';
 import puzzle from '../../images/icons/puzzle.png'
 
 export default class Puzzle extends Component {
     state={
-        services: [
-                {
-                    icon: way,
-                    title:"אתך לאורך כל הדרך",
-                    text: "ליווי מלא משלב התכנון ועד לעליית האתר. בסיום אדריך אותך באופן אישי לשימוש באתר ובמערכת הניהול."
-                },
-                {
-                    icon:seo,
-                    title:"הכנה לקידום ושיווק",
-                    text: "הטמעה של Google Analytics  ו -Facebook Pixel , שיפור מהירויות ושימוש בפרוטוקולי אבטחה המועדפים על גוגל."
-                },
-                {
-                    icon:pencil,
-                    title:"כתיבת תוכן",
-                    text: "אעזור לך למצוא את המילים הכי יפות, שייצגו את העסק בצורה הטובה ביותר, ויתרגמו מבקרים ללקוחות מרוצים."
-                },
+services: [
+  {
+    icon: way,
+    title: "אתך לאורך כל הדרך",
+    text: "ליווי משלב הרעיון והאפיון, דרך הבנייה והדיוקים, ועד הדרכה אישית לניהול האתר בסיום."
+  },
+    {
+    icon: btn,
+    title: "פיתוח מותאם בקוד",
+    text: "כשהתוספים הקיימים לא מתאימים בדיוק לצורך של העסק, אפשר לפתח בקוד את החלקים החסרים ולבנות מערכת מותאמת אישית."
+  },
+  {
+    icon: manage,
+    title: "WordPress נוח לניהול",
+    text: "בנייה על בסיס מערכת ניהול שקל לעדכן לבד: עמודים, מוצרים, תמונות, פוסטים ותכנים שוטפים."
+  },
+  {
+    icon: design,
+    title: "עיצוב, תשתיות ואבטחה",
+    text: "עיצוב רספונסיבי למובייל ולמסכים שונים, חיבור דומיין, העלאה לשרת והתקנת SSL לאתר מאובטח."
+  },
+  {
+    icon: speed,
+    title: "קידום, מהירות ומדידה",
+    text: "הכנת תשתית לקידום ושיווק: שיפור מהירות, חיבור Google Analytics, Pixel וכלים בסיסיים למדידה."
+  },
+]
+        };
 
-                {
-                    icon:manage,
-                    title:"מערכת ניהול תכנים",
-                    text: "מוצרים, תמונות, פוסטים - בעזרת מערכת הוורדפרס שעליה נבנה האתר, אפשר לעדכן את התכנים בעצמך, ובקלות. כמובן לאחר הדרכה מפורטת ממני :)"
-                },
-                {
-                    icon:ssl,
-                    title:"בטיחות מעל הכול!",
-                    text: "עמידה בתקני האבטחה הגבוהים ביותר, כולל סליקה מאובטחת, והתקנת תעודת SSL ."
-                },  
-                {
-                    icon:btn,
-                    title:"קישורים מהירים",
-                    text: "קישורים לסושיאל, כפתור חיוג ישיר, הפניה לשיחת ווטאספ, טפסי לידים מתקדמים. הכול על מנת להקל על הלקוח שלך למצוא אותך במהירות ויעילות.",
-                },
-            ]
-        }
     render () {
         return (
             <>

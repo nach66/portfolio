@@ -8,7 +8,7 @@ export default function TestiSlider() {
     return (
         <>
             <h2>לקוחות אמרו עליי</h2>
-
+<br/>
             <AwesomeSlider
                 className="carousel"
                 animation="cubeAnimation"

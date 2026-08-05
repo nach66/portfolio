@@ -53,7 +53,7 @@ export default class Page extends React.Component {
                 <div className="bf"/>    
                 <TestiSlider/>
                 <br/>
-                <HoriForm/>
+                {/* <HoriForm/> */}
                 <div className="af"/>  
 
                 <Puzzle/>

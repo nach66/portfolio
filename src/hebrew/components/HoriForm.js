@@ -37,13 +37,13 @@ export default class HoriForm extends React.Component {
             type="text"
             name="Name"
             className="form-control hori-form-mobile"
-            placeholder="שם:"
+            placeholder="שם"
         />
     </article>
 
     <article>
         <label htmlFor="hori-phone" className="sr-only">
-            מספר טלפון
+            טלפון
         </label>
 
         <input
@@ -51,7 +51,7 @@ export default class HoriForm extends React.Component {
             type="tel"
             name="phone"
             className="form-control hori-form-mobile"
-            placeholder="מספר טלפון:"
+            placeholder="טלפון"
         />
     </article>
 
@@ -68,6 +68,19 @@ export default class HoriForm extends React.Component {
             placeholder="רציתי לשאול.."
         />
     </article>
+    
+    <article className="submit-hori">
+        {status === "SUCCESS"
+            ? <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2>
+            : <button type="submit" className="form-submit submit">שליחה</button>
+        }
+
+        {status === "ERROR" &&
+            <p className="submit-error-form">
+                אוי! קרתה תקלה, אנא נסו שוב.
+            </p>
+        }
+    </article>
 
     <article className="privacy-check-wrap">
         <label className="privacy-check">
@@ -81,19 +94,6 @@ export default class HoriForm extends React.Component {
                 מסרתי את פרטיי מרצוני לצורך יצירת קשר. ידוע לי שהפרטים לא יועברו לצד שלישי.
             </span>
         </label>
-    </article>
-
-    <article className="submit-hori">
-        {status === "SUCCESS"
-            ? <h2>תודה, אחזור אליך הכי מהר שאוכל!</h2>
-            : <button type="submit" className="form-submit submit">שליחה</button>
-        }
-
-        {status === "ERROR" &&
-            <p className="submit-error-form">
-                אוי! קרתה תקלה, אנא נסו שוב.
-            </p>
-        }
     </article>
 
 </form>

@@ -15,7 +15,7 @@ export default class ContactForm extends React.Component {
         const { status } = this.state;
         return (
             <>
-                <h1 style={{background:'var(--back)', paddingTop:'10px'}}>יצירת קשר</h1>
+                <h1 style={{background:'var(--color-section-bg)', paddingTop:'10px'}}>יצירת קשר</h1>
 
                 <div className="col">
 
@@ -89,18 +89,18 @@ export default class ContactForm extends React.Component {
         type="text"
         name="Name"
         className="form-control"
-        placeholder="שם:"
+        placeholder="שם"
     />
 
     <label htmlFor="contact-phone" className="sr-only">
-        מספר טלפון
+        טלפון
     </label>
     <input
         id="contact-phone"
         type="tel"
         name="phone"
         className="form-control"
-        placeholder="מספר טלפון:"
+        placeholder="טלפון"
     />
 
     <label htmlFor="contact-message" className="sr-only">

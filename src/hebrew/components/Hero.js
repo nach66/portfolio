@@ -18,8 +18,16 @@ export default class Hero extends React.Component {
                 <section className="void">
                     <div className="pic">
                         <div className="banner">
-                            <h1>העסק זקוק לאתר איכותי?</h1>
-                        </div>
+<h1>
+  <ReactTypingEffect
+    typingDelay={300}
+    speed={80}
+    eraseDelay={999999}
+    eraseSpeed={0}
+    text={["כשהעסק גדל, האתר משתכלל"]}
+    cursorClassName="hero-cursor"
+  />
+</h1>                       </div>
 
                         <form className="sform" method="POST"
                             onSubmit={this.submitForm}
@@ -43,16 +51,8 @@ export default class Hero extends React.Component {
                                 
                                 {status === "SUCCESS" ? 
                                     <><br/><br/><h2>תודה!</h2></> : 
-                                    <button className="submit">
-                                        <ReactTypingEffect
-                                            typingDelay="100"
-                                            speed="100"
-                                            eraseDelay="4000"
-                                            eraseSpeed="100"
-                                            text={["כן, דברי איתי!"]}
-                                            cursorClassName="cur"
-                                        />
-                                    </button>
+<button className="submit" type="submit">
+יאללה, נדבר!</button>
                                 }
 
                         <div className="form-bug">

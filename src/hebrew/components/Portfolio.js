@@ -237,25 +237,23 @@ render () {
                 <br/>
 
                 <DividerWithText>
-                    <h2>פיתוח פאנליפ מותאמים אישית בקוד</h2>
+                    <h2>פיתוח פאנלים מותאמים אישית בקוד</h2>
                 </DividerWithText>
 
-                <div className="services-center  featured-row">
+                <div className="services-center featured-projects-row">
                     {this.state.featured.map((item, index) => {
                         return (
                             <article key={index}>
                                 <Zoom>
                                     <article className="grid">
                                         <figure className="effect-chico">
-                                            <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
-                                            <figcaption>
+<img src={item.icon} alt="web img"/>                                            <figcaption>
                                                 {item.link ? (
                                                     <a href={item.link} rel="noopener noreferrer" target="_blank">
                                                         לצפייה באתר
                                                     </a>
                                                 ) : (
                                                     <span style={{color:'#fff'}}>
-                                                        פרויקט מותאם אישית
                                                     </span>
                                                 )}
                                             </figcaption>
