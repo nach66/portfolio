@@ -1,54 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/Cube.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
     <meta name="theme-color" content="#000000" />
-    
-    <meta name="description" content="בניית אתרים: אתרי תדמית, חנויות ומערכות מורכבות בהתאמה אישית. פיתוח פאנלים, אוטומציות ותהליכי עבודה עם עיצוב ייחודי, חוויית משתמש מעולה ויחס אישי."/>    
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <meta
+      name="description"
+      content="בניית אתרים: אתרי תדמית, חנויות ומערכות מורכבות בהתאמה אישית. פיתוח פאנלים, אוטומציות ותהליכי עבודה עם עיצוב ייחודי, חוויית משתמש מעולה ויחס אישי."
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="%PUBLIC_URL%/logo192.png"
+    />
+
+    <link
+      rel="manifest"
+      href="%PUBLIC_URL%/manifest.json"
+    />
+
     <title>studYoni | בניית אתרים ופיתוח מערכות</title>
 
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
 
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&family=Noto+Sans+Hebrew:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&family=Secular+One&family=Suez+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&family=Noto+Sans+Hebrew:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&family=Secular+One&family=Suez+One&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z23F3L8PK0"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <!-- Google Analytics 4 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z23F3L8PK0"
+    ></script>
 
-        gtag('config', 'G-Z23F3L8PK0');
-      </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-      <!-- Facebook Pixel Code -->
-      <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1371850193269581');
-        fbq('track', 'PageView');
-      </script>
-      <noscript><img height="1" width="1" style="display:none"
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+      gtag("config", "G-Z23F3L8PK0");
+    </script>
+
+    <!-- Facebook Pixel -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+
+        if (!f._fbq) f._fbq = n;
+
+        n.push = n;
+        n.loaded = true;
+        n.version = "2.0";
+        n.queue = [];
+
+        t = b.createElement(e);
+        t.async = true;
+        t.src = v;
+
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+
+      fbq("init", "1371850193269581");
+      fbq("track", "PageView");
+    </script>
+
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display:none"
         src="https://www.facebook.com/tr?id=1371850193269581&ev=PageView&noscript=1"
-        /></noscript>
-      <!-- End Facebook Pixel Code -->
+        alt=""
+      />
+    </noscript>
 
-      <meta name="google-site-verification" content="JPZJSc9zwyGWNnSUg6fj5ZDCTSfBJUQf8bRJ06jkV8Y"/>
-      <meta name="facebook-domain-verification" content="cu200gj3kciudlbh52vifjkxqdp5k3" />
+    <!-- Domain verification -->
+    <meta
+      name="google-site-verification"
+      content="JPZJSc9zwyGWNnSUg6fj5ZDCTSfBJUQf8bRJ06jkV8Y"
+    />
 
+    <meta
+      name="facebook-domain-verification"
+      content="cu200gj3kciudlbh52vifjkxqdp5k3"
+    />
   </head>
+
   <body>
     <div id="root"></div>
   </body>

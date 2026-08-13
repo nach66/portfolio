@@ -39,7 +39,7 @@ export default class Hero extends React.Component {
                                                 className="sform-control"
                                                 placeholder="שם"/>
                                 <input
-                                    type="phone"
+                                    type="tel"
                                                 name="phone"
                                                 className="sform-control"
                                                 placeholder="טלפון"/>

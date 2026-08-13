@@ -93,7 +93,7 @@ export default class PortfolioPro extends Component {
                       key={sectionIndex}
                     >
                       <div className="portfolio-feature-text">
-                        <strong>{section.title}</strong>
+                        <h4>{section.title}</h4>
                         <p>{section.text}</p>
                       </div>
 

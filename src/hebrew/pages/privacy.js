@@ -14,7 +14,7 @@ export default function Privacy(props) {
 
                     <div className="post-cotain">
 
-                        <h2>מדיניות פרטיות</h2>
+                        <h1>מדיניות פרטיות</h1>
 
                         <p>
                             מטרת מדיניות זו היא להסביר כיצד נאסף, נשמר ונעשה שימוש במידע אישי הנמסר דרך האתר.

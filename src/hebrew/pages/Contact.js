@@ -7,6 +7,7 @@ export default function Contact(props) {
         <>
             <br/>
             <div className="saf"/>
+            <h1 style={{background:'var(--color-section-bg)', paddingTop:'10px'}}>יצירת קשר</h1>
             <ContactForm/>
             <div className="sbf"/>
 

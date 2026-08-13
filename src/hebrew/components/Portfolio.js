@@ -44,71 +44,71 @@ featured: [
   },
 ],
 
-  systems: [
-    {
-      icon: wip,
-      link: "https://racheliebner.com/",
-      title: "WIP - סדנאות ניהול זמן"
-    },
-    {
-      icon: tlv,
-      link: "https://tlvgym.co.il/",
-      title: "tlvgym - אתר תדמית ומערכת חוגים"
-    },
-    {
-      icon: tokio,
-      link: "https://www.hebrewtourguidetokyo.com/",
-      title: "טיולי בוטיק בטוקיו - רכישת סיורים"
-    },
-    {
-      icon: peace,
-      link: "https://peace-boards.com/",
-      title: "Peace Boards - חנות סקייטבורדים"
-    },
-    {
-      icon: reutdafna,
-      link: "https://reutdafna.com/",
-      title: "רעות דפנא - גלריית יצירות וחנות"
-    },
-    {
-      icon: hostel,
-      link: "https://hosteltiberias.co.il/",
-      title: "אכסניית טבריה - אתר תדמית + הזמנות"
-    },
-  ],
+systems: [
+  {
+    icon: wip,
+    link: "https://racheliebner.com/",
+    title: "WIP - סדנאות ניהול זמן"
+  },
+  {
+    icon: tlv,
+    link: "https://tlvgym.co.il/",
+    title: "tlvgym - אתר תדמית ומערכת חוגים"
+  },
+  {
+    icon: tokio,
+    link: "https://www.hebrewtourguidetokyo.com/",
+    title: "טיולי בוטיק בטוקיו - רכישת סיורים"
+  },
+  {
+    icon: peace,
+    link: "https://peace-boards.com/",
+    title: "Peace Boards - חנות סקייטבורדים"
+  },
+  {
+    icon: reutdafna,
+    link: "https://reutdafna.com/",
+    title: "רעות דפנא - גלריית יצירות וחנות"
+  },
+  {
+    icon: hostel,
+    link: "https://hosteltiberias.co.il/",
+    title: "אכסניית טבריה - אתר תדמית + הזמנות"
+  },
+],
 
-  tadmit: [
-    {
-      icon: gali,
-      link: "https://galiness.com/he/",
-      title: "גלי נס יוגה ומיינדפולנס - אתר תדמית ותוכן"
-    },
-    {
-      icon: alex,
-      link: "https://alexkatch.com/",
-      title: "אנימציה - אתר תדמית ותיק עבודות"
-    },
-    {
-      icon: miri,
-      link: "https://mima-meyaldot.com/",
-      title: "מימה מיילדות פרטית - אתר תדמית ותוכן"
-    },
-    {
+tadmit: [
+  {
+    icon: gali,
+    link: "https://galiness.com/he/",
+    title: "גלי נס יוגה ומיינדפולנס - אתר תדמית ותוכן"
+  },
+  {
+    icon: alex,
+    link: "https://alexkatch.com/",
+    title: "אנימציה - אתר תדמית ותיק עבודות"
+  },
+  {
+    icon: miri,
+    link: "https://mima-meyaldot.com/",
+    title: "מימה מיילדות פרטית - אתר תדמית ותוכן"
+  },
+  {
     icon: roi,
     link: "https://www.legaltalking.com/",
     title: "Legal Talking - אתר תוכן"
-    },
-    {
-      icon: gonen,
-      link: "https://www.eyalgonen.com/",
-      title: "אייל גונן - בלוג מנהיגות"
-    },
-    {
-      icon: orr,
-      link: "https://oordesignbuild.com/",
-      title: "Oor design build - תדמית לחברת בנייה"
-    },
-  ],
+  },
+  {
+    icon: gonen,
+    link: "https://www.eyalgonen.com/",
+    title: "אייל גונן - בלוג מנהיגות"
+  },
+  {
+    icon: orr,
+    link: "https://oordesignbuild.com/",
+    title: "Oor design build - תדמית לחברת בנייה"
+  },
+],
 
 upgrade: [
   {
@@ -119,14 +119,14 @@ upgrade: [
   {
     icon: heshel,
     link: "https://heschel.org.il/",
-    title: "מרכז השל  - תדמית, בלוג, ומכירת קורסים"
+    title: "מרכז השל - תדמית, בלוג, ומכירת קורסים"
   },
   {
     icon: minami,
     link: "https://mynami.co.il/",
     title: "מינאמי - חנות ומערכת מכירה מותאמת"
   },
-    {
+  {
     icon: yaar,
     link: "https://yaaracacao.co.il/he/",
     title: "יער הקקאו - חנות שוקולד וסדנאות"
@@ -146,7 +146,7 @@ upgrade: [
     link: "https://www.bambinoshoes.co.il/",
     title: "במבינו - חנות נעליים"
   },
-    {
+  {
     icon: beni,
     link: "https://he.zipperbags.online/",
     title: "Zipper bags - חנות תיקים"
@@ -174,54 +174,54 @@ upgrade: [
 ],
 
 removed_low_priority: [
-//   {
-//     icon: zar,
-//     link: "https://zarabeyapan.com/",
-//     title: "זרה ביפן - חנות ספרים"
-//   },
-    // {
-    //   icon: leah,
-    //   link: "https://leahalmogarazi.com/",
-    //   title: "Leah Almog Arazi - תדמית לאדריכלית"
-    // },
-    //     {
-//     icon: japan,
-//     link: "https://hebrewtourguidejapan.com/",
-//     title: "סיורי יום ביפן - תדמית + הזמנות"
-//   },
-    //   {
-//     icon: goa,
-//     link: "https://goa-log.com/",
-//     title: "גואה לוגיסטיק - אתר תדמית בוויקס"
-//   },
-//   {
-//     icon: kineret,
-//     link: "https://kinneretdl.co.il/",
-//     title: "פסיכותרפיסטית ישראלית ביפן"
-//   },
-//   {
-//     icon: sima,
-//     link: "https://simanissani.com/",
-//     title: "סימה ניסני - אתר תדמית"
-//   },
-//   {
-//     icon: yariv,
-//     link: "https://yarivconsultant.com/",
-//     title: "יריב ייעוץ ארגוני - אתר תדמית"
-//   },
+  // {
+  //   icon: zar,
+  //   link: "https://zarabeyapan.com/",
+  //   title: "זרה ביפן - חנות ספרים"
+  // },
+  // {
+  //   icon: leah,
+  //   link: "https://leahalmogarazi.com/",
+  //   title: "Leah Almog Arazi - תדמית לאדריכלית"
+  // },
+  // {
+  //   icon: japan,
+  //   link: "https://hebrewtourguidejapan.com/",
+  //   title: "סיורי יום ביפן - תדמית + הזמנות"
+  // },
+  // {
+  //   icon: goa,
+  //   link: "https://goa-log.com/",
+  //   title: "גואה לוגיסטיק - אתר תדמית בוויקס"
+  // },
+  // {
+  //   icon: kineret,
+  //   link: "https://kinneretdl.co.il/",
+  //   title: "פסיכותרפיסטית ישראלית ביפן"
+  // },
+  // {
+  //   icon: sima,
+  //   link: "https://simanissani.com/",
+  //   title: "סימה ניסני - אתר תדמית"
+  // },
+  // {
+  //   icon: yariv,
+  //   link: "https://yarivconsultant.com/",
+  //   title: "יריב ייעוץ ארגוני - אתר תדמית"
+  // },
 ],
 
 removed_changed_too_much: [
-//   {
-//     icon: baguru,
-//     link: "https://mybaguru.com/",
-//     title: "הגורו שלך לבגרות - אתר קורסים"
-//   },
-//   {
-//     icon: adam,
-//     link: "https://adambeamalo.co.il/",
-//     title: "אדם בעמלו - פיתוח ארגוני"
-//   },
+  // {
+  //   icon: baguru,
+  //   link: "https://mybaguru.com/",
+  //   title: "הגורו שלך לבגרות - אתר קורסים"
+  // },
+  // {
+  //   icon: adam,
+  //   link: "https://adambeamalo.co.il/",
+  //   title: "אדם בעמלו - פיתוח ארגוני"
+  // },
 ]
 
 }
@@ -237,7 +237,7 @@ render () {
                 <br/>
 
                 <DividerWithText>
-                    <h2>פיתוח פאנלים מותאמים אישית בקוד</h2>
+                    <h2>פיתוח פאנלים ומערכות מותאמות אישית בקוד</h2>
                 </DividerWithText>
 
                 <div className="services-center featured-projects-row">
@@ -247,9 +247,17 @@ render () {
                                 <Zoom>
                                     <article className="grid">
                                         <figure className="effect-chico">
-<img src={item.icon} alt="web img"/>                                            <figcaption>
+                                            <img
+                                                src={item.icon}
+                                                alt={item.title}
+                                            />
+                                            <figcaption>
                                                 {item.link ? (
-                                                    <a href={item.link} rel="noopener noreferrer" target="_blank">
+                                                    <a
+                                                        href={item.link}
+                                                        rel="noopener noreferrer"
+                                                        target="_blank"
+                                                    >
                                                         לצפייה באתר
                                                     </a>
                                                 ) : (
@@ -266,19 +274,21 @@ render () {
                     })}
                 </div>
 
-<div className="pro-btn-wrap">
-    <a href="/portfolio2">
-        <button className="submit pro-btn">
-            לפירוט אודות המערכות &gt;
-        </button>
-    </a>
-</div>
+                <div className="pro-btn-wrap">
+                    <a href="/systems">
+                        <button className="submit pro-btn">
+                            לפירוט אודות המערכות &gt;
+                        </button>
+                    </a>
+                </div>
 
                 <br/>
                 <br/>
                 <br/>
 
-                <DividerWithText><h2>אתרי למידה, חנויות ווקומרס והזמנות לפי תאריך</h2></DividerWithText>
+                <DividerWithText>
+                    <h2>אתרי למידה, חנויות WooCommerce ומערכות הזמנות לפי תאריך</h2>
+                </DividerWithText>
 
                 <div className="services-center">
                     {this.state.systems.map((item, index) => {
@@ -287,37 +297,17 @@ render () {
                                 <Zoom>
                                     <article className="grid">
                                         <figure className="effect-chico">
-                                            <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
+                                            <img
+                                                style={{ height: '200px' }}
+                                                src={item.icon}
+                                                alt={item.title}
+                                            />
                                             <figcaption>
-                                                <a href={item.link} rel="noopener noreferrer" target="_blank">
-                                                    לצפייה באתר
-                                                </a>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </Zoom>
-                                <p>{item.title}</p>
-                            </article>
-                        )
-                    })}
-                </div>
-
-                <br/>
-                <br/>
-                <br/>
-
-                <DividerWithText><h2>אתרי תדמית ותוכן</h2></DividerWithText>
-
-                <div className="services-center">
-                    {this.state.tadmit.map((item, index) => {
-                        return (
-                            <article key={index}>
-                                <Zoom>
-                                    <article className="grid">
-                                        <figure className="effect-chico">
-                                            <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
-                                            <figcaption>
-                                                <a href={item.link} rel="noopener noreferrer" target="_blank">
+                                                <a
+                                                    href={item.link}
+                                                    rel="noopener noreferrer"
+                                                    target="_blank"
+                                                >
                                                     לצפייה באתר
                                                 </a>
                                             </figcaption>
@@ -335,7 +325,45 @@ render () {
                 <br/>
 
                 <DividerWithText>
-                    <h2>אתרים ששדרגתי: שיפור עיצוב, פיתוחים נוספים וטיפול בתקלות לאורך זמן</h2>
+                    <h2>אתרי תדמית ותוכן</h2>
+                </DividerWithText>
+
+                <div className="services-center">
+                    {this.state.tadmit.map((item, index) => {
+                        return (
+                            <article key={index}>
+                                <Zoom>
+                                    <article className="grid">
+                                        <figure className="effect-chico">
+                                            <img
+                                                style={{ height: '200px' }}
+                                                src={item.icon}
+                                                alt={item.title}
+                                            />
+                                            <figcaption>
+                                                <a
+                                                    href={item.link}
+                                                    rel="noopener noreferrer"
+                                                    target="_blank"
+                                                >
+                                                    לצפייה באתר
+                                                </a>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                </Zoom>
+                                <p>{item.title}</p>
+                            </article>
+                        )
+                    })}
+                </div>
+
+                <br/>
+                <br/>
+                <br/>
+
+                <DividerWithText>
+                    <h2>שדרוג ותחזוקת אתרים קיימים</h2>
                 </DividerWithText>
 
                 <div className="services-center">
@@ -345,9 +373,17 @@ render () {
                                 <Zoom>
                                     <article className="grid">
                                         <figure className="effect-chico">
-                                            <img style={{ height: '200px' }} src={item.icon} alt="web img"/>
+                                            <img
+                                                style={{ height: '200px' }}
+                                                src={item.icon}
+                                                alt={item.title}
+                                            />
                                             <figcaption>
-                                                <a href={item.link} rel="noopener noreferrer" target="_blank">
+                                                <a
+                                                    href={item.link}
+                                                    rel="noopener noreferrer"
+                                                    target="_blank"
+                                                >
                                                     לצפייה באתר
                                                 </a>
                                             </figcaption>

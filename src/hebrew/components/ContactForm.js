@@ -15,8 +15,6 @@ export default class ContactForm extends React.Component {
         const { status } = this.state;
         return (
             <>
-                <h1 style={{background:'var(--color-section-bg)', paddingTop:'10px'}}>יצירת קשר</h1>
-
                 <div className="col">
 
                         <article className="icon-sec">

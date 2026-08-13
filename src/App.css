@@ -689,6 +689,10 @@ p {
   background: var(--color-section-bg);
 }
 
+.services p {
+  text-align: center;
+}
+
 .services-center {
   text-align: center;
   margin: auto;
@@ -1763,7 +1767,7 @@ li + li {
 .logoa,
 .logof {
   width: 50vw;
-  height: 50vh;
+  height: 55vh;
   background-size: 35%;
   margin: auto;
   background-image: url("./images/gif/logo.gif");
