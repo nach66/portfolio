@@ -10,6 +10,7 @@ const seoByPath = {
     description:
       "פיתוח ובניית אתרי WordPress, מערכות מידע, פורטלים ופאנלים מותאמים בקוד, לצד שדרוג ותחזוקת אתרים לעסקים, מוסדות חינוך וארגונים.",
     schemaType: "WebPage",
+    noindex: false,
   },
 
   "/about": {
@@ -17,6 +18,7 @@ const seoByPath = {
     description:
       "יוני, מפתחת ובונה אתרים עם התמחות ב-WordPress ובפיתוח מותאם בקוד. אפיון, בנייה, שדרוג ותחזוקת אתרים ומערכות בליווי אישי.",
     schemaType: "AboutPage",
+    noindex: false,
   },
 
   "/portfolio": {
@@ -24,6 +26,7 @@ const seoByPath = {
     description:
       "פרויקטים נבחרים בפיתוח אתרים ומערכות: פאנלים מותאמים בקוד, אתרי למידה, חנויות WooCommerce, אתרי תדמית ושדרוג אתרים קיימים.",
     schemaType: "CollectionPage",
+    noindex: false,
   },
 
   "/systems": {
@@ -31,6 +34,7 @@ const seoByPath = {
     description:
       "דוגמאות למערכות מידע ופאנלים שפיתחתי בקוד: מעקב תלמידים, ניהול משימות, בדיקת מבחנים, דוחות, פילוח נתונים ופאנלים לצוותי הוראה והנהלה.",
     schemaType: "CollectionPage",
+    noindex: false,
   },
 
   "/development-services": {
@@ -38,6 +42,7 @@ const seoByPath = {
     description:
       "פיתוח מותאם בקוד, שדרוג ותחזוקת אתרי WordPress, בניית דפי נחיתה, אתרי תדמית וחנויות WooCommerce בהתאמה לצורכי העסק או הארגון.",
     schemaType: "Service",
+    noindex: false,
   },
 
   "/contact": {
@@ -45,6 +50,7 @@ const seoByPath = {
     description:
       "רוצה לבנות אתר, לשדרג מערכת קיימת או לפתח פתרון מותאם בקוד? אפשר ליצור קשר עם studYoni ולקבל ייעוץ והצעת מחיר.",
     schemaType: "ContactPage",
+    noindex: false,
   },
 
   "/blog": {
@@ -52,6 +58,7 @@ const seoByPath = {
     description:
       "מדריכים וטיפים לניהול אתרי WordPress ו-WooCommerce, העלאת מוצרים, הגדרת משלוחים, סוגי אתרים וניהול עצמאי ונוח יותר של האתר.",
     schemaType: "Blog",
+    noindex: false,
   },
 
   "/blog/website-types": {
@@ -59,6 +66,7 @@ const seoByPath = {
     description:
       "מה ההבדל בין דף נחיתה, אתר תדמית וחנות אונליין, ומה מתאים לעסק שלך? מדריך לבחירת סוג האתר לפי המטרות והצרכים של העסק.",
     schemaType: "TechArticle",
+    noindex: false,
   },
 
   "/blog/woocommerce-add-product": {
@@ -66,6 +74,7 @@ const seoByPath = {
     description:
       "מדריך שלב אחר שלב להוספת מוצר לחנות WooCommerce, כולל תמונות, מחיר, מלאי, משלוח, מוצרים מקושרים ומוצרים עם וריאציות.",
     schemaType: "TechArticle",
+    noindex: false,
   },
 
   "/blog/woocommerce-shipping": {
@@ -73,6 +82,7 @@ const seoByPath = {
     description:
       "מדריך להגדרת אזורי ושיטות משלוח ב-WooCommerce, כולל תעריף קבוע, איסוף מקומי ומשלוח חינם לפי סכום הזמנה.",
     schemaType: "TechArticle",
+    noindex: false,
   },
 
   "/privacy": {
@@ -80,6 +90,7 @@ const seoByPath = {
     description:
       "מדיניות הפרטיות של studYoni: איסוף ושימוש במידע, אבטחת מידע, ספקי שירות וזכויות המשתמשים באתר.",
     schemaType: "WebPage",
+    noindex: false,
   },
 };
 
@@ -216,7 +227,11 @@ export default function SEO() {
   const location = useLocation();
 
   useEffect(() => {
-    const pathname = location.pathname;
+    const pathname =
+      location.pathname !== "/"
+        ? location.pathname.replace(/\/+$/, "")
+        : "/";
+
     const seo = seoByPath[pathname] || defaultSEO;
 
     const canonicalUrl =
@@ -228,6 +243,7 @@ export default function SEO() {
     document.title = seo.title;
 
     setMeta("name", "description", seo.description);
+
     setMeta(
       "name",
       "robots",
