@@ -1,42 +1,38 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-import Roll from 'react-reveal/Roll';
 
 export default function Prolog() {
     return (
         <div className="prolog">
-                        <Fade bottom>
-            <h6>
-  אם האתר שלך צריך יותר מ״רק להיות יפה״, הגעת למקום הנכון.
-</h6>
+<Fade bottom>
+    <h6>
+        אם האתר שלך צריך יותר מ״רק להיות יפה״, הגעת למקום הנכון.
+        <br/>
+        אני מפתחת מערכות מידע, פורטלים, פאנלים לניהול תהליכים, אוטומציות, חיבורי API ופיצ׳רים מורכבים בהתאמה אישית מעל WordPress.
+    </h6>
 
-<h6>
-  היתרון בבניית מערכת מותאמת אישית מעל WordPress הוא שלא צריך לבחור בין נוחות וגמישות,
-  <br/>
-  לבין פתרון מדויק ✨
-</h6>
+    <h6>
+        היתרון בפיתוח מותאם מעל WordPress הוא שלא צריך לבחור בין מערכת נוחה לניהול לבין פתרון שבאמת מתאים לתהליך העבודה שלך ✨
+    </h6>
 
-<h6>
-  את העיצוב והבסיס אפשר לבנות מהר ומודרני בעזרת תוספים קיימים שמתאימים לחלק מהצרכים,
-  <br/>
-  ואז לפתח מאפס רק את מה שבאמת חסר.
-</h6>
-
-<h6>
-  כך האתר נוח לעדכון עצמאי דרך מערכת הניהול של WordPress אבל לא מוגבל לתבנית מוכנה,
-  <br/>
-  וזה גם חוסך בזמן, עבודה והוצאות 💪🏻
-</h6>
+    <h6>
+        את הבסיס והעיצוב אפשר לבנות במהירות עם הכלים הקיימים של WordPress, ואת מה שלא קיים לפתח במיוחד בקוד, כך שמקבלים מערכת מדויקת בלי לבנות הכול מאפס.
+    </h6>
 </Fade>
 
-                <div className="pro-btn-wrap">
-                    <a href="/portfolio">
-                        <button className="submit pro-btn"> לתיק העבודות שלי >></button>
-                    </a>
-                    {/* <a href="/about">
-                        <button className="submit pro-btn">למה לצאת לדרך דווקא איתי?</button>
-                    </a> */}
-                </div>
+<div className="pro-btn-wrap">
+    <a href="/systems">
+        <button className="submit pro-btn">
+            מערכות שפיתחתי &gt;&gt;
+        </button>
+    </a>
+
+    <a href="/portfolio">
+        <button className="submit pro-btn">
+            תיק עבודות &gt;&gt;
+        </button>
+    </a>
+</div>
         </div>
     )
 }
