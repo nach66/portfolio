@@ -528,8 +528,11 @@ p {
 @media screen and (max-width: 600px) {
   .submit-error {
     margin-top: 0;
-      text-align: center !important;
-
+    position: relative;
+    right:30px;
+    top:9px;
+    /* margin-right:1px; */
+    /* margin-left:-1px; */
   }
 
   .void {
