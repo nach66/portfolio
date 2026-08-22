@@ -32,6 +32,28 @@
     0 8px 18px var(--color-shadow-warm-soft);
 }
 
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 240px) {
+  html,
+  body,
+  #root {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  * {
+    min-width: 0;
+    box-sizing: border-box;
+  }
+}
+
 * {
   font-family: var(--font-body);
   padding: 0;
@@ -584,7 +606,7 @@ p {
 
   .sform {
     width: 46%;
-    top: 202px;
+    top: 204px;
     left: 24vw !important;
   }
 
@@ -593,7 +615,7 @@ p {
   }
 
   .sform input {
-    height: 16px;
+    height: 14px;
   }
 
   .submit {
