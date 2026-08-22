@@ -356,7 +356,7 @@ p {
 
 .submit-error {
   margin-top: 55px;
-  text-align: center;
+  text-align: center !important;
   color: var(--color-error);
 }
 
@@ -367,7 +367,7 @@ p {
 
 @media screen and (max-width: 1170px) {
   .submit-error {
-    margin-top: 25px;
+    margin-top: 1px;
   }
 
   .void {
@@ -408,11 +408,11 @@ p {
   }
 
   .submit-error {
-    margin-top: 10px;
+    margin-top: 40px;
   }
 
   .void {
-    height: 390px;
+    height: 395px;
   }
 
   .pic {
@@ -452,7 +452,7 @@ p {
   .submit-error {
     width: 100vw;
     margin-right: -86%;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   .void {
@@ -492,7 +492,7 @@ p {
 
 @media screen and (max-width: 680px) {
   .submit-error {
-    margin-right: -75%;
+    margin-top: 40px;
   }
 
   .void {
@@ -527,12 +527,13 @@ p {
 
 @media screen and (max-width: 600px) {
   .submit-error {
-    margin-right: -66%;
     margin-top: 0;
+      text-align: center !important;
+
   }
 
   .void {
-    height: 360px;
+    height: 380px;
   }
 
   .pic {

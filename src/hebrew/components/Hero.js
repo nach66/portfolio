@@ -50,13 +50,13 @@ export default class Hero extends React.Component {
                                                 placeholder="אימייל"/>
                                 
                                 {status === "SUCCESS" ? 
-                                    <><br/><br/><h2>תודה!</h2></> : 
+                                    <><br/><br/><h2>אדבר איתך בקרוב! :)</h2></> : 
 <button className="submit" type="submit">
 יאללה, נדבר!</button>
                                 }
 
                         <div className="form-bug">
-                            {status === "ERROR" && <p className="submit-error">אוי! קרתה תקלה, אנא נסו שוב.</p>}
+                            {status === "ERROR" && <p className="submit-error">אוי! אולי לא מילאת את כל הפרטים?</p>}
                         </div>
 
                         </form>
